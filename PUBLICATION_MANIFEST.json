@@ -89,16 +89,16 @@
       "bytes": 821
     },
     "CITATION.cff": {
-      "sha256": "0764c50672f94ac108a97a318977973fbaae4143461c104d4a94744927c5d8eb",
-      "bytes": 884
+      "sha256": "d9a7dae2d7b317c63d70a6b1a3f8b4b02eb01309babbf925b667b1aea04f34bd",
+      "bytes": 868
     },
     "LICENSE": {
       "sha256": "7d378849cbf175b1dbca70fd8c1f090a5cfd643388e21b9bd25505f9d37cb319",
       "bytes": 1075
     },
     "README.md": {
-      "sha256": "bf82659854c5179694b5d428f53252538fdf84555794de7782e87fa9f1df55e0",
-      "bytes": 2263
+      "sha256": "b9d3d96c6f1e49b8df1fa527335272e89d48610742a85d016463d5d40ebac964",
+      "bytes": 2560
     },
     "X_ERD_Evidence_Followup/.dockerignore": {
       "sha256": "eafb0da6975ed00774bfd3403483f6204ca7a7cc27c96b852847e5df77eba78f",
@@ -2168,5 +2168,11 @@
       "sha256": "dfc65dbebbf8e9603318efaf8d778b2e1444a94c2da2420014c97e0d2d9e9c92",
       "bytes": 4219
     }
+  },
+  "archived_release": {
+    "doi": "10.5281/zenodo.24190787",
+    "version": "0.4.2",
+    "commit": "053c811a769ec28b33f0d8dfe861a389de380b38",
+    "note": "File hashes below describe the current branch, including citation-only metadata updates after the release."
   }
 }

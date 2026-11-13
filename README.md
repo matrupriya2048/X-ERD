@@ -6,7 +6,13 @@ tree ensembles, additive explanations and candidate MITRE ATT&CK mappings.
 ## Software version
 
 Current software: **0.4.2**. Repository: https://github.com/matrupriya2048/X-ERD
-A Zenodo version DOI has not yet been assigned. No archival DOI is asserted.
+Archived software version 0.4.2: https://doi.org/10.5281/zenodo.24190787
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24190787.svg)](https://doi.org/10.5281/zenodo.24190787)
+
+The archive corresponds to tag `v0.4.2`, commit
+`053c811a769ec28b33f0d8dfe861a389de380b38`. Later citation-only changes
+on the main branch do not alter that archived software snapshot.
 
 ## Layout and reproduction
 

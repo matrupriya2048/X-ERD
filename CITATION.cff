@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Cite this software version when reproducing the corrected X-ERD experiments. A public archive DOI has not yet been assigned."
+message: "Cite the archived X-ERD software version when reproducing these experiments."
 type: software
 title: "X-ERD: primary-pair and multi-collection reviewer revision"
 version: 0.4.2
@@ -15,3 +15,4 @@ abstract: "Original tree stacking architecture with corrected inference, exact l
 
 repository-code: "https://github.com/matrupriya2048/X-ERD"
 url: "https://github.com/matrupriya2048/X-ERD"
+doi: "10.5281/zenodo.24190787"
