@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "primary_artifact_sha256": "143339115b3faf3c79f76433e6f6275cd8d0ec24cc0268c2e4972db36899279c",
+  "docker_prediction_rows": 975,
+  "third_base_estimator_present": false,
+  "max_pair_reconstruction_error": 8.790909777900424e-09,
+  "window_groups_verified": 24,
+  "ransomware_reliance_rows_verified": 455,
+  "source_hashes": {
+    "primary_pair.py": "0329f3f7a26b8b1e63ec7591c5542302da4c888bb4ddf7fec2c4c92099e80218",
+    "close_available_work.py": "148e9ffb201eb229b2aab93f689ab94b94e26214bcd37d876bbe01b371ee7c10",
+    "verify_closure.py": "9e98c8ecff02f0d834fea6e310d8dfb5b6721242597c5617ffbfc1864372128a"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "duplicate_training_records": 4,
+  "groups": "executable MD5 in both outer and inner folds",
+  "outer": "five StratifiedGroupKFold folds per each of ten original seeds",
+  "inner": "fresh five-fold StratifiedGroupKFold seed42 OOF per outer fit",
+  "base_seed": 42,
+  "meta_C": 1,
+  "scope": "sensitivity analysis; official483 representation remains fixed and upstream feature selection is not repeated",
+  "statistical_note": "NB correction1/50+1/4 is approximate; dependent repeated group folds are not independent experiments"
+}

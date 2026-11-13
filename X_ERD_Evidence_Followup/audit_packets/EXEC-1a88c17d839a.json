@@ -1,0 +1,513 @@
+{
+  "execution_id": "EXEC-1a88c17d839a",
+  "report_sha256": "c2dfe699dcf7a4d39c3fa5c525349c9b939146f70c73af0bdeae81cf9c0c4414",
+  "full_report_relative_path": "../../X_ERD_Reviewer_Revision/data/raw_reports/10002.json",
+  "summary": {
+    "file_opened": [
+      "C:\\Windows\\SysWOW64\\explorer.exe",
+      "C:\\Users\\Administrator\\AppData\\Local\\Temp"
+    ],
+    "command_line": [
+      "C:\\Windows\\SysWOW64\\explorer.exe"
+    ],
+    "regkey_opened": [
+      "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings"
+    ],
+    "regkey_read": [
+      "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\services\\crypt32\\DebugHeapFlags",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Security_HKLM_only",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\OLE\\PageAllocatorUseSystemHeap",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows NT\\CurrentVersion\\Windows\\LoadAppInit_DLLs",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\DisableImprovedZoneCheck",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\GRE_Initialize\\DisableMetaFiles",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\OLE\\PageAllocatorSystemHeapIsPrivate"
+    ],
+    "dll_loaded": [
+      "C:\\Windows\\system32\\IMM32.DLL",
+      "CRYPTSP.dll",
+      "wininet.dll",
+      "gdi32.dll",
+      "advapi32.dll",
+      "ole32.dll",
+      "ws2_32.dll",
+      "user32.dll"
+    ]
+  },
+  "apistats": {
+    "2348": {
+      "RegCloseKey": 1,
+      "GetSystemInfo": 3,
+      "RegQueryValueExA": 1,
+      "NtTerminateProcess": 1,
+      "NtClose": 16,
+      "CryptHashData": 1,
+      "CryptCreateHash": 1,
+      "NtMapViewOfSection": 2,
+      "NtCreateThreadEx": 1,
+      "NtAllocateVirtualMemory": 16,
+      "RegOpenKeyExA": 1,
+      "NtOpenDirectoryObject": 1,
+      "NtFreeVirtualMemory": 27,
+      "NtQuerySystemInformation": 1,
+      "NtResumeThread": 1,
+      "NtUnmapViewOfSection": 1,
+      "GetSystemDirectoryW": 2,
+      "CryptAcquireContextW": 1,
+      "NtCreateFile": 2,
+      "GetSystemTimeAsFileTime": 4,
+      "NtCreateMutant": 1,
+      "NtProtectVirtualMemory": 3,
+      "LdrGetDllHandle": 5,
+      "NtCreateSection": 1,
+      "NtOpenKey": 2,
+      "LdrGetProcedureAddress": 12,
+      "NtOpenKeyEx": 7,
+      "LdrLoadDll": 8,
+      "CreateProcessInternalW": 1,
+      "NtQueryValueKey": 6
+    }
+  },
+  "signature_evidence": [
+    {
+      "json_pointer": "/signatures/0",
+      "name": "dumped_buffer",
+      "description": "One or more potentially interesting buffers were extracted, these generally contain injected code, configuration data, etc.",
+      "marks": [],
+      "marks_included": 0,
+      "total_marks": 0
+    },
+    {
+      "json_pointer": "/signatures/1",
+      "name": "recon_checkip",
+      "description": "Looks up the external IP address",
+      "marks": [
+        {
+          "category": "domain",
+          "ioc": "ip-addr.es",
+          "type": "ioc",
+          "description": null
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/2",
+      "name": "packer_entropy",
+      "description": "The binary likely contains encrypted or compressed data indicative of a packer",
+      "marks": [
+        {
+          "entropy": 7.603730635735685,
+          "section": {
+            "size_of_data": "0x00009600",
+            "virtual_address": "0x00019000",
+            "entropy": 7.603730635735685,
+            "name": ".data",
+            "virtual_size": "0x0000a6f8"
+          },
+          "type": "generic",
+          "description": "A section with a high entropy has been found"
+        },
+        {
+          "entropy": 0.29296875,
+          "type": "generic",
+          "description": "Overall entropy of this PE file is high"
+        }
+      ],
+      "marks_included": 2,
+      "total_marks": 2
+    },
+    {
+      "json_pointer": "/signatures/3",
+      "name": "dumped_buffer2",
+      "description": "One or more of the buffers contains an embedded PE file",
+      "marks": [
+        {
+          "category": "buffer",
+          "ioc": "Buffer with sha1: 7ccea58d11125c47adf75c05bbe89c8e49326ffa",
+          "type": "ioc",
+          "description": null
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/4",
+      "name": "injection_modifies_memory",
+      "description": "Manipulates memory of a non-child process indicative of process injection",
+      "marks": [
+        {
+          "category": "Process injection",
+          "ioc": "Process 2348 manipulating memory of non-child process 2404",
+          "type": "ioc",
+          "description": null
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "buffer": "7ccea58d11125c47adf75c05bbe89c8e49326ffa",
+            "api": "NtMapViewOfSection",
+            "return_value": 0,
+            "arguments": {
+              "section_handle": "0x00000098",
+              "process_identifier": 2404,
+              "commit_size": 151552,
+              "win32_protect": 64,
+              "buffer": "",
+              "process_handle": "0x00000080",
+              "allocation_type": 0,
+              "section_offset": 0,
+              "view_size": 151552,
+              "base_address": "0x00380000"
+            },
+            "time": 1717617232.40625,
+            "tid": 2352,
+            "flags": {
+              "win32_protect": "PAGE_EXECUTE_READWRITE",
+              "allocation_type": ""
+            }
+          },
+          "pid": 2348,
+          "type": "call",
+          "cid": 117
+        }
+      ],
+      "marks_included": 2,
+      "total_marks": 2
+    },
+    {
+      "json_pointer": "/signatures/5",
+      "name": "injection_resumethread",
+      "description": "Resumed a suspended thread in a remote process potentially indicative of process injection",
+      "marks": [
+        {
+          "category": "Process injection",
+          "ioc": "Process 2348 resumed a thread in remote process 2404",
+          "type": "ioc",
+          "description": null
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtResumeThread",
+            "return_value": 0,
+            "arguments": {
+              "thread_handle": "0x00000098",
+              "suspend_count": 1,
+              "process_identifier": 2404
+            },
+            "time": 1717617232.90625,
+            "tid": 2352,
+            "flags": {}
+          },
+          "pid": 2348,
+          "type": "call",
+          "cid": 121
+        }
+      ],
+      "marks_included": 2,
+      "total_marks": 2
+    },
+    {
+      "json_pointer": "/signatures/6",
+      "name": "stealth_system_procname",
+      "description": "Created a process named as a common system process",
+      "marks": [
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "CreateProcessInternalW",
+            "return_value": 1,
+            "arguments": {
+              "thread_identifier": 2408,
+              "thread_handle": "0x0000008c",
+              "process_identifier": 2404,
+              "current_directory": "",
+              "filepath": "C:\\Windows\\SysWOW64\\explorer.exe",
+              "track": 1,
+              "command_line": "",
+              "filepath_r": "C:\\Windows\\syswow64\\explorer.exe",
+              "stack_pivoted": 0,
+              "creation_flags": 4,
+              "process_handle": "0x00000080",
+              "inherit_handles": 0
+            },
+            "time": 1717617232.40625,
+            "tid": 2352,
+            "flags": {
+              "creation_flags": "CREATE_SUSPENDED"
+            }
+          },
+          "pid": 2348,
+          "type": "call",
+          "cid": 114
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    }
+  ],
+  "selected_calls": [
+    {
+      "json_pointer": "/behavior/processes/1/calls/9",
+      "pid": 2348,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "GDI32",
+        "module_address": "0x77450000",
+        "function_address": "0x774699a3",
+        "function_name": "GetCharABCWidthsI"
+      },
+      "time": 1717617232.10925,
+      "tid": 2352,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/25",
+      "pid": 2348,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "LPK",
+        "module_address": "0x764c0000",
+        "function_address": "0x764c48a0",
+        "function_name": "LpkTabbedTextOut"
+      },
+      "time": 1717617232.10925,
+      "tid": 2352,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/26",
+      "pid": 2348,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "LPK",
+        "module_address": "0x764c0000",
+        "function_address": "0x764c1430",
+        "function_name": "LpkPSMTextOut"
+      },
+      "time": 1717617232.10925,
+      "tid": 2352,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/27",
+      "pid": 2348,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "LPK",
+        "module_address": "0x764c0000",
+        "function_address": "0x764c13d0",
+        "function_name": "LpkDrawTextEx"
+      },
+      "time": 1717617232.10925,
+      "tid": 2352,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/28",
+      "pid": 2348,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "LPK",
+        "module_address": "0x764c0000",
+        "function_address": "0x764c7000",
+        "function_name": "LpkEditControl"
+      },
+      "time": 1717617232.10925,
+      "tid": 2352,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/43",
+      "pid": 2348,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "RPCRT4",
+        "module_address": "0x75e40000",
+        "function_address": "0x75e73bee",
+        "function_name": "I_RpcInitNdrImports"
+      },
+      "time": 1717617232.12525,
+      "tid": 2352,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/90",
+      "pid": 2348,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "CRYPTSP",
+        "module_address": "0x740d0000",
+        "function_address": "0x740d63e8",
+        "function_name": "CryptAcquireContextW"
+      },
+      "time": 1717617232.15625,
+      "tid": 2352,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/92",
+      "pid": 2348,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "CRYPTSP",
+        "module_address": "0x740d0000",
+        "function_address": "0x740d556b",
+        "function_name": "CryptCreateHash"
+      },
+      "time": 1717617232.15625,
+      "tid": 2352,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/94",
+      "pid": 2348,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "CRYPTSP",
+        "module_address": "0x740d0000",
+        "function_address": "0x740d57b2",
+        "function_name": "CryptHashData"
+      },
+      "time": 1717617232.15625,
+      "tid": 2352,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/96",
+      "pid": 2348,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "CRYPTSP",
+        "module_address": "0x740d0000",
+        "function_address": "0x740d5ecc",
+        "function_name": "CryptGetHashParam"
+      },
+      "time": 1717617232.15625,
+      "tid": 2352,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/98",
+      "pid": 2348,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "CRYPTSP",
+        "module_address": "0x740d0000",
+        "function_address": "0x740d5985",
+        "function_name": "CryptDestroyHash"
+      },
+      "time": 1717617232.15625,
+      "tid": 2352,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/99",
+      "pid": 2348,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "CRYPTSP",
+        "module_address": "0x740d0000",
+        "function_address": "0x740d2ef0",
+        "function_name": "CryptReleaseContext"
+      },
+      "time": 1717617232.15625,
+      "tid": 2352,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/120",
+      "pid": 2348,
+      "category": "process",
+      "status": 1,
+      "stacktrace": [],
+      "api": "NtCreateThreadEx",
+      "return_value": 0,
+      "arguments": {
+        "thread_name": "0x00000000",
+        "stack_zero_bits": 0,
+        "thread_handle": "0x00000098",
+        "process_identifier": 2404,
+        "parameter": "0x00000000",
+        "access": "0x001fffff",
+        "function_address": "0x00396e20",
+        "suspended": 1,
+        "process_handle": "0x00000080"
+      },
+      "time": 1717617232.40625,
+      "tid": 2352,
+      "flags": {}
+    }
+  ],
+  "matching_call_n": 13,
+  "scope": "Triage extract only; consult full raw report for complete context. Native sandbox descriptions may expose vendor judgments. X-ERD predictions are omitted.",
+  "verified_human_annotation": false
+}

@@ -1,0 +1,93 @@
+{
+  "source": "https://zenodo.org/records/18218588",
+  "protocol_sha256": "cb4088d07df07be6bdba81bbb8d0d8e92266d09f1646bdae7b3918a61bf40636",
+  "script_sha256": "cc3ccb63efd2418d210143fd936a499e41c5153c39012b8c253ef78a91602743",
+  "selected_n": 918,
+  "status_counts": {
+    "evaluated": 917,
+    "excluded_previously_used_target": 1
+  },
+  "models": {
+    "primary_RF+LGB": {
+      "n": 917,
+      "alert_n": 122,
+      "fpr": 0.13304252998909488,
+      "ci95": [
+        0.11172226475663177,
+        0.1567505944426082
+      ]
+    },
+    "original_three": {
+      "n": 917,
+      "alert_n": 111,
+      "fpr": 0.12104689203925845,
+      "ci95": [
+        0.10063389548081386,
+        0.1439288771662795
+      ]
+    },
+    "adapted_three": {
+      "n": 917,
+      "alert_n": 62,
+      "fpr": 0.06761177753544166,
+      "ci95": [
+        0.05222695857197491,
+        0.08584057395815545
+      ]
+    }
+  },
+  "strings_available_n": 0,
+  "source_fit_vector_matches": 0,
+  "distinct_vectors": 248,
+  "zero_active_vectors": 0,
+  "categories": {
+    "API": {
+      "selected_feature_n": 63,
+      "active_values": 14879
+    },
+    "DIRECTORY": {
+      "selected_feature_n": 10,
+      "active_values": 0
+    },
+    "DROP": {
+      "selected_feature_n": 23,
+      "active_values": 101
+    },
+    "FILE": {
+      "selected_feature_n": 16,
+      "active_values": 0
+    },
+    "REG": {
+      "selected_feature_n": 90,
+      "active_values": 0
+    },
+    "SIGNATURE": {
+      "selected_feature_n": 20,
+      "active_values": 10
+    },
+    "STRING": {
+      "selected_feature_n": 223,
+      "active_values": 0
+    },
+    "SYSTEM": {
+      "selected_feature_n": 38,
+      "active_values": 0
+    }
+  },
+  "environment": {
+    "python": "3.11.18",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.36",
+    "packages": {
+      "numpy": "2.4.4",
+      "pandas": "3.0.3",
+      "scipy": "1.17.1",
+      "scikit-learn": "1.9.0",
+      "xgboost": "3.2.0",
+      "lightgbm": "4.6.0",
+      "shap": "0.51.0",
+      "matplotlib": "3.10.8",
+      "pyarrow": "23.0.1"
+    }
+  },
+  "scope": "Publisher-labeled benign PE executions from a separate CAPE collection. No independent human class adjudication; missing full-run modalities and collector differences limit fidelity. Unknown hashes of 80 previous sequence inputs prevent complete overlap verification. No ransomware in this cohort; no pooled accuracy or early-onset claim."
+}

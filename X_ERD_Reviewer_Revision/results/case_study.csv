@@ -1,0 +1,9 @@
+feature_id,feature_name,stack_logit_contribution,candidate_technique
+2944930,STRING:!this program cannot be run in dos mode.,0.13604907535972782,Footprint
+6468211,SIGNATURE:persistence_autorun,0.11223255241123997,T1547.001
+18,API:LdrGetProcedureAddress,0.11163116694135458,T1106
+5984385,STRING:vs_version_info,0.0919442588460056,Footprint
+5143602,STRING:kernel32.dll,0.08485495006134655,Footprint
+120873,REG:OPENED:HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\ProfileList\S-1-5-21-1333523494-3206289307-1491016761-500,0.0760225807684264,T1012
+5753474,STRING:stringfileinfo,0.07009080782023192,Footprint
+6468070,SIGNATURE:allocates_rwx,0.05711655804981278,Footprint

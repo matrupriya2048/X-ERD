@@ -1,0 +1,103 @@
+{
+  "scope": "one-shot feature-space masking, no executable evasion or functionality validation",
+  "rows": [
+    {
+      "method": "LGB_surrogate",
+      "budget": 0,
+      "n": 465,
+      "detected": 459,
+      "recall": 0.9870967741935484
+    },
+    {
+      "method": "LGB_surrogate",
+      "budget": 1,
+      "n": 465,
+      "detected": 449,
+      "recall": 0.9655913978494624
+    },
+    {
+      "method": "LGB_surrogate",
+      "budget": 3,
+      "n": 465,
+      "detected": 402,
+      "recall": 0.864516129032258
+    },
+    {
+      "method": "LGB_surrogate",
+      "budget": 5,
+      "n": 465,
+      "detected": 366,
+      "recall": 0.7870967741935484
+    },
+    {
+      "method": "LGB_surrogate",
+      "budget": 10,
+      "n": 465,
+      "detected": 229,
+      "recall": 0.4924731182795699
+    },
+    {
+      "method": "LGB_surrogate",
+      "budget": 20,
+      "n": 465,
+      "detected": 44,
+      "recall": 0.09462365591397849
+    },
+    {
+      "method": "LGB_surrogate",
+      "budget": 40,
+      "n": 465,
+      "detected": 1,
+      "recall": 0.002150537634408602
+    },
+    {
+      "method": "trained_stack_logit",
+      "budget": 0,
+      "n": 465,
+      "detected": 459,
+      "recall": 0.9870967741935484
+    },
+    {
+      "method": "trained_stack_logit",
+      "budget": 1,
+      "n": 465,
+      "detected": 452,
+      "recall": 0.9720430107526882
+    },
+    {
+      "method": "trained_stack_logit",
+      "budget": 3,
+      "n": 465,
+      "detected": 428,
+      "recall": 0.9204301075268817
+    },
+    {
+      "method": "trained_stack_logit",
+      "budget": 5,
+      "n": 465,
+      "detected": 367,
+      "recall": 0.789247311827957
+    },
+    {
+      "method": "trained_stack_logit",
+      "budget": 10,
+      "n": 465,
+      "detected": 210,
+      "recall": 0.45161290322580644
+    },
+    {
+      "method": "trained_stack_logit",
+      "budget": 20,
+      "n": 465,
+      "detected": 17,
+      "recall": 0.03655913978494624
+    },
+    {
+      "method": "trained_stack_logit",
+      "budget": 40,
+      "n": 465,
+      "detected": 0,
+      "recall": 0.0
+    }
+  ]
+}

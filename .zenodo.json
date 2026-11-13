@@ -1,0 +1,25 @@
+{
+  "title": "X-ERD: primary-pair and multi-collection revision",
+  "version": "0.4.2",
+  "upload_type": "software",
+  "description": "Reproducible tree-stacking ransomware-detection experiments, behavioral parsing, additive explanations and candidate ATT&CK mappings. Includes benchmark, transfer and explicitly retrospective adaptation protocols. Independent human adjudication and verified encryption-onset annotations are not supplied.",
+  "creators": [
+    {
+      "name": "Panda, Matrupriya Dibyanshu"
+    },
+    {
+      "name": "Shankar, Ravi"
+    },
+    {
+      "name": "Panda, Sri Aurobindo"
+    }
+  ],
+  "license": "MIT",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/matrupriya2048/X-ERD",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

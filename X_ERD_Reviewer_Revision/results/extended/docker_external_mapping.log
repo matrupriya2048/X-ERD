@@ -1,0 +1,3 @@
+START external_mapping
+External annotation concordance {'reference_annotated_n': 20, 'intersection_total': 3, 'predicted_total': 45, 'reference_total': 61, 'micro_precision_like_agreement': 0.06666666666666667, 'micro_reference_coverage': 0.04918032786885246, 'mean_jaccard': 0.025347222222222222} family profiles 17
+DONE external_mapping 9.5

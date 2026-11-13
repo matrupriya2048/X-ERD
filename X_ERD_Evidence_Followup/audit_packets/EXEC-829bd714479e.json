@@ -1,0 +1,2169 @@
+{
+  "execution_id": "EXEC-829bd714479e",
+  "report_sha256": "c4467c0e718c07c434a007d37c64650b010ae6f19a92b5241f420f1f0ea06c40",
+  "full_report_relative_path": "../../X_ERD_Reviewer_Revision/data/raw_reports/10017.json",
+  "summary": {
+    "command_line": [
+      "ctfmon.exe",
+      "C:\\Users\\Administrator\\AppData\\Local\\Temp\\10017.exe"
+    ],
+    "regkey_read": [
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\GRE_Initialize\\DisableMetaFiles"
+    ],
+    "dll_loaded": [
+      "ntdll.dll",
+      "KERNEL32.DLL",
+      "ntdll",
+      "user32",
+      "user32.dll"
+    ]
+  },
+  "apistats": {
+    "2400": {
+      "CreateRemoteThread": 1,
+      "LdrUnloadDll": 1,
+      "NtQueryValueKey": 1,
+      "WriteProcessMemory": 1,
+      "NtOpenKey": 1,
+      "LdrGetProcedureAddress": 114,
+      "NtTerminateProcess": 3,
+      "NtClose": 6,
+      "NtAllocateVirtualMemory": 1,
+      "LdrLoadDll": 3,
+      "CreateProcessInternalW": 1,
+      "NtProtectVirtualMemory": 2
+    },
+    "2324": {
+      "GetCursorPos": 2000,
+      "LdrUnloadDll": 1,
+      "NtQueryValueKey": 1,
+      "NtGetContextThread": 1,
+      "WriteProcessMemory": 5,
+      "CreateThread": 1,
+      "NtSetContextThread": 1,
+      "NtOpenKey": 1,
+      "NtUnmapViewOfSection": 1,
+      "LdrGetProcedureAddress": 23,
+      "NtTerminateProcess": 3,
+      "NtClose": 6,
+      "NtAllocateVirtualMemory": 7,
+      "LdrLoadDll": 3,
+      "CreateProcessInternalW": 1,
+      "NtResumeThread": 1
+    }
+  },
+  "signature_evidence": [
+    {
+      "json_pointer": "/signatures/0",
+      "name": "pe_features",
+      "description": "The executable contains unknown PE section names indicative of a packer (could be a false positive)",
+      "marks": [
+        {
+          "category": "section",
+          "ioc": "CODE",
+          "type": "ioc",
+          "description": null
+        },
+        {
+          "category": "section",
+          "ioc": "DATA",
+          "type": "ioc",
+          "description": null
+        },
+        {
+          "category": "section",
+          "ioc": "BSS",
+          "type": "ioc",
+          "description": null
+        }
+      ],
+      "marks_included": 3,
+      "total_marks": 3
+    },
+    {
+      "json_pointer": "/signatures/1",
+      "name": "dumped_buffer",
+      "description": "One or more potentially interesting buffers were extracted, these generally contain injected code, configuration data, etc.",
+      "marks": [],
+      "marks_included": 0,
+      "total_marks": 0
+    },
+    {
+      "json_pointer": "/signatures/2",
+      "name": "allocates_rwx",
+      "description": "Allocates read-write-execute memory (usually to unpack itself)",
+      "marks": [
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtProtectVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2400,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 1,
+              "length": 4096,
+              "protection": 64,
+              "process_handle": "0xffffffff",
+              "base_address": "0x00400000"
+            },
+            "time": 1717621699.172375,
+            "tid": 2404,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE"
+            }
+          },
+          "pid": 2400,
+          "type": "call",
+          "cid": 118
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/3",
+      "name": "memdump_urls",
+      "description": "Potentially malicious URLs were found in the process memory dump",
+      "marks": [
+        {
+          "category": "url",
+          "ioc": "http://p",
+          "type": "ioc",
+          "description": null
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/4",
+      "name": "dumped_buffer2",
+      "description": "One or more of the buffers contains an embedded PE file",
+      "marks": [
+        {
+          "category": "buffer",
+          "ioc": "Buffer with sha1: aa59e5d713dfd8e3da190dfa020d01ec28948d58",
+          "type": "ioc",
+          "description": null
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/5",
+      "name": "allocates_execute_remote_process",
+      "description": "Allocates execute permission to another process indicative of possible code injection",
+      "marks": [
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtAllocateVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2400,
+              "region_size": 106496,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "protection": 64,
+              "process_handle": "0x00000094",
+              "allocation_type": 12288,
+              "base_address": "0x00400000"
+            },
+            "time": 1717621698.09425,
+            "tid": 2376,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE",
+              "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+            }
+          },
+          "pid": 2324,
+          "type": "call",
+          "cid": 2030
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtAllocateVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2476,
+              "region_size": 81920,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "protection": 64,
+              "process_handle": "0x00000064",
+              "allocation_type": 1060864,
+              "base_address": "0x7ef90000"
+            },
+            "time": 1717621699.359375,
+            "tid": 2404,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE",
+              "allocation_type": "MEM_COMMIT|MEM_RESERVE|MEM_TOP_DOWN"
+            }
+          },
+          "pid": 2400,
+          "type": "call",
+          "cid": 120
+        }
+      ],
+      "marks_included": 2,
+      "total_marks": 2
+    },
+    {
+      "json_pointer": "/signatures/6",
+      "name": "injection_createremotethread",
+      "description": "Creates a thread using CreateRemoteThread in a non-child process indicative of process injection",
+      "marks": [
+        {
+          "category": "Process injection",
+          "ioc": "Process 2400 created a remote thread in non-child process 2476",
+          "type": "ioc",
+          "description": null
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "CreateRemoteThread",
+            "return_value": 108,
+            "arguments": {
+              "thread_identifier": 2516,
+              "process_identifier": 2476,
+              "function_address": "0x7ef90000",
+              "flags": 0,
+              "process_handle": "0x00000064",
+              "parameter": "0x00000000",
+              "stack_size": 0
+            },
+            "time": 1717621699.359375,
+            "tid": 2404,
+            "flags": {}
+          },
+          "pid": 2400,
+          "type": "call",
+          "cid": 122
+        }
+      ],
+      "marks_included": 2,
+      "total_marks": 2
+    },
+    {
+      "json_pointer": "/signatures/7",
+      "name": "injection_modifies_memory",
+      "description": "Manipulates memory of a non-child process indicative of process injection",
+      "marks": [
+        {
+          "category": "Process injection",
+          "ioc": "Process 2400 manipulating memory of non-child process 2476",
+          "type": "ioc",
+          "description": null
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtAllocateVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2476,
+              "region_size": 81920,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "protection": 64,
+              "process_handle": "0x00000064",
+              "allocation_type": 1060864,
+              "base_address": "0x7ef90000"
+            },
+            "time": 1717621699.359375,
+            "tid": 2404,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE",
+              "allocation_type": "MEM_COMMIT|MEM_RESERVE|MEM_TOP_DOWN"
+            }
+          },
+          "pid": 2400,
+          "type": "call",
+          "cid": 120
+        }
+      ],
+      "marks_included": 2,
+      "total_marks": 2
+    },
+    {
+      "json_pointer": "/signatures/8",
+      "name": "injection_write_memory",
+      "description": "Potential code injection by writing to the memory of another process",
+      "marks": [
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "WriteProcessMemory",
+            "return_value": 1,
+            "arguments": {
+              "process_identifier": 2400,
+              "buffer": "\u0000\u0000\u0000\u0000J\u0018\u00adO\u0000\u0000\u0000\u0000\u0000\u0000\u0003\u0000\u0003\u0000\u0000\u0000(\u0000\u0000\u0080\u000e\u0000\u0000\u0000h\u0000\u0000\u0080\u0018\u0000\u0000\u0000\u00a8\u0000\u0000\u0080\u0000\u0000\u0000\u0000J\u0018\u00adO\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000\u0000@\u0000\u0000\u0080\u0000\u0000\u0000\u0000J\u0018\u00adO\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\t\u0004\u0000\u0000X\u0000\u0000\u0000\u00ec\u0090\u0001\u0000h\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000J\u0018\u00adO\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000\u0000\u0080\u0000\u0000\u0080\u0000\u0000\u0000\u0000J\u0018\u00adO\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\t\u0004\u0000\u0000\u0098\u0000\u0000\u0000X\u0097\u0001\u0000\u0014\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000J\u0018\u00adO\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000\u0000\u00c0\u0000\u0000\u0080\u0000\u0000\u0000\u0000J\u0018\u00adO\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\t\u0004\u0000\u0000\u00d8\u0000\u0000\u0000p\u0097\u0001\u0000`\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00e8`\u0001\u0000(\u0000\u0000\u00000\u0000\u0000\u0000`\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0080\u0000\u0000\u0000\u0000\u0080\u0000\u0000\u0080\u0080\u0000\u0000\u0000\u0000\u0080\u0000\u0080\u0000\u0080\u0000\u0000\u0080\u0080\u0000\u0080\u0080\u0080\u0000\u00c0\u00c0\u00c0\u0000\u00ff\u0000\u0000\u0000\u0000\u00ff\u0000\u0000\u00ff\u00ff\u0000\u0000\u0000\u0000\u00ff\u0000\u00ff\u0000\u00ff\u0000\u0000\u00ff\u00ff\u0000\u00ff\u00ff\u00ff\u0000\u0000\u0000\u0000\u0000\u0000\b\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0000\u0000\u0000\u0000\u0000\u0000\bwwwwwwwwwwwwwwwwx\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f7\u008fxwxw\u0087x\u00f7x\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u007f'wwwpp\u0087\u0088\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0007xp\u0087p\u00f0wx\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00f8\u00ff\u00ff\u00ff\u00ff\bwxw\u0087p\u00f0ww\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00f8\u00cc\u00cf\u00ff\u00ff\u00ffwx\u0002wp\u0080r\u00f2w\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00cf\u00cc\u00ff\u00ff\u00ffp\u008f\u0088\u007f\u008f\u0080\u008f\u00ff\u008f\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u008c\u00fc\u007f\u00ff\u00ff\u0080\u008f\u00f8\u007f\u00ff\u0080\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00f8\u007f\u00c8\u00ff\u00ff\u00ff\u00ff\u00ff\u008f\u00ff\u00f8\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00f7\u008c\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ffw\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00fc\u008f\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u0088\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00c8x\u00ff\u00ff\u00ff\u00ff\u00f8\u00cc\u00cc\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u008c\u00f8|\u00c8\u008f\u008c\u00cc\u008f\u00ff\u008f\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00fc\u008f\u00ff\u00f8|\u00cc\u00cc|\u00cc\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u00cf\u00ff\u00f8\u00cc\u00ff\u00f8\u0088\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00c8\u00ff\u008c\u008f\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u008c\u00ff\u00c8\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00fc\u00fc\u00cf\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u00cc\u008f\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00cc\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00c8\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u00c8\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u00c8\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00fc\u0088\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00fc\u008f\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00fc\u008f\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\u0007\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00fc\u0088\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\u0007\u0088\u0088\u0088\u0088\u0088\u0088\u008cw\u0088\u0088\u008f\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0004DDDDDDDDDDDDDDDO\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0004DDDDDDDDDDDDDDDO\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0004DDDO\u0084D\u007f\u00ff\u0084H\u0084DDDDH\u00ff\u00ff\u00ff\u00f8\u00ff\u0088\u0000\u0004\u00cc\u00cc\u00cc\u00cf\u008c\u00cc\u007f\u0087\u00f8H\u0084DDDDH\u00ff\u00ff\u0088\u0088\u0088\u0088\u0000\u0004\u00cc\u00cc\u00cc\u00cf\u008c\u00cc\u007f|\u008f\u00c8\u008c\u00c4DDDH\u00ff\u0088\u0088\u0088\u0088\u0088\u0000\u0004\u00cc\u00cc\u00cc\u00cf\u00ff\u00fc\u007f|\u007fx\u00ff\u00fc\u00ccDDH\u0088\u0088\u0088w\u0088\u0000\u0000\u0004\u00cc\u00cc\u00cc\u00cf\u008c\u00f8\u007f|\u007fx\u00f7|\u00cc\u00c4DH\u0088\u0087w\u0088\u0080\u0000\u0000\f\u00cc\u00cc\u00cc\u00cf\u008c\u00ff\u007f|\u008f\u00c8\u008c\u00cc\u00cc\u00cc\u00c4H\u0088\u008f\u00ff\u00f8\u0000\u0000\u0000\f\u00cc\u00cc\u00cc\u00cf\u00ff\u00f8\u007f\u00ff\u00f8\u00c8\u00f8\u008c\u00cc\u00cc\u00c4H\u0088\u008f\u00ff\u0080\u0000\u0000\u0000\f\u00cc\u00cc\u00cc\u00c8\u0088\u008c\u00c8\u0088|\u00c8\u0088\u008c\u00cc\u00cc\u00c4H\u0088\u00ff\u00f8\u0000\u0000\u0000\u0000\f\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00c4H\u0088\u00ff\u0080\u0000\u0000\u0000\u0000\f\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00ccDH\u0088\u00f8\u0000\u0000\u0000\u0000\u0000\f\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00ccDDDDH\u0088\u0080\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0088\u0088\u0088\u0088\u0080\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u0088\u0088\u0088\u0088\u0088\u0080\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u00f8\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00ff\u00e0\u0000\u0000\u0000\u0003\u00fbo\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u0080\u0000\u0000\u0000\u0000\u0003\u00ff\u00e0\u0080\u0000\u0000\u0000\u0000\u0003\u0080\u0000\u0080\u0000\u0000\u0000\u0000\u0003\u0080\u0000\u0080\u0000\u0000\u0000\u0000\u0003\u0080\u0000\u0080\u0000\u0000\u0000\u0000\u0003\u0080\u0000\u0080\u0000\u0000\u0000\u0000\u000f\u0080\u0000\u0080\u0000\u0000\u0000\u0000\u001f\u0080\u0000\u0080\u0000\u0000\u0000\u0000?\u0080\u0000\u0080\u0000\u0000\u0000\u0000\u007f\u0080\u0000\u0080\u0000\u0000\u0000\u0000\u00ff\u0080\u0000\u0080\u0000\u0000\u0000\u0001\u00ff\u0080\u0000\u0080\u0000\u0000\u0000\u0003\u00ff\u0080\u0000\u0080\u0000\u0000\u0000\u0007\u00ff\u0080\u0000\u00ff\u00e0\u0000\u0000\u001f\u00ff\u0080\u0000\u00ff\u00e0\u0000\u0000\u001f\u00ff\u00ff\u00e0\u00ff\u00e0\u0000\u0000?\u00ff\u00ff\u00e0\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00e0Pg\u0001\u0000\u0000\u0000\u0001\u0000\u0001\u0000   \u0000\u0001\u0000\u0004\u0000h\u0006\u0000\u0000\u0001\u0000dg\u0001\u0000<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<assembly xmlns=\"urn:schemas-microsoft-com:asm.v1\" manifestVersion=\"1.0\">\r\n\t<trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v3\">\r\n\t\t<security>\r\n\t\t<requestedPrivileges><requestedExecutionLevel level=\"asInvoker\" uiAccess=\"false\"/></requestedPrivileges>\r\n\t\t</security>\r\n\t</trustInfo>\r\n</assembly>\r\n\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000L\u0099\u0001\u0000 \u0099\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Y\u0099\u0001\u0000<\u0099\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000c\u0099\u0001\u0000D\u0099\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000n\u0099\u0001\u0000|\u0099\u0001\u0000\u008c\u0099\u0001\u0000\u009c\u0099\u0001\u0000\u00aa\u0099\u0001\u0000\u00b8\u0099\u0001\u0000\u0000\u0000\u0000\u0000\u00c6\u0099\u0001\u0000\u0000\u0000\u0000\u0000\u00cc\u0099\u0001\u0000\u0000\u0000\u0000\u0000KERNEL32.DLL\u0000ntdll.dll\u0000user32.dll\u0000\u0000\u0000LoadLibraryA\u0000\u0000GetProcAddress\u0000\u0000VirtualProtect\u0000\u0000VirtualAlloc\u0000\u0000VirtualFree\u0000\u0000\u0000ExitProcess\u0000\u0000\u0000atoi\u0000\u0000MessageBoxA\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+              "process_handle": "0x00000094",
+              "base_address": "0x00419000"
+            },
+            "time": 1717621698.09425,
+            "tid": 2376,
+            "flags": {}
+          },
+          "pid": 2324,
+          "type": "call",
+          "cid": 2035
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "WriteProcessMemory",
+            "return_value": 1,
+            "arguments": {
+              "process_identifier": 2400,
+              "buffer": "\u0000\u0000@\u0000",
+              "process_handle": "0x00000094",
+              "base_address": "0x7efde008"
+            },
+            "time": 1717621698.09425,
+            "tid": 2376,
+            "flags": {}
+          },
+          "pid": 2324,
+          "type": "call",
+          "cid": 2038
+        }
+      ],
+      "marks_included": 2,
+      "total_marks": 2
+    },
+    {
+      "json_pointer": "/signatures/9",
+      "name": "injection_ntsetcontextthread",
+      "description": "Used NtSetContextThread to modify a thread in a remote process indicative of process injection",
+      "marks": [
+        {
+          "category": "Process injection",
+          "ioc": "Process 2324 called NtSetContextThread to modify thread in remote process 2400",
+          "type": "ioc",
+          "description": null
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtSetContextThread",
+            "return_value": 0,
+            "arguments": {
+              "thread_handle": "0x00000090",
+              "registers": {
+                "eip": 2011562436,
+                "esp": 1638384,
+                "edi": 0,
+                "eax": 4296048,
+                "ebp": 0,
+                "edx": 0,
+                "ebx": 2130567168,
+                "esi": 0,
+                "ecx": 0
+              },
+              "process_identifier": 2400
+            },
+            "time": 1717621698.09425,
+            "tid": 2376,
+            "flags": {}
+          },
+          "pid": 2324,
+          "type": "call",
+          "cid": 2040
+        }
+      ],
+      "marks_included": 2,
+      "total_marks": 2
+    },
+    {
+      "json_pointer": "/signatures/10",
+      "name": "injection_resumethread",
+      "description": "Resumed a suspended thread in a remote process potentially indicative of process injection",
+      "marks": [
+        {
+          "category": "Process injection",
+          "ioc": "Process 2324 resumed a thread in remote process 2400",
+          "type": "ioc",
+          "description": null
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtResumeThread",
+            "return_value": 0,
+            "arguments": {
+              "thread_handle": "0x00000090",
+              "suspend_count": 1,
+              "process_identifier": 2400
+            },
+            "time": 1717621699.03125,
+            "tid": 2376,
+            "flags": {}
+          },
+          "pid": 2324,
+          "type": "call",
+          "cid": 2042
+        }
+      ],
+      "marks_included": 2,
+      "total_marks": 2
+    },
+    {
+      "json_pointer": "/signatures/11",
+      "name": "injection_runpe",
+      "description": "Executed a process and injected code into it, probably while unpacking",
+      "marks": [
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "CreateProcessInternalW",
+            "return_value": 1,
+            "arguments": {
+              "thread_identifier": 2404,
+              "thread_handle": "0x00000090",
+              "process_identifier": 2400,
+              "current_directory": "",
+              "filepath": "",
+              "track": 1,
+              "command_line": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\10017.exe",
+              "filepath_r": "",
+              "stack_pivoted": 0,
+              "creation_flags": 4,
+              "process_handle": "0x00000094",
+              "inherit_handles": 0
+            },
+            "time": 1717621698.09425,
+            "tid": 2376,
+            "flags": {
+              "creation_flags": "CREATE_SUSPENDED"
+            }
+          },
+          "pid": 2324,
+          "type": "call",
+          "cid": 2025
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtUnmapViewOfSection",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2400,
+              "region_size": 4096,
+              "process_handle": "0x00000094",
+              "base_address": "0x00400000"
+            },
+            "time": 1717621698.09425,
+            "tid": 2376,
+            "flags": {}
+          },
+          "pid": 2324,
+          "type": "call",
+          "cid": 2028
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtAllocateVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2400,
+              "region_size": 106496,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "protection": 64,
+              "process_handle": "0x00000094",
+              "allocation_type": 12288,
+              "base_address": "0x00400000"
+            },
+            "time": 1717621698.09425,
+            "tid": 2376,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE",
+              "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+            }
+          },
+          "pid": 2324,
+          "type": "call",
+          "cid": 2030
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "buffer": "aa59e5d713dfd8e3da190dfa020d01ec28948d58",
+            "api": "WriteProcessMemory",
+            "return_value": 1,
+            "arguments": {
+              "process_identifier": 2400,
+              "buffer": "",
+              "process_handle": "0x00000094",
+              "base_address": "0x00400000"
+            },
+            "time": 1717621698.09425,
+            "tid": 2376,
+            "flags": {}
+          },
+          "pid": 2324,
+          "type": "call",
+          "cid": 2032
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 0,
+            "stacktrace": [],
+            "buffer": "54fab12b51b2a0fa24b12b99272467d47f9c6646",
+            "last_error": 87,
+            "nt_status": -1073741583,
+            "api": "WriteProcessMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2400,
+              "buffer": "",
+              "process_handle": "0x00000094",
+              "base_address": "0x00401000"
+            },
+            "time": 1717621698.09425,
+            "tid": 2376,
+            "flags": {}
+          },
+          "pid": 2324,
+          "type": "call",
+          "cid": 2033
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "buffer": "ab2509c1029982fbfb5fa4410c2a0754aa2a2433",
+            "api": "WriteProcessMemory",
+            "return_value": 1,
+            "arguments": {
+              "process_identifier": 2400,
+              "buffer": "",
+              "process_handle": "0x00000094",
+              "base_address": "0x00414000"
+            },
+            "time": 1717621698.09425,
+            "tid": 2376,
+            "flags": {}
+          },
+          "pid": 2324,
+          "type": "call",
+          "cid": 2034
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "WriteProcessMemory",
+            "return_value": 1,
+            "arguments": {
+              "process_identifier": 2400,
+              "buffer": "\u0000\u0000\u0000\u0000J\u0018\u00adO\u0000\u0000\u0000\u0000\u0000\u0000\u0003\u0000\u0003\u0000\u0000\u0000(\u0000\u0000\u0080\u000e\u0000\u0000\u0000h\u0000\u0000\u0080\u0018\u0000\u0000\u0000\u00a8\u0000\u0000\u0080\u0000\u0000\u0000\u0000J\u0018\u00adO\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000\u0000@\u0000\u0000\u0080\u0000\u0000\u0000\u0000J\u0018\u00adO\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\t\u0004\u0000\u0000X\u0000\u0000\u0000\u00ec\u0090\u0001\u0000h\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000J\u0018\u00adO\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000\u0000\u0080\u0000\u0000\u0080\u0000\u0000\u0000\u0000J\u0018\u00adO\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\t\u0004\u0000\u0000\u0098\u0000\u0000\u0000X\u0097\u0001\u0000\u0014\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000J\u0018\u00adO\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000\u0000\u00c0\u0000\u0000\u0080\u0000\u0000\u0000\u0000J\u0018\u00adO\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\t\u0004\u0000\u0000\u00d8\u0000\u0000\u0000p\u0097\u0001\u0000`\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00e8`\u0001\u0000(\u0000\u0000\u00000\u0000\u0000\u0000`\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0080\u0000\u0000\u0000\u0000\u0080\u0000\u0000\u0080\u0080\u0000\u0000\u0000\u0000\u0080\u0000\u0080\u0000\u0080\u0000\u0000\u0080\u0080\u0000\u0080\u0080\u0080\u0000\u00c0\u00c0\u00c0\u0000\u00ff\u0000\u0000\u0000\u0000\u00ff\u0000\u0000\u00ff\u00ff\u0000\u0000\u0000\u0000\u00ff\u0000\u00ff\u0000\u00ff\u0000\u0000\u00ff\u00ff\u0000\u00ff\u00ff\u00ff\u0000\u0000\u0000\u0000\u0000\u0000\b\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0000\u0000\u0000\u0000\u0000\u0000\bwwwwwwwwwwwwwwwwx\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f7\u008fxwxw\u0087x\u00f7x\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u007f'wwwpp\u0087\u0088\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0007xp\u0087p\u00f0wx\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00f8\u00ff\u00ff\u00ff\u00ff\bwxw\u0087p\u00f0ww\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00f8\u00cc\u00cf\u00ff\u00ff\u00ffwx\u0002wp\u0080r\u00f2w\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00cf\u00cc\u00ff\u00ff\u00ffp\u008f\u0088\u007f\u008f\u0080\u008f\u00ff\u008f\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u008c\u00fc\u007f\u00ff\u00ff\u0080\u008f\u00f8\u007f\u00ff\u0080\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00f8\u007f\u00c8\u00ff\u00ff\u00ff\u00ff\u00ff\u008f\u00ff\u00f8\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00f7\u008c\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ffw\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00fc\u008f\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u0088\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00c8x\u00ff\u00ff\u00ff\u00ff\u00f8\u00cc\u00cc\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u008c\u00f8|\u00c8\u008f\u008c\u00cc\u008f\u00ff\u008f\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00fc\u008f\u00ff\u00f8|\u00cc\u00cc|\u00cc\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u00cf\u00ff\u00f8\u00cc\u00ff\u00f8\u0088\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00c8\u00ff\u008c\u008f\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u008c\u00ff\u00c8\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00fc\u00fc\u00cf\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u00cc\u008f\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00cc\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00c8\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u00c8\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u00c8\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00fc\u0088\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00fc\u008f\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00fc\u008f\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\u0007\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00fc\u0088\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0000\u0000\u0000\u0000\u0000\u0007\u0088\u0088\u0088\u0088\u0088\u0088\u008cw\u0088\u0088\u008f\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0004DDDDDDDDDDDDDDDO\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0004DDDDDDDDDDDDDDDO\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0000\u0004DDDO\u0084D\u007f\u00ff\u0084H\u0084DDDDH\u00ff\u00ff\u00ff\u00f8\u00ff\u0088\u0000\u0004\u00cc\u00cc\u00cc\u00cf\u008c\u00cc\u007f\u0087\u00f8H\u0084DDDDH\u00ff\u00ff\u0088\u0088\u0088\u0088\u0000\u0004\u00cc\u00cc\u00cc\u00cf\u008c\u00cc\u007f|\u008f\u00c8\u008c\u00c4DDDH\u00ff\u0088\u0088\u0088\u0088\u0088\u0000\u0004\u00cc\u00cc\u00cc\u00cf\u00ff\u00fc\u007f|\u007fx\u00ff\u00fc\u00ccDDH\u0088\u0088\u0088w\u0088\u0000\u0000\u0004\u00cc\u00cc\u00cc\u00cf\u008c\u00f8\u007f|\u007fx\u00f7|\u00cc\u00c4DH\u0088\u0087w\u0088\u0080\u0000\u0000\f\u00cc\u00cc\u00cc\u00cf\u008c\u00ff\u007f|\u008f\u00c8\u008c\u00cc\u00cc\u00cc\u00c4H\u0088\u008f\u00ff\u00f8\u0000\u0000\u0000\f\u00cc\u00cc\u00cc\u00cf\u00ff\u00f8\u007f\u00ff\u00f8\u00c8\u00f8\u008c\u00cc\u00cc\u00c4H\u0088\u008f\u00ff\u0080\u0000\u0000\u0000\f\u00cc\u00cc\u00cc\u00c8\u0088\u008c\u00c8\u0088|\u00c8\u0088\u008c\u00cc\u00cc\u00c4H\u0088\u00ff\u00f8\u0000\u0000\u0000\u0000\f\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00c4H\u0088\u00ff\u0080\u0000\u0000\u0000\u0000\f\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00ccDH\u0088\u00f8\u0000\u0000\u0000\u0000\u0000\f\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00cc\u00ccDDDDH\u0088\u0080\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00f8\u0088\u0088\u0088\u0088\u0080\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u0088\u0088\u0088\u0088\u0088\u0080\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u00f8\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0088\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00ff\u00e0\u0000\u0000\u0000\u0003\u00fbo\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u00ff\u00e0\u0000\u0000\u0000\u0003\u00ff\u00e0\u0080\u0000\u0000\u0000\u0000\u0003\u00ff\u00e0\u0080\u0000\u0000\u0000\u0000\u0003\u0080\u0000\u0080\u0000\u0000\u0000\u0000\u0003\u0080\u0000\u0080\u0000\u0000\u0000\u0000\u0003\u0080\u0000\u0080\u0000\u0000\u0000\u0000\u0003\u0080\u0000\u0080\u0000\u0000\u0000\u0000\u000f\u0080\u0000\u0080\u0000\u0000\u0000\u0000\u001f\u0080\u0000\u0080\u0000\u0000\u0000\u0000?\u0080\u0000\u0080\u0000\u0000\u0000\u0000\u007f\u0080\u0000\u0080\u0000\u0000\u0000\u0000\u00ff\u0080\u0000\u0080\u0000\u0000\u0000\u0001\u00ff\u0080\u0000\u0080\u0000\u0000\u0000\u0003\u00ff\u0080\u0000\u0080\u0000\u0000\u0000\u0007\u00ff\u0080\u0000\u00ff\u00e0\u0000\u0000\u001f\u00ff\u0080\u0000\u00ff\u00e0\u0000\u0000\u001f\u00ff\u00ff\u00e0\u00ff\u00e0\u0000\u0000?\u00ff\u00ff\u00e0\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00e0Pg\u0001\u0000\u0000\u0000\u0001\u0000\u0001\u0000   \u0000\u0001\u0000\u0004\u0000h\u0006\u0000\u0000\u0001\u0000dg\u0001\u0000<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<assembly xmlns=\"urn:schemas-microsoft-com:asm.v1\" manifestVersion=\"1.0\">\r\n\t<trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v3\">\r\n\t\t<security>\r\n\t\t<requestedPrivileges><requestedExecutionLevel level=\"asInvoker\" uiAccess=\"false\"/></requestedPrivileges>\r\n\t\t</security>\r\n\t</trustInfo>\r\n</assembly>\r\n\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000L\u0099\u0001\u0000 \u0099\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Y\u0099\u0001\u0000<\u0099\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000c\u0099\u0001\u0000D\u0099\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000n\u0099\u0001\u0000|\u0099\u0001\u0000\u008c\u0099\u0001\u0000\u009c\u0099\u0001\u0000\u00aa\u0099\u0001\u0000\u00b8\u0099\u0001\u0000\u0000\u0000\u0000\u0000\u00c6\u0099\u0001\u0000\u0000\u0000\u0000\u0000\u00cc\u0099\u0001\u0000\u0000\u0000\u0000\u0000KERNEL32.DLL\u0000ntdll.dll\u0000user32.dll\u0000\u0000\u0000LoadLibraryA\u0000\u0000GetProcAddress\u0000\u0000VirtualProtect\u0000\u0000VirtualAlloc\u0000\u0000VirtualFree\u0000\u0000\u0000ExitProcess\u0000\u0000\u0000atoi\u0000\u0000MessageBoxA\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+              "process_handle": "0x00000094",
+              "base_address": "0x00419000"
+            },
+            "time": 1717621698.09425,
+            "tid": 2376,
+            "flags": {}
+          },
+          "pid": 2324,
+          "type": "call",
+          "cid": 2035
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtGetContextThread",
+            "return_value": 0,
+            "arguments": {
+              "thread_handle": "0x00000090"
+            },
+            "time": 1717621698.09425,
+            "tid": 2376,
+            "flags": {}
+          },
+          "pid": 2324,
+          "type": "call",
+          "cid": 2037
+        }
+      ],
+      "marks_included": 8,
+      "total_marks": 14
+    }
+  ],
+  "selected_calls": [
+    {
+      "json_pointer": "/behavior/processes/1/calls/3",
+      "pid": 2324,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a1856",
+        "function_name": "VirtualAlloc"
+      },
+      "time": 1717621694.70325,
+      "tid": 2328,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/5",
+      "pid": 2324,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a34d5",
+        "function_name": "CreateThread"
+      },
+      "time": 1717621694.70325,
+      "tid": 2328,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/6",
+      "pid": 2324,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a1136",
+        "function_name": "WaitForSingleObject"
+      },
+      "time": 1717621694.70325,
+      "tid": 2328,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/8",
+      "pid": 2324,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a49d7",
+        "function_name": "LoadLibraryA"
+      },
+      "time": 1717621694.70325,
+      "tid": 2376,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/10",
+      "pid": 2324,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "user32",
+        "module_address": "0x77610000",
+        "function_address": "0x77631218",
+        "function_name": "GetCursorPos"
+      },
+      "time": 1717621694.70325,
+      "tid": 2376,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/1011",
+      "pid": 2324,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a5a96",
+        "function_name": "GetSystemTime"
+      },
+      "time": 1717621694.71925,
+      "tid": 2376,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/1012",
+      "pid": 2324,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a110c",
+        "function_name": "GetTickCount"
+      },
+      "time": 1717621695.00025,
+      "tid": 2376,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/1013",
+      "pid": 2324,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a1856",
+        "function_name": "VirtualAlloc"
+      },
+      "time": 1717621696.06225,
+      "tid": 2376,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/1015",
+      "pid": 2324,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a49d7",
+        "function_name": "LoadLibraryA"
+      },
+      "time": 1717621696.06225,
+      "tid": 2376,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/1016",
+      "pid": 2324,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a110c",
+        "function_name": "GetTickCount"
+      },
+      "time": 1717621696.06225,
+      "tid": 2376,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/1017",
+      "pid": 2324,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a5a96",
+        "function_name": "GetSystemTime"
+      },
+      "time": 1717621696.06225,
+      "tid": 2376,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/1019",
+      "pid": 2324,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "user32",
+        "module_address": "0x77610000",
+        "function_address": "0x77631218",
+        "function_name": "GetCursorPos"
+      },
+      "time": 1717621698.06225,
+      "tid": 2376,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/2020",
+      "pid": 2324,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a1245",
+        "function_name": "GetModuleHandleA"
+      },
+      "time": 1717621698.07825,
+      "tid": 2376,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/2021",
+      "pid": 2324,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a14b1",
+        "function_name": "GetModuleFileNameA"
+      },
+      "time": 1717621698.07825,
+      "tid": 2376,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/2022",
+      "pid": 2324,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a1856",
+        "function_name": "VirtualAlloc"
+      },
+      "time": 1717621698.07825,
+      "tid": 2376,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/2024",
+      "pid": 2324,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a1072",
+        "function_name": "CreateProcessA"
+      },
+      "time": 1717621698.07825,
+      "tid": 2376,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/2027",
+      "pid": 2324,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "ntdll",
+        "module_address": "0x77e50000",
+        "function_address": "0x77e6fc70",
+        "function_name": "ZwUnmapViewOfSection"
+      },
+      "time": 1717621698.09425,
+      "tid": 2376,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/2029",
+      "pid": 2324,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763bd9b0",
+        "function_name": "VirtualAllocEx"
+      },
+      "time": 1717621698.09425,
+      "tid": 2376,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/2031",
+      "pid": 2324,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763bd9e0",
+        "function_name": "WriteProcessMemory"
+      },
+      "time": 1717621698.09425,
+      "tid": 2376,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/2036",
+      "pid": 2324,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763c79d4",
+        "function_name": "GetThreadContext"
+      },
+      "time": 1717621698.09425,
+      "tid": 2376,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/2039",
+      "pid": 2324,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x76425393",
+        "function_name": "SetThreadContext"
+      },
+      "time": 1717621698.09425,
+      "tid": 2376,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/2040",
+      "pid": 2324,
+      "category": "process",
+      "status": 1,
+      "stacktrace": [],
+      "api": "NtSetContextThread",
+      "return_value": 0,
+      "arguments": {
+        "thread_handle": "0x00000090",
+        "registers": {
+          "eip": 2011562436,
+          "esp": 1638384,
+          "edi": 0,
+          "eax": 4296048,
+          "ebp": 0,
+          "edx": 0,
+          "ebx": 2130567168,
+          "esi": 0,
+          "ecx": 0
+        },
+        "process_identifier": 2400
+      },
+      "time": 1717621698.09425,
+      "tid": 2376,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/2041",
+      "pid": 2324,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a43ef",
+        "function_name": "ResumeThread"
+      },
+      "time": 1717621698.09425,
+      "tid": 2376,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/2043",
+      "pid": 2324,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a7a10",
+        "function_name": "ExitProcess"
+      },
+      "time": 1717621699.03125,
+      "tid": 2376,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/1",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763bd9b0",
+        "function_name": "VirtualAllocEx"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/2",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a1856",
+        "function_name": "VirtualAlloc"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/3",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a186e",
+        "function_name": "VirtualFree"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/4",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763bd9e0",
+        "function_name": "WriteProcessMemory"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/5",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x7642416b",
+        "function_name": "CreateRemoteThread"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/6",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763c735f",
+        "function_name": "CreateToolhelp32Snapshot"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/7",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763c8ae7",
+        "function_name": "Process32First"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/8",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763c88a4",
+        "function_name": "Process32Next"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/9",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a1986",
+        "function_name": "OpenProcess"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/10",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a1410",
+        "function_name": "CloseHandle"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/11",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a435f",
+        "function_name": "VirtualProtect"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/12",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763bcfcc",
+        "function_name": "ReadProcessMemory"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/13",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a10ff",
+        "function_name": "Sleep"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/14",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a7a10",
+        "function_name": "ExitProcess"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/15",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x77ead598",
+        "function_name": "ExitThread"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/16",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a1072",
+        "function_name": "CreateProcessA"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/17",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x76422c21",
+        "function_name": "WinExec"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/18",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a588e",
+        "function_name": "GlobalAlloc"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/19",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a5558",
+        "function_name": "GlobalFree"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/20",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763be4be",
+        "function_name": "GlobalReAlloc"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/21",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a1245",
+        "function_name": "GetModuleHandleA"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/22",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a49d7",
+        "function_name": "LoadLibraryA"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/23",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a34c8",
+        "function_name": "FreeLibrary"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/24",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a1222",
+        "function_name": "GetProcAddress"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/25",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a5ac9",
+        "function_name": "SizeofResource"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/26",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763be9bb",
+        "function_name": "FindResourceA"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/27",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a5959",
+        "function_name": "LockResource"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/28",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a594c",
+        "function_name": "LoadResource"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/29",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763bd3db",
+        "function_name": "FreeResource"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/30",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763c276c",
+        "function_name": "GetTempPathA"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/31",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a14b1",
+        "function_name": "GetModuleFileNameA"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/32",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a110c",
+        "function_name": "GetTickCount"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/33",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763c58e5",
+        "function_name": "CopyFileA"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/34",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a5444",
+        "function_name": "DeleteFileA"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/35",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x7641d911",
+        "function_name": "MoveFileA"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/36",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763b9af0",
+        "function_name": "MoveFileW"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/37",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763cccc1",
+        "function_name": "MoveFileExA"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/38",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a53c6",
+        "function_name": "CreateFileA"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/39",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763cd526",
+        "function_name": "CreateDirectoryA"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/40",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a17d1",
+        "function_name": "SetFilePointer"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/41",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a3ed3",
+        "function_name": "ReadFile"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/42",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a1282",
+        "function_name": "WriteFile"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/43",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763becd3",
+        "function_name": "SetFileAttributesA"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/44",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a5414",
+        "function_name": "GetFileAttributesA"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/45",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a34d5",
+        "function_name": "CreateThread"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/46",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763c97aa",
+        "function_name": "GetSystemWindowsDirectoryA"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/47",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763bb66c",
+        "function_name": "GetSystemDirectoryA"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/48",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763c6dcb",
+        "function_name": "GetVolumeInformationA"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/49",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a3519",
+        "function_name": "GetVersionExA"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/50",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763ae4dc",
+        "function_name": "GetLogicalDriveStringsA"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/51",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a32bb",
+        "function_name": "SetThreadPriority"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/52",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a17ec",
+        "function_name": "GetCurrentThread"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/53",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763ae2ce",
+        "function_name": "FindFirstFileA"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/54",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763cd53e",
+        "function_name": "FindNextFileA"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/55",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a4442",
+        "function_name": "FindClose"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/2/calls/56",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x764244bf",
+        "function_name": "RemoveDirectoryA"
+      },
+      "time": 1717621699.172375,
+      "tid": 2404,
+      "flags": {}
+    }
+  ],
+  "matching_call_n": 139,
+  "scope": "Triage extract only; consult full raw report for complete context. Native sandbox descriptions may expose vendor judgments. X-ERD predictions are omitted.",
+  "verified_human_annotation": false
+}

@@ -1,0 +1,90 @@
+Training OOF 0 RF fit 3777 validation 944
+Training OOF 0 LGB fit 3777 validation 944
+Training OOF 1 RF fit 3777 validation 944
+Training OOF 1 LGB fit 3777 validation 944
+Training OOF 2 RF fit 3776 validation 945
+Training OOF 2 LGB fit 3776 validation 945
+Training OOF 3 RF fit 3778 validation 943
+Training OOF 3 LGB fit 3778 validation 943
+Training OOF 4 RF fit 3776 validation 945
+Training OOF 4 LGB fit 3776 validation 945
+Refitting base RF
+Refitting base LGB
+{
+  "en_retrospective_holdout": {
+    "tn": 282,
+    "fp": 1,
+    "fn": 0,
+    "tp": 0,
+    "accuracy": 0.9964664310954063,
+    "precision": 0.0,
+    "recall": null,
+    "fpr": 0.0035335689045936395,
+    "f1": 0.0,
+    "auc": null,
+    "brier": 0.00304774027234221,
+    "ece": 0.0033308858837217056,
+    "theta": 0.5,
+    "n": 283,
+    "fpr_ci95": [
+      8.945821740077509e-05,
+      0.019529499261947053
+    ]
+  },
+  "official_reused_regression": {
+    "tn": 501,
+    "fp": 9,
+    "fn": 6,
+    "tp": 459,
+    "accuracy": 0.9846153846153847,
+    "precision": 0.9807692307692307,
+    "recall": 0.9870967741935484,
+    "fpr": 0.01764705882352941,
+    "f1": 0.9839228295819936,
+    "auc": 0.997718743411343,
+    "brier": 0.013912637843526168,
+    "ece": 0.012698544027532989,
+    "theta": 0.5,
+    "n": 975
+  },
+  "prior_nunes_holdout": {
+    "tn": 358,
+    "fp": 4,
+    "fn": 0,
+    "tp": 0,
+    "accuracy": 0.988950276243094,
+    "precision": 0.0,
+    "recall": null,
+    "fpr": 0.011049723756906077,
+    "f1": 0.0,
+    "auc": null,
+    "brier": 0.010522705597223247,
+    "ece": 0.016554634583737293,
+    "theta": 0.5,
+    "n": 362,
+    "fpr_ci95": [
+      0.0030186572926265893,
+      0.028048576560765384
+    ]
+  },
+  "prior_zirari_ransomware": {
+    "tn": 0,
+    "fp": 0,
+    "fn": 3,
+    "tp": 55,
+    "accuracy": 0.9482758620689655,
+    "precision": 1.0,
+    "recall": 0.9482758620689655,
+    "fpr": null,
+    "f1": 0.9734513274336283,
+    "auc": null,
+    "brier": 0.04091632338330483,
+    "ece": 0.04684273719634799,
+    "theta": 0.5,
+    "n": 58,
+    "recall_ci95": [
+      0.8561953727246554,
+      0.9892035219157053
+    ]
+  }
+}

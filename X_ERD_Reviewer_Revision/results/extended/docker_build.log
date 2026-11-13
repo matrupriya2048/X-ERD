@@ -1,0 +1,124 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile.extended
+#1 transferring dockerfile: 535B 0.1s done
+#1 DONE 0.1s
+
+#2 [internal] load metadata for docker.io/library/xerd-reviewer-revision:0.1.0
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 101B 0.1s done
+#3 DONE 0.1s
+
+#4 [1/8] FROM docker.io/library/xerd-reviewer-revision:0.1.0@sha256:648541e758fb42ec9f546a21ff673c7e21bacf5e7ac267178b0a812c3562c7eb
+#4 resolve docker.io/library/xerd-reviewer-revision:0.1.0@sha256:648541e758fb42ec9f546a21ff673c7e21bacf5e7ac267178b0a812c3562c7eb 0.0s done
+#4 DONE 0.1s
+
+#5 [internal] load build context
+#5 transferring context: 87.17kB 0.4s done
+#5 DONE 0.4s
+
+#6 [2/8] COPY requirements-sequence.lock /work/requirements-sequence.lock
+#6 DONE 0.1s
+
+#7 [3/8] RUN python -m pip install --no-cache-dir -r requirements-sequence.lock  && python -m pip install --no-cache-dir --no-deps torch==2.7.1+cpu --index-url https://download.pytorch.org/whl/cpu
+#7 1.755 Collecting filelock==3.18.0 (from -r requirements-sequence.lock (line 1))
+#7 1.944   Downloading filelock-3.18.0-py3-none-any.whl.metadata (2.9 kB)
+#7 2.022 Collecting fsspec==2025.5.1 (from -r requirements-sequence.lock (line 2))
+#7 2.053   Downloading fsspec-2025.5.1-py3-none-any.whl.metadata (11 kB)
+#7 2.121 Collecting Jinja2==3.1.6 (from -r requirements-sequence.lock (line 3))
+#7 2.154   Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+#7 2.345 Collecting MarkupSafe==3.0.2 (from -r requirements-sequence.lock (line 4))
+#7 2.377   Downloading MarkupSafe-3.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.0 kB)
+#7 2.434 Collecting mpmath==1.3.0 (from -r requirements-sequence.lock (line 5))
+#7 2.466   Downloading mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+#7 2.559 Collecting networkx==3.4.2 (from -r requirements-sequence.lock (line 6))
+#7 2.590   Downloading networkx-3.4.2-py3-none-any.whl.metadata (6.3 kB)
+#7 3.014 Collecting setuptools==80.9.0 (from -r requirements-sequence.lock (line 7))
+#7 3.048   Downloading setuptools-80.9.0-py3-none-any.whl.metadata (6.6 kB)
+#7 3.118 Collecting sympy==1.14.0 (from -r requirements-sequence.lock (line 8))
+#7 3.154   Downloading sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+#7 3.375 Downloading filelock-3.18.0-py3-none-any.whl (16 kB)
+#7 3.408 Downloading fsspec-2025.5.1-py3-none-any.whl (199 kB)
+#7 3.558    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 199.1/199.1 kB 1.4 MB/s eta 0:00:00
+#7 3.588 Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+#7 3.668    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 134.9/134.9 kB 1.7 MB/s eta 0:00:00
+#7 3.704 Downloading MarkupSafe-3.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (23 kB)
+#7 3.757 Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+#7 4.037    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 1.9 MB/s eta 0:00:00
+#7 4.072 Downloading networkx-3.4.2-py3-none-any.whl (1.7 MB)
+#7 5.958    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 914.6 kB/s eta 0:00:00
+#7 5.988 Downloading setuptools-80.9.0-py3-none-any.whl (1.2 MB)
+#7 6.722    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 1.6 MB/s eta 0:00:00
+#7 6.765 Downloading sympy-1.14.0-py3-none-any.whl (6.3 MB)
+#7 13.40    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/6.3 MB 949.6 kB/s eta 0:00:00
+#7 14.13 Installing collected packages: mpmath, sympy, setuptools, networkx, MarkupSafe, fsspec, filelock, Jinja2
+#7 22.21   Attempting uninstall: setuptools
+#7 22.22     Found existing installation: setuptools 79.0.1
+#7 22.31     Uninstalling setuptools-79.0.1:
+#7 23.44       Successfully uninstalled setuptools-79.0.1
+#7 26.76 Successfully installed Jinja2-3.1.6 MarkupSafe-3.0.2 filelock-3.18.0 fsspec-2025.5.1 mpmath-1.3.0 networkx-3.4.2 setuptools-80.9.0 sympy-1.14.0
+#7 26.76 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#7 27.01 
+#7 27.01 [notice] A new release of pip is available: 24.0 -> 26.3
+#7 27.01 [notice] To update, run: pip install --upgrade pip
+#7 27.78 Looking in indexes: https://download.pytorch.org/whl/cpu
+#7 28.64 Collecting torch==2.7.1+cpu
+#7 29.34   Downloading https://download-r2.pytorch.org/whl/cpu/torch-2.7.1%2Bcpu-cp311-cp311-manylinux_2_28_x86_64.whl.metadata (27 kB)
+#7 29.70 Downloading https://download-r2.pytorch.org/whl/cpu/torch-2.7.1%2Bcpu-cp311-cp311-manylinux_2_28_x86_64.whl (176.0 MB)
+#7 84.53    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 176.0/176.0 MB 3.5 MB/s eta 0:00:00
+#7 85.54 Installing collected packages: torch
+#7 100.3 Successfully installed torch-2.7.1+cpu
+#7 100.3 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#7 DONE 102.4s
+
+#8 [4/8] COPY pyproject.toml /work/
+#8 DONE 0.3s
+
+#9 [5/8] COPY src /work/src
+#9 DONE 0.1s
+
+#10 [6/8] COPY tests /work/tests
+#10 DONE 0.1s
+
+#11 [7/8] COPY config /work/config
+#11 DONE 0.1s
+
+#12 [8/8] RUN python -m pip install --no-cache-dir --no-deps .
+#12 1.026 Processing /work
+#12 1.031   Installing build dependencies: started
+#12 3.914   Installing build dependencies: finished with status 'done'
+#12 3.917   Getting requirements to build wheel: started
+#12 4.297   Getting requirements to build wheel: finished with status 'done'
+#12 4.301   Preparing metadata (pyproject.toml): started
+#12 4.622   Preparing metadata (pyproject.toml): finished with status 'done'
+#12 4.629 Building wheels for collected packages: xerd-reviewer-revision
+#12 4.634   Building wheel for xerd-reviewer-revision (pyproject.toml): started
+#12 5.013   Building wheel for xerd-reviewer-revision (pyproject.toml): finished with status 'done'
+#12 5.015   Created wheel for xerd-reviewer-revision: filename=xerd_reviewer_revision-0.1.0-py3-none-any.whl size=33012 sha256=b6e40916f72c1f172d2873d890299b5ffd51d1cf91a96460affba71b3d05eaa8
+#12 5.016   Stored in directory: /tmp/pip-ephem-wheel-cache-htasfuip/wheels/ab/b8/c0/a9ba31bee702e5eb1c32d648f0503425e03b81d5dafe8f0dd3
+#12 5.022 Successfully built xerd-reviewer-revision
+#12 5.023 Installing collected packages: xerd-reviewer-revision
+#12 5.023   Attempting uninstall: xerd-reviewer-revision
+#12 5.036     Found existing installation: xerd-reviewer-revision 0.1.0
+#12 5.064     Uninstalling xerd-reviewer-revision-0.1.0:
+#12 5.104       Successfully uninstalled xerd-reviewer-revision-0.1.0
+#12 5.208 Successfully installed xerd-reviewer-revision-0.1.0
+#12 5.209 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#12 5.442 
+#12 5.442 [notice] A new release of pip is available: 24.0 -> 26.3
+#12 5.442 [notice] To update, run: pip install --upgrade pip
+#12 DONE 5.7s
+
+#13 exporting to image
+#13 exporting layers
+#13 exporting layers 40.9s done
+#13 exporting manifest sha256:dc6ea40a5477d8cf945cab9acf8b5f12ba82c5e5a8d6f3415424517e04fbe4bb 0.0s done
+#13 exporting config sha256:d6f7ee321b80c1826f349054b032cdbc56f1ed7f9a063c3122b0890d896b294d 0.0s done
+#13 exporting attestation manifest sha256:5870782a8140c16c0ff19e23b828044b4cd6c0a0714d6f8aad8f8195a8d44baf 0.0s done
+#13 exporting manifest list sha256:e969cd7bbc93cfeca3d0ecaacf4d6f5fc8c90997daba64536ccaf0df518fdcc3 0.0s done
+#13 naming to docker.io/library/xerd-reviewer-revision:0.2.0 done
+#13 unpacking to docker.io/library/xerd-reviewer-revision:0.2.0
+#13 unpacking to docker.io/library/xerd-reviewer-revision:0.2.0 12.8s done
+#13 DONE 53.9s

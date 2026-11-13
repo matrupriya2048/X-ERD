@@ -1,0 +1,113 @@
+{
+  "version": "reviewer-revision-2",
+  "framework": "MITRE ATT&CK Enterprise",
+  "scope": "Candidate technique suggestions from observed indicators. Positive attribution indicates model reliance, not malicious technique execution.",
+  "rules": [
+    {
+      "exact": "SIGNATURE:persistence_autorun",
+      "technique_id": "T1547.001",
+      "confidence_tier": "High",
+      "rationale": "Explicit sandbox autorun signature; verify the underlying key write for forensic confirmation.",
+      "rule_specificity_score": 3
+    },
+    {
+      "exact": "SIGNATURE:allocates_execute_remote_process",
+      "technique_id": "T1055",
+      "confidence_tier": "Medium",
+      "rationale": "Executable remote allocation suggests injection, but no specific sub-technique is established.",
+      "rule_specificity_score": 2
+    },
+    {
+      "exact": "SIGNATURE:allocates_rwx",
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rationale": "RWX allocation alone does not demonstrate an APC queue or remote process injection.",
+      "rule_specificity_score": 0
+    },
+    {
+      "exact": "API:NtSetContextThread",
+      "technique_id": "T1055",
+      "confidence_tier": "Low",
+      "rationale": "Candidate injection-related primitive; target process and execution context need corroboration.",
+      "rule_specificity_score": 1
+    },
+    {
+      "exact": "API:CreateRemoteThread",
+      "technique_id": "T1055",
+      "confidence_tier": "Low",
+      "rationale": "Remote-thread primitive alone does not prove DLL injection.",
+      "rule_specificity_score": 1
+    },
+    {
+      "exact": "API:LdrGetProcedureAddress",
+      "technique_id": "T1106",
+      "confidence_tier": "Low",
+      "rationale": "Native API use; dynamic resolution alone does not prove malicious obfuscation T1027.007.",
+      "rule_specificity_score": 1
+    },
+    {
+      "exact": "SIGNATURE:antivm_queries_computername",
+      "technique_id": "T1497.001",
+      "confidence_tier": "Medium",
+      "rationale": "Sandbox anti-VM signature; environmental checks require contextual interpretation.",
+      "rule_specificity_score": 2
+    },
+    {
+      "exact": "SIGNATURE:checks_debugger",
+      "technique_id": "T1622",
+      "confidence_tier": "Medium",
+      "rationale": "Explicit debugger-check signature.",
+      "rule_specificity_score": 2
+    },
+    {
+      "exact": "SIGNATURE:recon_fingerprint",
+      "technique_id": "T1082",
+      "confidence_tier": "Medium",
+      "rationale": "Aggregated system-fingerprinting signature.",
+      "rule_specificity_score": 2
+    },
+    {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    {
+      "prefix": "REG:WRITTEN:",
+      "technique_id": "T1112",
+      "confidence_tier": "Low",
+      "rationale": "Registry modification observed; intent is not determined.",
+      "rule_specificity_score": 1
+    },
+    {
+      "prefix": "REG:DELETED:",
+      "technique_id": "T1112",
+      "confidence_tier": "Low",
+      "rationale": "Registry deletion observed; intent is not determined.",
+      "rule_specificity_score": 1
+    },
+    {
+      "prefix": "API:Nt",
+      "technique_id": "T1106",
+      "confidence_tier": "Low",
+      "rationale": "Native API primitive; not a standalone finding of malicious activity.",
+      "rule_specificity_score": 1
+    },
+    {
+      "prefix": "API:Ldr",
+      "technique_id": "T1106",
+      "confidence_tier": "Low",
+      "rationale": "Loader native API primitive; not malicious intent evidence.",
+      "rule_specificity_score": 1
+    }
+  ],
+  "score_definition": "Ordinal rule specificity:0=footprint,1=weak primitive,2=contextual signature,3=explicit signature. Not a probability, accuracy estimate or forensic confidence."
+}

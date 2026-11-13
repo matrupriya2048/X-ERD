@@ -1,0 +1,81 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile.extended
+#1 transferring dockerfile: 632B 0.1s done
+#1 DONE 0.1s
+
+#2 [internal] load metadata for docker.io/library/xerd-reviewer-revision:0.1.0
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 101B 0.1s done
+#3 DONE 0.1s
+
+#4 [ 1/10] FROM docker.io/library/xerd-reviewer-revision:0.1.0@sha256:648541e758fb42ec9f546a21ff673c7e21bacf5e7ac267178b0a812c3562c7eb
+#4 resolve docker.io/library/xerd-reviewer-revision:0.1.0@sha256:648541e758fb42ec9f546a21ff673c7e21bacf5e7ac267178b0a812c3562c7eb 0.0s done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 132.37kB 0.9s done
+#5 DONE 0.9s
+
+#6 [ 4/10] COPY pyproject.toml /work/
+#6 CACHED
+
+#7 [ 2/10] COPY requirements-sequence.lock /work/requirements-sequence.lock
+#7 CACHED
+
+#8 [ 3/10] RUN python -m pip install --no-cache-dir -r requirements-sequence.lock  && python -m pip install --no-cache-dir --no-deps torch==2.7.1+cpu --index-url https://download.pytorch.org/whl/cpu
+#8 CACHED
+
+#9 [ 5/10] COPY requirements-acquisition.lock requirements-documents.lock /work/
+#9 CACHED
+
+#10 [ 6/10] COPY src /work/src
+#10 CACHED
+
+#11 [ 7/10] COPY tests /work/tests
+#11 CACHED
+
+#12 [ 8/10] COPY config /work/config
+#12 DONE 0.0s
+
+#13 [ 9/10] COPY scripts /work/scripts
+#13 DONE 0.1s
+
+#14 [10/10] RUN python -m pip install --no-cache-dir --no-deps .
+#14 0.789 Processing /work
+#14 0.795   Installing build dependencies: started
+#14 3.281   Installing build dependencies: finished with status 'done'
+#14 3.283   Getting requirements to build wheel: started
+#14 3.548   Getting requirements to build wheel: finished with status 'done'
+#14 3.552   Preparing metadata (pyproject.toml): started
+#14 3.825   Preparing metadata (pyproject.toml): finished with status 'done'
+#14 3.831 Building wheels for collected packages: xerd-reviewer-revision
+#14 3.836   Building wheel for xerd-reviewer-revision (pyproject.toml): started
+#14 4.180   Building wheel for xerd-reviewer-revision (pyproject.toml): finished with status 'done'
+#14 4.181   Created wheel for xerd-reviewer-revision: filename=xerd_reviewer_revision-0.3.0-py3-none-any.whl size=63754 sha256=589a1f502961d00d2f5ac97d12eedabbf1ce4d25480a360c8a60ca536afe5ad2
+#14 4.181   Stored in directory: /tmp/pip-ephem-wheel-cache-8q3qgb65/wheels/ab/b8/c0/a9ba31bee702e5eb1c32d648f0503425e03b81d5dafe8f0dd3
+#14 4.184 Successfully built xerd-reviewer-revision
+#14 4.184 Installing collected packages: xerd-reviewer-revision
+#14 4.184   Attempting uninstall: xerd-reviewer-revision
+#14 4.191     Found existing installation: xerd-reviewer-revision 0.1.0
+#14 4.195     Uninstalling xerd-reviewer-revision-0.1.0:
+#14 4.219       Successfully uninstalled xerd-reviewer-revision-0.1.0
+#14 4.297 Successfully installed xerd-reviewer-revision-0.3.0
+#14 4.297 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#14 4.775 
+#14 4.775 [notice] A new release of pip is available: 24.0 -> 26.3
+#14 4.775 [notice] To update, run: pip install --upgrade pip
+#14 DONE 4.9s
+
+#15 exporting to image
+#15 exporting layers
+#15 exporting layers 0.2s done
+#15 exporting manifest sha256:2460cc5aef5ef57063fbf4de74592c2d4666f917db74cd47edbece9411ad26d8 0.0s done
+#15 exporting config sha256:d39762d11e46f6d61729b1ca4e2722264881b492c3fbd0af1e348f823f051fcc 0.0s done
+#15 exporting attestation manifest sha256:2a23eb7e9c094d5bc24ea4b2043552859712291b9aee5a335391288218822aba 0.0s done
+#15 exporting manifest list sha256:a2d4207ebbbf4365cbffa543f73b88af6ae4d6c17ba1e357cc730da0225fb694 0.0s done
+#15 naming to docker.io/library/xerd-reviewer-revision:0.3.0 done
+#15 unpacking to docker.io/library/xerd-reviewer-revision:0.3.0 0.1s done
+#15 DONE 0.5s

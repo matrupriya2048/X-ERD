@@ -1,0 +1,84 @@
+EVIDENCE REQUIREMENTS AND CURRENT STATUS
+
+This follow-up is separate from the verified v0.3 release. The frozen model,
+483-feature representation, parser, and published results are not retuned here.
+
+1. Independent human ATT&CK adjudication
+
+Current status: not completed. Automated source agreement and an AI-assisted
+technical assessment are not a record of a human assessor's participation.
+Capability does not change the identity or independence of an assessor.
+
+Prepared material:
+- 20 report-level evidence packets with SHA-256 fingerprints and JSON pointers.
+- human_review_blank.csv: no fabricated assessor names, decisions, or timestamps.
+- scoring_key_not_for_assessor.json: frozen candidate outputs; keep this away
+  from an assessor during open-ended evidence review.
+
+Procedure if an assessor becomes available:
+Review the original report linked from each packet, identify supported ATT&CK
+techniques and exact evidence, record version, uncertainty, and alternatives.
+Signature descriptions are vendor observations, not gold labels. Packet extracts
+are abbreviated; they must not be treated as complete forensic evidence.
+For independent dual annotation, two assessors work separately; retain both
+original decisions, report agreement before reconciliation, and record who
+resolves each disagreement. A model developer's unblinded self-review must be
+described as such. Do not calculate malicious-technique accuracy from candidate
+API/registry matches or equate unannotated behavior with a negative label.
+
+2. Verified encryption onset
+
+Current status: unavailable for the evaluated executions. The audit identifies
+available timestamps and crypto/write API hints, not verified onset annotations.
+
+A usable reference must identify the exact execution/sample, its clock and time
+origin, the first verified destructive encrypted write (or an uncertainty interval),
+and the underlying file-content/I/O evidence. Record how encryption was confirmed
+and how normal compression, legitimate encryption, failed API calls, pre-existing
+encrypted files, and writes by unrelated processes were excluded. API function
+names alone do not provide this reference. Custom cryptography may never invoke
+the named crypto APIs, so missing hints do not establish absent encryption.
+
+Scoring once genuine matched annotations exist:
+- Evaluate only events observed by the prediction timestamp. Do not use final
+  sandbox signatures, untimed strings, or full-run summaries in a causal prefix.
+- Freeze the classifier and threshold before the annotated target evaluation.
+- Record alarm time including collection/inference delay and clock uncertainty.
+- Report pre-onset detection proportion, misses/censoring, and lead-time bounds.
+  If onset is [lower, upper], a definitely early alarm must precede lower; an
+  alarm inside that interval is indeterminate. A call-count prefix is not seconds.
+- Evaluate time-matched benign controls. Detection before one encrypted file
+  completes is not necessarily prevention before any destructive write.
+
+3. Additional benign collection
+
+The MTM/Torres reports allow a separate acquisition-source stress test without
+refitting. Their benign designation derives from Cuckoo scores. This limitation
+is retained in every result statement. The new test cannot certify deployment
+FPR against independently established clean software. Unknown-hash prior
+sequence inputs also prevent complete proof of executable disjointness.
+
+The ISOT laboratory offers a more substantial Windows raw-report collection,
+but requires a supervisor-signed agreement and provider-granted SFTP access.
+No agreement was signed and no person was contacted on the author's behalf.
+
+SOURCE CHECKS (2026-11-13)
+ISOT access requirements:
+https://onlineacademiccommunity.uvic.ca/isot/2022/11/27/botnet-and-ransomware-detection-datasets/
+
+Expert-annotated CTI text exists, but is a different observation modality:
+https://www.mdpi.com/2624-800x/6/6/190
+
+Torres et al., Malware Detection Approach Based on Feature Engineering and
+Behavior Analysis (2023), dataset methods and score-derived labels:
+https://rua.ua.es/dspace/bitstream/10045/137642/3/Torres_etal_2023_IEEEAccess.pdf
+https://github.com/mtm41/dataset
+
+MITRE descriptions consulted for candidate-vs-confirmed behavior boundaries:
+https://attack.mitre.org/techniques/T1055/
+https://attack.mitre.org/techniques/T1012/
+https://attack.mitre.org/techniques/T1106/
+https://attack.mitre.org/techniques/T1486/
+
+These sources supply access conditions and technique/dataset descriptions.
+They do not supply a human review of X-ERD or matched onset timestamps.

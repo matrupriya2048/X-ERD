@@ -1,0 +1,10 @@
+test_aggregate_file_access_does_not_invent_writes (test_cape_adapter.CapeTests.test_aggregate_file_access_does_not_invent_writes) ... ok
+test_original_cuckoo_is_unchanged (test_cape_adapter.CapeTests.test_original_cuckoo_is_unchanged) ... ok
+test_root_strings_have_precedence (test_cape_adapter.CapeTests.test_root_strings_have_precedence) ... ok
+test_typed_events_and_nested_strings_are_preserved (test_cape_adapter.CapeTests.test_typed_events_and_nested_strings_are_preserved) ... ok
+test_unc_and_plain_paths_preserve_structure (test_cape_adapter.CapeTests.test_unc_and_plain_paths_preserve_structure) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK

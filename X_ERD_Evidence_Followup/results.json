@@ -1,0 +1,126 @@
+{
+  "protocol_sha256": "3764788a658cf5b43af5b0b8fe0052326c66f6a07215bb30eeb4c5f0180289a1",
+  "source_script_sha256": "018e9c85ac5176c5bc81472f65e320f15a634852d0924eeda6f5a579399a5608",
+  "source_commit": "c449c4e44ef9d2178fbb40beef7ef12741a894a9",
+  "selected_n": 200,
+  "status_counts": {
+    "evaluated": 142,
+    "excluded_non_windows_file_execution": 42,
+    "excluded_duplicate_executable": 16
+  },
+  "models": {
+    "original": {
+      "n": 142,
+      "alert_n": 5,
+      "label_relative_fpr": 0.035211267605633804,
+      "binomial_ci95": [
+        0.011530096224555518,
+        0.08025670897028046
+      ],
+      "fit_vector_novel_sensitivity": {
+        "n": 141,
+        "alert_n": 5,
+        "label_relative_fpr": 0.03546099290780142,
+        "binomial_ci95": [
+          0.011612573864789047,
+          0.08081233494812738
+        ]
+      }
+    },
+    "previous": {
+      "n": 142,
+      "alert_n": 5,
+      "label_relative_fpr": 0.035211267605633804,
+      "binomial_ci95": [
+        0.011530096224555518,
+        0.08025670897028046
+      ],
+      "fit_vector_novel_sensitivity": {
+        "n": 141,
+        "alert_n": 5,
+        "label_relative_fpr": 0.03546099290780142,
+        "binomial_ci95": [
+          0.011612573864789047,
+          0.08081233494812738
+        ]
+      }
+    },
+    "adapted": {
+      "n": 142,
+      "alert_n": 6,
+      "label_relative_fpr": 0.04225352112676056,
+      "binomial_ci95": [
+        0.015661801605572203,
+        0.0896978149734728
+      ],
+      "fit_vector_novel_sensitivity": {
+        "n": 141,
+        "alert_n": 6,
+        "label_relative_fpr": 0.0425531914893617,
+        "binomial_ci95": [
+          0.01577400897019893,
+          0.09031786559788976
+        ]
+      }
+    }
+  },
+  "environment": {
+    "python": "3.11.18",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.36",
+    "packages": {
+      "numpy": "2.4.4",
+      "pandas": "3.0.3",
+      "scipy": "1.17.1",
+      "scikit-learn": "1.9.0",
+      "xgboost": "3.2.0",
+      "lightgbm": "4.6.0",
+      "shap": "0.51.0",
+      "matplotlib": "3.10.8",
+      "pyarrow": "23.0.1"
+    }
+  },
+  "runtime_seconds": 56.44600462913513,
+  "verified_independent_human_labels": false,
+  "verified_encryption_onset": false,
+  "caveat": "Labels derive from a sandbox score, not an independently verified benign ground truth. Rates are label-relative alerts; acquisition platform differs, but broad deployment generalization is not established.",
+  "earlier_sequence_reports_without_target_hash": 80,
+  "antivirus_positive_evaluated_reports": 0,
+  "zero_feature_vectors": 1,
+  "distinct_vectors": 47,
+  "fit_vector_matches": 1,
+  "ci_caveat": "Binomial intervals assume independent executions; application-family dependence may make them optimistic.",
+  "categories": {
+    "API": {
+      "selected_feature_n": 63,
+      "active_values": 1223
+    },
+    "DIRECTORY": {
+      "selected_feature_n": 10,
+      "active_values": 5
+    },
+    "DROP": {
+      "selected_feature_n": 23,
+      "active_values": 116
+    },
+    "FILE": {
+      "selected_feature_n": 16,
+      "active_values": 391
+    },
+    "REG": {
+      "selected_feature_n": 90,
+      "active_values": 257
+    },
+    "SIGNATURE": {
+      "selected_feature_n": 20,
+      "active_values": 125
+    },
+    "STRING": {
+      "selected_feature_n": 223,
+      "active_values": 488
+    },
+    "SYSTEM": {
+      "selected_feature_n": 38,
+      "active_values": 1477
+    }
+  }
+}

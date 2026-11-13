@@ -1,0 +1,7 @@
+data
+results
+manuscript
+.git
+__pycache__
+.pytest_cache
+*.zip

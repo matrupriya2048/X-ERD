@@ -1,0 +1,3 @@
+START external_raw
+Raw benign controls 182 full stack {'tn': 87, 'fp': 95, 'fn': 0, 'tp': 0, 'accuracy': 0.47802197802197804, 'precision': 0.0, 'recall': None, 'fpr': 0.521978021978022, 'f1': 0.0, 'auc': None, 'brier': 0.4682163322013858, 'ece': 0.5456096909421252, 'theta': 0.5, 'n': 182, 'fpr_ci95': [0.44681950787216335, 0.5964090456197382]}
+DONE external_raw 283.9

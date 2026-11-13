@@ -1,0 +1,314 @@
+{
+  "model_sha256": "5c57dddeeb026ace222b7dc2f58a98b1fd66b1c43bd65113b4aa2f8fd9859dd8",
+  "n": 6,
+  "maximum_probability_reconstruction_error": 1.6506282229933333e-08,
+  "scope": "Post-hoc error inspection only. Publisher benign labels are retained without fresh adjudication. Contributions explain this fitted model, not malicious intent or causal error mechanisms. No thresholds, rules, labels or weights are changed after inspecting these cases.",
+  "cases": [
+    {
+      "source_path": "data/remediation_holdout/CuckooClean/196/reports/report.json",
+      "filename": "systray.exe",
+      "md5": "46e07fd3a40760fda18cf6b4fc691742",
+      "publisher_label": "benign",
+      "adapted_probability": 0.958727293734461,
+      "previous_probability": 0.9998442816015528,
+      "active_features": 14,
+      "positive_active_contributions": [
+        {
+          "feature_id": "4862183",
+          "feature_name": "STRING:getstartupinfow",
+          "logit_contribution": 0.6224262500710771
+        },
+        {
+          "feature_id": "5984385",
+          "feature_name": "STRING:vs_version_info",
+          "logit_contribution": 0.38081396228727793
+        },
+        {
+          "feature_id": "5753474",
+          "feature_name": "STRING:stringfileinfo",
+          "logit_contribution": 0.36435923613578325
+        },
+        {
+          "feature_id": "5957765",
+          "feature_name": "STRING:varfileinfo",
+          "logit_contribution": 0.29745858291299154
+        },
+        {
+          "feature_id": "5837953",
+          "feature_name": "STRING:translation",
+          "logit_contribution": 0.2698019809383151
+        },
+        {
+          "feature_id": "18",
+          "feature_name": "API:LdrGetProcedureAddress",
+          "logit_contribution": 0.25823011898186327
+        },
+        {
+          "feature_id": "4792955",
+          "feature_name": "STRING:fileversion",
+          "logit_contribution": 0.25390168117134276
+        },
+        {
+          "feature_id": "122",
+          "feature_name": "API:FindWindowW",
+          "logit_contribution": 0.2004842744902848
+        }
+      ]
+    },
+    {
+      "source_path": "data/remediation_holdout/CuckooClean/315/reports/report.json",
+      "filename": "tracerpt.exe",
+      "md5": "56b82e4fc6f57d3616e86baed5fef52e",
+      "publisher_label": "benign",
+      "adapted_probability": 0.954387889215769,
+      "previous_probability": 0.999930626890017,
+      "active_features": 28,
+      "positive_active_contributions": [
+        {
+          "feature_id": "4861602",
+          "feature_name": "STRING:getmodulefilenamew",
+          "logit_contribution": 1.204613700452203
+        },
+        {
+          "feature_id": "5722271",
+          "feature_name": "STRING:setstdhandle",
+          "logit_contribution": 1.074221684609293
+        },
+        {
+          "feature_id": "5311043",
+          "feature_name": "STRING:mscoree.dll",
+          "logit_contribution": 1.0659882881903577
+        },
+        {
+          "feature_id": "5721755",
+          "feature_name": "STRING:setendoffile",
+          "logit_contribution": 0.8806278472120485
+        },
+        {
+          "feature_id": "4799048",
+          "feature_name": "STRING:flushfilebuffers",
+          "logit_contribution": 0.7149463514229331
+        },
+        {
+          "feature_id": "4860871",
+          "feature_name": "STRING:getcurrentprocessid",
+          "logit_contribution": 0.6881380991148018
+        },
+        {
+          "feature_id": "5640158",
+          "feature_name": "STRING:readfile",
+          "logit_contribution": 0.47757996771143574
+        },
+        {
+          "feature_id": "148",
+          "feature_name": "API:WriteConsoleW",
+          "logit_contribution": 0.35644470532074063
+        }
+      ]
+    },
+    {
+      "source_path": "data/remediation_holdout/CuckooClean/323/reports/report.json",
+      "filename": "conf.exe",
+      "md5": "781da7b4e3d8f28eb8be9184bbd12811",
+      "publisher_label": "benign",
+      "adapted_probability": 0.6329898307494884,
+      "previous_probability": 0.9999060020886524,
+      "active_features": 67,
+      "positive_active_contributions": [
+        {
+          "feature_id": "4793660",
+          "feature_name": "STRING:findfirstfilea",
+          "logit_contribution": 1.4367711620909467
+        },
+        {
+          "feature_id": "4603844",
+          "feature_name": "STRING:delete",
+          "logit_contribution": 1.3611104810284447
+        },
+        {
+          "feature_id": "5727381",
+          "feature_name": "STRING:shellexecutea",
+          "logit_contribution": 1.296150511859173
+        },
+        {
+          "feature_id": "4691338",
+          "feature_name": "STRING:enablewindow",
+          "logit_contribution": 1.1010087040235932
+        },
+        {
+          "feature_id": "5281136",
+          "feature_name": "STRING:malloc",
+          "logit_contribution": 1.0423384795387638
+        },
+        {
+          "feature_id": "5721755",
+          "feature_name": "STRING:setendoffile",
+          "logit_contribution": 0.875599116414803
+        },
+        {
+          "feature_id": "5913755",
+          "feature_name": "STRING:user32",
+          "logit_contribution": 0.8665670866692878
+        },
+        {
+          "feature_id": "4860871",
+          "feature_name": "STRING:getcurrentprocessid",
+          "logit_contribution": 0.7092113154382172
+        }
+      ]
+    },
+    {
+      "source_path": "data/remediation_holdout/CuckooClean/386/reports/report.json",
+      "filename": "GetRasplex.exe",
+      "md5": "289047739dc22af7f7ae6afc65d3ff79",
+      "publisher_label": "benign",
+      "adapted_probability": 0.9179836754793594,
+      "previous_probability": 0.9999824307992702,
+      "active_features": 33,
+      "positive_active_contributions": [
+        {
+          "feature_id": "6468204",
+          "feature_name": "SIGNATURE:packer_entropy",
+          "logit_contribution": 1.439727626748672
+        },
+        {
+          "feature_id": "6412736",
+          "feature_name": "SYSTEM:DLL_LOADED:crypt32.dll",
+          "logit_contribution": 0.8052404196443887
+        },
+        {
+          "feature_id": "171",
+          "feature_name": "API:GetSystemDirectoryA",
+          "logit_contribution": 0.5454200294365744
+        },
+        {
+          "feature_id": "6468099",
+          "feature_name": "SIGNATURE:antivm_queries_computername",
+          "logit_contribution": 0.4922870786587208
+        },
+        {
+          "feature_id": "94",
+          "feature_name": "API:Process32FirstW",
+          "logit_contribution": 0.3428453796154301
+        },
+        {
+          "feature_id": "46",
+          "feature_name": "API:CreateToolhelp32Snapshot",
+          "logit_contribution": 0.34220865030196446
+        },
+        {
+          "feature_id": "43",
+          "feature_name": "API:Process32NextW",
+          "logit_contribution": 0.3240917559912081
+        },
+        {
+          "feature_id": "6412960",
+          "feature_name": "SYSTEM:DLL_LOADED:imm32.dll",
+          "logit_contribution": 0.3121541584638662
+        }
+      ]
+    },
+    {
+      "source_path": "data/remediation_holdout/CuckooClean/493/reports/report.json",
+      "filename": "C%20Browser.exe",
+      "md5": "5b4d34d856c4e6076b299b31f90d7571",
+      "publisher_label": "benign",
+      "adapted_probability": 0.8995401414460413,
+      "previous_probability": 0.9999832364392811,
+      "active_features": 28,
+      "positive_active_contributions": [
+        {
+          "feature_id": "3900195",
+          "feature_name": "STRING:<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>",
+          "logit_contribution": 1.8481219956484924
+        },
+        {
+          "feature_id": "6468204",
+          "feature_name": "SIGNATURE:packer_entropy",
+          "logit_contribution": 1.53561828514018
+        },
+        {
+          "feature_id": "4612611",
+          "feature_name": "STRING:dispose",
+          "logit_contribution": 1.0433504802700195
+        },
+        {
+          "feature_id": "5311043",
+          "feature_name": "STRING:mscoree.dll",
+          "logit_contribution": 0.9821792947579493
+        },
+        {
+          "feature_id": "5984385",
+          "feature_name": "STRING:vs_version_info",
+          "logit_contribution": 0.47291274328995303
+        },
+        {
+          "feature_id": "5753474",
+          "feature_name": "STRING:stringfileinfo",
+          "logit_contribution": 0.4077906328189332
+        },
+        {
+          "feature_id": "4530744",
+          "feature_name": "STRING:concat",
+          "logit_contribution": 0.3961022493115512
+        },
+        {
+          "feature_id": "3363719",
+          "feature_name": "STRING:.cctor",
+          "logit_contribution": 0.38452023053081086
+        }
+      ]
+    },
+    {
+      "source_path": "data/remediation_holdout/CuckooClean/8/reports/report.json",
+      "filename": "msdtc.exe",
+      "md5": "a137f1470499a205abbb9aafb3b6f2b1",
+      "publisher_label": "benign",
+      "adapted_probability": 0.619844529597631,
+      "previous_probability": 0.9999580996559218,
+      "active_features": 17,
+      "positive_active_contributions": [
+        {
+          "feature_id": "4862183",
+          "feature_name": "STRING:getstartupinfow",
+          "logit_contribution": 0.6053109903334651
+        },
+        {
+          "feature_id": "6468099",
+          "feature_name": "SIGNATURE:antivm_queries_computername",
+          "logit_contribution": 0.6001396657558495
+        },
+        {
+          "feature_id": "150",
+          "feature_name": "API:GetComputerNameA",
+          "logit_contribution": 0.404782913817132
+        },
+        {
+          "feature_id": "5984385",
+          "feature_name": "STRING:vs_version_info",
+          "logit_contribution": 0.33727913231560225
+        },
+        {
+          "feature_id": "5753474",
+          "feature_name": "STRING:stringfileinfo",
+          "logit_contribution": 0.3199487904348891
+        },
+        {
+          "feature_id": "65",
+          "feature_name": "API:GetComputerNameW",
+          "logit_contribution": 0.2953168381118618
+        },
+        {
+          "feature_id": "5837953",
+          "feature_name": "STRING:translation",
+          "logit_contribution": 0.2920048888521249
+        },
+        {
+          "feature_id": "5957765",
+          "feature_name": "STRING:varfileinfo",
+          "logit_contribution": 0.26258739487412525
+        }
+      ]
+    }
+  ]
+}

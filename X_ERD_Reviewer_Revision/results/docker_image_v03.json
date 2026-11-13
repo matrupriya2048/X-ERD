@@ -1,0 +1,80 @@
+[
+    {
+        "Id": "sha256:a2d4207ebbbf4365cbffa543f73b88af6ae4d6c17ba1e357cc730da0225fb694",
+        "RepoTags": [
+            "xerd-reviewer-revision:0.3.0"
+        ],
+        "RepoDigests": [
+            "xerd-reviewer-revision@sha256:a2d4207ebbbf4365cbffa543f73b88af6ae4d6c17ba1e357cc730da0225fb694"
+        ],
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2026-11-13T06:50:07.831493166Z",
+        "Config": {
+            "Env": [
+                "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=C.UTF-8",
+                "GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D",
+                "PYTHON_VERSION=3.11.18",
+                "PYTHON_SHA256=9120e0a653868f6e3698d36cdd99e5a58903ec9469e448f21d98f7b16d8fa290",
+                "PYTHONUNBUFFERED=1",
+                "MPLBACKEND=Agg",
+                "OMP_NUM_THREADS=4",
+                "OPENBLAS_NUM_THREADS=1"
+            ],
+            "Cmd": [
+                "python",
+                "-m",
+                "xerd.extended",
+                "sequences"
+            ],
+            "WorkingDir": "/work",
+            "ArgsEscaped": true
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 3585184950,
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:1d7b9dd8778ebc4d9bf2f64436dd358640718cb349f5640b33bebaea4ffd62c2",
+                "sha256:9ae7def604682355f0b9a3468566bbb06aaae177e47a961444995169178590d2",
+                "sha256:bd3e172fa0bc2e7382210f6ffe9292e1ce66a4962721cc583787fe726d705f53",
+                "sha256:3306b96cb7baf10267980832b85ae4056efdc2b3dd659fa42d77af2f850e778d",
+                "sha256:e2c0ea971584044a68dc026c060ead7b65bf31772c276797f937a00ad370d03b",
+                "sha256:c8da57eb6add0f0b46d07dada917972bc86c94045dad84ecb9432aaeeee894d4",
+                "sha256:6ad47ee18a241d293e444e63129142ae3e3aa02e71cbc2023761bb5e6bd46096",
+                "sha256:21ea26d65125b58fde40488239f9594930149c153d78b290180365ce83dfe6a0",
+                "sha256:86444e3ed1620ef94851549af125cafb286e996525e93cbebdd50cf83c85e9de",
+                "sha256:c869d349c43fa546be393cac93a6e6dcc0ec2aa524647046cd5de38a5e0a58dd",
+                "sha256:aa79879ac7560f262f9fbdca9fbff6ab01f33484900eb58e3af54b31d47669c0",
+                "sha256:9047977a5d5b72006d5fbccea4da0bb5ffcf9808f5792dc9fbdfecfa12a645de",
+                "sha256:80f6a4f1af889f857eb92368ebee00f313c10fe49109094960c4e708cdbf1bfc",
+                "sha256:c833326b0682295ad975a3f8f1b0d21fdd75519aa439060c127caa1fba8cfa9c",
+                "sha256:e0dbfe6b080584877ffe0392851317a8b2f26ceed2b81794821c621de5b2ea32",
+                "sha256:8709a1b8e17e328f8b233a123b7a3105c8d20eff8f8b8483a198d2e85489b8e8",
+                "sha256:900720758c3a1a4d4ab1f000f9b9b3170f267271374629efd96e16b671bf5603",
+                "sha256:2e8bcbb12afb6b6f9b8170169dccd763893afb711232d99f8e4af735dbaa48ce",
+                "sha256:79fdf299c5f6e8c494735a997770d8747317280a0d5a8a68f634a283b7cf2db6",
+                "sha256:60330c33ca39a709e04de54c5fbda95074a5d2419a5d368913edacaa384aef4a",
+                "sha256:5f235fbbd329137719499b1d73948c7e211e3d5034b65b609631ce1e821838c8",
+                "sha256:6066124efa25dd5bff2e106ad7f94db5c229da6f7c9e152eb51187ceefaa1235"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2026-11-13T06:50:08.136909785Z"
+        },
+        "Descriptor": {
+            "mediaType": "application/vnd.oci.image.index.v1+json",
+            "digest": "sha256:a2d4207ebbbf4365cbffa543f73b88af6ae4d6c17ba1e357cc730da0225fb694",
+            "size": 856
+        },
+        "Identity": {
+            "Build": [
+                {
+                    "Ref": "meozirnejlr3g7znfu1bf39f2",
+                    "CreatedAt": "2026-11-13T06:50:08.295294535Z"
+                }
+            ]
+        }
+    }
+]

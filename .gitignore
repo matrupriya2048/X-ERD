@@ -1,0 +1,10 @@
+**/__pycache__/
+**/*.pyc
+**/.pytest_cache/
+**/*.joblib
+**/raw/
+**/data/
+**/data_en2025/
+**/tmp/
+**/multicollection_reproduction/
+*.zip

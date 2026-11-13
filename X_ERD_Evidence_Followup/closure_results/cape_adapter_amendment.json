@@ -1,0 +1,10 @@
+{
+  "stage": "Post-hoc schema compatibility repair after untranslated EN2025 results were inspected.",
+  "cohort": "Same previously scored 917 eligible PE targets; no replacements or relabeling.",
+  "label_or_score_based_rules": false,
+  "model_fitting": false,
+  "source": "https://github.com/kevoreilly/CAPEv2/blob/master/modules/processing/behavior.py",
+  "adapter_sha256": "c0dbe37a6dfe5628ac3e99ce6cb00d849f0041a1e4c322b48d0ecc89a767c77c",
+  "rules": "Typed enhanced events to matching summary operations; nested static strings to root strings; one layer of path-separator escaping removed. Unknown events remain unsupported.",
+  "scope": "Paired input-schema sensitivity, not a new prospective validation or verified official-vector fidelity test."
+}

@@ -1,0 +1,12 @@
+{
+  "source": "https://github.com/rissgrouphub/ransomwaredataset2016",
+  "source_arxiv": "1609.03020",
+  "checksums": {
+    "elderan_data.txt": "494261309fe95215f33a793c388c9848ec6e51ed36abe0c4fe1eff272c27cdb9",
+    "elderan_names.txt": "c7fe0051a38907d8529c12fae52d320c7d5da1a967b538d46daf57734b2623cd",
+    "elderan_ids.txt": "448cd0baa6d2e7488a6996571e376d7089b1b0731e3a7e62865aa42133239fa7"
+  },
+  "within_collection": "lowest source ID per executable MD5 kept before split; seed42 StratifiedGroupKFold5 fold0 test; identical full feature vectors grouped; train-only MI2000 + RF100 RFE483; original X-ERD architecture",
+  "transfer": "train official MLRan training IDs on exact name-matched API indicators; evaluate independent EldeRan records after MD5 overlap removal; no target tuning",
+  "limitations": "external historical WindowsXP corpus; within-collection refit and direct transfer reported separately; API transfer uses restricted common representation, not frozen483 model"
+}

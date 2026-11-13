@@ -1,0 +1,50 @@
+{
+  "model": "original RF+LGB primary pair",
+  "features": [
+    "STRING:createencryptor",
+    "STRING:cryptdecrypt",
+    "STRING:cryptencrypt",
+    "STRING:cryptstringtobinarya",
+    "SYSTEM:DLL_LOADED:crypt32.dll"
+  ],
+  "definition": "Predeclared lexical encryption/decryption/cryptographic-library indicators. Ordinary NtWriteFile and generic file operations are excluded because they do not establish mass modification or encryption.",
+  "ransomware_detected_n": 455,
+  "detected_with_active_proxy_n": 19,
+  "detected_with_active_proxy_fraction": 0.041758241758241756,
+  "positive_active_logit_mass_mean": 0.00020337848340308142,
+  "positive_active_logit_mass_median": 0.0,
+  "detections_lost_when_proxy_zeroed": 0,
+  "original_metrics": {
+    "tn": 495,
+    "fp": 15,
+    "fn": 10,
+    "tp": 455,
+    "accuracy": 0.9743589743589743,
+    "precision": 0.9680851063829787,
+    "recall": 0.978494623655914,
+    "fpr": 0.029411764705882353,
+    "f1": 0.9732620320855615,
+    "auc": 0.9961838498840396,
+    "brier": 0.02180889859167004,
+    "ece": 0.006865307058558108,
+    "theta": 0.5,
+    "n": 975
+  },
+  "masked_metrics": {
+    "tn": 495,
+    "fp": 15,
+    "fn": 10,
+    "tp": 455,
+    "accuracy": 0.9743589743589743,
+    "precision": 0.9680851063829787,
+    "recall": 0.978494623655914,
+    "fpr": 0.029411764705882353,
+    "f1": 0.9732620320855615,
+    "auc": 0.9961627661817416,
+    "brier": 0.021808960091888874,
+    "ece": 0.006861725748119597,
+    "theta": 0.5,
+    "n": 975
+  },
+  "scope": "Full-run indicator reliance and feature-space masking only. Strings and library presence are untimed. No feature is asserted to be post-encryption; these numbers do not bound true pre-encryption efficacy. Custom encryption can avoid these tokens."
+}

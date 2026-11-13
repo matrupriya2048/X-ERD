@@ -1,0 +1,22 @@
+{
+  "operation": "three base predictions plus four prefit logistic heads",
+  "repetitions": 30,
+  "warmup": 3,
+  "processor": "",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.36",
+  "batches": [
+    {
+      "batch_n": 1,
+      "median_batch_ms": 38.047937500010676,
+      "p95_batch_ms": 39.866115600000285,
+      "median_per_record_ms": 38.047937500010676
+    },
+    {
+      "batch_n": 975,
+      "median_batch_ms": 51.42421350001314,
+      "p95_batch_ms": 52.82731820000777,
+      "median_per_record_ms": 0.05274278307693655
+    }
+  ],
+  "scope": "container computational inference only, excludes sandbox execution, report parsing, SHAP and encryption timing; not a prevention deadline"
+}

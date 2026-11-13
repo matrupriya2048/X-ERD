@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "data/external_sources/elderan_names.txt",
+      "url": "https://raw.githubusercontent.com/rissgrouphub/ransomwaredataset2016/main/VariableNames.txt",
+      "sha256": "c7fe0051a38907d8529c12fae52d320c7d5da1a967b538d46daf57734b2623cd",
+      "bytes": 2142213
+    },
+    {
+      "path": "data/external_sources/elderan_ids.txt",
+      "url": "https://raw.githubusercontent.com/rissgrouphub/ransomwaredataset2016/main/IDS.txt",
+      "sha256": "448cd0baa6d2e7488a6996571e376d7089b1b0731e3a7e62865aa42133239fa7",
+      "bytes": 128097
+    },
+    {
+      "path": "data/external_sources/elderan_data.txt",
+      "url": "https://raw.githubusercontent.com/rissgrouphub/ransomwaredataset2016/main/RansomwareData.zip",
+      "sha256": "494261309fe95215f33a793c388c9848ec6e51ed36abe0c4fe1eff272c27cdb9",
+      "bytes": 510371
+    },
+    {
+      "path": "data/external_sources/attack_stix.json",
+      "url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/a8db2f52eb933c9c99060c123e088b3326d3a607/enterprise-attack/enterprise-attack.json",
+      "sha256": "539a843a7b53ed9749740b2123dddae3726b1a4831841c32aca740b011b910b5",
+      "bytes": 55277605
+    }
+  ]
+}

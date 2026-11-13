@@ -1,0 +1,9 @@
+{
+  "model_sha256": "5c57dddeeb026ace222b7dc2f58a98b1fd66b1c43bd65113b4aa2f8fd9859dd8",
+  "completed": [
+    "deletion",
+    "targeted feature-space masking",
+    "attribution-weighted mapping coverage"
+  ],
+  "scope": "Recomputed for the adapted model; sensitivities are not executable-space attacks or causal proof. Mapper rules unchanged; no independent human or execution-level accuracy labels added."
+}

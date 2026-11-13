@@ -1,0 +1,175 @@
+{
+  "rows": [
+    {
+      "comparator": "Original full",
+      "endpoint": "FPR",
+      "n": 868,
+      "new_minus_comparator": -0.08640552995391704,
+      "paired_bootstrap_ci95": [
+        -0.10829493087557604,
+        -0.06566820276497695
+      ],
+      "discordant_old_only_new_only": [
+        88,
+        13
+      ],
+      "exact_p": 7.52058652903178e-15,
+      "holm_p": 7.52058652903178e-15
+    },
+    {
+      "comparator": "Original full",
+      "endpoint": "Recall",
+      "n": 30,
+      "new_minus_comparator": 0.033333333333333326,
+      "paired_bootstrap_ci95": [
+        0.0,
+        0.10000000000000009
+      ],
+      "discordant_old_only_new_only": [
+        0,
+        1
+      ],
+      "exact_p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "comparator": "MLRan-LR",
+      "endpoint": "FPR",
+      "n": 868,
+      "new_minus_comparator": -0.20161290322580647,
+      "paired_bootstrap_ci95": [
+        -0.2327188940092166,
+        -0.1716589861751152
+      ],
+      "discordant_old_only_new_only": [
+        199,
+        24
+      ],
+      "exact_p": 1.7204597686967114e-35,
+      "holm_p": 6.881839074786846e-35
+    },
+    {
+      "comparator": "MLRan-LR",
+      "endpoint": "Recall",
+      "n": 30,
+      "new_minus_comparator": 0.06666666666666676,
+      "paired_bootstrap_ci95": [
+        0.0,
+        0.16666666666666674
+      ],
+      "discordant_old_only_new_only": [
+        0,
+        2
+      ],
+      "exact_p": 0.5,
+      "holm_p": 1.0
+    },
+    {
+      "comparator": "EldeRan-adapted",
+      "endpoint": "FPR",
+      "n": 868,
+      "new_minus_comparator": -0.19354838709677422,
+      "paired_bootstrap_ci95": [
+        -0.22350230414746544,
+        -0.16359447004608293
+      ],
+      "discordant_old_only_new_only": [
+        194,
+        26
+      ],
+      "exact_p": 5.8291826435429004e-33,
+      "holm_p": 1.74875479306287e-32
+    },
+    {
+      "comparator": "EldeRan-adapted",
+      "endpoint": "Recall",
+      "n": 30,
+      "new_minus_comparator": 0.13333333333333341,
+      "paired_bootstrap_ci95": [
+        0.033333333333333326,
+        0.2666666666666667
+      ],
+      "discordant_old_only_new_only": [
+        0,
+        4
+      ],
+      "exact_p": 0.125,
+      "holm_p": 0.625
+    },
+    {
+      "comparator": "RANSEC-stack-adapted",
+      "endpoint": "FPR",
+      "n": 868,
+      "new_minus_comparator": -0.1566820276497696,
+      "paired_bootstrap_ci95": [
+        -0.18778801843317972,
+        -0.12672811059907835
+      ],
+      "discordant_old_only_new_only": [
+        166,
+        30
+      ],
+      "exact_p": 5.1540094687477794e-24,
+      "holm_p": 1.0308018937495559e-23
+    },
+    {
+      "comparator": "RANSEC-stack-adapted",
+      "endpoint": "Recall",
+      "n": 30,
+      "new_minus_comparator": 0.06666666666666676,
+      "paired_bootstrap_ci95": [
+        0.0,
+        0.16666666666666674
+      ],
+      "discordant_old_only_new_only": [
+        0,
+        2
+      ],
+      "exact_p": 0.5,
+      "holm_p": 1.0
+    },
+    {
+      "comparator": "RANSEC-vote-adapted",
+      "endpoint": "FPR",
+      "n": 868,
+      "new_minus_comparator": -0.2085253456221198,
+      "paired_bootstrap_ci95": [
+        -0.23847926267281105,
+        -0.17857142857142855
+      ],
+      "discordant_old_only_new_only": [
+        196,
+        15
+      ],
+      "exact_p": 2.2099340585973006e-41,
+      "holm_p": 1.1049670292986504e-40
+    },
+    {
+      "comparator": "RANSEC-vote-adapted",
+      "endpoint": "Recall",
+      "n": 30,
+      "new_minus_comparator": 0.033333333333333326,
+      "paired_bootstrap_ci95": [
+        0.0,
+        0.10000000000000009
+      ],
+      "discordant_old_only_new_only": [
+        0,
+        1
+      ],
+      "exact_p": 1.0,
+      "holm_p": 1.0
+    }
+  ],
+  "target_ransomware_family_counts": {
+    "6": 10,
+    "2": 6,
+    "3": 3,
+    "5": 3,
+    "9": 2,
+    "7": 2,
+    "11": 2,
+    "1": 2
+  },
+  "scope": "Exploratory post-hoc paired comparisons on reused external records; five comparisons per endpoint family,Holm correction. Binary-distinct records can still share application or collection dependencies. Recall n30 is limited."
+}

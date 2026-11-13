@@ -1,0 +1,56 @@
+{
+  "model_sha256": "b8ac158aac500f0f64fbb2d815958cf4d4dc0083eb14b6d6b1e2d6979671cccf",
+  "n": 975,
+  "metrics": {
+    "RF": {
+      "tn": 493,
+      "fp": 17,
+      "fn": 9,
+      "tp": 456,
+      "accuracy": 0.9733333333333334,
+      "precision": 0.9640591966173362,
+      "recall": 0.9806451612903225,
+      "fpr": 0.03333333333333333,
+      "f1": 0.9722814498933902,
+      "auc": 0.9954353784524561,
+      "brier": 0.02424276923076923,
+      "ece": 0.0333846153846154,
+      "theta": 0.5,
+      "n": 975
+    },
+    "LGB": {
+      "tn": 500,
+      "fp": 10,
+      "fn": 6,
+      "tp": 459,
+      "accuracy": 0.9835897435897436,
+      "precision": 0.9786780383795309,
+      "recall": 0.9870967741935484,
+      "fpr": 0.0196078431372549,
+      "f1": 0.9828693790149893,
+      "auc": 0.9981509593084545,
+      "brier": 0.013774551169558814,
+      "ece": 0.009719750483730916,
+      "theta": 0.5,
+      "n": 975
+    },
+    "Final pair": {
+      "tn": 501,
+      "fp": 9,
+      "fn": 6,
+      "tp": 459,
+      "accuracy": 0.9846153846153847,
+      "precision": 0.9807692307692307,
+      "recall": 0.9870967741935484,
+      "fpr": 0.01764705882352941,
+      "f1": 0.9839228295819936,
+      "auc": 0.997718743411343,
+      "brier": 0.013912637843526168,
+      "ece": 0.012698544027532989,
+      "theta": 0.5,
+      "n": 975
+    }
+  },
+  "scope": "Reused official regression test, not deployment calibration or an additional independent validation. EN benign-only cohorts cannot establish full class-prevalence calibration.",
+  "script_sha256": "d7997acdda0aae2be3b02b22d97c238541d8911225617ab0dd8d58dd29eae052"
+}

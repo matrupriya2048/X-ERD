@@ -1,0 +1,13 @@
+raw/
+data_en2025/
+tmp/
+__pycache__/
+multicollection_reproduction/
+*.joblib
+*.zip
+*.aux
+*.bbl
+*.blg
+*.out
+*.log
+*.compile*.txt

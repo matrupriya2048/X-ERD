@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "selected_reports_accounted": 918,
+  "eligible_unique_pe_targets": 917,
+  "published_archive_md5_verified": true,
+  "model_replays": 3,
+  "label_source": "publisher benign folder, not newly human-adjudicated",
+  "recorded_malstatus_counts": {
+    "Suspicious": 270,
+    "Clean": 597,
+    "Malicious": 50
+  },
+  "source_hashes": {
+    "evaluate_en2025.py": "cc3ccb63efd2418d210143fd936a499e41c5153c39012b8c253ef78a91602743",
+    "verify_en2025.py": "95ede7ff54f76677c9eab44e43aa0cf60bac5ea10f9fe2d63eb8f22d57ce52b0"
+  }
+}

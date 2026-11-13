@@ -1,0 +1,137 @@
+[
+  {
+    "rule": "SIGNATURE:persistence_autorun",
+    "technique_id": "T1547.001",
+    "technique_current": true,
+    "source_title": "Registry Run Keys / Startup Folder",
+    "source_url": "https://attack.mitre.org/techniques/T1547/001",
+    "claim": "candidate behavior only; benign use and missing context preclude malicious-technique confirmation",
+    "review_type": "AI-assisted source check; not independent human adjudication"
+  },
+  {
+    "rule": "SIGNATURE:allocates_execute_remote_process",
+    "technique_id": "T1055",
+    "technique_current": true,
+    "source_title": "Process Injection",
+    "source_url": "https://attack.mitre.org/techniques/T1055",
+    "claim": "candidate behavior only; benign use and missing context preclude malicious-technique confirmation",
+    "review_type": "AI-assisted source check; not independent human adjudication"
+  },
+  {
+    "rule": "SIGNATURE:allocates_rwx",
+    "technique_id": null,
+    "technique_current": false,
+    "source_title": null,
+    "source_url": null,
+    "claim": "candidate behavior only; benign use and missing context preclude malicious-technique confirmation",
+    "review_type": "AI-assisted source check; not independent human adjudication"
+  },
+  {
+    "rule": "API:NtSetContextThread",
+    "technique_id": "T1055",
+    "technique_current": true,
+    "source_title": "Process Injection",
+    "source_url": "https://attack.mitre.org/techniques/T1055",
+    "claim": "candidate behavior only; benign use and missing context preclude malicious-technique confirmation",
+    "review_type": "AI-assisted source check; not independent human adjudication"
+  },
+  {
+    "rule": "API:CreateRemoteThread",
+    "technique_id": "T1055",
+    "technique_current": true,
+    "source_title": "Process Injection",
+    "source_url": "https://attack.mitre.org/techniques/T1055",
+    "claim": "candidate behavior only; benign use and missing context preclude malicious-technique confirmation",
+    "review_type": "AI-assisted source check; not independent human adjudication"
+  },
+  {
+    "rule": "API:LdrGetProcedureAddress",
+    "technique_id": "T1106",
+    "technique_current": true,
+    "source_title": "Native API",
+    "source_url": "https://attack.mitre.org/techniques/T1106",
+    "claim": "candidate behavior only; benign use and missing context preclude malicious-technique confirmation",
+    "review_type": "AI-assisted source check; not independent human adjudication"
+  },
+  {
+    "rule": "SIGNATURE:antivm_queries_computername",
+    "technique_id": "T1497.001",
+    "technique_current": true,
+    "source_title": "System Checks",
+    "source_url": "https://attack.mitre.org/techniques/T1497/001",
+    "claim": "candidate behavior only; benign use and missing context preclude malicious-technique confirmation",
+    "review_type": "AI-assisted source check; not independent human adjudication"
+  },
+  {
+    "rule": "SIGNATURE:checks_debugger",
+    "technique_id": "T1622",
+    "technique_current": true,
+    "source_title": "Debugger Evasion",
+    "source_url": "https://attack.mitre.org/techniques/T1622",
+    "claim": "candidate behavior only; benign use and missing context preclude malicious-technique confirmation",
+    "review_type": "AI-assisted source check; not independent human adjudication"
+  },
+  {
+    "rule": "SIGNATURE:recon_fingerprint",
+    "technique_id": "T1082",
+    "technique_current": true,
+    "source_title": "System Information Discovery",
+    "source_url": "https://attack.mitre.org/techniques/T1082",
+    "claim": "candidate behavior only; benign use and missing context preclude malicious-technique confirmation",
+    "review_type": "AI-assisted source check; not independent human adjudication"
+  },
+  {
+    "rule": "REG:READ:",
+    "technique_id": "T1012",
+    "technique_current": true,
+    "source_title": "Query Registry",
+    "source_url": "https://attack.mitre.org/techniques/T1012",
+    "claim": "candidate behavior only; benign use and missing context preclude malicious-technique confirmation",
+    "review_type": "AI-assisted source check; not independent human adjudication"
+  },
+  {
+    "rule": "REG:OPENED:",
+    "technique_id": "T1012",
+    "technique_current": true,
+    "source_title": "Query Registry",
+    "source_url": "https://attack.mitre.org/techniques/T1012",
+    "claim": "candidate behavior only; benign use and missing context preclude malicious-technique confirmation",
+    "review_type": "AI-assisted source check; not independent human adjudication"
+  },
+  {
+    "rule": "REG:WRITTEN:",
+    "technique_id": "T1112",
+    "technique_current": true,
+    "source_title": "Modify Registry",
+    "source_url": "https://attack.mitre.org/techniques/T1112",
+    "claim": "candidate behavior only; benign use and missing context preclude malicious-technique confirmation",
+    "review_type": "AI-assisted source check; not independent human adjudication"
+  },
+  {
+    "rule": "REG:DELETED:",
+    "technique_id": "T1112",
+    "technique_current": true,
+    "source_title": "Modify Registry",
+    "source_url": "https://attack.mitre.org/techniques/T1112",
+    "claim": "candidate behavior only; benign use and missing context preclude malicious-technique confirmation",
+    "review_type": "AI-assisted source check; not independent human adjudication"
+  },
+  {
+    "rule": "API:Nt",
+    "technique_id": "T1106",
+    "technique_current": true,
+    "source_title": "Native API",
+    "source_url": "https://attack.mitre.org/techniques/T1106",
+    "claim": "candidate behavior only; benign use and missing context preclude malicious-technique confirmation",
+    "review_type": "AI-assisted source check; not independent human adjudication"
+  },
+  {
+    "rule": "API:Ldr",
+    "technique_id": "T1106",
+    "technique_current": true,
+    "source_title": "Native API",
+    "source_url": "https://attack.mitre.org/techniques/T1106",
+    "claim": "candidate behavior only; benign use and missing context preclude malicious-technique confirmation",
+    "review_type": "AI-assisted source check; not independent human adjudication"
+  }
+]

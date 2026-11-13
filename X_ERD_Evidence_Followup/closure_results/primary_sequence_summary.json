@@ -1,0 +1,9 @@
+{
+  "n": 80,
+  "fp": 11,
+  "tp": 58,
+  "fn": 2,
+  "tn": 9,
+  "accuracy": 0.8375,
+  "source_sha256": "090b5de9ae1183aae4c9f98eb3e172b82595211f0db3f3edfe2b7d11ffd4e6ff"
+}

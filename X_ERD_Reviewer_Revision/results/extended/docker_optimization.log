@@ -1,0 +1,11 @@
+START optimization
+Training-only search original
+Training-only search more_trees
+Training-only search shallow_boosting
+Training-only search regularized
+Training-only search row_column_sampling
+Training-only search conservative
+Training-only search light_regularization
+Training-only search strong_random_forest
+Selected row_column_sampling 0.1 test {'tn': 492, 'fp': 18, 'fn': 8, 'tp': 457, 'accuracy': 0.9733333333333334, 'precision': 0.9621052631578947, 'recall': 0.9827956989247312, 'fpr': 0.03529411764705882, 'f1': 0.9723404255319149, 'auc': 0.99651697238035, 'brier': 0.02114423900523969, 'ece': 0.012052630409894273, 'theta': 0.5, 'n': 975}
+DONE optimization 706.5

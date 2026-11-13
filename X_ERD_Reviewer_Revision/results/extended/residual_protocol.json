@@ -1,0 +1,38 @@
+{
+  "source_sha256": "36cbcd20106b02327d189f47c1626aa6f3e130eb5b3bc81818d01a414736665d",
+  "base_configurations": {
+    "original": {},
+    "row_column_sampling": {
+      "RF": {
+        "n_estimators": 300,
+        "max_features": 0.3
+      },
+      "XGB": {
+        "n_estimators": 300,
+        "learning_rate": 0.05,
+        "max_depth": 4,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8
+      },
+      "LGB": {
+        "n_estimators": 300,
+        "learning_rate": 0.05,
+        "num_leaves": 15,
+        "colsample_bytree": 0.8,
+        "subsample": 0.8,
+        "subsample_freq": 1
+      }
+    }
+  },
+  "meta_C": [
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "head_input": "three nested OOF base probabilities followed by original483 binary features; no output feature scaling",
+  "selection": "maximize pooled outer-OOF accuracy among recall>=0.97; ties lower FPR then declared order. If none feasible maximize recall then accuracy.",
+  "folds": "five MD5-grouped outer folds,seed42; fresh five MD5-grouped inner OOF folds per outer fit",
+  "scope": "Exploratory follow-up after original benchmark and fixed-architecture search. The official test is reused, not a fresh blind trial. Passthrough is established,not claimed as a novel classifier.",
+  "controls": "standalone logistic C grid on identical training folds; pairwise passthrough heads reported at selected C; source feature selection held fixed"
+}

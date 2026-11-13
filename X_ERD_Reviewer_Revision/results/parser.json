@@ -1,0 +1,474 @@
+{
+  "sample_ids": [
+    10002,
+    10003,
+    10005,
+    10007,
+    10008,
+    10011,
+    10012,
+    10013,
+    10014,
+    10015,
+    10016,
+    10017,
+    10021,
+    10022,
+    10025,
+    10026,
+    10027,
+    10028,
+    10029,
+    10030
+  ],
+  "evaluation_reports_excluded_from_training": true,
+  "training_n": 3885,
+  "benign_n": 0,
+  "ransomware_n": 20,
+  "scope": "small available-report holdout; no population generalization or early-encryption claim; benign FPR unavailable if no negatives",
+  "models": [
+    {
+      "model": "RF",
+      "official": {
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp": 20,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "fpr": null,
+        "f1": 1.0,
+        "auc": null,
+        "brier": 0.0007850000000000004,
+        "ece": 0.01550000000000007,
+        "theta": 0.5,
+        "n": 20
+      },
+      "parsed": {
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp": 20,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "fpr": null,
+        "f1": 1.0,
+        "auc": null,
+        "brier": 0.0007850000000000004,
+        "ece": 0.01550000000000007,
+        "theta": 0.5,
+        "n": 20
+      },
+      "label_agreement": 1.0,
+      "probability_mae": 0.0
+    },
+    {
+      "model": "XGB",
+      "official": {
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp": 20,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "fpr": null,
+        "f1": 1.0,
+        "auc": null,
+        "brier": 2.9308104252834257e-06,
+        "ece": 0.000867956876754783,
+        "theta": 0.5,
+        "n": 20
+      },
+      "parsed": {
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp": 20,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "fpr": null,
+        "f1": 1.0,
+        "auc": null,
+        "brier": 2.9308104252834257e-06,
+        "ece": 0.000867956876754783,
+        "theta": 0.5,
+        "n": 20
+      },
+      "label_agreement": 1.0,
+      "probability_mae": 0.0
+    },
+    {
+      "model": "LGB",
+      "official": {
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp": 20,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "fpr": null,
+        "f1": 1.0,
+        "auc": null,
+        "brier": 7.498752750346625e-07,
+        "ece": 0.0003106982909611977,
+        "theta": 0.5,
+        "n": 20
+      },
+      "parsed": {
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp": 20,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "fpr": null,
+        "f1": 1.0,
+        "auc": null,
+        "brier": 7.498752750346625e-07,
+        "ece": 0.0003106982909611977,
+        "theta": 0.5,
+        "n": 20
+      },
+      "label_agreement": 1.0,
+      "probability_mae": 0.0
+    },
+    {
+      "model": "RF+XGB",
+      "official": {
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp": 20,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "fpr": null,
+        "f1": 1.0,
+        "auc": null,
+        "brier": 0.0002390189715193079,
+        "ece": 0.01521445111525721,
+        "theta": 0.5,
+        "n": 20
+      },
+      "parsed": {
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp": 20,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "fpr": null,
+        "f1": 1.0,
+        "auc": null,
+        "brier": 0.0002390189715193079,
+        "ece": 0.01521445111525721,
+        "theta": 0.5,
+        "n": 20
+      },
+      "label_agreement": 1.0,
+      "probability_mae": 0.0
+    },
+    {
+      "model": "RF+LGB",
+      "official": {
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp": 20,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "fpr": null,
+        "f1": 1.0,
+        "auc": null,
+        "brier": 0.0002678292357476983,
+        "ece": 0.016125264024341,
+        "theta": 0.5,
+        "n": 20
+      },
+      "parsed": {
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp": 20,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "fpr": null,
+        "f1": 1.0,
+        "auc": null,
+        "brier": 0.0002678292357476983,
+        "ece": 0.016125264024341,
+        "theta": 0.5,
+        "n": 20
+      },
+      "label_agreement": 1.0,
+      "probability_mae": 0.0
+    },
+    {
+      "model": "XGB+LGB",
+      "official": {
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp": 20,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "fpr": null,
+        "f1": 1.0,
+        "auc": null,
+        "brier": 0.0005160730052077458,
+        "ece": 0.022716365338129818,
+        "theta": 0.5,
+        "n": 20
+      },
+      "parsed": {
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp": 20,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "fpr": null,
+        "f1": 1.0,
+        "auc": null,
+        "brier": 0.0005160730052077458,
+        "ece": 0.022716365338129818,
+        "theta": 0.5,
+        "n": 20
+      },
+      "label_agreement": 1.0,
+      "probability_mae": 0.0
+    },
+    {
+      "model": "X-ERD",
+      "official": {
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp": 20,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "fpr": null,
+        "f1": 1.0,
+        "auc": null,
+        "brier": 0.0002481007744391454,
+        "ece": 0.015555339481657882,
+        "theta": 0.5,
+        "n": 20
+      },
+      "parsed": {
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp": 20,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "fpr": null,
+        "f1": 1.0,
+        "auc": null,
+        "brier": 0.0002481007744391454,
+        "ece": 0.015555339481657882,
+        "theta": 0.5,
+        "n": 20
+      },
+      "label_agreement": 1.0,
+      "probability_mae": 0.0
+    }
+  ],
+  "all_categories": {
+    "API": {
+      "tp": 317,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "DIRECTORY": {
+      "tp": 11,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "DROP": {
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "FILE": {
+      "tp": 13,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "REG": {
+      "tp": 127,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "SIGNATURE": {
+      "tp": 81,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "STRING": {
+      "tp": 368,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "SYSTEM": {
+      "tp": 75,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    }
+  },
+  "jaccard_per_sample": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "mean_jaccard": 1.0,
+  "attribution": "trained stack logit, common probability-scale base SHAP",
+  "stability": [
+    {
+      "sample_id": 10002,
+      "spearman": 1.0,
+      "top5_overlap_fraction": 1.0
+    },
+    {
+      "sample_id": 10003,
+      "spearman": 1.0,
+      "top5_overlap_fraction": 1.0
+    },
+    {
+      "sample_id": 10005,
+      "spearman": 1.0,
+      "top5_overlap_fraction": 1.0
+    },
+    {
+      "sample_id": 10007,
+      "spearman": 1.0,
+      "top5_overlap_fraction": 1.0
+    },
+    {
+      "sample_id": 10008,
+      "spearman": 1.0,
+      "top5_overlap_fraction": 1.0
+    },
+    {
+      "sample_id": 10011,
+      "spearman": 1.0,
+      "top5_overlap_fraction": 1.0
+    },
+    {
+      "sample_id": 10012,
+      "spearman": 1.0,
+      "top5_overlap_fraction": 1.0
+    },
+    {
+      "sample_id": 10013,
+      "spearman": 1.0,
+      "top5_overlap_fraction": 1.0
+    },
+    {
+      "sample_id": 10014,
+      "spearman": 1.0,
+      "top5_overlap_fraction": 1.0
+    },
+    {
+      "sample_id": 10015,
+      "spearman": 1.0,
+      "top5_overlap_fraction": 1.0
+    },
+    {
+      "sample_id": 10016,
+      "spearman": 0.9999999999999998,
+      "top5_overlap_fraction": 1.0
+    },
+    {
+      "sample_id": 10017,
+      "spearman": 1.0,
+      "top5_overlap_fraction": 1.0
+    },
+    {
+      "sample_id": 10021,
+      "spearman": 1.0,
+      "top5_overlap_fraction": 1.0
+    },
+    {
+      "sample_id": 10022,
+      "spearman": 1.0,
+      "top5_overlap_fraction": 1.0
+    },
+    {
+      "sample_id": 10025,
+      "spearman": 1.0,
+      "top5_overlap_fraction": 1.0
+    },
+    {
+      "sample_id": 10026,
+      "spearman": 1.0,
+      "top5_overlap_fraction": 1.0
+    },
+    {
+      "sample_id": 10027,
+      "spearman": 1.0,
+      "top5_overlap_fraction": 1.0
+    },
+    {
+      "sample_id": 10028,
+      "spearman": 1.0,
+      "top5_overlap_fraction": 1.0
+    },
+    {
+      "sample_id": 10029,
+      "spearman": 1.0,
+      "top5_overlap_fraction": 1.0
+    },
+    {
+      "sample_id": 10030,
+      "spearman": 1.0,
+      "top5_overlap_fraction": 1.0
+    }
+  ]
+}

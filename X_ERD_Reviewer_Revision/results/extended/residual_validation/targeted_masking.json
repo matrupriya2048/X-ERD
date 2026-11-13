@@ -1,0 +1,103 @@
+{
+  "scope": "one-shot feature-space masking, no executable evasion or functionality validation",
+  "rows": [
+    {
+      "method": "LGB_surrogate",
+      "budget": 0,
+      "n": 465,
+      "detected": 455,
+      "recall": 0.978494623655914
+    },
+    {
+      "method": "LGB_surrogate",
+      "budget": 1,
+      "n": 465,
+      "detected": 446,
+      "recall": 0.9591397849462365
+    },
+    {
+      "method": "LGB_surrogate",
+      "budget": 3,
+      "n": 465,
+      "detected": 396,
+      "recall": 0.8516129032258064
+    },
+    {
+      "method": "LGB_surrogate",
+      "budget": 5,
+      "n": 465,
+      "detected": 365,
+      "recall": 0.7849462365591398
+    },
+    {
+      "method": "LGB_surrogate",
+      "budget": 10,
+      "n": 465,
+      "detected": 217,
+      "recall": 0.4666666666666667
+    },
+    {
+      "method": "LGB_surrogate",
+      "budget": 20,
+      "n": 465,
+      "detected": 41,
+      "recall": 0.08817204301075268
+    },
+    {
+      "method": "LGB_surrogate",
+      "budget": 40,
+      "n": 465,
+      "detected": 0,
+      "recall": 0.0
+    },
+    {
+      "method": "trained_stack_logit",
+      "budget": 0,
+      "n": 465,
+      "detected": 455,
+      "recall": 0.978494623655914
+    },
+    {
+      "method": "trained_stack_logit",
+      "budget": 1,
+      "n": 465,
+      "detected": 446,
+      "recall": 0.9591397849462365
+    },
+    {
+      "method": "trained_stack_logit",
+      "budget": 3,
+      "n": 465,
+      "detected": 402,
+      "recall": 0.864516129032258
+    },
+    {
+      "method": "trained_stack_logit",
+      "budget": 5,
+      "n": 465,
+      "detected": 379,
+      "recall": 0.8150537634408602
+    },
+    {
+      "method": "trained_stack_logit",
+      "budget": 10,
+      "n": 465,
+      "detected": 250,
+      "recall": 0.5376344086021505
+    },
+    {
+      "method": "trained_stack_logit",
+      "budget": 20,
+      "n": 465,
+      "detected": 48,
+      "recall": 0.1032258064516129
+    },
+    {
+      "method": "trained_stack_logit",
+      "budget": 40,
+      "n": 465,
+      "detected": 0,
+      "recall": 0.0
+    }
+  ]
+}

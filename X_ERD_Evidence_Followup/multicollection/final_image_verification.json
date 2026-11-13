@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "image": "xerd-primary-pair:0.4.2",
+  "source_sha256": {
+    "primary_pair.py": "0329f3f7a26b8b1e63ec7591c5542302da4c888bb4ddf7fec2c4c92099e80218",
+    "cape_adapter.py": "c0dbe37a6dfe5628ac3e99ce6cb00d849f0041a1e4c322b48d0ecc89a767c77c",
+    "test_primary_pair.py": "1a22e17a110e394cf008190d343f276aaeb5e904c7fbf834e97ee59e5da752f2",
+    "test_cape_adapter.py": "f70992656407d665d102bf984140cba2cde2f5e4d9300f2eab5f72f5cfddac95"
+  },
+  "raw_report_cli_matches_saved_holdout_probability": true,
+  "unit_tests_passed": 19
+}

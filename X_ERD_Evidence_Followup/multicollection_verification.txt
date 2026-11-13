@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "source_train_n": 3905,
+  "prior_external_development_n": 182,
+  "en_development_n": 634,
+  "en_holdout_n": 283,
+  "en_train_test_exact_vector_overlap": 0,
+  "en_holdout_vector_matches_to_any_fit_row": 0,
+  "source_groups_crossing_inner_folds": 0,
+  "holdout_in_oof": false,
+  "model_replayed_on_cohorts": [
+    "en_retrospective_holdout",
+    "official_reused_regression",
+    "prior_nunes_holdout",
+    "prior_zirari_ransomware"
+  ],
+  "same_holdout_old_models": {
+    "primary_RF+LGB": 283,
+    "original_three": 283,
+    "adapted_three": 142
+  },
+  "publisher_status_sensitivity": {
+    "Clean": {
+      "n": 172,
+      "alerts": 1
+    },
+    "Malicious": {
+      "n": 15,
+      "alerts": 0
+    },
+    "Suspicious": {
+      "n": 96,
+      "alerts": 0
+    }
+  },
+  "sha256": "b8ac158aac500f0f64fbb2d815958cf4d4dc0083eb14b6d6b1e2d6979671cccf",
+  "scope": "Retrospective adaptation holdout and reused external/source checks; no prospectively untouched collection or independent class adjudication.",
+  "fresh_retraining_identical_model_sha256": true
+}

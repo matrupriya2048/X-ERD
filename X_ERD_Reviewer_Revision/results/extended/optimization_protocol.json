@@ -1,0 +1,156 @@
+{
+  "scope": "Additional exploratory optimization; original architecture and all original results preserved",
+  "source_sha256": "fd35e8ba408722b2ca2d5f83c1b169a281dddde01e765d3074094cc2d7d1a93e",
+  "candidates": {
+    "original": {},
+    "more_trees": {
+      "RF": {
+        "n_estimators": 400
+      },
+      "XGB": {
+        "n_estimators": 300,
+        "learning_rate": 0.05
+      },
+      "LGB": {
+        "n_estimators": 300,
+        "learning_rate": 0.05
+      }
+    },
+    "shallow_boosting": {
+      "RF": {
+        "n_estimators": 300
+      },
+      "XGB": {
+        "n_estimators": 300,
+        "learning_rate": 0.05,
+        "max_depth": 3
+      },
+      "LGB": {
+        "n_estimators": 300,
+        "learning_rate": 0.05,
+        "num_leaves": 15
+      }
+    },
+    "regularized": {
+      "RF": {
+        "n_estimators": 300,
+        "min_samples_leaf": 2
+      },
+      "XGB": {
+        "n_estimators": 300,
+        "learning_rate": 0.05,
+        "max_depth": 4,
+        "reg_lambda": 5,
+        "min_child_weight": 3
+      },
+      "LGB": {
+        "n_estimators": 300,
+        "learning_rate": 0.05,
+        "num_leaves": 15,
+        "min_child_samples": 30,
+        "reg_lambda": 5
+      }
+    },
+    "row_column_sampling": {
+      "RF": {
+        "n_estimators": 300,
+        "max_features": 0.3
+      },
+      "XGB": {
+        "n_estimators": 300,
+        "learning_rate": 0.05,
+        "max_depth": 4,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8
+      },
+      "LGB": {
+        "n_estimators": 300,
+        "learning_rate": 0.05,
+        "num_leaves": 15,
+        "colsample_bytree": 0.8,
+        "subsample": 0.8,
+        "subsample_freq": 1
+      }
+    },
+    "conservative": {
+      "RF": {
+        "n_estimators": 300,
+        "max_depth": 16,
+        "min_samples_leaf": 2
+      },
+      "XGB": {
+        "n_estimators": 200,
+        "learning_rate": 0.05,
+        "max_depth": 3,
+        "reg_lambda": 10
+      },
+      "LGB": {
+        "n_estimators": 200,
+        "learning_rate": 0.05,
+        "num_leaves": 7,
+        "reg_lambda": 10
+      }
+    },
+    "light_regularization": {
+      "RF": {
+        "n_estimators": 300
+      },
+      "XGB": {
+        "n_estimators": 200,
+        "learning_rate": 0.1,
+        "max_depth": 4,
+        "reg_lambda": 2
+      },
+      "LGB": {
+        "n_estimators": 200,
+        "learning_rate": 0.05,
+        "num_leaves": 31,
+        "reg_lambda": 2
+      }
+    },
+    "strong_random_forest": {
+      "RF": {
+        "n_estimators": 500,
+        "max_features": 0.3
+      },
+      "XGB": {
+        "n_estimators": 200,
+        "learning_rate": 0.1,
+        "max_depth": 6
+      },
+      "LGB": {
+        "n_estimators": 200,
+        "learning_rate": 0.05,
+        "num_leaves": 31
+      }
+    }
+  },
+  "meta_C": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "selection": "maximize pooled training outer-OOF accuracy among recall>=0.97; ties lower FPR then lower candidate index/C index; if none feasible maximize recall then accuracy",
+  "validation": "five shuffled stratified GROUP outer folds seed42; groups are executable MD5; each outer-training fit uses fresh five-fold GROUP inner OOF predictions; fixed threshold0.5",
+  "feature_scope": "official483 training-selected representation held fixed; outer CV conditional on it, not nested upstream feature selection",
+  "test_scope": "official test previously reported in revision; not fresh prospective validation. No test scores participate in configuration selection",
+  "seed": 42,
+  "official_split": {
+    "train": {
+      "file": "MLRan_X_train_RFE.csv",
+      "sha256": "8bf6eb3978272127978fcc198f75050c9d3a1adc9955c9bb0dd0f6d9928e5284"
+    },
+    "test": {
+      "file": "MLRan_X_test_RFE.csv",
+      "sha256": "b10ed700de1243702b1162f805ef452c52e8719b39f7a751bb1f24df2f9c5b11"
+    },
+    "names": {
+      "file": "RFE_selected_feature_names_dic.json",
+      "sha256": "83af2d591b6935254574a027d29c304cd1e18113108cfd68cc09a336e8793d10"
+    },
+    "metadata": {
+      "file": "mlran_dataset_metadata.csv",
+      "sha256": "1cdb3180446d20dd0cc7fb24ae973fed281a37eb020b2191ff7566230035d3de"
+    }
+  }
+}

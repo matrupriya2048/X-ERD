@@ -1,0 +1,17 @@
+{
+  "source": "https://data.mendeley.com/datasets/yh9p6vs53y/1",
+  "source_doi": "10.17632/yh9p6vs53y.1",
+  "source_units": "80 publisher-recorded event logs, not 80 complete Cuckoo reports",
+  "sample_unit": "one original file; exact first512 sequences grouped across folds",
+  "protocol": "5 stratified group folds seed42; seeds0,1,2 for neural fits; inner stratified group4-fold first fold for validation; select epoch count then refit all outer training records; vocabulary built only from fitting subset; no test selection",
+  "models": "2-layer LSTM64 and 2-layer CNN64 with embedding32; Adam0.001 weight_decay0.0001 batch16 max60 epochs patience8; BCE; gradient clip1; CPU deterministic PyTorch",
+  "matched_tree": "original three tree learners and pair/full OOF stacks on binary API presence from exactly the same first512 calls; train-only vocabulary",
+  "sequence_windows": [
+    32,
+    128,
+    512
+  ],
+  "prefix_scope": "call-count sensitivity of same trained model; not pre-encryption latency; no encryption-onset labels",
+  "data_limits": "20 benign traces and60 ransomware traces across4 families; no executable hashes in source release, so binary overlap or repeated executable identities cannot be ruled out; estimates exploratory",
+  "frozen_transfer": "separate API-only original MLRan architecture fit on63 selected APIs, frozen theta0.5; only API events provided, so no full483 feature zero-filling"
+}

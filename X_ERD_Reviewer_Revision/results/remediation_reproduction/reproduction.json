@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "scope": "Replay of published frozen protocol; not a newly independent prospective study",
+  "reference_model_sha256": "5c57dddeeb026ace222b7dc2f58a98b1fd66b1c43bd65113b4aa2f8fd9859dd8",
+  "verified_predictions": [
+    "training_oof_predictions",
+    "official_test_predictions",
+    "holdout_predictions"
+  ]
+}

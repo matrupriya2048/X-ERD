@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Cite this software version when reproducing the corrected X-ERD experiments. A public archive DOI has not yet been assigned."
+type: software
+title: "X-ERD: reproducible reviewer revision"
+version: 0.3.0
+license: MIT
+authors:
+  - family-names: Panda
+    given-names: Matrupriya Dibyanshu
+  - family-names: Shankar
+    given-names: Ravi
+  - family-names: Panda
+    given-names: Sri Aurobindo
+abstract: "Original tree stacking architecture with corrected inference, exact logit attribution, published-method adaptations, real API-sequence comparisons, external collection transfer, raw benign controls and reference concordance. Independent human adjudication and encryption-onset ground truth are not supplied."

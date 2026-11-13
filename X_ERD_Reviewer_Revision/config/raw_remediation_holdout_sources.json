@@ -1,0 +1,2807 @@
+{
+  "source": "https://zenodo.org/records/1203289",
+  "protocol_sha256": "9c8e3874d31527c0e7356333450aea8d4861d26ec3d349b3f913b9ee8926e09a",
+  "files": [
+    {
+      "path": "data/remediation_holdout/CuckooClean/1/reports/report.json",
+      "archive_member": "CuckooClean/1/reports/report.json",
+      "sha256": "ca197239c7279988efda91bf7d3e990d520ad1b0fb0d755d1cea449896f4a18c",
+      "crc32": 2672877023,
+      "bytes": 1486098
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/10/reports/report.json",
+      "archive_member": "CuckooClean/10/reports/report.json",
+      "sha256": "1329b3451043f7521fec23504bd5d3e7008b05d0d4f65d4383da1c1b7deeea1e",
+      "crc32": 3096921002,
+      "bytes": 83484
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/102/reports/report.json",
+      "archive_member": "CuckooClean/102/reports/report.json",
+      "sha256": "ed1a97a9dafca26da52f9436f38dc014752bd1e0097344b6fbaa7db36c3c62b1",
+      "crc32": 1799202951,
+      "bytes": 146089
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/106/reports/report.json",
+      "archive_member": "CuckooClean/106/reports/report.json",
+      "sha256": "aacdfa363a0360702546be7f06edcf194a09b9889cc2ba841be86801038cb19b",
+      "crc32": 2411153262,
+      "bytes": 150093
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/107/reports/report.json",
+      "archive_member": "CuckooClean/107/reports/report.json",
+      "sha256": "5d9cf8c8f71e327906ead6b00215c5eef976a14a4a11ae25af40b649387a2c26",
+      "crc32": 2167650601,
+      "bytes": 35909
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/11/reports/report.json",
+      "archive_member": "CuckooClean/11/reports/report.json",
+      "sha256": "4b939a6f4043941177cb56f3e0f1e0a62602fc6860342702ae54e05d66a4340f",
+      "crc32": 1542908588,
+      "bytes": 111946
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/112/reports/report.json",
+      "archive_member": "CuckooClean/112/reports/report.json",
+      "sha256": "5b458b173a84f7a4972601b170fe899945ff5a8b2742598f69d2dd815a025886",
+      "crc32": 4007989528,
+      "bytes": 820115
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/113/reports/report.json",
+      "archive_member": "CuckooClean/113/reports/report.json",
+      "sha256": "c6cf74716e1ea52f30477e641f763c2eedb60f37803dcce36e5213df28b47024",
+      "crc32": 1441618469,
+      "bytes": 312060
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/114/reports/report.json",
+      "archive_member": "CuckooClean/114/reports/report.json",
+      "sha256": "574ef17bbe7f78863057445c2af7ee1de262fc9ddc4dfa324ac5d3604ac41ba1",
+      "crc32": 2508125412,
+      "bytes": 92414
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/115/reports/report.json",
+      "archive_member": "CuckooClean/115/reports/report.json",
+      "sha256": "93af9e1d61bdaa7c2eab874f4ddeead4ce8ed2ba50e619949495f49388ccb0e2",
+      "crc32": 3908444520,
+      "bytes": 619041
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/116/reports/report.json",
+      "archive_member": "CuckooClean/116/reports/report.json",
+      "sha256": "f13ff14fbb7ffc61905bbfabbac8cf1ff06cbbdc1e46990b04d0514d2d196c97",
+      "crc32": 632332849,
+      "bytes": 116943
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/118/reports/report.json",
+      "archive_member": "CuckooClean/118/reports/report.json",
+      "sha256": "c4d2cde6e91b2b2a1ba9dfe6fb620c7115a0db08402c393c4c572992d294e894",
+      "crc32": 2878452542,
+      "bytes": 264411
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/12/reports/report.json",
+      "archive_member": "CuckooClean/12/reports/report.json",
+      "sha256": "ce45a7bfce40e78825431feaee554bb28badc51cc8bd02b74986bd0e2418d73d",
+      "crc32": 1243554467,
+      "bytes": 176146
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/120/reports/report.json",
+      "archive_member": "CuckooClean/120/reports/report.json",
+      "sha256": "f811480a61abfaaa420976cbfbc816b18f6027010d2f26a09001c65062bc885c",
+      "crc32": 2406454090,
+      "bytes": 1991488
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/121/reports/report.json",
+      "archive_member": "CuckooClean/121/reports/report.json",
+      "sha256": "31df4d3be821d2888d38ed635d0193a115c6ee7357a17b5e7e3eb9252de0d2bd",
+      "crc32": 3981448052,
+      "bytes": 35088
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/123/reports/report.json",
+      "archive_member": "CuckooClean/123/reports/report.json",
+      "sha256": "3dcb0d4b49fbd843ea25cf4cb1f28b11fa502f58f83b123dc49b4a22e0a0ec7e",
+      "crc32": 2004593717,
+      "bytes": 517898
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/124/reports/report.json",
+      "archive_member": "CuckooClean/124/reports/report.json",
+      "sha256": "e8c78a0b562938ee0c9e199b0c74f6cdefc276ced9d4ed06e4f3490189654071",
+      "crc32": 21863900,
+      "bytes": 98596
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/126/reports/report.json",
+      "archive_member": "CuckooClean/126/reports/report.json",
+      "sha256": "8e71944a4b8b76ac7e9900aaf8802ab8b75bc0d9d20e75c0f66b075db8b37825",
+      "crc32": 835583810,
+      "bytes": 72220
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/130/reports/report.json",
+      "archive_member": "CuckooClean/130/reports/report.json",
+      "sha256": "2834f9fe853d40770ff06ce423b149d5bc21216c0158f924bfed62094e3493a5",
+      "crc32": 2939435540,
+      "bytes": 33630
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/133/reports/report.json",
+      "archive_member": "CuckooClean/133/reports/report.json",
+      "sha256": "cfcec9a09f32ad0e1c723b26c1c4e61825a23a717451df219fbcea3419d52deb",
+      "crc32": 158046566,
+      "bytes": 224145
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/134/reports/report.json",
+      "archive_member": "CuckooClean/134/reports/report.json",
+      "sha256": "865ecc1d56358a05f44db1bfe4f9289c97b7402875114794cc05d7be39028141",
+      "crc32": 1917789961,
+      "bytes": 97679
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/137/reports/report.json",
+      "archive_member": "CuckooClean/137/reports/report.json",
+      "sha256": "5ad8176ef436ce34366a7ab1fd6a7eea48d00853e7f1d2a609f5ce9cdf96b0ae",
+      "crc32": 2852025923,
+      "bytes": 906763
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/138/reports/report.json",
+      "archive_member": "CuckooClean/138/reports/report.json",
+      "sha256": "8d09b4ba6efccc6ec9087492cd8d6d610225cc9362aeab8b3b0d3c09c0c1300f",
+      "crc32": 2730277998,
+      "bytes": 40308
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/146/reports/report.json",
+      "archive_member": "CuckooClean/146/reports/report.json",
+      "sha256": "6d7af21438840e87cf7d7e0fb835ccf05a8513b537dd73b2bdd86d4d598a7321",
+      "crc32": 1791984148,
+      "bytes": 105340
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/147/reports/report.json",
+      "archive_member": "CuckooClean/147/reports/report.json",
+      "sha256": "7ba90d5550b1e28f43e06621d5d72aeb461f10ca4b008101031bd0684dea3627",
+      "crc32": 2990708912,
+      "bytes": 33779
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/149/reports/report.json",
+      "archive_member": "CuckooClean/149/reports/report.json",
+      "sha256": "3459326dadb01733e6a7100f82a8b49d691390a11139f0ee1bd569796a1a70da",
+      "crc32": 1969654188,
+      "bytes": 217881
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/151/reports/report.json",
+      "archive_member": "CuckooClean/151/reports/report.json",
+      "sha256": "55f6f684ee0555f3eb245e0c7ae6bad448b2e439ca195bc12ca59bc90c941960",
+      "crc32": 2202025743,
+      "bytes": 2073587
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/152/reports/report.json",
+      "archive_member": "CuckooClean/152/reports/report.json",
+      "sha256": "374a114a46f787e401fc3453a5fd97f10c668eb72dbb3652864a384c41b1a497",
+      "crc32": 778018388,
+      "bytes": 2254077
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/155/reports/report.json",
+      "archive_member": "CuckooClean/155/reports/report.json",
+      "sha256": "245fac1e18cab899562bae7565c14ac38c60a0a94586891bcb733bb8b3e1fe43",
+      "crc32": 2455751059,
+      "bytes": 90996665
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/157/reports/report.json",
+      "archive_member": "CuckooClean/157/reports/report.json",
+      "sha256": "657186ce18c040c413274fbeb56aab0ada8520f94fb62f2d3ff884b57268e3d4",
+      "crc32": 1021577174,
+      "bytes": 89946
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/159/reports/report.json",
+      "archive_member": "CuckooClean/159/reports/report.json",
+      "sha256": "d892f4b7b0bc3c7bb98c5536be63dfdf4e67a452349544ed13125c9f5570171d",
+      "crc32": 4237307631,
+      "bytes": 1006382
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/167/reports/report.json",
+      "archive_member": "CuckooClean/167/reports/report.json",
+      "sha256": "b2883769e01e539d9439f3cc50131237e80e4db771f4bd8cac067fa9ff8f9a70",
+      "crc32": 1438134493,
+      "bytes": 85998
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/170/reports/report.json",
+      "archive_member": "CuckooClean/170/reports/report.json",
+      "sha256": "d3ac50474e4993a050c853a62d099e741b631f40d478385166a854f8114d9efb",
+      "crc32": 446173833,
+      "bytes": 156611
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/175/reports/report.json",
+      "archive_member": "CuckooClean/175/reports/report.json",
+      "sha256": "81b66e43e90d9fd41bfccfe997f63bd8eef394a2cdda1db793d5aefff1df65be",
+      "crc32": 2101805028,
+      "bytes": 171835
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/176/reports/report.json",
+      "archive_member": "CuckooClean/176/reports/report.json",
+      "sha256": "03b2e610cc8cb257daf598d928f70fb159a35ed53344b935175f8f6337edd290",
+      "crc32": 674986802,
+      "bytes": 83878
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/177/reports/report.json",
+      "archive_member": "CuckooClean/177/reports/report.json",
+      "sha256": "05c4a9b9bfaa97a7fae7731994c7aab6dae0fc1c290bc047352838da7c0fb78a",
+      "crc32": 531345707,
+      "bytes": 97808
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/18/reports/report.json",
+      "archive_member": "CuckooClean/18/reports/report.json",
+      "sha256": "df20acdf32acdd4af00e06b129423fda107eed071a4b400ae1e1d594ddd6864f",
+      "crc32": 1883506651,
+      "bytes": 33687
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/180/reports/report.json",
+      "archive_member": "CuckooClean/180/reports/report.json",
+      "sha256": "c91b08985fdef8075a47f14ef66e6cd9cbe2534ecc0d0c8b6c4fbbf3402bd6d3",
+      "crc32": 238466663,
+      "bytes": 256554
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/181/reports/report.json",
+      "archive_member": "CuckooClean/181/reports/report.json",
+      "sha256": "61e1b31663cd66ea4df9e6470fbff8f42a3b4e2b975d5cc4d119a656a93d8325",
+      "crc32": 360471303,
+      "bytes": 481879
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/185/reports/report.json",
+      "archive_member": "CuckooClean/185/reports/report.json",
+      "sha256": "1dba5342b98ce3451fe254c64f97423f3a52fb8c4051c68bc12be5e5dbea21dd",
+      "crc32": 2205328211,
+      "bytes": 8888792
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/186/reports/report.json",
+      "archive_member": "CuckooClean/186/reports/report.json",
+      "sha256": "9f98fc3096068da82b30549f469e92f7074d03eecefae61bb2a24875d80194df",
+      "crc32": 3056744871,
+      "bytes": 1066362
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/194/reports/report.json",
+      "archive_member": "CuckooClean/194/reports/report.json",
+      "sha256": "e0d174b5b30657973a053bb3c9df3a9044b6e56b2ead3c878db3b5af861e8303",
+      "crc32": 1045972993,
+      "bytes": 102798
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/196/reports/report.json",
+      "archive_member": "CuckooClean/196/reports/report.json",
+      "sha256": "11fdf8589fb2b99c181054c6caa56117c3ee124beae817d49c89a85332a7ad54",
+      "crc32": 1815113289,
+      "bytes": 66131
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/199/reports/report.json",
+      "archive_member": "CuckooClean/199/reports/report.json",
+      "sha256": "02b56a2c4c3f3431d4d172829f1fe149edb484e98fbb56cc6c4d8fb347c41d0a",
+      "crc32": 2628889139,
+      "bytes": 156215939
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/202/reports/report.json",
+      "archive_member": "CuckooClean/202/reports/report.json",
+      "sha256": "4f77029c612decb6f8f92d100a113e45f3e971917672bd2bb499f245b767411b",
+      "crc32": 709063061,
+      "bytes": 66875
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/203/reports/report.json",
+      "archive_member": "CuckooClean/203/reports/report.json",
+      "sha256": "8cd704d6ebc5f4afaf518a5a287723f1598b034b17262b7575e2ba0808d8de4e",
+      "crc32": 2087883926,
+      "bytes": 2452776
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/206/reports/report.json",
+      "archive_member": "CuckooClean/206/reports/report.json",
+      "sha256": "33ae26d7a32f500cecc4619b6f6dcca8f9bc0ffbde113cd09ca92a2a5ed2cfd4",
+      "crc32": 3511243498,
+      "bytes": 518330
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/208/reports/report.json",
+      "archive_member": "CuckooClean/208/reports/report.json",
+      "sha256": "f1edc17578d1c363c3a66c6fc01c19552875e295d9e30e0e51d42f6fb58481c3",
+      "crc32": 618247356,
+      "bytes": 49522
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/209/reports/report.json",
+      "archive_member": "CuckooClean/209/reports/report.json",
+      "sha256": "a29aa9327fcf96b2766508721d150bf2ae37082d9eb01c4217b04ccc29d90f18",
+      "crc32": 668170269,
+      "bytes": 68781
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/21/reports/report.json",
+      "archive_member": "CuckooClean/21/reports/report.json",
+      "sha256": "3cce57d293035dc4f2f9e6ed17f580bfde3fbdb021e3f5b25ed160638041fb54",
+      "crc32": 2232364788,
+      "bytes": 181960
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/212/reports/report.json",
+      "archive_member": "CuckooClean/212/reports/report.json",
+      "sha256": "e83b7505a3279475724795d79c74068246e8f524a7e4d7e7cafc1ad63c09fd2e",
+      "crc32": 374322990,
+      "bytes": 371290
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/214/reports/report.json",
+      "archive_member": "CuckooClean/214/reports/report.json",
+      "sha256": "d85b03a90262c7ed1aed433ca8618118c2d9c34f6bc8cf62ae368f086738ba71",
+      "crc32": 3906967260,
+      "bytes": 88751
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/216/reports/report.json",
+      "archive_member": "CuckooClean/216/reports/report.json",
+      "sha256": "7412d3bdaf9aaa1193953f6c9c1696c48920f416852a2b02aaf43aaf9abf56fc",
+      "crc32": 1423573866,
+      "bytes": 759764
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/217/reports/report.json",
+      "archive_member": "CuckooClean/217/reports/report.json",
+      "sha256": "4877476e93829eedb28e3ddd289fd2b5ee4f8f800633622e1281e22690d96c21",
+      "crc32": 2760822696,
+      "bytes": 128515
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/219/reports/report.json",
+      "archive_member": "CuckooClean/219/reports/report.json",
+      "sha256": "89a55da066eac8dc5c0d2643fb84efa369f59030b5e0b7c2d7970f6b757408d7",
+      "crc32": 3478096730,
+      "bytes": 111087
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/22/reports/report.json",
+      "archive_member": "CuckooClean/22/reports/report.json",
+      "sha256": "52524324d288458341a6ff9c80f287df691460017e3ad8dd73b3b71abe76afc5",
+      "crc32": 264034747,
+      "bytes": 327274
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/220/reports/report.json",
+      "archive_member": "CuckooClean/220/reports/report.json",
+      "sha256": "84da5866249d0f7271ea7c988d223ab865e45f720d1b1d58d1a41227c184d2a3",
+      "crc32": 3190590390,
+      "bytes": 169550
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/224/reports/report.json",
+      "archive_member": "CuckooClean/224/reports/report.json",
+      "sha256": "aaa1e14cb08507db69c09d5a3b5dc34572fb98e8af69abe25cf202b76ebe31de",
+      "crc32": 2926038053,
+      "bytes": 137116
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/228/reports/report.json",
+      "archive_member": "CuckooClean/228/reports/report.json",
+      "sha256": "fd0642ce68fbf9084a19cb3550dbba05dd795abb4bbaa67d5ece3dd0e6915512",
+      "crc32": 2760113184,
+      "bytes": 325031
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/23/reports/report.json",
+      "archive_member": "CuckooClean/23/reports/report.json",
+      "sha256": "0eb12d191a9a7154f22a79c52a3c83bf1371d06b015c5b27d6d587995bf2d48c",
+      "crc32": 2368159670,
+      "bytes": 176163
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/239/reports/report.json",
+      "archive_member": "CuckooClean/239/reports/report.json",
+      "sha256": "03b13e0a577851175ebbf23fcb3cac03c95c38ffb4fe77b489fd5859a5045d7d",
+      "crc32": 3358665461,
+      "bytes": 109136
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/241/reports/report.json",
+      "archive_member": "CuckooClean/241/reports/report.json",
+      "sha256": "e03dd425136abb3c86d6957cce2d5d2d6d4ff10f2093602b110bc99f50f2bd22",
+      "crc32": 1764145988,
+      "bytes": 75114
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/243/reports/report.json",
+      "archive_member": "CuckooClean/243/reports/report.json",
+      "sha256": "6703818a944642db38b29514d3c63d9ed70db267b3fe37274046e206db9b9107",
+      "crc32": 709909976,
+      "bytes": 68853
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/245/reports/report.json",
+      "archive_member": "CuckooClean/245/reports/report.json",
+      "sha256": "1436cc3546479cffc4516545da1de08cfa166f6a1c02c76052f6ac274397fe4d",
+      "crc32": 3772344426,
+      "bytes": 40556
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/251/reports/report.json",
+      "archive_member": "CuckooClean/251/reports/report.json",
+      "sha256": "41e8b2c248016a3ecd3f52ae9b438280e257798182e4c1b35f6aab21472e216b",
+      "crc32": 2714379828,
+      "bytes": 101569
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/252/reports/report.json",
+      "archive_member": "CuckooClean/252/reports/report.json",
+      "sha256": "60d697a95a30a8cf3f22619ae0dafc027d68cb021888f20eedfd0558be5b43ce",
+      "crc32": 999882487,
+      "bytes": 88118
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/253/reports/report.json",
+      "archive_member": "CuckooClean/253/reports/report.json",
+      "sha256": "807c51e9e3f499a4d1349a7873ec212643fd740624c14e824978bb4b9bf15535",
+      "crc32": 2584855981,
+      "bytes": 3974092
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/254/reports/report.json",
+      "archive_member": "CuckooClean/254/reports/report.json",
+      "sha256": "01604d98f42d3356157d4eaf7da26da8b7dace285e17a67009856d7e7de7909d",
+      "crc32": 3758415033,
+      "bytes": 90710
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/255/reports/report.json",
+      "archive_member": "CuckooClean/255/reports/report.json",
+      "sha256": "16d2c0fa7241bd391730e0dcd29bca0546e39085952da78dad54ead1091f27a9",
+      "crc32": 2787059623,
+      "bytes": 124548
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/256/reports/report.json",
+      "archive_member": "CuckooClean/256/reports/report.json",
+      "sha256": "e48bd5cf8aa8098bfeba280155159c7d5589c3212e9b66d0c5a072cc0d220158",
+      "crc32": 776908928,
+      "bytes": 76939
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/259/reports/report.json",
+      "archive_member": "CuckooClean/259/reports/report.json",
+      "sha256": "ebaa2fc477fbf0e9e4e8b192b18ce15a464890d1b7345bdf63a02a8cb369a937",
+      "crc32": 1966310426,
+      "bytes": 85440
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/260/reports/report.json",
+      "archive_member": "CuckooClean/260/reports/report.json",
+      "sha256": "2ecb0daabc39541398030360a7d9359891e9c5a5ab3f22875c648840fd161db5",
+      "crc32": 223132009,
+      "bytes": 2034549
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/262/reports/report.json",
+      "archive_member": "CuckooClean/262/reports/report.json",
+      "sha256": "4103cfe6bba75b0c2debf57c58452711c310035053b2f2067e2c125278e0fea5",
+      "crc32": 3149202918,
+      "bytes": 47247
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/264/reports/report.json",
+      "archive_member": "CuckooClean/264/reports/report.json",
+      "sha256": "7c831f4c049b51918b7e47d4a1aed711ac12cc530b8b9d489f8bdd5057cccc28",
+      "crc32": 3622806983,
+      "bytes": 9275715
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/267/reports/report.json",
+      "archive_member": "CuckooClean/267/reports/report.json",
+      "sha256": "0f347b6ae83b870ad849d3ed57cdff2d3f879a8154e2f6e97e942f2f9d42a3eb",
+      "crc32": 834712829,
+      "bytes": 11532436
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/268/reports/report.json",
+      "archive_member": "CuckooClean/268/reports/report.json",
+      "sha256": "cc84c576e370d125468687e497692e84350bb556478d76188a9240da08fd2ecd",
+      "crc32": 4181224281,
+      "bytes": 3214170
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/269/reports/report.json",
+      "archive_member": "CuckooClean/269/reports/report.json",
+      "sha256": "fc328245ec7c06e0592055ab34dc525db7e3a544f114f91734fc5e52f3fd96cd",
+      "crc32": 312620229,
+      "bytes": 113750
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/274/reports/report.json",
+      "archive_member": "CuckooClean/274/reports/report.json",
+      "sha256": "c20b0bee5cea154d894561891820852bce3e9bc9149894f088bc93074d287cec",
+      "crc32": 445623710,
+      "bytes": 77979
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/279/reports/report.json",
+      "archive_member": "CuckooClean/279/reports/report.json",
+      "sha256": "2fea9a50127d34e7e39b7907d9ac4924675530e43b4040a4b50a0319bc6be1a4",
+      "crc32": 3042131667,
+      "bytes": 122517
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/280/reports/report.json",
+      "archive_member": "CuckooClean/280/reports/report.json",
+      "sha256": "c386c94c6e4f96f9f1375dd7d7611be40531e257b7cf0611e2ed92995d605c5c",
+      "crc32": 993448693,
+      "bytes": 1053570
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/281/reports/report.json",
+      "archive_member": "CuckooClean/281/reports/report.json",
+      "sha256": "4c376e74374e7d6afb57435d427f7d0402b557e8c013abfd2ae72399358805ff",
+      "crc32": 2052496213,
+      "bytes": 101440
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/282/reports/report.json",
+      "archive_member": "CuckooClean/282/reports/report.json",
+      "sha256": "b42b36b33138b83fa0f9b9679e32ef241d530afdced0901371c142ca81f17350",
+      "crc32": 2897607382,
+      "bytes": 129407
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/283/reports/report.json",
+      "archive_member": "CuckooClean/283/reports/report.json",
+      "sha256": "b324afea7ea853b57acad93d7232f44b92678b8e9f8c2f7f3a26e67c4351f28d",
+      "crc32": 2102754178,
+      "bytes": 83657
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/285/reports/report.json",
+      "archive_member": "CuckooClean/285/reports/report.json",
+      "sha256": "1131f5bf4904382344cf7616e88c47f03d663a5c47d68b545b83749d236494d8",
+      "crc32": 465214085,
+      "bytes": 124135
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/286/reports/report.json",
+      "archive_member": "CuckooClean/286/reports/report.json",
+      "sha256": "caca7e3e5d47cec7deb4c5ec8e72594798a7e02f5e34c9fbf9755cf38014c376",
+      "crc32": 3933571315,
+      "bytes": 98344
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/287/reports/report.json",
+      "archive_member": "CuckooClean/287/reports/report.json",
+      "sha256": "964e135e7f604eb5061c82f1b254d7ff56c628d638aa836addbe8cb5cc4802b2",
+      "crc32": 2001057995,
+      "bytes": 439359
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/29/reports/report.json",
+      "archive_member": "CuckooClean/29/reports/report.json",
+      "sha256": "3ee6d5591a4cfb0f04ee1c64ee3a44bb1ce2cac302953b8f69e29e23d2509457",
+      "crc32": 2429747656,
+      "bytes": 356994
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/290/reports/report.json",
+      "archive_member": "CuckooClean/290/reports/report.json",
+      "sha256": "c09bae893906f8dc8452c40a9d582b4a856163472828336078ee62db74acb9d1",
+      "crc32": 478361690,
+      "bytes": 43970
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/291/reports/report.json",
+      "archive_member": "CuckooClean/291/reports/report.json",
+      "sha256": "823236fe4e9aa1128bd1f1140da59c8e77bab7a1bb91cc33e433551fd0dcdef5",
+      "crc32": 2675794110,
+      "bytes": 229388
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/299/reports/report.json",
+      "archive_member": "CuckooClean/299/reports/report.json",
+      "sha256": "431633eb9028f3ee368e064f523af1374169d83e3bd6bf44aa216df3b0c184ec",
+      "crc32": 121525620,
+      "bytes": 34186
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/3/reports/report.json",
+      "archive_member": "CuckooClean/3/reports/report.json",
+      "sha256": "76124cf3c87757265c7e4c94f621d135c0a5fa73a9b086540f7e3050669f03ef",
+      "crc32": 3077728748,
+      "bytes": 270125
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/30/reports/report.json",
+      "archive_member": "CuckooClean/30/reports/report.json",
+      "sha256": "87885ef476623cf0aa90c704ee77fa30fd5fa5d71e8850d0ffd0307a7297b560",
+      "crc32": 3039512034,
+      "bytes": 234156
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/302/reports/report.json",
+      "archive_member": "CuckooClean/302/reports/report.json",
+      "sha256": "c10fb92f7162a8d84cb77fb6df7f3af0492529e584a8c872646634aa5d9bc9d9",
+      "crc32": 2334677913,
+      "bytes": 81198
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/303/reports/report.json",
+      "archive_member": "CuckooClean/303/reports/report.json",
+      "sha256": "2ef5ec8324a4f4f6bc1fd6951f4402561ca888fd981d9677dc03669b32a08dd3",
+      "crc32": 2942544992,
+      "bytes": 79379
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/307/reports/report.json",
+      "archive_member": "CuckooClean/307/reports/report.json",
+      "sha256": "b8f8ac391012cf1496a1867a535de9c7fabad9a0d2320b44fbaed33fdea43f57",
+      "crc32": 1289537116,
+      "bytes": 2050766
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/310/reports/report.json",
+      "archive_member": "CuckooClean/310/reports/report.json",
+      "sha256": "85f7f467866f6caa97af55fa09ecc9c1a80d8f27c9459cb77ea3e67e6e3d5a7f",
+      "crc32": 425785347,
+      "bytes": 222689
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/311/reports/report.json",
+      "archive_member": "CuckooClean/311/reports/report.json",
+      "sha256": "6ca6aac86f546d7bb34d151f26d7874b766d886ca497d4a33acdf9408a1af42d",
+      "crc32": 2594136145,
+      "bytes": 1880371
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/312/reports/report.json",
+      "archive_member": "CuckooClean/312/reports/report.json",
+      "sha256": "8ba7eaabfa36b11c45fa44aecaf984445e9a1aab1390fa097f1a4e626071b53a",
+      "crc32": 1600324937,
+      "bytes": 59451153
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/315/reports/report.json",
+      "archive_member": "CuckooClean/315/reports/report.json",
+      "sha256": "18b8aaa43c07f03c2ebf97608cd9ef71e0abef9501b351083e65ee67b935c2fc",
+      "crc32": 989614871,
+      "bytes": 232590
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/316/reports/report.json",
+      "archive_member": "CuckooClean/316/reports/report.json",
+      "sha256": "5482110024a3ec33729f4bfde713e4f59f34a0c0998db4201adf102b21f0738e",
+      "crc32": 3843361870,
+      "bytes": 33859775
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/317/reports/report.json",
+      "archive_member": "CuckooClean/317/reports/report.json",
+      "sha256": "d0ac6d7b31612c892d674df4c6df694f34aee2eb2ba2cbb6336f5e31ddba24fb",
+      "crc32": 962679177,
+      "bytes": 52446
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/318/reports/report.json",
+      "archive_member": "CuckooClean/318/reports/report.json",
+      "sha256": "8f86c386d14c649335eeebf5066a0956471fe029e07ffe7ad81a8ccaae34286c",
+      "crc32": 3841695623,
+      "bytes": 81997
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/319/reports/report.json",
+      "archive_member": "CuckooClean/319/reports/report.json",
+      "sha256": "419b9e307d932ce2aa5448e3717498d6643c145678a3f0859b32ebeaaac305e0",
+      "crc32": 313710947,
+      "bytes": 109466
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/32/reports/report.json",
+      "archive_member": "CuckooClean/32/reports/report.json",
+      "sha256": "75068d6395a1064cfd8ed4c18c18e6931fa42c25f97ac6fe2c90f05237ef8818",
+      "crc32": 4161420917,
+      "bytes": 34595
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/323/reports/report.json",
+      "archive_member": "CuckooClean/323/reports/report.json",
+      "sha256": "6bcdf8df506d876c4e8001a4f987e5cb65c926148567343a66076789855bfc32",
+      "crc32": 1884449357,
+      "bytes": 255172
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/33/reports/report.json",
+      "archive_member": "CuckooClean/33/reports/report.json",
+      "sha256": "f08ac7580df0958a392dafe70aeb9f2ed42b08ca9fc9bc1f7680f18e3f7ebde4",
+      "crc32": 1621189374,
+      "bytes": 91442
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/333/reports/report.json",
+      "archive_member": "CuckooClean/333/reports/report.json",
+      "sha256": "24c48c072ea54569a7bece658e24ba3cac8b8e20ba8a489c0adf1af65f404c46",
+      "crc32": 2091138424,
+      "bytes": 114787
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/336/reports/report.json",
+      "archive_member": "CuckooClean/336/reports/report.json",
+      "sha256": "2efe024f53eb2ff0d7e75fef304fa7d742761cfe6c5f39ee8de5780716ce9a94",
+      "crc32": 2689137557,
+      "bytes": 50968
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/338/reports/report.json",
+      "archive_member": "CuckooClean/338/reports/report.json",
+      "sha256": "a3873288f4b3c2ee4f64b1ddb2ff70ba01bd4ac1006633430b7d15f16c435bef",
+      "crc32": 805158011,
+      "bytes": 334014
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/339/reports/report.json",
+      "archive_member": "CuckooClean/339/reports/report.json",
+      "sha256": "ae3025a40d1beb7dc5b75056654105e4df13dae989a439a189e373c83b514128",
+      "crc32": 2166390638,
+      "bytes": 95885
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/34/reports/report.json",
+      "archive_member": "CuckooClean/34/reports/report.json",
+      "sha256": "2c7de7046a5804d9e77849ee2a604378ad2b416e2ab9d2fae9da6104bf2b0f19",
+      "crc32": 1138333820,
+      "bytes": 95983
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/344/reports/report.json",
+      "archive_member": "CuckooClean/344/reports/report.json",
+      "sha256": "508f68b0ca0b85c79b7d6b97a2db34b95972076ef993950eb3455412e034d0cd",
+      "crc32": 28477876,
+      "bytes": 109160
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/349/reports/report.json",
+      "archive_member": "CuckooClean/349/reports/report.json",
+      "sha256": "ceac58e908559f89013d5d246272a8de5d41f906f08babcd3ef1671c3d5ebd89",
+      "crc32": 4244189162,
+      "bytes": 475050
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/351/reports/report.json",
+      "archive_member": "CuckooClean/351/reports/report.json",
+      "sha256": "f774d110f409cff9908cad7ffc565d0f454125c34cf09d79e55a493baa7d4ade",
+      "crc32": 3497680109,
+      "bytes": 81318
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/357/reports/report.json",
+      "archive_member": "CuckooClean/357/reports/report.json",
+      "sha256": "7ceaf2a4600189179baf590f7926ddce0296940fc456aefdecadbeac16b9826d",
+      "crc32": 928682517,
+      "bytes": 27379550
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/361/reports/report.json",
+      "archive_member": "CuckooClean/361/reports/report.json",
+      "sha256": "40c323994c6da0f9baaa6431fb5b99f06887de04fc391bc1c8ac65b8ec75994d",
+      "crc32": 366234323,
+      "bytes": 12191894
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/362/reports/report.json",
+      "archive_member": "CuckooClean/362/reports/report.json",
+      "sha256": "926cfeca28656b552546cfa1bb41c876284e72da5f90d68b01e6e18ede54a0ef",
+      "crc32": 1850034512,
+      "bytes": 26156163
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/364/reports/report.json",
+      "archive_member": "CuckooClean/364/reports/report.json",
+      "sha256": "dc567f5d1d91656e33c763624ba7eaf6332710e5b30214a444c65cfd449b3fe4",
+      "crc32": 784566697,
+      "bytes": 144913922
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/365/reports/report.json",
+      "archive_member": "CuckooClean/365/reports/report.json",
+      "sha256": "8be491d92a0979e8516c42bc9455ccae5e14779bb46ac6460367c0db66186fea",
+      "crc32": 4099223520,
+      "bytes": 131654
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/368/reports/report.json",
+      "archive_member": "CuckooClean/368/reports/report.json",
+      "sha256": "cab70ba52c68e62f57125b4f9977129d9d02ee22e045813200c7288ef55facb3",
+      "crc32": 302415828,
+      "bytes": 2408192
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/369/reports/report.json",
+      "archive_member": "CuckooClean/369/reports/report.json",
+      "sha256": "8ca7242f7f4bc54d46ad8a93285ede19861bdca95418d4e477cc974db52daa2f",
+      "crc32": 1545558968,
+      "bytes": 30508147
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/371/reports/report.json",
+      "archive_member": "CuckooClean/371/reports/report.json",
+      "sha256": "e9c875e154c00703b61aeeba7cbe20c6b13d9473cb2585d11f39d1d361a00646",
+      "crc32": 3742935787,
+      "bytes": 165217577
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/372/reports/report.json",
+      "archive_member": "CuckooClean/372/reports/report.json",
+      "sha256": "c63ec1d539f9c64076a5b2caf82cc5e00dca76b7a09090c39bd21ccd1a813e4d",
+      "crc32": 2310970223,
+      "bytes": 16897133
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/373/reports/report.json",
+      "archive_member": "CuckooClean/373/reports/report.json",
+      "sha256": "e84065f1e5fd3a5e4edbca1a92d053c1bd5d622610aa93ecb0dc8dcedd3a15bc",
+      "crc32": 2248208926,
+      "bytes": 31161912
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/378/reports/report.json",
+      "archive_member": "CuckooClean/378/reports/report.json",
+      "sha256": "0b4d89e4c83489c8055fae3ae844d307ee3b6e509059a0ab34a06d0b2f04fcf5",
+      "crc32": 974006080,
+      "bytes": 2203105
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/38/reports/report.json",
+      "archive_member": "CuckooClean/38/reports/report.json",
+      "sha256": "f4d13504214553cba94c38a00c434660fbf4185c6080ee35a21d5b6e99ec2719",
+      "crc32": 3395152480,
+      "bytes": 37012
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/380/reports/report.json",
+      "archive_member": "CuckooClean/380/reports/report.json",
+      "sha256": "a7b1884b485b85497037709800e4ba9bc7ace71ad501c30de578e8ec195e1c95",
+      "crc32": 742351294,
+      "bytes": 9012928
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/382/reports/report.json",
+      "archive_member": "CuckooClean/382/reports/report.json",
+      "sha256": "ce1a425a19352953cb6928f33d91735b085bfa595cc61cf81981e73c2139e3e0",
+      "crc32": 1359043893,
+      "bytes": 6663587
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/386/reports/report.json",
+      "archive_member": "CuckooClean/386/reports/report.json",
+      "sha256": "085878e552d55a23c87a9605ea64dde58f4d97a26f8f8b15693daac7437e683f",
+      "crc32": 1799640915,
+      "bytes": 10650707
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/387/reports/report.json",
+      "archive_member": "CuckooClean/387/reports/report.json",
+      "sha256": "5a7611789aa4d07e1161564bba139473010bbf29782bd13c0569c51a91a43e99",
+      "crc32": 3296718151,
+      "bytes": 17317321
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/388/reports/report.json",
+      "archive_member": "CuckooClean/388/reports/report.json",
+      "sha256": "51fbe395d49710d7ad67de1d5358ac249ff0e9db18cd3d15f05e192cbe08603f",
+      "crc32": 3295928681,
+      "bytes": 203468283
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/391/reports/report.json",
+      "archive_member": "CuckooClean/391/reports/report.json",
+      "sha256": "8060848188b3b64df93ecf8cc49dafa8225a14601de570d933acbef6382f1c1f",
+      "crc32": 3674589294,
+      "bytes": 202006002
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/394/reports/report.json",
+      "archive_member": "CuckooClean/394/reports/report.json",
+      "sha256": "33e54ca80a580d39a53a59c2a4bf5d6f69479089a7aede64140928f32934d8ff",
+      "crc32": 3663797341,
+      "bytes": 3109752
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/395/reports/report.json",
+      "archive_member": "CuckooClean/395/reports/report.json",
+      "sha256": "c512bcc782aabcbc627e03cc6c4bffb1c4ccdc9962279a6dab827aaee84d128a",
+      "crc32": 469544210,
+      "bytes": 3785823
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/4/reports/report.json",
+      "archive_member": "CuckooClean/4/reports/report.json",
+      "sha256": "9b52b7640c9ec5cf7aa3dc18ecece62753242aa984c17e59ffd2d7a8beff4fc8",
+      "crc32": 2924317086,
+      "bytes": 104870
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/400/reports/report.json",
+      "archive_member": "CuckooClean/400/reports/report.json",
+      "sha256": "b305b01c33cb314ac5fc384463a4f86311e08f96fd2e8435e8b9067dab921906",
+      "crc32": 1856022093,
+      "bytes": 147852322
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/402/reports/report.json",
+      "archive_member": "CuckooClean/402/reports/report.json",
+      "sha256": "1236bf4d4bcfeefdcec2adfa60566ee78a19dd3f764f5b13f232adb003dd8a31",
+      "crc32": 393358147,
+      "bytes": 2873477
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/405/reports/report.json",
+      "archive_member": "CuckooClean/405/reports/report.json",
+      "sha256": "343182fa326480228dc692eea8647f84c923bd8a53b6b4492621647e352543e7",
+      "crc32": 2346856412,
+      "bytes": 577284
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/406/reports/report.json",
+      "archive_member": "CuckooClean/406/reports/report.json",
+      "sha256": "f45ded52d64565490705d5a698279a0b1ee6aa3f84e62ca69e620279845e23ec",
+      "crc32": 4183957270,
+      "bytes": 50420707
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/41/reports/report.json",
+      "archive_member": "CuckooClean/41/reports/report.json",
+      "sha256": "327b270ee6c1c5d1c827b3ed5a88d4d0eff96025271c62bf6a6167c8780169d3",
+      "crc32": 2286709106,
+      "bytes": 428475
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/410/reports/report.json",
+      "archive_member": "CuckooClean/410/reports/report.json",
+      "sha256": "544434b1e5e0006511e43cd4ded80d1d907d1ae2dbd5ca2c7daffdd5bce8c7dd",
+      "crc32": 2005645946,
+      "bytes": 1964914
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/415/reports/report.json",
+      "archive_member": "CuckooClean/415/reports/report.json",
+      "sha256": "cc20dcda8ddc86e8da8f30ebec8959b64a1853223637a0ff818f4289dd7b87c2",
+      "crc32": 3019992234,
+      "bytes": 3456541
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/423/reports/report.json",
+      "archive_member": "CuckooClean/423/reports/report.json",
+      "sha256": "a1f5562599ad00c1e6413cffc8566a8048ee66fe072bbee7d9b9580f1ee66c57",
+      "crc32": 1535584215,
+      "bytes": 20823472
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/424/reports/report.json",
+      "archive_member": "CuckooClean/424/reports/report.json",
+      "sha256": "c3f97faed6d0407ca476f3aec9aa4f45c7cbbec1f5d0f9edad0b01efc7b8eb45",
+      "crc32": 1648409625,
+      "bytes": 2211067
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/427/reports/report.json",
+      "archive_member": "CuckooClean/427/reports/report.json",
+      "sha256": "5bc93abdd71d3728fe7e0df2ffa4a934e54fe35f3068230e5ed188470f9b3834",
+      "crc32": 3224467563,
+      "bytes": 21465397
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/428/reports/report.json",
+      "archive_member": "CuckooClean/428/reports/report.json",
+      "sha256": "27b31dd59b0a895005ea261a2862f88b2a3c11942a1576424478fea96d3a345b",
+      "crc32": 2297421099,
+      "bytes": 16301540
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/433/reports/report.json",
+      "archive_member": "CuckooClean/433/reports/report.json",
+      "sha256": "db9946a735b928bbae00af9a9f4d18718423c7e7e30bf36939bf2bc0edc6d92f",
+      "crc32": 479177706,
+      "bytes": 42992118
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/436/reports/report.json",
+      "archive_member": "CuckooClean/436/reports/report.json",
+      "sha256": "62b7b2890cacd23869e55cb2f97e8342b74f8d0e30a1086c76a84333ff891349",
+      "crc32": 1678062181,
+      "bytes": 24741392
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/437/reports/report.json",
+      "archive_member": "CuckooClean/437/reports/report.json",
+      "sha256": "2ce9dcd5448eeb6688809108c19000feb5b50c82eec287c32aaaea468f832c61",
+      "crc32": 3016926436,
+      "bytes": 32479112
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/443/reports/report.json",
+      "archive_member": "CuckooClean/443/reports/report.json",
+      "sha256": "2c0f0bd91722e3931be76b8278fbdb2c9c956dd8c3ba0c7f3244b26fad628dd0",
+      "crc32": 384991681,
+      "bytes": 13885933
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/444/reports/report.json",
+      "archive_member": "CuckooClean/444/reports/report.json",
+      "sha256": "d2701d89d85d70c68dcd232c12721bd63bdd89d9ecc04847c847b5c39e669403",
+      "crc32": 1067795303,
+      "bytes": 14327062
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/445/reports/report.json",
+      "archive_member": "CuckooClean/445/reports/report.json",
+      "sha256": "3143e77dfda10ada31b3acf668eb36733fc34ff4e6356a9ba6d48ff649bb4d58",
+      "crc32": 221038636,
+      "bytes": 3836874
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/446/reports/report.json",
+      "archive_member": "CuckooClean/446/reports/report.json",
+      "sha256": "d4c382486b0150a8cdfb0b1156c389727fb3fbb8854a8b329f9d8d39d55df2d1",
+      "crc32": 3562952157,
+      "bytes": 11669369
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/447/reports/report.json",
+      "archive_member": "CuckooClean/447/reports/report.json",
+      "sha256": "0f9d9c1d6ad2d53dda4e659841b0e99184c6d0b3cac0ed3be0ce500c71abfa94",
+      "crc32": 3272134122,
+      "bytes": 49553806
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/452/reports/report.json",
+      "archive_member": "CuckooClean/452/reports/report.json",
+      "sha256": "3786a547cb015ce2177fc556c56d4fee5db7b23e180b320e09bdc89b01994127",
+      "crc32": 1950211011,
+      "bytes": 36263102
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/456/reports/report.json",
+      "archive_member": "CuckooClean/456/reports/report.json",
+      "sha256": "ef3fb4fbca6af9c76f3db15383baf96a14f8f37a3e8646384d1c8c13035da80c",
+      "crc32": 1565992191,
+      "bytes": 3122733
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/459/reports/report.json",
+      "archive_member": "CuckooClean/459/reports/report.json",
+      "sha256": "5eddc978b0479b6080b01e9149dcd24e41fffa05f5de8b5657a3b76ddde21c79",
+      "crc32": 2492580999,
+      "bytes": 306438419
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/46/reports/report.json",
+      "archive_member": "CuckooClean/46/reports/report.json",
+      "sha256": "4f6c75d1517cfffdf8f2d7dfe998a3554f05e163c05208af3f9db171a53b0c3e",
+      "crc32": 3937153572,
+      "bytes": 65443
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/460/reports/report.json",
+      "archive_member": "CuckooClean/460/reports/report.json",
+      "sha256": "23064cf562b1d1b7d2ad754d85e2d23293bf5bc3c2a8d55b2e9a3cdb3d4222da",
+      "crc32": 2045571928,
+      "bytes": 208569452
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/461/reports/report.json",
+      "archive_member": "CuckooClean/461/reports/report.json",
+      "sha256": "b4f0372cacc07cfc8c57690761dc4beb822fc6b251b346d0de70c5b19e11b242",
+      "crc32": 803449975,
+      "bytes": 53366012
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/465/reports/report.json",
+      "archive_member": "CuckooClean/465/reports/report.json",
+      "sha256": "6a1c4e13a6ef79f704565b2fc3bc1ecfb23ea9e79e019d6acf6a07a15ccd5560",
+      "crc32": 502472313,
+      "bytes": 104805730
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/468/reports/report.json",
+      "archive_member": "CuckooClean/468/reports/report.json",
+      "sha256": "decdc9cffbb9f27f9130dfdc89fc073c05e338917c7f89134bca0c22a2b8099c",
+      "crc32": 2962500965,
+      "bytes": 43355201
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/47/reports/report.json",
+      "archive_member": "CuckooClean/47/reports/report.json",
+      "sha256": "1e28e0fd598fdb3ec585d4db204386422da7bcc7395dce2b509825fe5ac2106b",
+      "crc32": 2327786939,
+      "bytes": 172942
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/471/reports/report.json",
+      "archive_member": "CuckooClean/471/reports/report.json",
+      "sha256": "33046709bf347bf019c272ebf5b9240b4a9069bb07fd6632f2a445c50e8a3c40",
+      "crc32": 475134679,
+      "bytes": 66388100
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/473/reports/report.json",
+      "archive_member": "CuckooClean/473/reports/report.json",
+      "sha256": "8a18ce2f694f553cab584f34bc29e815e719bff5f2b6287866a66e2038770181",
+      "crc32": 639543001,
+      "bytes": 842526
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/475/reports/report.json",
+      "archive_member": "CuckooClean/475/reports/report.json",
+      "sha256": "b88bfa6c9a66ea67c022b3118db3fc0e410a292803f58b10ac8394a827068f38",
+      "crc32": 3705487286,
+      "bytes": 30677518
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/476/reports/report.json",
+      "archive_member": "CuckooClean/476/reports/report.json",
+      "sha256": "c5e0f73fd997ea86b9d1973dd2c4105b186428f905dc5fd00ca127729c0acc05",
+      "crc32": 3004515313,
+      "bytes": 12531767
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/479/reports/report.json",
+      "archive_member": "CuckooClean/479/reports/report.json",
+      "sha256": "c1d234727fb0918a57e6393a7eb791697c2cdff41be2f1e3a9f93b24bcd57b7e",
+      "crc32": 71397994,
+      "bytes": 5433190
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/481/reports/report.json",
+      "archive_member": "CuckooClean/481/reports/report.json",
+      "sha256": "a53d75fbe2f003911f51d779f3c47da8b3028330069597b8c56271828e824250",
+      "crc32": 40767310,
+      "bytes": 4254620
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/482/reports/report.json",
+      "archive_member": "CuckooClean/482/reports/report.json",
+      "sha256": "9b881b2d6f7ab91d2521ecb87107ac4b94300f89787e754128d9f1a4cbd0962a",
+      "crc32": 1773760636,
+      "bytes": 104787698
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/483/reports/report.json",
+      "archive_member": "CuckooClean/483/reports/report.json",
+      "sha256": "fad25c444ad8567341b2e60b6ed02994341585223151c701fae413856fe3f2de",
+      "crc32": 2857084823,
+      "bytes": 3082329
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/488/reports/report.json",
+      "archive_member": "CuckooClean/488/reports/report.json",
+      "sha256": "a23d13c7a64239053881e9151fee3ae82005e89600c1db41949de51957ce6e2c",
+      "crc32": 2956555203,
+      "bytes": 35963551
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/49/reports/report.json",
+      "archive_member": "CuckooClean/49/reports/report.json",
+      "sha256": "9d679dcc62558ef53ada01dcb351a886d47f269f3f392a3330ea5b4df4eb8a6f",
+      "crc32": 2939227955,
+      "bytes": 363190
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/491/reports/report.json",
+      "archive_member": "CuckooClean/491/reports/report.json",
+      "sha256": "0494055165680248a3da956d6bce37f4b6c1356d4f1cdae45f9f7825ed77ff5f",
+      "crc32": 157625576,
+      "bytes": 48884
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/493/reports/report.json",
+      "archive_member": "CuckooClean/493/reports/report.json",
+      "sha256": "7bed8b95f0e1a47091b27f85ac99f378fe99da1c9c970a1ffe06ef84faa2d27d",
+      "crc32": 3890505387,
+      "bytes": 147340
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/498/reports/report.json",
+      "archive_member": "CuckooClean/498/reports/report.json",
+      "sha256": "3fd4e3bdc21e5cfe865ff043946e17d6e7b068f81fdbd8957a616bd1d419e14d",
+      "crc32": 2691966108,
+      "bytes": 2712826
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/499/reports/report.json",
+      "archive_member": "CuckooClean/499/reports/report.json",
+      "sha256": "e7a81d802985ee37decc941d13e5636584fd5c3f9084afb8de16e429d8249267",
+      "crc32": 3313484398,
+      "bytes": 2537244
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/500/reports/report.json",
+      "archive_member": "CuckooClean/500/reports/report.json",
+      "sha256": "efe3dd5e266ef8a2043c7b18b8d2d4eabcfd6cf6f9b296f3cb531ef3eef2c45d",
+      "crc32": 708898165,
+      "bytes": 137926608
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/502/reports/report.json",
+      "archive_member": "CuckooClean/502/reports/report.json",
+      "sha256": "e32881f01a803dc6c0f8436645499998ddd8308715108921ad075aab2b8e96c5",
+      "crc32": 158292353,
+      "bytes": 1831203
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/504/reports/report.json",
+      "archive_member": "CuckooClean/504/reports/report.json",
+      "sha256": "5be47e0c5af1863fa1af833e4f7995916cf04ba2a2834db0c830f0a06ba6038d",
+      "crc32": 14439647,
+      "bytes": 16685012
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/505/reports/report.json",
+      "archive_member": "CuckooClean/505/reports/report.json",
+      "sha256": "de2ef989cd094a65fd8989addee811fbf694e7d0deb8378b075fce13bb0718d6",
+      "crc32": 4126211178,
+      "bytes": 32294829
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/506/reports/report.json",
+      "archive_member": "CuckooClean/506/reports/report.json",
+      "sha256": "aed4041ff1b9b4c554055f03c76748ad6bc36ab5d1603de982b47c9e27f962c4",
+      "crc32": 1222548167,
+      "bytes": 50436919
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/509/reports/report.json",
+      "archive_member": "CuckooClean/509/reports/report.json",
+      "sha256": "7374920894b3575b582e58c070e46827bcf8abc62b697f3ab437b17f95cdec65",
+      "crc32": 575704434,
+      "bytes": 3907664
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/51/reports/report.json",
+      "archive_member": "CuckooClean/51/reports/report.json",
+      "sha256": "bc42031c55d6ed7cab685788b795b9a0af11c748939136d59f948b237bd1ae12",
+      "crc32": 2102411057,
+      "bytes": 46488
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/515/reports/report.json",
+      "archive_member": "CuckooClean/515/reports/report.json",
+      "sha256": "a0b5b05f54cbd256774403d4605049f26b5e89b3cf574c9320ca56243b473c81",
+      "crc32": 1671338240,
+      "bytes": 2551377
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/516/reports/report.json",
+      "archive_member": "CuckooClean/516/reports/report.json",
+      "sha256": "f9ee8e1e2a2177950a270d1223873c46f1de61cc65b0238724e820353ae7e87d",
+      "crc32": 631798165,
+      "bytes": 66075414
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/518/reports/report.json",
+      "archive_member": "CuckooClean/518/reports/report.json",
+      "sha256": "6dba6a975dc5af5ec4802c83765e9a116f849f98b932862e0f7a5d8bef3b9bd0",
+      "crc32": 2375509504,
+      "bytes": 4419091
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/521/reports/report.json",
+      "archive_member": "CuckooClean/521/reports/report.json",
+      "sha256": "fc4af9dcfbd24d011a160de5599f4d4febbe9cf0438455d2be68755e940f4e83",
+      "crc32": 1165041224,
+      "bytes": 24123386
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/528/reports/report.json",
+      "archive_member": "CuckooClean/528/reports/report.json",
+      "sha256": "5dbeb78195028fd6048a1aceb20965e62e27d0e47f32661782d5f3b4e55829e2",
+      "crc32": 4282806607,
+      "bytes": 278790668
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/530/reports/report.json",
+      "archive_member": "CuckooClean/530/reports/report.json",
+      "sha256": "771c9e2e3eced235710907f6df6050a4645acecbdce8390553394853c8d59756",
+      "crc32": 3558755651,
+      "bytes": 192606667
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/531/reports/report.json",
+      "archive_member": "CuckooClean/531/reports/report.json",
+      "sha256": "4be3314009aea597803aa3b1a7a6f6cb2b268dd4814a4ce2c7598942003faa9b",
+      "crc32": 1383497146,
+      "bytes": 217303066
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/535/reports/report.json",
+      "archive_member": "CuckooClean/535/reports/report.json",
+      "sha256": "ac205aaf544ab1a54d160e4e8465071e4472da5322ed26b9041077f72619e6dc",
+      "crc32": 4077285158,
+      "bytes": 2580897
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/536/reports/report.json",
+      "archive_member": "CuckooClean/536/reports/report.json",
+      "sha256": "6d7d00c1b72a3c27dec536d66a1ee4fc3cf4b39a403509526c8f816f39bd4639",
+      "crc32": 482277575,
+      "bytes": 2793768
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/541/reports/report.json",
+      "archive_member": "CuckooClean/541/reports/report.json",
+      "sha256": "70dd20077bdb95ef983a959a8cb738f7b8782267b21dc6304cd29fa55faf6c82",
+      "crc32": 1390203812,
+      "bytes": 93619602
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/545/reports/report.json",
+      "archive_member": "CuckooClean/545/reports/report.json",
+      "sha256": "f60bdd645dad0b87332ca52164775e3102e7a8cf75804ff26ca3691c5daf0bba",
+      "crc32": 3404027004,
+      "bytes": 13925529
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/55/reports/report.json",
+      "archive_member": "CuckooClean/55/reports/report.json",
+      "sha256": "42e34dff411c028a2f5b3907fbc62df887088d1eb02eadac26be59cab1db022c",
+      "crc32": 413878755,
+      "bytes": 96329
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/550/reports/report.json",
+      "archive_member": "CuckooClean/550/reports/report.json",
+      "sha256": "de0c02233d748903adacca9ab933c7df6b7a1e3ae7bbcfe3c1106c8a893fe0b7",
+      "crc32": 3639469517,
+      "bytes": 5541572
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/553/reports/report.json",
+      "archive_member": "CuckooClean/553/reports/report.json",
+      "sha256": "4b25d742a8f2a681c8a191a35682a4975b372a0532bb787df875354624309544",
+      "crc32": 503252057,
+      "bytes": 121575054
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/554/reports/report.json",
+      "archive_member": "CuckooClean/554/reports/report.json",
+      "sha256": "9b514047b1b69785e9cd34825fab3a95ac2a95b393f3afe4d346c71ecc9608bd",
+      "crc32": 111783878,
+      "bytes": 118853484
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/558/reports/report.json",
+      "archive_member": "CuckooClean/558/reports/report.json",
+      "sha256": "d1d4056877d2de2946d5b293b711e62333380b10b0e4378ce6f0dc5b5e8010f5",
+      "crc32": 3240432216,
+      "bytes": 348346
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/56/reports/report.json",
+      "archive_member": "CuckooClean/56/reports/report.json",
+      "sha256": "652d4004d28155b3c8a68f14f1d3324f7f74d85e0972e786a3658e2c8e8ba202",
+      "crc32": 2985456613,
+      "bytes": 79645
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/560/reports/report.json",
+      "archive_member": "CuckooClean/560/reports/report.json",
+      "sha256": "08da72ac224a66c30b3d0980afe681d57fd49092bbf96e8e14e1129f86ce89dc",
+      "crc32": 1247804,
+      "bytes": 7436440
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/564/reports/report.json",
+      "archive_member": "CuckooClean/564/reports/report.json",
+      "sha256": "c836f3b137bf67317d3747bb5f45a3a532a21ca72dd50218e82f70894e4f1fd4",
+      "crc32": 1000240464,
+      "bytes": 4576770
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/568/reports/report.json",
+      "archive_member": "CuckooClean/568/reports/report.json",
+      "sha256": "90be3228b503e9c6a9f2e9a8ff2d9e5a7e6946b83b045fa9ecfac979d4b54604",
+      "crc32": 116827832,
+      "bytes": 70472317
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/57/reports/report.json",
+      "archive_member": "CuckooClean/57/reports/report.json",
+      "sha256": "a56b7835d10cc44cfbd757f6ddb8e3acaa505eb891225b4c066877e17b97bd4d",
+      "crc32": 1659907774,
+      "bytes": 283313
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/572/reports/report.json",
+      "archive_member": "CuckooClean/572/reports/report.json",
+      "sha256": "4f8df078bbd18124e4766610bc08ec29be7acbec5311eb38941dfd87631b2b48",
+      "crc32": 88246415,
+      "bytes": 126588818
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/573/reports/report.json",
+      "archive_member": "CuckooClean/573/reports/report.json",
+      "sha256": "a9288c9897ebcf2c7399dfc660952107312e2f41bedc63f191a3232e2d8edcd7",
+      "crc32": 1656961519,
+      "bytes": 4717849
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/574/reports/report.json",
+      "archive_member": "CuckooClean/574/reports/report.json",
+      "sha256": "bb4b143a65bff7436f315618fa9fb44045189e7baa5748c4ed8dfd62100feebb",
+      "crc32": 2045473187,
+      "bytes": 66910104
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/576/reports/report.json",
+      "archive_member": "CuckooClean/576/reports/report.json",
+      "sha256": "bcabe76e655a9b641ed309b82c35aadb7716973a724743f5dd97aa20c6c9cb40",
+      "crc32": 648711078,
+      "bytes": 98230342
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/579/reports/report.json",
+      "archive_member": "CuckooClean/579/reports/report.json",
+      "sha256": "74e1259acebbc3f83aebfb3725a31f81ded637b53ec606e4d246a3db6b2e40d0",
+      "crc32": 1006243873,
+      "bytes": 4304851
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/58/reports/report.json",
+      "archive_member": "CuckooClean/58/reports/report.json",
+      "sha256": "a1986f6f98f3a326ed4f4d9c2d1e902adca2910cbc2abfb5cf9060df8a1a03cf",
+      "crc32": 3730774373,
+      "bytes": 217155
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/581/reports/report.json",
+      "archive_member": "CuckooClean/581/reports/report.json",
+      "sha256": "a16b0c9adff020634cbcf7deb69b477d92ee00bd6c94eb397cb372c6a0b8d5c4",
+      "crc32": 3141760691,
+      "bytes": 3153758
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/588/reports/report.json",
+      "archive_member": "CuckooClean/588/reports/report.json",
+      "sha256": "40c69e76d0632eea0d97b0558aa746c93073dd886f180fd1bf6b1a4366c3e717",
+      "crc32": 2140147155,
+      "bytes": 43449239
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/59/reports/report.json",
+      "archive_member": "CuckooClean/59/reports/report.json",
+      "sha256": "90cd7bb6f775b1c8b6065d08888e3094bcd47b0e0537b0d2a4b21296b88d4d7b",
+      "crc32": 3165521977,
+      "bytes": 2465982
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/591/reports/report.json",
+      "archive_member": "CuckooClean/591/reports/report.json",
+      "sha256": "7c0afdfa9cbe743a1db9e89e079af380d7cc3194391063209c4012ab6c5d9654",
+      "crc32": 2731621049,
+      "bytes": 22446476
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/595/reports/report.json",
+      "archive_member": "CuckooClean/595/reports/report.json",
+      "sha256": "41a49806a9ded0134e11795af58835ed6634058d5d20d2b70574fc31f47c2f8a",
+      "crc32": 2929846991,
+      "bytes": 13254390
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/597/reports/report.json",
+      "archive_member": "CuckooClean/597/reports/report.json",
+      "sha256": "23990f47fbab37081cd4195706026e531a2f71c27a5ab6471c9b836f78a0a898",
+      "crc32": 2094265355,
+      "bytes": 10908509
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/599/reports/report.json",
+      "archive_member": "CuckooClean/599/reports/report.json",
+      "sha256": "6b067184ab76c6facda359cdc01cae3009c2c7f6d5c9d2c748b6beb4a605f0b6",
+      "crc32": 4114049507,
+      "bytes": 3360043
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/604/reports/report.json",
+      "archive_member": "CuckooClean/604/reports/report.json",
+      "sha256": "d96a323ace991fb2225ad1c3c61433aa064221cdff249c2362a23ff438e7c1d4",
+      "crc32": 3375332440,
+      "bytes": 10999624
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/605/reports/report.json",
+      "archive_member": "CuckooClean/605/reports/report.json",
+      "sha256": "6d527300228b91ffa97b0b02dd74e8011f5b35a9c390b0279228e929e6e47807",
+      "crc32": 670961273,
+      "bytes": 24488307
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/609/reports/report.json",
+      "archive_member": "CuckooClean/609/reports/report.json",
+      "sha256": "b1322909be6b2cff4af9918b615dda06446ec4d875df8a2d557bd128926f8692",
+      "crc32": 2443817193,
+      "bytes": 7775211
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/62/reports/report.json",
+      "archive_member": "CuckooClean/62/reports/report.json",
+      "sha256": "b6ea89c359161ff08ea29bb174a8ca1c748c099fe26c66d608670da0beb74e91",
+      "crc32": 2158022043,
+      "bytes": 92976
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/620/reports/report.json",
+      "archive_member": "CuckooClean/620/reports/report.json",
+      "sha256": "5b1862a5cb2f88f75a8488e8c9f0adf3a32756cdf6e7efb9dc9a09e81892b220",
+      "crc32": 262960362,
+      "bytes": 5413839
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/626/reports/report.json",
+      "archive_member": "CuckooClean/626/reports/report.json",
+      "sha256": "2bf162f77568c1d265bf7b0f35eb54b7d2cbf04cd86bd9f8c484d6fbedc6939d",
+      "crc32": 650561260,
+      "bytes": 38489989
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/627/reports/report.json",
+      "archive_member": "CuckooClean/627/reports/report.json",
+      "sha256": "4298aa44a26005d01b7f1e6a2738e73a19919ae4139b66f8d4e4f40632221dff",
+      "crc32": 196874305,
+      "bytes": 175829
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/628/reports/report.json",
+      "archive_member": "CuckooClean/628/reports/report.json",
+      "sha256": "25b6efae52a094b97a08493498f96ec051ebb66e04fee32114f16f922214f32e",
+      "crc32": 3419446959,
+      "bytes": 24950638
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/63/reports/report.json",
+      "archive_member": "CuckooClean/63/reports/report.json",
+      "sha256": "53393162d54b2d1f7ca9cdbc5a759d2959626c5655035263dd9606cf24be0953",
+      "crc32": 111754615,
+      "bytes": 117788
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/634/reports/report.json",
+      "archive_member": "CuckooClean/634/reports/report.json",
+      "sha256": "b097778a75867534221406ef5db66f6358111ce4a557c73cdd90226ef0c68697",
+      "crc32": 3948328892,
+      "bytes": 3138369
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/635/reports/report.json",
+      "archive_member": "CuckooClean/635/reports/report.json",
+      "sha256": "1204710c9cbd3863ab098d5681e47afae2cd018188272602aa721f7d87007781",
+      "crc32": 1799216613,
+      "bytes": 5737436
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/641/reports/report.json",
+      "archive_member": "CuckooClean/641/reports/report.json",
+      "sha256": "b168f9e754549b0227d6d14f60c08f99099c68ac07ddc8ced457a0a285478b89",
+      "crc32": 2196106446,
+      "bytes": 173513999
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/645/reports/report.json",
+      "archive_member": "CuckooClean/645/reports/report.json",
+      "sha256": "8fa91a28700f66468ac9254bb2ec92fbcc8d5e7ae9e71fe3ef276765363ed0f8",
+      "crc32": 874063689,
+      "bytes": 12360778
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/649/reports/report.json",
+      "archive_member": "CuckooClean/649/reports/report.json",
+      "sha256": "13b7197db2f1dd9182b429a4893a076c482bf0fe853bbcb7f17c52b8c10bd884",
+      "crc32": 4025204749,
+      "bytes": 251192727
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/653/reports/report.json",
+      "archive_member": "CuckooClean/653/reports/report.json",
+      "sha256": "64a575764d2dcd88eed376d257fbf4d1991601a2fec5508c03cef13c48c190c6",
+      "crc32": 1512177232,
+      "bytes": 276330636
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/66/reports/report.json",
+      "archive_member": "CuckooClean/66/reports/report.json",
+      "sha256": "7cb24402660296bce192c323d7b7b7f79888461dd621f0b4bbb639f8f66ecd1a",
+      "crc32": 1076204036,
+      "bytes": 50760
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/67/reports/report.json",
+      "archive_member": "CuckooClean/67/reports/report.json",
+      "sha256": "ca5cdd8d22c657d3761511e465f62df344850f63701a9f0d228a4ddd602ce740",
+      "crc32": 2997315969,
+      "bytes": 121846
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/7/reports/report.json",
+      "archive_member": "CuckooClean/7/reports/report.json",
+      "sha256": "a7d14b465e8d32f10b8ffc16ba17dc22568f81f2ca607340e217b3c692d87bf3",
+      "crc32": 3211232949,
+      "bytes": 2289599
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/73/reports/report.json",
+      "archive_member": "CuckooClean/73/reports/report.json",
+      "sha256": "ca9f27aec44c09b4e7a684f30fbe4c20d64a2f84c7b86f06a1d5412a9d604ff2",
+      "crc32": 1000798231,
+      "bytes": 76614
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/78/reports/report.json",
+      "archive_member": "CuckooClean/78/reports/report.json",
+      "sha256": "1b1677ee0540cd4358871aeef6f3ba385cb9a466f8a9bdc4b498dc56d4fcb788",
+      "crc32": 1338162813,
+      "bytes": 218615
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/8/reports/report.json",
+      "archive_member": "CuckooClean/8/reports/report.json",
+      "sha256": "1462950fe866638f677e76cc9307c7c4f6853bfcc19029e27fe52ab4e7754d3b",
+      "crc32": 2670721328,
+      "bytes": 91441
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/80/reports/report.json",
+      "archive_member": "CuckooClean/80/reports/report.json",
+      "sha256": "7dada92639171f0889ea08fce2d0c6959fdc80b4a41392c354197a37a8bde65d",
+      "crc32": 3037996451,
+      "bytes": 947295
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/82/reports/report.json",
+      "archive_member": "CuckooClean/82/reports/report.json",
+      "sha256": "32fe7e910b25579e1e238b324bad1a7e85ee188a36ae506ca222a48a6aa42ff4",
+      "crc32": 971021194,
+      "bytes": 86545
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/84/reports/report.json",
+      "archive_member": "CuckooClean/84/reports/report.json",
+      "sha256": "94d4ba88dc79e2dbd9a75b53d8d3b4dbdef2be5100d29f0f0911da42fd3509e0",
+      "crc32": 1445894087,
+      "bytes": 49125
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/86/reports/report.json",
+      "archive_member": "CuckooClean/86/reports/report.json",
+      "sha256": "ac7022f87869fdb775a9a8a3467d66c2d52a637b5aa1095b3b1671047d8d4f21",
+      "crc32": 2416012858,
+      "bytes": 78431
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/87/reports/report.json",
+      "archive_member": "CuckooClean/87/reports/report.json",
+      "sha256": "74a884eef6362db0bf142e28405a13a0ee0f712f48e43f9ccf902648ecfe27a8",
+      "crc32": 838442081,
+      "bytes": 864948
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/89/reports/report.json",
+      "archive_member": "CuckooClean/89/reports/report.json",
+      "sha256": "0666350d1cfc97efe77c63a902e6727e66a121d693bb17847feeab55cb749708",
+      "crc32": 1979802776,
+      "bytes": 81165
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/93/reports/report.json",
+      "archive_member": "CuckooClean/93/reports/report.json",
+      "sha256": "f5136057fbf93c377f3e0a1e5e0a13347615c7cd91ddd1ae97f19ca2f5db5ddd",
+      "crc32": 1062283616,
+      "bytes": 51914
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/98/reports/report.json",
+      "archive_member": "CuckooClean/98/reports/report.json",
+      "sha256": "21462ad8ddbe3f9332a82253b3e691d6c9426f607c4605bd47b90edca5085306",
+      "crc32": 576056672,
+      "bytes": 47271
+    },
+    {
+      "path": "data/remediation_holdout/CuckooClean/99/reports/report.json",
+      "archive_member": "CuckooClean/99/reports/report.json",
+      "sha256": "4cfbcbc0f8b46eaf40254c8b66a5ca28a497708fe77157a807449927f5c6855d",
+      "crc32": 2487687463,
+      "bytes": 86193
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/1/reports/report.json",
+      "archive_member": "CuckooCleanHippo/1/reports/report.json",
+      "sha256": "ae18e045456b7d9c18e1caf131ff74bb813e610138229f655cea174b046f008b",
+      "crc32": 1065370267,
+      "bytes": 28828720
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/10/reports/report.json",
+      "archive_member": "CuckooCleanHippo/10/reports/report.json",
+      "sha256": "f278335b6fe49d7720ba95e4139b1509f799f9070d44affc4361b672765b473d",
+      "crc32": 998565332,
+      "bytes": 2578320
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/104/reports/report.json",
+      "archive_member": "CuckooCleanHippo/104/reports/report.json",
+      "sha256": "d9e745db9d29f5d4d1a0b62ac66563f590ba2f38048fb6487b3a0bdfc8c25378",
+      "crc32": 787816843,
+      "bytes": 13731677
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/105/reports/report.json",
+      "archive_member": "CuckooCleanHippo/105/reports/report.json",
+      "sha256": "8950591e2c06b59c9a99cd59d95108440bf03ea75754af1aad45d5ef99e5423c",
+      "crc32": 4244021250,
+      "bytes": 9403069
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/109/reports/report.json",
+      "archive_member": "CuckooCleanHippo/109/reports/report.json",
+      "sha256": "466a1cd89a5ed1d918a364ad822d641811a7fc955496e7c6d564944ebbc228a6",
+      "crc32": 3385911755,
+      "bytes": 6506845
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/111/reports/report.json",
+      "archive_member": "CuckooCleanHippo/111/reports/report.json",
+      "sha256": "acbc9531c59381b2cb33ee957f7a06e04b7d18cf207e239f395dd3eb5c47c08f",
+      "crc32": 3270039793,
+      "bytes": 4653787
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/112/reports/report.json",
+      "archive_member": "CuckooCleanHippo/112/reports/report.json",
+      "sha256": "3185eb39797a9c89bc5f6c7a87476b66d22702109df25a276278ec2492d8452b",
+      "crc32": 2123636132,
+      "bytes": 6690046
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/113/reports/report.json",
+      "archive_member": "CuckooCleanHippo/113/reports/report.json",
+      "sha256": "44638fa8d2af8277b1e0db43b1a230821642c5313907d0542e8f6c63f7daf3a1",
+      "crc32": 2507285508,
+      "bytes": 110833182
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/119/reports/report.json",
+      "archive_member": "CuckooCleanHippo/119/reports/report.json",
+      "sha256": "1d4c022370a244b934feffb8e84dbb59b38d7405452a5b9890bbbd39cb3eb87c",
+      "crc32": 3547947008,
+      "bytes": 58731671
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/12/reports/report.json",
+      "archive_member": "CuckooCleanHippo/12/reports/report.json",
+      "sha256": "cbc9f40f619126336408f0e033af951147f4f64965396766c31039510aee8498",
+      "crc32": 2605940619,
+      "bytes": 43499440
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/127/reports/report.json",
+      "archive_member": "CuckooCleanHippo/127/reports/report.json",
+      "sha256": "95e19b821e1b53f62328d90152918d215e9e8e06b59d82ab0f13566b4dcb196b",
+      "crc32": 932042318,
+      "bytes": 3602722
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/132/reports/report.json",
+      "archive_member": "CuckooCleanHippo/132/reports/report.json",
+      "sha256": "ae24ef3716584d9787a58f09d29ff88988570af16c3e052d4394042303717088",
+      "crc32": 360671923,
+      "bytes": 1836077
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/135/reports/report.json",
+      "archive_member": "CuckooCleanHippo/135/reports/report.json",
+      "sha256": "4150c3005c5fb17ad651cab98b68c6ffb0612512c6e04618ba4ada63f0cbb8d8",
+      "crc32": 2439875391,
+      "bytes": 417430102
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/136/reports/report.json",
+      "archive_member": "CuckooCleanHippo/136/reports/report.json",
+      "sha256": "f7fe44fb837238ad0a0b699a350783f70314e5da901bcf8ab0ac38cfd27ebf3c",
+      "crc32": 178563086,
+      "bytes": 365677100
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/141/reports/report.json",
+      "archive_member": "CuckooCleanHippo/141/reports/report.json",
+      "sha256": "748db526ff7e5c041d5f7eef0267fe74f7f40653fb8684cdae94e2c566783d86",
+      "crc32": 3771864588,
+      "bytes": 47199640
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/144/reports/report.json",
+      "archive_member": "CuckooCleanHippo/144/reports/report.json",
+      "sha256": "051e512f235ae70f3eeeccb490331662099c8a829a8929198a03f70661399c72",
+      "crc32": 4098220798,
+      "bytes": 54880800
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/146/reports/report.json",
+      "archive_member": "CuckooCleanHippo/146/reports/report.json",
+      "sha256": "9e964eefa60a49d659f53ba995a0459495355ebfd98be9dbf6eb8a604ab8653d",
+      "crc32": 1959570220,
+      "bytes": 144355804
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/148/reports/report.json",
+      "archive_member": "CuckooCleanHippo/148/reports/report.json",
+      "sha256": "73818b8a0c29df775e4636b9016a2f77418809d0e8098d86eb07b7b85e3f42f8",
+      "crc32": 1992094103,
+      "bytes": 292388166
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/151/reports/report.json",
+      "archive_member": "CuckooCleanHippo/151/reports/report.json",
+      "sha256": "975348eb228dcab8d194a0bd0dc49c72232071343c63f88afd6ac504739e8036",
+      "crc32": 2593665476,
+      "bytes": 6889306
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/153/reports/report.json",
+      "archive_member": "CuckooCleanHippo/153/reports/report.json",
+      "sha256": "e4731f1370b514f8373fd38d90be5f2499413fcd3037d2875ca035a34bafe18a",
+      "crc32": 1732503799,
+      "bytes": 95350439
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/156/reports/report.json",
+      "archive_member": "CuckooCleanHippo/156/reports/report.json",
+      "sha256": "93d90f2c8a70c1c391bbc73cd6c8838e6f55de4df274ce2a34c40df2edcf8871",
+      "crc32": 326026716,
+      "bytes": 22966977
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/157/reports/report.json",
+      "archive_member": "CuckooCleanHippo/157/reports/report.json",
+      "sha256": "7db5cd93969bcb82ab19ea206ea5597882b0fd92f1bbd21b51a513e36bb14943",
+      "crc32": 2785260760,
+      "bytes": 4195482
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/164/reports/report.json",
+      "archive_member": "CuckooCleanHippo/164/reports/report.json",
+      "sha256": "660e2b82ff631877ee48b1c03be92b05c6b38d67797866563d9824efd9607ddb",
+      "crc32": 872311577,
+      "bytes": 187117654
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/165/reports/report.json",
+      "archive_member": "CuckooCleanHippo/165/reports/report.json",
+      "sha256": "7d172d3af920753824129a85ddb1ce7998e05633d6f66ffb7bc61133892196b0",
+      "crc32": 1654484893,
+      "bytes": 79681176
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/170/reports/report.json",
+      "archive_member": "CuckooCleanHippo/170/reports/report.json",
+      "sha256": "2c405e3ca6b46d5bb336e44d7c2929a50b188970053e19438d3d3607a8e39652",
+      "crc32": 515461011,
+      "bytes": 73568160
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/175/reports/report.json",
+      "archive_member": "CuckooCleanHippo/175/reports/report.json",
+      "sha256": "65cb189efea7b1db63b52271c198296bd6feb41bb5c351d80110b852a266ef81",
+      "crc32": 3696193639,
+      "bytes": 67336726
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/179/reports/report.json",
+      "archive_member": "CuckooCleanHippo/179/reports/report.json",
+      "sha256": "17c72d555ed1f6385980d1fd2d89d8c2e190776a1eabc683d8b01537b87ae2b0",
+      "crc32": 199727703,
+      "bytes": 328752561
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/18/reports/report.json",
+      "archive_member": "CuckooCleanHippo/18/reports/report.json",
+      "sha256": "50ffe44234933df1bfa90bb0ade22004ba291c81ad475bfddccd18d4eb67e2a3",
+      "crc32": 2798348134,
+      "bytes": 363641698
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/180/reports/report.json",
+      "archive_member": "CuckooCleanHippo/180/reports/report.json",
+      "sha256": "b45b981364579d80d122304acf558a7654e01db0bda0737bf19f6a09dad586c0",
+      "crc32": 1099070385,
+      "bytes": 30100266
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/181/reports/report.json",
+      "archive_member": "CuckooCleanHippo/181/reports/report.json",
+      "sha256": "5b23e02c936f0eeec594c3e9e6a1b3652f7bdbcfa5d0b25a89057cb32f6d2306",
+      "crc32": 1041764415,
+      "bytes": 14507500
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/185/reports/report.json",
+      "archive_member": "CuckooCleanHippo/185/reports/report.json",
+      "sha256": "20e483092b43bf58d03ce1c9657d23daa1535901e34df70a129aaebe25600182",
+      "crc32": 4190858192,
+      "bytes": 28150888
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/189/reports/report.json",
+      "archive_member": "CuckooCleanHippo/189/reports/report.json",
+      "sha256": "1b8a86f0a9d469d7f07fdbf0571c05357c4cdd93df3e269e92f0102d42fc970d",
+      "crc32": 3616625475,
+      "bytes": 74439240
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/19/reports/report.json",
+      "archive_member": "CuckooCleanHippo/19/reports/report.json",
+      "sha256": "c55120112996017ef3b409f01f62cbf52659d87c3a0c159852aaea2f304659fe",
+      "crc32": 3661532156,
+      "bytes": 44147684
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/190/reports/report.json",
+      "archive_member": "CuckooCleanHippo/190/reports/report.json",
+      "sha256": "0e3980d3996fab49b4496e98abbb8445464052c5d9bdf853303de96e5ce692a6",
+      "crc32": 1888767153,
+      "bytes": 133492754
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/191/reports/report.json",
+      "archive_member": "CuckooCleanHippo/191/reports/report.json",
+      "sha256": "3026b7b39f56d0b88056b5903e6a78bb5d4fbfac5a4fa6ccd12af0a114470c3b",
+      "crc32": 1499011065,
+      "bytes": 103495045
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/196/reports/report.json",
+      "archive_member": "CuckooCleanHippo/196/reports/report.json",
+      "sha256": "02531edb0356dcc81c3f463655c26b6dae27284c454c5c524fd872dccdd85af2",
+      "crc32": 2316323042,
+      "bytes": 10477064
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/197/reports/report.json",
+      "archive_member": "CuckooCleanHippo/197/reports/report.json",
+      "sha256": "127d50b391463cdd1a11c673a3b87ebb6ce06d5b9c5009ed8209a853d4760e5f",
+      "crc32": 3502302909,
+      "bytes": 10735072
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/199/reports/report.json",
+      "archive_member": "CuckooCleanHippo/199/reports/report.json",
+      "sha256": "92dc87c1a5114ad46fcc19a871b29eb2d71fa474882f00f3f454c0b4704a2f27",
+      "crc32": 4239746921,
+      "bytes": 3424087
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/20/reports/report.json",
+      "archive_member": "CuckooCleanHippo/20/reports/report.json",
+      "sha256": "47c608efc338b667e292f1d38e8d70b5e85776d1b20c4e07ec3a4d120509bb77",
+      "crc32": 4240094262,
+      "bytes": 41167893
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/200/reports/report.json",
+      "archive_member": "CuckooCleanHippo/200/reports/report.json",
+      "sha256": "d3ba056d557f2887ae6df4f6c11e217754332fe77e26922bf65eba979604f52d",
+      "crc32": 3242831211,
+      "bytes": 863729
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/201/reports/report.json",
+      "archive_member": "CuckooCleanHippo/201/reports/report.json",
+      "sha256": "35bf987c670af2fa0ce6db0f16d540dc02d7eec0cf58e18a160acb3d6be02395",
+      "crc32": 1364149298,
+      "bytes": 25771668
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/205/reports/report.json",
+      "archive_member": "CuckooCleanHippo/205/reports/report.json",
+      "sha256": "566fc015a971f0186ff472889df3f2af74fc568f7babc796526a9eb8408e365f",
+      "crc32": 1002433089,
+      "bytes": 187409183
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/206/reports/report.json",
+      "archive_member": "CuckooCleanHippo/206/reports/report.json",
+      "sha256": "add5b725811170ae1fb1fee89f55754a50d7962c6bfd37893719ed0f7799375d",
+      "crc32": 827832865,
+      "bytes": 7223025
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/208/reports/report.json",
+      "archive_member": "CuckooCleanHippo/208/reports/report.json",
+      "sha256": "00d1d656b467de211207b51199730d7067828a3850cf75875c17ae51df56cac5",
+      "crc32": 3703424117,
+      "bytes": 2859377
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/209/reports/report.json",
+      "archive_member": "CuckooCleanHippo/209/reports/report.json",
+      "sha256": "9ebc8e71611b7731ced3ecba44a96a7ba5fb167e86967b27fda3938732bd1aef",
+      "crc32": 549244315,
+      "bytes": 115252160
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/21/reports/report.json",
+      "archive_member": "CuckooCleanHippo/21/reports/report.json",
+      "sha256": "473c259b6899a27b25f576d4e9f486f1301080a090071089ee291a0f26cd8c30",
+      "crc32": 3669487447,
+      "bytes": 82193556
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/212/reports/report.json",
+      "archive_member": "CuckooCleanHippo/212/reports/report.json",
+      "sha256": "4db832779ed1ff7201e3287f8015d78ba9b452c3dbe460365807dfc36c74a503",
+      "crc32": 1663196739,
+      "bytes": 143002453
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/217/reports/report.json",
+      "archive_member": "CuckooCleanHippo/217/reports/report.json",
+      "sha256": "1b8f28ac31fd24b3229e150179bff8db5bb782820ee63a022056d938a583bd18",
+      "crc32": 2578810079,
+      "bytes": 28707703
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/224/reports/report.json",
+      "archive_member": "CuckooCleanHippo/224/reports/report.json",
+      "sha256": "f58c25d64ebcadc86dbbd920cd3a11658fcf14df04e8da35f856da3f727e8e02",
+      "crc32": 2293999883,
+      "bytes": 49487919
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/227/reports/report.json",
+      "archive_member": "CuckooCleanHippo/227/reports/report.json",
+      "sha256": "147df4594b509be6b29bcaf0aa2fb6010f7dfbf46b691321fd28844aa3ce32b6",
+      "crc32": 214400098,
+      "bytes": 92403203
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/230/reports/report.json",
+      "archive_member": "CuckooCleanHippo/230/reports/report.json",
+      "sha256": "596730084c4e6a3b41ade52f2721f3e560706af3bd6fe7cb0fbe0b1cfb9ffb3b",
+      "crc32": 1642617213,
+      "bytes": 6354968
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/231/reports/report.json",
+      "archive_member": "CuckooCleanHippo/231/reports/report.json",
+      "sha256": "e3d5f2af7541fab0698bbad3c8aea0b82fd8c198127c09e75977714297765e59",
+      "crc32": 2299603383,
+      "bytes": 16344151
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/239/reports/report.json",
+      "archive_member": "CuckooCleanHippo/239/reports/report.json",
+      "sha256": "2fe01fb8b349931266ab63ed0416674e183180583a4c97d51bf03d89261399de",
+      "crc32": 715011283,
+      "bytes": 62171305
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/24/reports/report.json",
+      "archive_member": "CuckooCleanHippo/24/reports/report.json",
+      "sha256": "2d9d43b805c26a1ee8c96141d7b636986de1ab412df21b122cecfecbf87af1e3",
+      "crc32": 1956515700,
+      "bytes": 55083009
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/243/reports/report.json",
+      "archive_member": "CuckooCleanHippo/243/reports/report.json",
+      "sha256": "9da29cf838c3ac6a89b6e87f4abed0fd63634c32b388935c7c3df1d6661e77fb",
+      "crc32": 51906516,
+      "bytes": 32396696
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/248/reports/report.json",
+      "archive_member": "CuckooCleanHippo/248/reports/report.json",
+      "sha256": "0e3390b3fb46d96b7abdc2eb35c22153f9d37ca4fdf79512df9310d72ca3006b",
+      "crc32": 2681128615,
+      "bytes": 10331210
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/249/reports/report.json",
+      "archive_member": "CuckooCleanHippo/249/reports/report.json",
+      "sha256": "5f285beff1d606d6e92622a2b628e8777d29ebf3b0c1ce15cfbdf9998fccf64e",
+      "crc32": 2128885071,
+      "bytes": 159737229
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/25/reports/report.json",
+      "archive_member": "CuckooCleanHippo/25/reports/report.json",
+      "sha256": "9eba5e16552b0d9b4228e713acd6921ed87620c6efc0e828c2992998ac8d32eb",
+      "crc32": 1975349086,
+      "bytes": 288227102
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/251/reports/report.json",
+      "archive_member": "CuckooCleanHippo/251/reports/report.json",
+      "sha256": "7b06bef2d0e392bfc16a257500e354d75def5d7ae47e70e97bef81976ab212e3",
+      "crc32": 1565268960,
+      "bytes": 6410219
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/253/reports/report.json",
+      "archive_member": "CuckooCleanHippo/253/reports/report.json",
+      "sha256": "81016429da6dd20a66f1398ef19df45420d7b1c89843b6b24dd03cb6841d0fd4",
+      "crc32": 1622675830,
+      "bytes": 5628807
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/255/reports/report.json",
+      "archive_member": "CuckooCleanHippo/255/reports/report.json",
+      "sha256": "0eb7423bbe3d81764aa19575bb5972628888c26d7c44d67d21c240547d40cccc",
+      "crc32": 122177554,
+      "bytes": 8514526
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/259/reports/report.json",
+      "archive_member": "CuckooCleanHippo/259/reports/report.json",
+      "sha256": "f2b68fe5b8f600cb2ab306e5c18837e92b4289ec5658bb1f1ceb070302763f88",
+      "crc32": 1542638938,
+      "bytes": 27791516
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/26/reports/report.json",
+      "archive_member": "CuckooCleanHippo/26/reports/report.json",
+      "sha256": "83c94cb39d2a4a5c971511378e82ab46378e7ae0e0cadd48a707f35f5fa39dd9",
+      "crc32": 473059496,
+      "bytes": 6585638
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/263/reports/report.json",
+      "archive_member": "CuckooCleanHippo/263/reports/report.json",
+      "sha256": "f827ab7d6babbe9c5e8e53d4aac5f0130ad1584e60aac574a5260ea069bbe5fc",
+      "crc32": 1681081782,
+      "bytes": 3206832
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/265/reports/report.json",
+      "archive_member": "CuckooCleanHippo/265/reports/report.json",
+      "sha256": "f810c5f24b43e17730ac32e4933f9693fc3cce13f1f9005bc90d6e4d0dd60375",
+      "crc32": 1814446054,
+      "bytes": 6692879
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/266/reports/report.json",
+      "archive_member": "CuckooCleanHippo/266/reports/report.json",
+      "sha256": "68c6f15928b2b9848068aa4ca56a2f69a5073a06b1597e630eb92edb6c89df41",
+      "crc32": 3546672819,
+      "bytes": 29126486
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/267/reports/report.json",
+      "archive_member": "CuckooCleanHippo/267/reports/report.json",
+      "sha256": "2afa102a3d4934d1c69324e18f121638328e60f6ee8ffcc83bee1a23af001699",
+      "crc32": 231242490,
+      "bytes": 14413218
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/268/reports/report.json",
+      "archive_member": "CuckooCleanHippo/268/reports/report.json",
+      "sha256": "25b63025e1380f8a819351c4765f61f0b5b8ac55297bf86cdf7e941c2e743a2a",
+      "crc32": 139748304,
+      "bytes": 411634384
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/269/reports/report.json",
+      "archive_member": "CuckooCleanHippo/269/reports/report.json",
+      "sha256": "45bcfb2ad539cf795aed9d426a38491d28a2dd6564ac89276e40e74999113442",
+      "crc32": 861316108,
+      "bytes": 17176982
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/27/reports/report.json",
+      "archive_member": "CuckooCleanHippo/27/reports/report.json",
+      "sha256": "588b2f6497b56a1b28f3f9ca84b70ad8af1ef0dbc5f38e33529426f6e64f9dce",
+      "crc32": 2009494710,
+      "bytes": 36261202
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/279/reports/report.json",
+      "archive_member": "CuckooCleanHippo/279/reports/report.json",
+      "sha256": "6c51f8641fc98071cc85088f7e1cc457bda5a3165768c454209d7105e0237986",
+      "crc32": 2827367381,
+      "bytes": 89027968
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/282/reports/report.json",
+      "archive_member": "CuckooCleanHippo/282/reports/report.json",
+      "sha256": "3ea8202a5a6ca7e0ae03460a4e523d55334f6d43985494fdf05ab8b8cf0d4b1a",
+      "crc32": 3203625239,
+      "bytes": 3864084
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/285/reports/report.json",
+      "archive_member": "CuckooCleanHippo/285/reports/report.json",
+      "sha256": "4b278f5f8c90e84d9abf66db7309ea7cd91850a0315a5045bcd53ec8fc483778",
+      "crc32": 2159468314,
+      "bytes": 32681745
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/29/reports/report.json",
+      "archive_member": "CuckooCleanHippo/29/reports/report.json",
+      "sha256": "f6fc29b9fdb8d7033f0b0288d2681e456caa8c245862edd58a3467d211740b16",
+      "crc32": 1014344238,
+      "bytes": 296716
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/291/reports/report.json",
+      "archive_member": "CuckooCleanHippo/291/reports/report.json",
+      "sha256": "a03fc4eb91c639610ff015f8eb8bc83d5b5804181c0fa7b88ced0335276e1384",
+      "crc32": 2271778364,
+      "bytes": 28435614
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/293/reports/report.json",
+      "archive_member": "CuckooCleanHippo/293/reports/report.json",
+      "sha256": "6de6879e93f9aad911778d351c5227e13228329d284382e714d95e6b3f801e95",
+      "crc32": 3027666908,
+      "bytes": 52625267
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/294/reports/report.json",
+      "archive_member": "CuckooCleanHippo/294/reports/report.json",
+      "sha256": "500cbc2fe6cfac789387fdc263f3a6f1ece4e3379c703278da70f764be523872",
+      "crc32": 88883750,
+      "bytes": 123810620
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/298/reports/report.json",
+      "archive_member": "CuckooCleanHippo/298/reports/report.json",
+      "sha256": "e37daa1ce916f7c4c07dc4fed52eba0056b88e8c276e57f6f6609d6ffb792b51",
+      "crc32": 397381411,
+      "bytes": 196575816
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/299/reports/report.json",
+      "archive_member": "CuckooCleanHippo/299/reports/report.json",
+      "sha256": "64de7f11e2ea969cd3e95ca309c0a917e34bb78ddaa89b3f7c5cdf700e3b12be",
+      "crc32": 2488994287,
+      "bytes": 130884279
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/30/reports/report.json",
+      "archive_member": "CuckooCleanHippo/30/reports/report.json",
+      "sha256": "964e79784326a56fdb432c70989598d53f6ac9c57f99c051dce925506df639c2",
+      "crc32": 339302253,
+      "bytes": 27047487
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/302/reports/report.json",
+      "archive_member": "CuckooCleanHippo/302/reports/report.json",
+      "sha256": "3ed4ccf9d85bc13ffcf38511854ff7ac9be30021c7d0ac60d561f0cef17624da",
+      "crc32": 188358479,
+      "bytes": 67581483
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/303/reports/report.json",
+      "archive_member": "CuckooCleanHippo/303/reports/report.json",
+      "sha256": "3578e9e2be159740f223cae61b036ec61fbc5e4431ef6d4b4e371ef307d46623",
+      "crc32": 3848985906,
+      "bytes": 55666649
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/307/reports/report.json",
+      "archive_member": "CuckooCleanHippo/307/reports/report.json",
+      "sha256": "7d411a52b22283775e9ca7efb51e3358c133b71d0681bd75afe676a904e2889d",
+      "crc32": 1899487386,
+      "bytes": 12758617
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/308/reports/report.json",
+      "archive_member": "CuckooCleanHippo/308/reports/report.json",
+      "sha256": "52f72a028b7001adc9e7aa84023996a35f0e993856c0654c3b83534b9a4d2a71",
+      "crc32": 591598662,
+      "bytes": 412023084
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/309/reports/report.json",
+      "archive_member": "CuckooCleanHippo/309/reports/report.json",
+      "sha256": "bbf152315b231fd2adcf4abe0a1112df23057cd30b89f55f547508975daa3a03",
+      "crc32": 2167217133,
+      "bytes": 44912904
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/38/reports/report.json",
+      "archive_member": "CuckooCleanHippo/38/reports/report.json",
+      "sha256": "525c180f5bc5ca2944ff1d3670a752deccc8a59a225da5778611332d47d7b1ce",
+      "crc32": 784568559,
+      "bytes": 77441421
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/42/reports/report.json",
+      "archive_member": "CuckooCleanHippo/42/reports/report.json",
+      "sha256": "ecfda2342d189707fecf3418ae359cc51cca704971f0675b29036be2313932d0",
+      "crc32": 1961689210,
+      "bytes": 130467894
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/45/reports/report.json",
+      "archive_member": "CuckooCleanHippo/45/reports/report.json",
+      "sha256": "8f67d5beb7649ad7f9ef9e4d8967104e89bab48f681f2681c5fa9208aada6e27",
+      "crc32": 1826293357,
+      "bytes": 6063655
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/47/reports/report.json",
+      "archive_member": "CuckooCleanHippo/47/reports/report.json",
+      "sha256": "9aea1f8c67853e61b539b89720f943641a203dd90c8f5f6869379ada84ffdf30",
+      "crc32": 698701306,
+      "bytes": 537758400
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/48/reports/report.json",
+      "archive_member": "CuckooCleanHippo/48/reports/report.json",
+      "sha256": "0f2306b8c6e9204522b38b028a49d16ffffc0d6c8d1cd8822cbc6a943d710ba1",
+      "crc32": 2031080329,
+      "bytes": 35824805
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/51/reports/report.json",
+      "archive_member": "CuckooCleanHippo/51/reports/report.json",
+      "sha256": "52d28a18f299d73ccbbc9c25bbb23758cdc5287a1160015d4e3e9d1295035cd3",
+      "crc32": 1785259778,
+      "bytes": 26276866
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/52/reports/report.json",
+      "archive_member": "CuckooCleanHippo/52/reports/report.json",
+      "sha256": "340709afce58f8c48065d782be8b18e1b84d86034760bb0ca794b1f70ff58a2b",
+      "crc32": 3042671456,
+      "bytes": 15518908
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/56/reports/report.json",
+      "archive_member": "CuckooCleanHippo/56/reports/report.json",
+      "sha256": "f42ce571b5c8d99bac20343738dbad251e9962f50f4f70164043a138fa091b34",
+      "crc32": 885346848,
+      "bytes": 57331534
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/57/reports/report.json",
+      "archive_member": "CuckooCleanHippo/57/reports/report.json",
+      "sha256": "8d8e63255efeb3b59042d4cf0aac40ac21f9f6b0fe26a521eadbeb1eeb50be28",
+      "crc32": 4262716478,
+      "bytes": 40295426
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/59/reports/report.json",
+      "archive_member": "CuckooCleanHippo/59/reports/report.json",
+      "sha256": "425982fcb6bceea10051bf6b1ab00664155059b402be32c64f9d99e554e74513",
+      "crc32": 3197118354,
+      "bytes": 828889440
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/6/reports/report.json",
+      "archive_member": "CuckooCleanHippo/6/reports/report.json",
+      "sha256": "5d9a0e36c6b49733c452896ce913a4bda40fc00545297158cbaa0f4f803d8bdb",
+      "crc32": 788672869,
+      "bytes": 26634058
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/61/reports/report.json",
+      "archive_member": "CuckooCleanHippo/61/reports/report.json",
+      "sha256": "973609155ce8459766d6e74e19ea3b96f0d06750b42edd736be7ee603cacdb8e",
+      "crc32": 1915960591,
+      "bytes": 162474
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/64/reports/report.json",
+      "archive_member": "CuckooCleanHippo/64/reports/report.json",
+      "sha256": "b70794eaf1aeb7ab9187ec68b6777fb0d1c5b8f622ab08957f80b7e8e2a7cf69",
+      "crc32": 1972665878,
+      "bytes": 45371314
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/65/reports/report.json",
+      "archive_member": "CuckooCleanHippo/65/reports/report.json",
+      "sha256": "50a10b027b6214da29f8507b1e59d99b5ef48d2b3191c254c1f649b3b5142c38",
+      "crc32": 747858989,
+      "bytes": 70976514
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/66/reports/report.json",
+      "archive_member": "CuckooCleanHippo/66/reports/report.json",
+      "sha256": "66f31f86e042f1edfd06ea0b884d5b0fda8943830c91ae8bfa2d73d388e85101",
+      "crc32": 2263483724,
+      "bytes": 66914758
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/7/reports/report.json",
+      "archive_member": "CuckooCleanHippo/7/reports/report.json",
+      "sha256": "13343090edce53acc7300be8c0522853625ff1b571f12aab9191718f9ce482b9",
+      "crc32": 151991833,
+      "bytes": 87803832
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/72/reports/report.json",
+      "archive_member": "CuckooCleanHippo/72/reports/report.json",
+      "sha256": "6d7b5d625ea202f76e58494a493b964b02e6577eaaeed1ac2e314275db3c264a",
+      "crc32": 3948742015,
+      "bytes": 42150082
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/73/reports/report.json",
+      "archive_member": "CuckooCleanHippo/73/reports/report.json",
+      "sha256": "7c0e2f352f0604d3556807521d675b1dcd6c2e05bd34aa99027b6c6546c22f94",
+      "crc32": 2214600878,
+      "bytes": 79600616
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/76/reports/report.json",
+      "archive_member": "CuckooCleanHippo/76/reports/report.json",
+      "sha256": "96513e49fb1f65eb4690a2ee4af7a0ad4c3407f7f0a4659dca2cee4d175f39ca",
+      "crc32": 2572492683,
+      "bytes": 2899055
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/78/reports/report.json",
+      "archive_member": "CuckooCleanHippo/78/reports/report.json",
+      "sha256": "fab0afe8403570cac142e5403c45e62a89930c3d2ee6ef4a0ee65b2158109d98",
+      "crc32": 2308114471,
+      "bytes": 50184345
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/80/reports/report.json",
+      "archive_member": "CuckooCleanHippo/80/reports/report.json",
+      "sha256": "1874047a6322a6aa4867fb796dbf658798bee80c2618a1fe78827f5336dbc887",
+      "crc32": 1747104750,
+      "bytes": 170095086
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/81/reports/report.json",
+      "archive_member": "CuckooCleanHippo/81/reports/report.json",
+      "sha256": "03bdadd7e67773b1b4409c4f8cdee0aa1159e197fea095157c5b1ff60368d829",
+      "crc32": 116339082,
+      "bytes": 4804786
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/82/reports/report.json",
+      "archive_member": "CuckooCleanHippo/82/reports/report.json",
+      "sha256": "3b51749057af7b9c8f4956ced0fac04dad2af4fbbf1ffbb84db0f8f04993967b",
+      "crc32": 974760861,
+      "bytes": 196930
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/83/reports/report.json",
+      "archive_member": "CuckooCleanHippo/83/reports/report.json",
+      "sha256": "7e201f85f6b58d5c4fe78704c2557992080d8ab8d1d2545bf265d6215674b410",
+      "crc32": 2112735940,
+      "bytes": 19782123
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/87/reports/report.json",
+      "archive_member": "CuckooCleanHippo/87/reports/report.json",
+      "sha256": "ea6463a19342350d63822ce60f7ddbfddc34f5f1b50184081345ee387a757fd9",
+      "crc32": 2454964675,
+      "bytes": 5229163
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/88/reports/report.json",
+      "archive_member": "CuckooCleanHippo/88/reports/report.json",
+      "sha256": "7f0341b98f2a169b37eecc1c897bad8d19873d4468c654160b32456b8e55affe",
+      "crc32": 4122644561,
+      "bytes": 109631
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/9/reports/report.json",
+      "archive_member": "CuckooCleanHippo/9/reports/report.json",
+      "sha256": "487a4883394c619b7ee8d8be875fcec86be594d0bb44d0087a390ea6366c3644",
+      "crc32": 2832322381,
+      "bytes": 37082021
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/90/reports/report.json",
+      "archive_member": "CuckooCleanHippo/90/reports/report.json",
+      "sha256": "607df8ea115823425cf41681fced6d85f238bfc448057878103df2c45c4dfce1",
+      "crc32": 360065155,
+      "bytes": 51776179
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/93/reports/report.json",
+      "archive_member": "CuckooCleanHippo/93/reports/report.json",
+      "sha256": "875e53a7963523a7c9e2f4bb7d5c7075ed87a73287b9483bf229ffe43ba1f657",
+      "crc32": 1399575629,
+      "bytes": 34839778
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/96/reports/report.json",
+      "archive_member": "CuckooCleanHippo/96/reports/report.json",
+      "sha256": "2772360fa69aab65f9f24174ac76b03f0a885013af90b8395bdfb5a6f7f355b2",
+      "crc32": 4138485130,
+      "bytes": 26462243
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/97/reports/report.json",
+      "archive_member": "CuckooCleanHippo/97/reports/report.json",
+      "sha256": "6c2c935f26b7c92168664a80dc2d6c8643e3a1d2389b243b3038ae785f60b9c8",
+      "crc32": 2050595069,
+      "bytes": 252106609
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanHippo/98/reports/report.json",
+      "archive_member": "CuckooCleanHippo/98/reports/report.json",
+      "sha256": "b0f6784188eaa15a603b0a6431ee6ffc000d6c2bd47d98839f3ea2b43d9ed588",
+      "crc32": 2126317152,
+      "bytes": 471647101
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/10/reports/report.json",
+      "archive_member": "CuckooCleanPippo/10/reports/report.json",
+      "sha256": "0c7ab984b114ca6d6209fdeff77aad14c5e51b2acc27539c3713f03540c02ed0",
+      "crc32": 2707664625,
+      "bytes": 37763230
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/12/reports/report.json",
+      "archive_member": "CuckooCleanPippo/12/reports/report.json",
+      "sha256": "88b697057efa0908bd9653264247f0365a0959e19dbef8c740edb0341ebbcede",
+      "crc32": 77329954,
+      "bytes": 287769708
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/19/reports/report.json",
+      "archive_member": "CuckooCleanPippo/19/reports/report.json",
+      "sha256": "fdd72419955c0c17078fd3cd3b1e411762d4915528f856e30acd55039d2f6e69",
+      "crc32": 853524093,
+      "bytes": 213621325
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/20/reports/report.json",
+      "archive_member": "CuckooCleanPippo/20/reports/report.json",
+      "sha256": "a640ae115e73698324621073d483b3e872749d05499db159856dc29ce1fa3904",
+      "crc32": 1460272128,
+      "bytes": 116190510
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/26/reports/report.json",
+      "archive_member": "CuckooCleanPippo/26/reports/report.json",
+      "sha256": "ed6f06e1b0eea07e4abc36e8a12e01395bf4cb5fc5b596acd92c6cc91e3951cb",
+      "crc32": 4013752731,
+      "bytes": 35613296
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/27/reports/report.json",
+      "archive_member": "CuckooCleanPippo/27/reports/report.json",
+      "sha256": "59ef106b98853868186c4c32c45b842f79009f303ffce3c13cf499db1fbc6013",
+      "crc32": 3546174935,
+      "bytes": 3188578
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/29/reports/report.json",
+      "archive_member": "CuckooCleanPippo/29/reports/report.json",
+      "sha256": "08f05e2475ba3e90caafed4e98b40d1cb5043f9479466256f839bb409e961c31",
+      "crc32": 3452206532,
+      "bytes": 65832264
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/34/reports/report.json",
+      "archive_member": "CuckooCleanPippo/34/reports/report.json",
+      "sha256": "23c90b60bc67667799636287cb19e655b1d437cf41596ec4c6bfba5058474acc",
+      "crc32": 1793536502,
+      "bytes": 36121061
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/35/reports/report.json",
+      "archive_member": "CuckooCleanPippo/35/reports/report.json",
+      "sha256": "573d8fbf8f11059926692485342bf0d9a37421850f5ed4f708b87d935cce24ee",
+      "crc32": 2637126199,
+      "bytes": 5980514
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/37/reports/report.json",
+      "archive_member": "CuckooCleanPippo/37/reports/report.json",
+      "sha256": "a6c7c42d41747f462b38a982e6882edd6e82a82d6bdcac3e43120270fd3d3ac3",
+      "crc32": 1645321025,
+      "bytes": 31020990
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/40/reports/report.json",
+      "archive_member": "CuckooCleanPippo/40/reports/report.json",
+      "sha256": "367b8bf73bc788523b208affd968e7bcb817f7662217e61d60183f7d2fc5cd8d",
+      "crc32": 1987876216,
+      "bytes": 406586310
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/42/reports/report.json",
+      "archive_member": "CuckooCleanPippo/42/reports/report.json",
+      "sha256": "4c6911f50ba9f9700650c7e8ff4a51f4765dea24f280e45127f439814b2a70a6",
+      "crc32": 2228456753,
+      "bytes": 124863144
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/43/reports/report.json",
+      "archive_member": "CuckooCleanPippo/43/reports/report.json",
+      "sha256": "38e8a9593c7621a89c3eddc5b9ffca2a200a38524f7d9ca31bbfe15575fc549e",
+      "crc32": 243617286,
+      "bytes": 45662599
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/47/reports/report.json",
+      "archive_member": "CuckooCleanPippo/47/reports/report.json",
+      "sha256": "9005ba5e69655897114ae7acc16790238e654c5b357f3be9407a81492a98872c",
+      "crc32": 2231203509,
+      "bytes": 236970
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/49/reports/report.json",
+      "archive_member": "CuckooCleanPippo/49/reports/report.json",
+      "sha256": "7c199f38fe326bcba0675a0cd3f872b12f664f1161c6721c2738d7a6165fc1dc",
+      "crc32": 1094108138,
+      "bytes": 13373259
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/50/reports/report.json",
+      "archive_member": "CuckooCleanPippo/50/reports/report.json",
+      "sha256": "abe3ecf7950519b06e27caf2768cd7df9cbd061ac95eb0bd7d442949196ee741",
+      "crc32": 3852250094,
+      "bytes": 80857289
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/51/reports/report.json",
+      "archive_member": "CuckooCleanPippo/51/reports/report.json",
+      "sha256": "1ed3c2bb2537f5802897d59f51453b915397e636ad3827e7b250fa0decb2251b",
+      "crc32": 341758202,
+      "bytes": 150854177
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/52/reports/report.json",
+      "archive_member": "CuckooCleanPippo/52/reports/report.json",
+      "sha256": "1e3b8628250eb711eb0319c4bde4ac2da026226444500811072e5076d082add4",
+      "crc32": 670665816,
+      "bytes": 8918008
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/58/reports/report.json",
+      "archive_member": "CuckooCleanPippo/58/reports/report.json",
+      "sha256": "4f70d3e629345c9b9c1d6cae90f3a0cdb8a6cea16821213dde764dc63d74f2be",
+      "crc32": 742654646,
+      "bytes": 204728012
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/59/reports/report.json",
+      "archive_member": "CuckooCleanPippo/59/reports/report.json",
+      "sha256": "769662453e5265495f382096c9c756dcebd0de7f3630d2128e4a268e097e7e23",
+      "crc32": 64481764,
+      "bytes": 29133541
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/6/reports/report.json",
+      "archive_member": "CuckooCleanPippo/6/reports/report.json",
+      "sha256": "dafb214fe82f92a3b1e8fc319d6a9ff257f84274513e3e6a5c85a1ee8eedbda7",
+      "crc32": 1202312477,
+      "bytes": 74641770
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/61/reports/report.json",
+      "archive_member": "CuckooCleanPippo/61/reports/report.json",
+      "sha256": "4cebb05f6eb7204dce396fff58b1c0fb14cd171ad4dbb5959dcf8cbce792b1c9",
+      "crc32": 1029154454,
+      "bytes": 4409669
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/64/reports/report.json",
+      "archive_member": "CuckooCleanPippo/64/reports/report.json",
+      "sha256": "63fe865c30b706582883326480f97851663bc72ecf101a63fdef40208365b535",
+      "crc32": 3878476986,
+      "bytes": 27457906
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/65/reports/report.json",
+      "archive_member": "CuckooCleanPippo/65/reports/report.json",
+      "sha256": "8d64fcc62a0bd167cbf5944c0fae39e36cdddf0c2555a4325f5aa0770a40a8ba",
+      "crc32": 2243970127,
+      "bytes": 241346850
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/66/reports/report.json",
+      "archive_member": "CuckooCleanPippo/66/reports/report.json",
+      "sha256": "7769125ffa91756c751508f73abedf493d8a0d54650d50f22cd6a1094d6d9b5e",
+      "crc32": 3589451038,
+      "bytes": 267999798
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/67/reports/report.json",
+      "archive_member": "CuckooCleanPippo/67/reports/report.json",
+      "sha256": "8d0f121f5bc047c5c414666bcdc6f51a733cbe8651af27b49e0669be2a4e535a",
+      "crc32": 2358604952,
+      "bytes": 19372620
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/69/reports/report.json",
+      "archive_member": "CuckooCleanPippo/69/reports/report.json",
+      "sha256": "610b8cfbb16d40e4ec33e929c43b53df2830137ac5f55270885bfaa7bc3e2c81",
+      "crc32": 4027126470,
+      "bytes": 30225760
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/7/reports/report.json",
+      "archive_member": "CuckooCleanPippo/7/reports/report.json",
+      "sha256": "e6cc6e885c1695eee9776e37174b6e65ce77eb7a3c5c8c57b46aa6978d095aee",
+      "crc32": 1192526849,
+      "bytes": 17887753
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/71/reports/report.json",
+      "archive_member": "CuckooCleanPippo/71/reports/report.json",
+      "sha256": "98051726aae40300f7856f1870a6b87b10ce4f3bb22a05ce875d78bf112e8b16",
+      "crc32": 1450605287,
+      "bytes": 81835333
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/72/reports/report.json",
+      "archive_member": "CuckooCleanPippo/72/reports/report.json",
+      "sha256": "e5257bc31f21868452212e223bd4742542205b38de70044cdefe9221cf710868",
+      "crc32": 1020356953,
+      "bytes": 116138967
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/73/reports/report.json",
+      "archive_member": "CuckooCleanPippo/73/reports/report.json",
+      "sha256": "4592d459cf9d97a726a1f46765838275e4eff7033fa2b5ac674ea896bf0ba352",
+      "crc32": 544482885,
+      "bytes": 26307561
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/75/reports/report.json",
+      "archive_member": "CuckooCleanPippo/75/reports/report.json",
+      "sha256": "b915412d162b01f9e2f4cde1cfd7d9226a434ba854ddf03079e76a83d8318d0a",
+      "crc32": 1001200972,
+      "bytes": 62202891
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/81/reports/report.json",
+      "archive_member": "CuckooCleanPippo/81/reports/report.json",
+      "sha256": "4a142e2e8e21dba2afcd9d72d19c988727b67e321d7206ed8db9b2e693ca59a4",
+      "crc32": 1397712798,
+      "bytes": 16566797
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/82/reports/report.json",
+      "archive_member": "CuckooCleanPippo/82/reports/report.json",
+      "sha256": "56d8a0a6b844144da17db02f6111bbd82fbb313ab5f69d21820e892450e6f592",
+      "crc32": 4207526372,
+      "bytes": 23192812
+    },
+    {
+      "path": "data/remediation_holdout/CuckooCleanPippo/83/reports/report.json",
+      "archive_member": "CuckooCleanPippo/83/reports/report.json",
+      "sha256": "76f02eeba98ea2a5e70b560dc143b906fd73770945189bcc864e02c878cda5cf",
+      "crc32": 4286538872,
+      "bytes": 37123401
+    }
+  ],
+  "verification": "Each selected member CRC and local SHA256; no executable members extracted"
+}

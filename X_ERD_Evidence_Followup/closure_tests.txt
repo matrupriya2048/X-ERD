@@ -1,0 +1,18 @@
+test_bad_scores_and_malware_range_are_not_benign (test_evidence.EligibilityTests.test_bad_scores_and_malware_range_are_not_benign) ... ok
+test_counts_can_establish_execution_without_call_details (test_evidence.EligibilityTests.test_counts_can_establish_execution_without_call_details) ... ok
+test_crypto_followed_by_write_does_not_establish_onset (test_evidence.EligibilityTests.test_crypto_followed_by_write_does_not_establish_onset) ... ok
+test_linux_not_zero_imputed_into_windows_model (test_evidence.EligibilityTests.test_linux_not_zero_imputed_into_windows_model) ... ok
+test_malformed_hash_prevents_independence_claim (test_evidence.EligibilityTests.test_malformed_hash_prevents_independence_claim) ... ok
+test_missing_hash_prevents_independence_claim (test_evidence.EligibilityTests.test_missing_hash_prevents_independence_claim) ... ok
+test_no_observations_not_counted_as_negative (test_evidence.EligibilityTests.test_no_observations_not_counted_as_negative) ... ok
+test_nonnumeric_timestamp_not_used_as_numeric_onset (test_evidence.EligibilityTests.test_nonnumeric_timestamp_not_used_as_numeric_onset) ... ok
+test_sequence_timestamps_preserved_without_inventing_process_or_hash (test_evidence.EligibilityTests.test_sequence_timestamps_preserved_without_inventing_process_or_hash) ... ok
+test_zero_vector_is_not_an_eligibility_exclusion (test_evidence.EligibilityTests.test_zero_vector_is_not_an_eligibility_exclusion) ... ok
+test_missing_or_extra_features_rejected (test_primary_pair.PrimaryTests.test_missing_or_extra_features_rejected) ... ok
+test_nonbinary_nonfinite_values_rejected (test_primary_pair.PrimaryTests.test_nonbinary_nonfinite_values_rejected) ... ok
+test_only_required_learners_are_invoked (test_primary_pair.PrimaryTests.test_only_required_learners_are_invoked) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.003s
+
+OK

@@ -1,0 +1,5 @@
+{
+  "formula": "10000*((1-prevalence)*FPR+cost_ratio*prevalence*FNR)",
+  "scope": "sensitivity over stated cost ratios/prevalences and candidate policies; rates estimated on benchmark, not an enterprise deployment measurement or universal optimum",
+  "thresholds": "only training-validation policies are evaluated; test data is not used to refit a threshold"
+}

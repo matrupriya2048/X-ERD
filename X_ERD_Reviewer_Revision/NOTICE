@@ -1,0 +1,30 @@
+The MIT license in this folder covers the newly written X-ERD revision source
+code, tests and scripts. It does not relicense the scientific manuscript,
+upstream datasets, third-party packages, journal LaTeX class, bibliography style
+or previously supplied figures. Those retain their respective rights/licenses.
+
+Upstream dataset and report source: faithfulco/mlran, MIT-licensed repository.
+https://github.com/faithfulco/mlran
+Dataset publication: doi:10.1016/j.jnca.2026.104475
+Dataset archive: https://zenodo.org/records/23403681
+
+No raw ransomware executable is included in the source release.
+
+External original data/reference sources (raw bytes are not redistributed here):
+- Sgandurra et al., EldeRan dataset and paper (2016),
+  https://github.com/rissgrouphub/ransomwaredataset2016
+  https://doi.org/10.48550/arXiv.1609.03020
+- Iwan, Suryani, Yulianto and Pardamean, API Call Dataset (2026), version 1,
+  CC BY 4.0, https://doi.org/10.17632/yh9p6vs53y.1
+- Matthew Nunes, Dynamic Malware Analysis kernel and user-level calls (2018),
+  https://doi.org/10.5281/zenodo.1203289
+- The MITRE Corporation, ATT&CK STIX reference snapshot,
+  https://github.com/mitre-attack/attack-stix-data
+- Zirari et al., Deciphering Ransomware (2025), raw behavioral report collection,
+  https://doi.org/10.3991/ijim.v19i10.49245
+  https://github.com/KH-ZIRARI/Ransomware_Behavior/
+  Publisher-filtered ransomware labels are retained; no raw files are redistributed.
+
+Published algorithms are independently adapted in the new source. No downloaded
+third-party notebook or executable is run. Adaptation differences are documented;
+method citations do not imply endorsement by the original authors or MITRE.

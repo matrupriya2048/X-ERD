@@ -1,0 +1,5 @@
+FROM xerd-reviewer-revision:0.3.0
+WORKDIR /followup
+COPY primary_pair.py cape_adapter.py test_primary_pair.py test_cape_adapter.py /followup/
+RUN python -m unittest test_primary_pair test_cape_adapter -v
+ENTRYPOINT ["python", "primary_pair.py"]

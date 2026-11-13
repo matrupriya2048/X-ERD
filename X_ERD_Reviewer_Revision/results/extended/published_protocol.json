@@ -1,0 +1,52 @@
+{
+  "official_split": {
+    "train": {
+      "file": "MLRan_X_train_RFE.csv",
+      "sha256": "8bf6eb3978272127978fcc198f75050c9d3a1adc9955c9bb0dd0f6d9928e5284"
+    },
+    "test": {
+      "file": "MLRan_X_test_RFE.csv",
+      "sha256": "b10ed700de1243702b1162f805ef452c52e8719b39f7a751bb1f24df2f9c5b11"
+    },
+    "names": {
+      "file": "RFE_selected_feature_names_dic.json",
+      "sha256": "83af2d591b6935254574a027d29c304cd1e18113108cfd68cc09a336e8793d10"
+    },
+    "metadata": {
+      "file": "mlran_dataset_metadata.csv",
+      "sha256": "1cdb3180446d20dd0cc7fb24ae973fed281a37eb020b2191ff7566230035d3de"
+    }
+  },
+  "seed": 42,
+  "test_threshold": 0.5,
+  "MLRan": {
+    "source": "https://github.com/faithfulco/mlran/blob/main/6_experiments/1c_baseline_ML.ipynb",
+    "selection": "all five published model grids; 3-fold unshuffled stratified inner CV, ROC-AUC; train only",
+    "changes": "seed42 added for determinism; ransomware-positive metrics replace weighted class averages; library versions pinned; official483 representation retained"
+  },
+  "EldeRan": {
+    "source": "https://arxiv.org/abs/1609.03020",
+    "top_k": 400,
+    "lambda_grid": [
+      0,
+      2e-05,
+      0.0002,
+      0.002,
+      0.02,
+      0.2
+    ],
+    "selection": "5-fold stratified inner CV; MI reselected inside EVERY fold; ROC-AUC objective",
+    "changes": "official483 candidate pool and split instead of original30967 features; convex L2 objective solved by LBFGS instead of batch gradient descent; original whole-dataset hyperparameter search restricted to training data"
+  },
+  "RANSEC": {
+    "source": "https://doi.org/10.38094/jastt71555",
+    "variants": [
+      "SVM+XGB logistic stack",
+      "RF+SVM validation-accuracy-weighted soft vote"
+    ],
+    "specified": "linear SVM, RF100 depth10, logistic head L2 C0.1; min-max normalization unnecessary for binary indicators",
+    "ambiguities": "paper describes SVM+XGB in abstract/stacking section but inconsistent diagram prose mentions RF+SVM. We implement the explicit SVM+XGB variant and the separately described RF+SVM vote. No author source code available.",
+    "completion_choices": "SVM C1/probability calibration random_state42; XGB100 depth6 eta0.3 lambda1; 5 unshuffled inner OOF folds; original483 binary indicators; same official test",
+    "claim_scope": "published architecture adaptations, not exact reproduction of original feature acquisition or CPS deployment"
+  }
+}

@@ -1,0 +1,26 @@
+# Optional host acquisition of Nunes' original 7z archive. Not a model dependency.
+py7zr==1.0.0
+backports.zstd==1.8.0
+brotli==1.2.0
+inflate64==1.0.4
+multivolumefile==0.2.3
+psutil==7.2.2
+pybcj==1.0.8
+pycryptodomex==3.24.2
+pyppmd==1.2.0
+pyzstd==0.20.0
+texttable==1.7.0
+# Public Drive report acquisition; independent of the model runtime.
+gdown==5.2.0
+beautifulsoup4==4.15.0
+soupsieve==4.1
+filelock==3.29.0
+requests==2.34.2
+PySocks==1.7.1
+tqdm==4.68.3
+typing_extensions==4.15.0
+charset_normalizer==3.4.9
+idna==3.18
+urllib3==2.7.0
+certifi==2026.6.17
+colorama==0.4.6

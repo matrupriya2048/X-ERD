@@ -1,0 +1,12 @@
+FROM xerd-reviewer-revision:0.1.0
+COPY requirements-sequence.lock /work/requirements-sequence.lock
+RUN python -m pip install --no-cache-dir -r requirements-sequence.lock \
+ && python -m pip install --no-cache-dir --no-deps torch==2.7.1+cpu --index-url https://download.pytorch.org/whl/cpu
+COPY pyproject.toml /work/
+COPY requirements-acquisition.lock requirements-documents.lock /work/
+COPY src /work/src
+COPY tests /work/tests
+COPY config /work/config
+COPY scripts /work/scripts
+RUN python -m pip install --no-cache-dir --no-deps .
+CMD ["python", "-m", "xerd.extended", "sequences"]

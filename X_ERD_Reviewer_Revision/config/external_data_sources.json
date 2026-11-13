@@ -1,0 +1,806 @@
+{
+  "dataset": "Iwan et al. API call dataset v1",
+  "source": "https://data.mendeley.com/datasets/yh9p6vs53y/1",
+  "files": [
+    {
+      "path": "data/external_reports/benign_22_report.json",
+      "family": "benign",
+      "label": 0,
+      "sha256": "ee0d65071d5b9c8e0c60293cbaeecee5dad1bee8d445f37aa7c8d43c5222b65b",
+      "bytes": 331678,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/6ae33513-f095-4766-8978-4798532b4fd0/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/benign_27_report.json",
+      "family": "benign",
+      "label": 0,
+      "sha256": "b00624b6b1d25380915fac1289bfb7e77dddc485bf9a034cd976fbb5ad159cf7",
+      "bytes": 24184569,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/5f892374-67ef-4806-b5f4-06be45708f7c/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/benign_28_report.json",
+      "family": "benign",
+      "label": 0,
+      "sha256": "131bd83b6aa18d1ae317529090205f3e523ed82739be2de755974e5ab1366c86",
+      "bytes": 1091218,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/d3f86757-1f5b-4cfd-beef-e63c52121be1/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/benign_29_report.json",
+      "family": "benign",
+      "label": 0,
+      "sha256": "5c6a13008877bd2bf995d56324806d128292e6138da84392abf3f6afaa602b09",
+      "bytes": 4177040,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/b83b1434-9190-418b-9a15-2d2dc1df2356/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/benign_30_report.json",
+      "family": "benign",
+      "label": 0,
+      "sha256": "db325bd85167839405c8c56023abf579f57833929782368822287933a6520e9d",
+      "bytes": 7180451,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/76660c6c-9cc9-4a95-a83a-12218c0f1b0b/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/benign_31_report.json",
+      "family": "benign",
+      "label": 0,
+      "sha256": "cd2f86593edbbfa96ff8f825c4eb675f09fa998d290d054662292ca85239bda3",
+      "bytes": 397341,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/6d5c47b3-8a73-4abc-ad95-1b00212a2a4e/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/benign_32_report.json",
+      "family": "benign",
+      "label": 0,
+      "sha256": "5e2f3b345cf1f68536f06cd93dc0cd375f8082f6dfb60a3c6a3cd0d96f6aa593",
+      "bytes": 3084165,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/c87fb444-1a98-4693-97bc-63566e1170a9/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/benign_33_report.json",
+      "family": "benign",
+      "label": 0,
+      "sha256": "d4fa3e2b9deba8c646982305cbea562048da767c959025ec2c8544fb2e33a476",
+      "bytes": 524684,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/10c22b6a-9c65-4885-aecc-54df6e53b03b/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/benign_34_report.json",
+      "family": "benign",
+      "label": 0,
+      "sha256": "6b66f7a122cd3da78e755eaadf87e762c4222825e76f53c29c75cf72ba493dff",
+      "bytes": 795330,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/42a72077-f682-4f62-85f4-1e58878355b6/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/benign_35_report.json",
+      "family": "benign",
+      "label": 0,
+      "sha256": "0add0a6d2872275ca201396e006b81f1594a20ab0f072fba76a9cf35d820d35e",
+      "bytes": 1866773,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/b1a6dd89-c653-487d-82dd-d623e96fb545/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/benign_36_report.json",
+      "family": "benign",
+      "label": 0,
+      "sha256": "6662e33917e4f0ec7756279296abd5bc1ea3ef38411a51f8e7dfe0d80a89078e",
+      "bytes": 8066183,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/d7301efd-39f5-4632-bc8a-40f2af8150cd/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/benign_37_report.json",
+      "family": "benign",
+      "label": 0,
+      "sha256": "9ab47da71549a4481222fc6c164697bf1e7ec3439c92a679c5a7a83c150b3104",
+      "bytes": 1115349,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/ab666b3b-d6f4-4edf-89e6-d490a03fa48b/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/benign_38_report.json",
+      "family": "benign",
+      "label": 0,
+      "sha256": "1a88cdc1232fd5191edff6edd3c0bc3b6e46ab258dff56f627b38555409389f7",
+      "bytes": 15886082,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/e9caeb58-584d-4381-9581-4818d5f33448/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/benign_39_report.json",
+      "family": "benign",
+      "label": 0,
+      "sha256": "4d55bc67a2c0c2665a1579761822a072dd60a473cf5f2469f83a8abb88db397a",
+      "bytes": 1055252,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/94875e21-1d12-4bdb-aa9a-85995b1c98d3/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/benign_41_report.json",
+      "family": "benign",
+      "label": 0,
+      "sha256": "75f12cbbc0b40904ffa4ee2c5e8495894d624c32b0617998bf8fc6c1beaf3878",
+      "bytes": 1250487,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/020b0cb8-2cd8-4da9-b1b6-709605c55fc4/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/benign_42_report.json",
+      "family": "benign",
+      "label": 0,
+      "sha256": "596cd23cbae50635494815e04e973828959330aaf9f57b02502f3a0e5b67d0c2",
+      "bytes": 2666951,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/af1d12a9-5ce3-4f02-b22e-9973ee914716/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/benign_44_report.json",
+      "family": "benign",
+      "label": 0,
+      "sha256": "4178eac7a2a8df1ee431be24b19dadb1764b81894da40a32e7a97d83b427ee37",
+      "bytes": 5342567,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/01e93c9a-ad86-447d-a650-cd92d59e5a29/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/benign_45_report.json",
+      "family": "benign",
+      "label": 0,
+      "sha256": "81c0850db7ec245cdb274d7524a634c01f9f941599d4ce26eb2ea3ec42e2f7dd",
+      "bytes": 1074622,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/a6d3800a-2872-4558-b07d-3e357216573c/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/benign_46_report.json",
+      "family": "benign",
+      "label": 0,
+      "sha256": "c100d1d755d9835b9b754b50d2c435d5a1e8ec46bbaa154ab680fc4a25111640",
+      "bytes": 9214326,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/d7af629d-2b01-4682-a895-ac105c16f889/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/benign_47_report.json",
+      "family": "benign",
+      "label": 0,
+      "sha256": "4d7ef14e7cd641ebbfa07df0f06cce9d24179fb7cb4e0262435727c75741c909",
+      "bytes": 276671,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/b510fa24-7e6b-415d-a762-5c1a432dfca9/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/lockbit_100_report.json",
+      "family": "lockbit",
+      "label": 1,
+      "sha256": "d27833bcdfe1b2c11ae3129c0720d20fc99c4468cf0d8357eef0e1a64775a317",
+      "bytes": 20183167,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/671fcb44-a2ba-4a1b-a06b-3b83de8419fa/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/lockbit_10_report.json",
+      "family": "lockbit",
+      "label": 1,
+      "sha256": "0406dd5a70b5cdb47373f0b868875245ba3026f20ccba92647d981c192598e16",
+      "bytes": 49204167,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/448235a5-0b8f-4600-801d-7d4685dde083/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/lockbit_131_report.json",
+      "family": "lockbit",
+      "label": 1,
+      "sha256": "d9d9c5cc914c9f7d4fcc3bd0c1178823a191d34ae2b6d161ffe39172ddeb90de",
+      "bytes": 32152103,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/4400ceb9-816d-42a3-98b9-5ead7dc6c55c/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/lockbit_133_report.json",
+      "family": "lockbit",
+      "label": 1,
+      "sha256": "3dd2fb317dd438fac4b207c853610466e25290bc2e9136c9303ddecc67c4fb47",
+      "bytes": 38730554,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/866a7d24-f2a4-4e1d-8903-4a8706b545d9/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/lockbit_134_report.json",
+      "family": "lockbit",
+      "label": 1,
+      "sha256": "d66e2df39eb0275cede2b88daed618af25506f0d9bd28fe6613915bbab982c72",
+      "bytes": 27143566,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/81443996-6229-47d7-879b-c890dd16556b/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/lockbit_137_report.json",
+      "family": "lockbit",
+      "label": 1,
+      "sha256": "996d6e82d2a6c8214f6d8588a9a6cb8ba1af3618ffcc86522e67c203be094715",
+      "bytes": 36078515,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/56d18c90-7710-4c65-865d-5dd7d7c6bbb5/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/lockbit_19_report.json",
+      "family": "lockbit",
+      "label": 1,
+      "sha256": "d6276f0c79be4fbe225ea8cd0d07e5e948bb477b33b8440c0c9058b914c32907",
+      "bytes": 5284332,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/d8f12fd5-f0ed-4eb8-a27e-85502da17ba1/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/lockbit_35_report.json",
+      "family": "lockbit",
+      "label": 1,
+      "sha256": "59259987471506a16d0a482e8298498bd906ef2e487a16f70fb07f2facf075f6",
+      "bytes": 23641107,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/476ba1b6-56fe-4c33-91d7-b3c86bf4c913/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/lockbit_37_report.json",
+      "family": "lockbit",
+      "label": 1,
+      "sha256": "5b022d696b168c37ff6c485d784c8cc5de59c2ce9bd4d410a2148e97319ed2f5",
+      "bytes": 21519023,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/1a326603-d2b0-4604-8971-5d5b3ae31442/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/lockbit_40_report.json",
+      "family": "lockbit",
+      "label": 1,
+      "sha256": "576c1189dfc6ec5b0c3583c908d12e3c9425ec9e4cd99ddf7041acef7b03c7ed",
+      "bytes": 28904437,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/33572800-5d17-419e-a0ed-9e488a912eb6/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/lockbit_76_report.json",
+      "family": "lockbit",
+      "label": 1,
+      "sha256": "f3008b2ef17fdc157d6bdbee5d8bed81f6fd2e7307d772b75722ed76f0810d9b",
+      "bytes": 22510932,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/2035bcf7-6c27-4f8b-96ee-190fc0477117/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/lockbit_79_report.json",
+      "family": "lockbit",
+      "label": 1,
+      "sha256": "3c02d04621a91cec639958b3215e51514b7120075f6a013702136c38bcbbe8ec",
+      "bytes": 19011191,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/7c4ea49d-e023-42dc-b12a-560a47b41bbd/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/lockbit_8_report.json",
+      "family": "lockbit",
+      "label": 1,
+      "sha256": "2cdb544613fda3421bccc274f7bd6c5ba8d0d9474431bff78738eb7b372c8a36",
+      "bytes": 18742320,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/cc1d5566-0fef-4b2f-bfa8-ed875a9b1193/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/lockbit_99_report.json",
+      "family": "lockbit",
+      "label": 1,
+      "sha256": "35330bd344667be1e3956743ab22bd99014c9509bce4b754ea58dec11bf3300c",
+      "bytes": 23743946,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/36643553-d4df-4676-9687-42f42de6057c/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/netwalker_10_report.json",
+      "family": "netwalker",
+      "label": 1,
+      "sha256": "aaf52a9d191e98c5203f7de400ef4f7fd3bdb217441fb335e7807127480e483a",
+      "bytes": 15471559,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/4c20b962-2b30-40b6-b174-7d5de98c970f/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/netwalker_11_report.json",
+      "family": "netwalker",
+      "label": 1,
+      "sha256": "974f0ddad4bca461a222466cbb947ce998af3cabb54088a0607f80be912fc2b9",
+      "bytes": 24221248,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/e5d6bd0b-575f-4960-90bf-168de7f6131f/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/netwalker_12_report.json",
+      "family": "netwalker",
+      "label": 1,
+      "sha256": "d57758915649018000bb08db9bc5c95195805c2cb61a288f58ee11314e37b0c0",
+      "bytes": 24691037,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/359bf1e1-26f3-49df-acc7-6bd2b5285c11/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/netwalker_13_report.json",
+      "family": "netwalker",
+      "label": 1,
+      "sha256": "4bbce8c6b69b4846c428e24fbad66b5739a713fddf90e9d9a4943fde9b1aaa8e",
+      "bytes": 24710258,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/e2ea336b-4674-4e83-bc64-eb33aaec0539/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/netwalker_14_report.json",
+      "family": "netwalker",
+      "label": 1,
+      "sha256": "3527da00de4dd1f41fe1b0f806501efc1d63297217b936607120ae1468986aff",
+      "bytes": 23465854,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/0d8728ba-520a-4f1b-ade1-1a0ec8379f53/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/netwalker_19_report.json",
+      "family": "netwalker",
+      "label": 1,
+      "sha256": "4428edb8b22df1330d3500e46712c34fd3cf76f497403a09651ae3205dee4f5f",
+      "bytes": 24048652,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/2d2d85a0-0061-4fe3-8045-f2c904cb4409/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/netwalker_1_report.json",
+      "family": "netwalker",
+      "label": 1,
+      "sha256": "903300153850f461cc0e53395624bd7465fdbd485acd4d00e198097e3f74b0a9",
+      "bytes": 24942354,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/bba06dc1-ce7d-411f-985d-6b134d6ff85c/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/netwalker_20_report.json",
+      "family": "netwalker",
+      "label": 1,
+      "sha256": "c1628e10c6cf9d78da3b2d56e3e5de75a469457ed5c17dcd536d03cf4d39b7bf",
+      "bytes": 26794755,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/0826e118-5d3d-4aef-9b01-d9f81fb1ef85/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/netwalker_21_report.json",
+      "family": "netwalker",
+      "label": 1,
+      "sha256": "872239335884df49b46fc104973c189bbd42f82c0a0b65f8348f3f203e430675",
+      "bytes": 21053333,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/aa4ed51b-df59-4c98-af90-4b49b1eb8124/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/netwalker_22_report.json",
+      "family": "netwalker",
+      "label": 1,
+      "sha256": "c5efceee28bc43731d2fa329806b493fb8ca9e7154fd07fafb35c3136780bf5b",
+      "bytes": 23627025,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/73568df0-eea9-4296-8c3a-71a40c6d719c/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/netwalker_23_report.json",
+      "family": "netwalker",
+      "label": 1,
+      "sha256": "5f1f93e2caa9f5ca7e6ecfc0717319da48b2379887822a94437672f83f26c0a6",
+      "bytes": 25183454,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/26cd2c49-7c1f-4a33-bf7b-0cd4b089df49/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/netwalker_24_report.json",
+      "family": "netwalker",
+      "label": 1,
+      "sha256": "6edf77f188a52c67c9172c17fad85a038fa621886a89900b22e27a815058cbb9",
+      "bytes": 27989327,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/e08260e6-d916-4862-8081-292501f7c513/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/netwalker_25_report.json",
+      "family": "netwalker",
+      "label": 1,
+      "sha256": "0d3b64f3cfb39ebfab42e2b042dcd41ad8f8750c967b0380253ede10702603a6",
+      "bytes": 16722522,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/55362249-07ff-4a8c-bd4b-2d93ad3f80e5/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/netwalker_28_report.json",
+      "family": "netwalker",
+      "label": 1,
+      "sha256": "6b713ff0c3c9b759c7b07023b9a66254a4262cfd244edd9f88ea258e474437e2",
+      "bytes": 18276199,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/78136c37-f4e5-490c-8579-af2e2be2f5fb/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/netwalker_29_report.json",
+      "family": "netwalker",
+      "label": 1,
+      "sha256": "0de5b4f36d51bfc5a1c5b352106ceb7416126f728c437397747cd9ca06188b48",
+      "bytes": 15980790,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/19b4afab-3832-424c-92fe-9188ef77b824/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/netwalker_2_report.json",
+      "family": "netwalker",
+      "label": 1,
+      "sha256": "c13acc1596b711068b4b81c2fe1325ff8d8045499f568ee44ff9e8d59c513889",
+      "bytes": 17960215,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/6d797830-f706-4c0e-9766-4b5341785427/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/netwalker_31_report.json",
+      "family": "netwalker",
+      "label": 1,
+      "sha256": "aba4e1e7a7750c1298d9d25667783f4755de3518ea7b61d10b4ee464682cb3fb",
+      "bytes": 26761817,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/a1c5a3d7-2538-489c-89ca-1d0a51b03365/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/netwalker_33_report.json",
+      "family": "netwalker",
+      "label": 1,
+      "sha256": "d1ea1ac3702c00b8f3b96a08adb12dbbae86f9d29052ba730bf5c2a85de2b300",
+      "bytes": 25902464,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/b89bdf97-abc5-4690-9b07-184785cca49c/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/netwalker_35_report.json",
+      "family": "netwalker",
+      "label": 1,
+      "sha256": "d332863be4070b74fb9ca43fa27f7faf8a151d8c3de29331547f8cebd50b27ef",
+      "bytes": 28220646,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/7cb6c213-769b-4868-8a9f-c025fd7f628a/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/netwalker_37_report.json",
+      "family": "netwalker",
+      "label": 1,
+      "sha256": "e7a80b8d7b1ddf716057495db3596a1bd8df8ac8cf18b9fe1958777862b8f4e8",
+      "bytes": 25709993,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/e6153393-18f5-4e63-9e44-c57cd571ed5f/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/netwalker_42_report.json",
+      "family": "netwalker",
+      "label": 1,
+      "sha256": "636bbe270b5fe47825267d7a41552d0f3c3a6cb923f44e553d7ee6434ad33037",
+      "bytes": 23369893,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/35c14af3-035c-437f-93a2-b27b513c0164/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/netwalker_4_report.json",
+      "family": "netwalker",
+      "label": 1,
+      "sha256": "bd6deec895943da05958ed97d6f4453b4332a05667e3ec31a598f08994c0bb72",
+      "bytes": 27134147,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/7271c968-415c-4865-8ed5-2c8f0cae9f21/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/netwalker_6_report.json",
+      "family": "netwalker",
+      "label": 1,
+      "sha256": "6e83cf64a92146dc6321d4096d37635752b6b29d9ec7f45fa3ebae49b80f28a9",
+      "bytes": 25108553,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/a9be870c-6bd3-40fe-ace2-a43b63155be9/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/netwalker_7_report.json",
+      "family": "netwalker",
+      "label": 1,
+      "sha256": "b00e8dec210d2ffeeca5acc712a482f4b48eda6d7b82c9544bcb7e8738072c28",
+      "bytes": 25075140,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/e1c23082-5716-41a1-8d68-b6f40e8244c8/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/netwalker_8_report.json",
+      "family": "netwalker",
+      "label": 1,
+      "sha256": "3f4060e908c4e5c92a32ee3ee52025710f4783d0143be82472785e784042cf91",
+      "bytes": 25670938,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/1456fc7b-7d3e-4e53-98fd-6427e7b24ba1/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/petya_10_report.json",
+      "family": "petya",
+      "label": 1,
+      "sha256": "040ffe7306d3338e9b08440911a75329a389a30b2a9276b471fc8f7d80bf43f2",
+      "bytes": 1401155,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/5297ae78-b4f5-4d8b-b39c-3a61c2d4c66d/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/petya_11_report.json",
+      "family": "petya",
+      "label": 1,
+      "sha256": "aba6539235a9ff51add0974cb49b2dcc94f3f0ee3cb577a839685274d9636370",
+      "bytes": 65566,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/4989cac1-a930-4bb2-9813-29b6e009fd09/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/petya_12_report.json",
+      "family": "petya",
+      "label": 1,
+      "sha256": "6a2a234c43ee0d1b8e34fef495c98150ccf9a9a3c573ce5172460ba59c4c69db",
+      "bytes": 220414,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/b7140c2e-0cf4-495b-ab72-9a45e382e41a/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/petya_13_report.json",
+      "family": "petya",
+      "label": 1,
+      "sha256": "0a54ba766718d296f3086c63678efee517881f08071df6283269be42e6f9c185",
+      "bytes": 221470,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/aca31b1d-e923-404e-9376-c6285ef9ec27/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/petya_14_report.json",
+      "family": "petya",
+      "label": 1,
+      "sha256": "fa4e567011c0227b0215a664177f41659ef63586e9232357caa147dc24f890e6",
+      "bytes": 219544,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/432ca3e6-afbe-484b-b468-fa02c188824a/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/petya_1_report.json",
+      "family": "petya",
+      "label": 1,
+      "sha256": "e399bb8a05d609d0aedf0b69a3dc418138f58df2f6de762b1815bcc2b5ed27dd",
+      "bytes": 22891,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/d5412ce0-3633-42a3-b1b4-f35fbacfe2c6/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/petya_2_report.json",
+      "family": "petya",
+      "label": 1,
+      "sha256": "bb7c69185ab156b9f71dba27f990d64caa97af50662f05e124bd1d38b99423ff",
+      "bytes": 673,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/9d7c77ab-0a64-49c8-a40f-9f7db6337bda/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/petya_3_report.json",
+      "family": "petya",
+      "label": 1,
+      "sha256": "410bf1022f031091cb1bf36301c10824b6e593fc8840c817f9a7ad520f76028f",
+      "bytes": 17994,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/b910e115-bc80-473c-bdaa-c6f74563150a/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/petya_4_report.json",
+      "family": "petya",
+      "label": 1,
+      "sha256": "9375eb07b66a7e9595dcb32fde10f294b695b5388a335048cbd2a40d33bef363",
+      "bytes": 64480,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/95ee7701-822e-48da-9df9-bf5200e74af3/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/petya_6_report.json",
+      "family": "petya",
+      "label": 1,
+      "sha256": "9073d7f45321c82fcadcb01b3f69ceedc95a9c41f8ac02903cfa76d2ff66b92b",
+      "bytes": 38320,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/e332e8a0-1ae0-4429-bde2-d3771f21d375/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/petya_7_report.json",
+      "family": "petya",
+      "label": 1,
+      "sha256": "6182026321ccd388863b46b3a5a4e4ff43c81fc66910549c9d39e99df9ec6926",
+      "bytes": 16742,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/48d01695-d9b7-4b19-a0c7-86392644a42f/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/petya_8_report.json",
+      "family": "petya",
+      "label": 1,
+      "sha256": "d200ae660b0558221fba6473e7f67dfd372523d1dc0346a487086030e613edf0",
+      "bytes": 3487028,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/47900b78-6dd2-4b71-8f19-a8637635db81/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/petya_9_report.json",
+      "family": "petya",
+      "label": 1,
+      "sha256": "81d9c44303119c81364e369e41a8b0afbda46eb86fbc4b18a4ec6f297c4891d2",
+      "bytes": 65068,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/44fd6d5c-baf7-48e6-843f-2b14e188ad98/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/wannacry_11_report.json",
+      "family": "wannacry",
+      "label": 1,
+      "sha256": "58e5771e697024295baf7644763881c0ca037100564d826ae8990885af97d5b0",
+      "bytes": 4855076,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/cf322def-8f34-41ef-950c-c2d2ba2cfb4b/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/wannacry_1_report.json",
+      "family": "wannacry",
+      "label": 1,
+      "sha256": "f6d82f3fbcbf5cdc4727f25e89212719a4206d64fc7d45f71d08c624904ddb5b",
+      "bytes": 2145132,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/468c83b8-e59b-41f2-9924-894f095700d9/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/wannacry_25_report.json",
+      "family": "wannacry",
+      "label": 1,
+      "sha256": "1c0938fd455a99571812c088c48862f70b5d368ddf1d04aabe67c2c663463cc6",
+      "bytes": 9712114,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/cfa8f661-20ca-4a79-b49f-429f0f686ef4/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/wannacry_3_report.json",
+      "family": "wannacry",
+      "label": 1,
+      "sha256": "9c84fdd0c2b66b3ea44f7e8de9e232d69ccaf253622359111d9cf1048d0a70e6",
+      "bytes": 14971095,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/58155a41-a2a3-4e23-8c70-82d819735aa9/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/wannacry_71_report.json",
+      "family": "wannacry",
+      "label": 1,
+      "sha256": "5e300612a939d6d180e8d3fd0f5f69084ae4e0616f47db137d0f1d5446becdfd",
+      "bytes": 11196642,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/0d00817d-b937-49f9-966e-ad407f74d214/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/wannacry_72_report.json",
+      "family": "wannacry",
+      "label": 1,
+      "sha256": "e213cd2d053238904569a09fdfd51c772925776dbef62a6999da52fa1b882f8d",
+      "bytes": 12551986,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/55eaf075-f36a-4457-a85b-a7d2ad0f54d2/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/wannacry_74_report.json",
+      "family": "wannacry",
+      "label": 1,
+      "sha256": "6b4c7e3a541a217bf8f8a752bc4c2d4624871442e1264191061ea873ae26cace",
+      "bytes": 12817064,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/dda4679d-7bef-4d59-bda1-3f15f6fdddd3/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "data/external_reports/wannacry_9_report.json",
+      "family": "wannacry",
+      "label": 1,
+      "sha256": "08e09b93c39c5f936fa3c007b2eca937672307425b89d04cbb266e96273da0e6",
+      "bytes": 10164963,
+      "url": "https://data.mendeley.com/public-files/datasets/yh9p6vs53y/files/da85716d-e7ef-4206-b0d8-efb774f3a8c9/file_downloaded",
+      "source_doi": "10.17632/yh9p6vs53y.1",
+      "license": "CC-BY-4.0"
+    }
+  ]
+}

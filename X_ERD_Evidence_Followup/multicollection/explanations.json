@@ -1,0 +1,13 @@
+{
+  "model_sha256": "b8ac158aac500f0f64fbb2d815958cf4d4dc0083eb14b6d6b1e2d6979671cccf",
+  "scope": "Final multi-collection pair logit; probability-scale common-background TreeSHAP plus exact centered raw linear terms. Not causal, forensic, or human-verified.",
+  "source_test_n": 975,
+  "en_holdout_n": 283,
+  "max_probability_reconstruction_error": 1.0066025346588958e-08,
+  "background_n": 100,
+  "source_detected_ransomware_n": 459,
+  "mapped_positive_active_logit_mass_mean": 0.18398875814745846,
+  "mapped_feature_n": 105,
+  "calibrated_mapping_accuracy": false,
+  "script_sha256": "fcd557611fe7a525038ab84289e9c2e6f454b65b0193ce53f0cd0107fdf3b8da"
+}

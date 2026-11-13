@@ -1,0 +1,3512 @@
+{
+  "execution_id": "EXEC-780b340161b3",
+  "report_sha256": "0d9278c6250d909834f61a2bc888294e75067d11c0fe934e497987eefef6e97a",
+  "full_report_relative_path": "../../X_ERD_Reviewer_Revision/data/raw_reports/10027.json",
+  "summary": {
+    "file_created": [
+      "C:\\ProgramData\\ewosolyzuhobytal\\01000000",
+      "C:\\ProgramData\\ewosolyzuhobytal\\00000000",
+      "C:\\Windows\\ytaryvus.exe",
+      "C:\\ProgramData\\ewosolyzuhobytal\\02000000"
+    ],
+    "regkey_written": [
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Tracing\\explorer_RASMANCS\\MaxFileSize",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\WAB\\NamedProps",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Wpad\\{C2CD776C-114F-4C9E-A823-059D28ED2278}\\WpadDecision",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Tracing\\explorer_RASMANCS\\FileTracingMask",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\WAB\\Server ID",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Tracing\\explorer_RASMANCS\\ConsoleTracingMask",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Tracing\\explorer_RASMANCS\\FileDirectory",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Wpad\\{C2CD776C-114F-4C9E-A823-059D28ED2278}\\WpadDecisionTime",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Tracing\\explorer_RASMANCS\\EnableFileTracing",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Wpad\\{C2CD776C-114F-4C9E-A823-059D28ED2278}\\WpadDecisionReason",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\WAB\\NamedPropCount",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\IAM\\Server ID",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Wpad\\0a-00-27-00-00-00\\WpadDecision",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\IAM\\Default LDAP Account",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\ifaqadew",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Wpad\\WpadLastNetwork",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Wpad\\0a-00-27-00-00-00\\WpadDecisionReason",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections\\DefaultConnectionSettings",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Wpad\\{C2CD776C-114F-4C9E-A823-059D28ED2278}\\WpadNetworkName",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Tracing\\explorer_RASMANCS\\EnableConsoleTracing",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Wpad\\0a-00-27-00-00-00\\WpadDecisionTime"
+    ],
+    "dll_loaded": [
+      "C:\\Windows\\System32\\mswsock.dll",
+      "wab32res.dll",
+      "C:\\Program Files (x86)\\Common Files\\System\\wab32res.dll",
+      "DNSAPI.dll",
+      "DHCPCSVC.DLL",
+      "KERNEL32.dll",
+      "msftedit.dll",
+      "ntdll.dll",
+      "C:\\Program Files (x86)\\Common Files\\System\\wab32.dll",
+      "C:\\Windows\\system32\\napinsp.dll",
+      "C:\\Windows\\SysWOW64\\inetres.dll",
+      "C:\\Windows\\system32\\msoeacct.dll",
+      "API-MS-WIN-Service-Management-L1-1-0.dll",
+      "PROPSYS.dll",
+      "WININET.dll",
+      "C:\\Windows\\system32\\acctres.dll",
+      "mapi32x.dll",
+      "API-MS-WIN-Service-winsvc-L1-1-0.dll",
+      "comctl32",
+      "ole32.dll",
+      "SHLWAPI.dll",
+      "C:\\Windows\\System32\\winrnr.dll",
+      "vsstrace.dll",
+      "USER32.dll",
+      "MPR.dll",
+      "API-MS-Win-Security-SDDL-L1-1-0.dll",
+      "RASMAN.DLL",
+      "WLDAP32.DLL",
+      "rtutils.dll",
+      "IPHLPAPI.DLL",
+      "wininet.dll",
+      "OLEAUT32.dll",
+      "C:\\Windows\\system32\\pnrpnsp.dll",
+      "SHELL32.dll",
+      "MAPI32.dll",
+      "comctl32.dll",
+      "C:\\Windows\\system32\\uxtheme.dll",
+      "C:\\Windows\\SysWOW64\\oleaut32.dll",
+      "ADVAPI32.dll",
+      "rpcrt4.dll",
+      "SETUPAPI.dll",
+      "WS2_32.dll",
+      "COMCTL32.DLL"
+    ],
+    "file_failed": [
+      "C:\\ProgramData\\ewosolyzuhobytal\\01000000",
+      "C:\\ProgramData\\ewosolyzuhobytal\\00000000",
+      "C:\\Users\\Administrator\\AppData\\Roaming\\Thunderbird\\Profiles\\iles (x86)\\Common Files\\System\\wab32.dll\\abook.mab",
+      "C:\\Users\\Administrator\\AppData\\Roaming\\Thunderbird\\Profiles\\iles (x86)\\Common Files\\System\\wab32.dll\\history.mab"
+    ],
+    "connects_host": [
+      "chooseyourhost.ru"
+    ],
+    "regkey_opened": [
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\Wow6432Node\\CLSID\\{B196B286-BAB4-101A-B69C-00AA00341D07}\\TreatAs",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{7ace8c1e-1d34-11ef-b467-806e6f6e6963}\\",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows Messaging Subsystem\\MSMapiApps",
+      "HKEY_LOCAL_MACHINE\\Software\\Policies\\Microsoft\\Windows NT\\DnsClient",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\Wow6432Node\\Interface\\{2A1C9EB2-DF62-4154-B800-63278FCB8037}\\ProxyStubClsid32",
+      "HKEY_LOCAL_MACHINE\\Software\\Policies\\Microsoft\\Windows NT\\Rpc",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{7ace8c1d-1d34-11ef-b467-806e6f6e6963}\\",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\explorer\\FolderDescriptions\\{56784854-C6CB-462B-8169-88E350ACB882}\\PropertyBag",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows Mail",
+      "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\FolderDescriptions",
+      "HKEY_LOCAL_MACHINE\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{7ace8c21-1d34-11ef-b467-806e6f6e6963}\\",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\windows\\CurrentVersion\\Internet Settings\\Connections",
+      "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Tracing",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\Wow6432Node\\Interface\\{26656EAA-54EB-4E6F-8F85-4F0EF901A406}\\ProxyStubClsid32",
+      "HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Services\\DnsCache\\Parameters",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\WAB",
+      "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Tracing\\explorer_RASMANCS",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Account Manager",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\explorer\\FolderDescriptions\\{56784854-C6CB-462B-8169-88E350ACB882}",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders",
+      "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\Wow6432Node\\CLSID\\{B196B286-BAB4-101A-B69C-00AA00341D07}\\InprocServer32",
+      "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\crypt32",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\Wow6432Node\\CLSID\\{B196B286-BAB4-101A-B69C-00AA00341D07}\\Progid",
+      "HKEY_CURRENT_USER\\CLSID\\{B196B286-BAB4-101A-B69C-00AA00341D07}",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\WAB\\WAB4",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Wpad\\{C2CD776C-114F-4C9E-A823-059D28ED2278}",
+      "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\OleAut",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\Wow6432Node\\CLSID\\{B196B286-BAB4-101A-B69C-00AA00341D07}\\InprocHandler32",
+      "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Rpc",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Wpad\\{C2CD776C-114F-4C9E-A823-059D28ED2278}\\0a-00-27-00-00-00",
+      "HKEY_LOCAL_MACHINE\\Software\\Policies\\Microsoft\\System\\DNSClient",
+      "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\ProfileList",
+      "HKEY_CURRENT_USER\\Interface\\{2A1C9EB2-DF62-4154-B800-63278FCB8037}",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\International",
+      "HKEY_CURRENT_USER\\Control Panel\\International\\Calendars\\TwoDigitYearMax",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\CLSID\\{B196B286-BAB4-101A-B69C-00AA00341D07}\\Progid",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\SessionInfo\\1\\KnownFolders",
+      "HKEY_LOCAL_MACHINE\\system\\CurrentControlSet\\control\\NetworkProvider\\HwOrder",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\IAM\\Accounts",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\Wow6432Node\\Interface\\{8A40A45D-055C-4B62-ABD7-6D613E2CEAEC}\\ProxyStubClsid32",
+      "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\ProfileList\\S-1-5-21-1333523494-3206289307-1491016761-500",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\Wow6432Node\\CLSID\\{B196B286-BAB4-101A-B69C-00AA00341D07}\\InprocHandler",
+      "HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+      "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows Mail",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Wpad\\0a-00-27-00-00-00",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\windows\\CurrentVersion\\Internet Settings\\Wpad",
+      "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Internet Account Manager\\Shared",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\Wow6432Node\\Interface\\{55272A00-42CB-11CE-8135-00AA004BB851}\\ProxyStubClsid32",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion",
+      "HKEY_CURRENT_USER\\Interface\\{BCD1DE7E-2DB1-418B-B047-4A74E101F8C1}",
+      "HKEY_CURRENT_USER\\Interface\\{26656EAA-54EB-4E6F-8F85-4F0EF901A406}",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\Wow6432Node\\Interface\\{BCD1DE7E-2DB1-418B-B047-4A74E101F8C1}\\ProxyStubClsid32",
+      "HKEY_LOCAL_MACHINE\\Software\\Clients\\Mail",
+      "HKEY_CLASSES_ROOT\\CLSID\\{8D4B04E1-1331-11D0-81B8-00C04FD85AB4}\\InprocServer32",
+      "HKEY_CURRENT_USER\\Software\\Clients\\Mail",
+      "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Internet Account Manager\\Preconfigured",
+      "HKEY_CURRENT_USER\\Interface\\{8A40A45D-055C-4B62-ABD7-6D613E2CEAEC}",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\SessionInfo\\1",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\IAM",
+      "HKEY_CURRENT_USER\\Interface\\{55272A00-42CB-11CE-8135-00AA004BB851}"
+    ],
+    "resolves_host": [
+      "None",
+      "wpad"
+    ],
+    "file_written": [
+      "C:\\ProgramData\\ewosolyzuhobytal\\01000000",
+      "C:\\ProgramData\\ewosolyzuhobytal\\00000000",
+      "C:\\Windows\\ytaryvus.exe",
+      "C:\\ProgramData\\ewosolyzuhobytal\\02000000"
+    ],
+    "regkey_deleted": [
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\WAB\\NamedProps",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\WAB\\NamedPropCount"
+    ],
+    "file_exists": [
+      "C:\\ProgramData\\ewosolyzuhobytal",
+      "C:\\Windows\\System32\\explorer.exe",
+      "C:\\Users\\Administrator\\Contacts",
+      "C:\\ProgramData",
+      "C:\\Users\\Administrator\\AppData\\Roaming\\Microsoft\\Windows\\Cookies",
+      "C:\\Windows\\SysWOW64\\mapisvc.inf",
+      "C:\\Users\\Administrator\\AppData\\Roaming",
+      "C:\\Users\\Administrator\\Contacts\\Administrator.contact",
+      "C:\\Program Files",
+      "C:\\Users\\Administrator\\AppData\\Local",
+      "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows\\History",
+      "C:\\Program Files (x86)",
+      "C:\\Windows",
+      "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files",
+      "C:\\Users\\Administrator"
+    ],
+    "mutex": [
+      "IESQMMUTEX_0_208",
+      "Global\\ovedulaxegenicimakoxixe",
+      "Global\\ogusoqyzegebacivikygiwyrujykixu"
+    ],
+    "file_opened": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows Mail\\account{7ADFB5E5-840F-4321-B398-E941CDC297CC}.oeaccount",
+      "C:\\Windows\\SysWOW64\\en-US\\KERNELBASE.dll.mui",
+      "C:\\Users\\Administrator\\Contacts",
+      "C:\\Windows\\SysWOW64\\en-US\\VssTrace.DLL.mui",
+      "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows Mail\\account{52C43881-6B22-4806-BC77-A2F7EF15C287}.oeaccount",
+      "C:\\Users\\Administrator\\Contacts\\Administrator.contact",
+      "C:\\ProgramData\\ewosolyzuhobytal\\01000000",
+      "C:\\Users\\Administrator\\AppData\\Local\\Temp\\10027.exe",
+      "C:\\Windows\\SysWOW64\\oleaccrc.dll",
+      "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows Mail\\account{F9D39D73-9D41-4D3D-AECB-78DD52B84CA9}.oeaccount"
+    ],
+    "guid": [
+      "{2933bf95-7b36-11d2-b20e-00c04f983e60}",
+      "{dcb00c01-570f-4a9b-8d69-199fdba5723b}",
+      "{e579ab5f-1cc4-44b4-bed9-de0991ff0623}",
+      "{da9f41d4-1a5d-41d0-a614-6dfd78df5d05}",
+      "{a4f96ed0-f829-476e-81c0-cdc7bd2a0802}",
+      "{50ea08b0-dd1b-4664-9a50-c2f40f4bd79a}",
+      "{a47979d2-c419-11d9-a5b4-001185ad2b89}",
+      "{0000015b-0000-0000-c000-000000000046}",
+      "{3124c396-fb13-4836-a6ad-1317f1713688}",
+      "{dcb00000-570f-4a9b-8d69-199fdba5723b}",
+      "{8be2d872-86aa-4d47-b776-32cca40c7018}",
+      "{88d96a0c-f192-11d4-a65f-0040963251e5}",
+      "{88d96a07-f192-11d4-a65f-0040963251e5}",
+      "{88d96a05-f192-11d4-a65f-0040963251e5}",
+      "{0000034b-0000-0000-c000-000000000046}",
+      "{d0074ffd-570f-4a9b-8d69-199fdba5723b}",
+      "{d8f015c0-c278-11ce-a49e-444553540000}",
+      "{4df0c730-df9d-4ae3-9153-aa6b82e9795a}",
+      "{13709620-c279-11ce-a49e-444553540000}"
+    ],
+    "command_line": [
+      "C:\\Windows\\System32\\explorer.exe",
+      "vssadmin.exe Delete Shadows /All /Quiet"
+    ],
+    "file_read": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows Mail\\account{52C43881-6B22-4806-BC77-A2F7EF15C287}.oeaccount",
+      "C:\\Users\\Administrator\\Contacts\\Administrator.contact",
+      "C:\\Users\\Administrator\\AppData\\Local\\Temp\\10027.exe",
+      "C:\\ProgramData\\ewosolyzuhobytal\\01000000",
+      "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows Mail\\account{F9D39D73-9D41-4D3D-AECB-78DD52B84CA9}.oeaccount",
+      "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows Mail\\account{7ADFB5E5-840F-4321-B398-E941CDC297CC}.oeaccount"
+    ],
+    "regkey_read": [
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Tracing\\explorer_RASMANCS\\MaxFileSize",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\EnableLUA",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Rpc\\MaxRpcSize",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\explorer\\FolderDescriptions\\{56784854-C6CB-462B-8169-88E350ACB882}\\InfoTip",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders\\{56784854-C6CB-462B-8169-88E350ACB882}",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows Mail\\Store Root",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows Mail\\No modify accts",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Tracing\\explorer_RASAPI32\\EnableFileTracing",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\WAB\\WAB4\\PropTag2",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\WAB\\WAB4\\PropTag1",
+      "HKEY_LOCAL_MACHINE\\SYSTEM\\Setup\\SystemSetupInProgress",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{7ace8c21-1d34-11ef-b467-806e6f6e6963}\\Data",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\AutoProxyDetectType",
+      "HKEY_CURRENT_USER\\Control Panel\\International\\sTime",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\explorer\\FolderDescriptions\\{56784854-C6CB-462B-8169-88E350ACB882}\\StreamResourceType",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\DisableImprovedZoneCheck",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\WAB\\NamedProps",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\explorer\\FolderDescriptions\\{56784854-C6CB-462B-8169-88E350ACB882}\\PreCreate",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\International\\JP_ISO_SIO_Control",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\Wow6432Node\\CLSID\\{B196B286-BAB4-101A-B69C-00AA00341D07}\\(Default)",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\explorer\\FolderDescriptions\\{56784854-C6CB-462B-8169-88E350ACB882}\\RelativePath",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\explorer\\FolderDescriptions\\{56784854-C6CB-462B-8169-88E350ACB882}\\PropertyBag\\FoldersDependentOn",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\explorer\\FolderDescriptions\\{56784854-C6CB-462B-8169-88E350ACB882}\\Attributes",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Tracing\\explorer_RASAPI32\\FileTracingMask",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections\\DefaultConnectionSettings",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Clients\\Mail\\PreFirstRun",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\ProfileList\\S-1-5-21-1333523494-3206289307-1491016761-500\\ProfileImagePath",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Tracing\\explorer_RASMANCS\\EnableConsoleTracing",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Tracing\\explorer_RASMANCS\\FileTracingMask",
+      "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\services\\crypt32\\DebugHeapFlags",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\explorer\\FolderDescriptions\\{56784854-C6CB-462B-8169-88E350ACB882}\\InitFolderHandler",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Tracing\\explorer_RASAPI32\\FileDirectory",
+      "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\services\\Tcpip\\Parameters\\Domain",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\Wow6432Node\\Interface\\{BCD1DE7E-2DB1-418B-B047-4A74E101F8C1}\\ProxyStubClsid32\\(Default)",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\Windows Error Reporting\\WMR\\Disable",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\Wow6432Node\\CLSID\\{B196B286-BAB4-101A-B69C-00AA00341D07}\\InprocServer32\\ThreadingModel",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\explorer\\FolderDescriptions\\{56784854-C6CB-462B-8169-88E350ACB882}\\Roamable",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\explorer\\FolderDescriptions\\{56784854-C6CB-462B-8169-88E350ACB882}\\FolderTypeID",
+      "HKEY_CURRENT_USER\\Control Panel\\International\\sDate",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\explorer\\FolderDescriptions\\{56784854-C6CB-462B-8169-88E350ACB882}\\StreamResource",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\Wow6432Node\\CLSID\\{8D4B04E1-1331-11D0-81B8-00C04FD85AB4}\\InprocServer32\\(Default)",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\explorer\\FolderDescriptions\\{56784854-C6CB-462B-8169-88E350ACB882}\\Name",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{7ace8c1d-1d34-11ef-b467-806e6f6e6963}\\Data",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Tracing\\explorer_RASMANCS\\ConsoleTracingMask",
+      "HKEY_CURRENT_USER\\Control Panel\\International\\iTime",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\WAB\\NamedPropCount",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Tracing\\explorer_RASAPI32\\MaxFileSize",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Tracing\\explorer_RASAPI32\\ConsoleTracingMask",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\explorer\\FolderDescriptions\\{56784854-C6CB-462B-8169-88E350ACB882}\\LocalizedName",
+      "HKEY_CURRENT_USER\\Control Panel\\International\\iDate",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Tracing\\explorer_RASMANCS\\FileDirectory",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\IAM\\Accounts\\PreConfigVerNTDS",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{7ace8c21-1d34-11ef-b467-806e6f6e6963}\\Generation",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\Wow6432Node\\Interface\\{26656EAA-54EB-4E6F-8F85-4F0EF901A406}\\ProxyStubClsid32\\(Default)",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Tracing\\explorer_RASMANCS\\EnableFileTracing",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\IAM\\Accounts\\PreConfigVer",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\IAM\\Default News Account",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\Wow6432Node\\CLSID\\{B196B286-BAB4-101A-B69C-00AA00341D07}\\InprocServer32\\(Default)",
+      "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\services\\Tcpip\\Parameters\\Hostname",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\explorer\\FolderDescriptions\\{56784854-C6CB-462B-8169-88E350ACB882}\\Security",
+      "HKEY_LOCAL_MACHINE\\SYSTEM\\Setup\\OOBEInProgress",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\Wow6432Node\\Interface\\{2A1C9EB2-DF62-4154-B800-63278FCB8037}\\ProxyStubClsid32\\(Default)",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{7ace8c1e-1d34-11ef-b467-806e6f6e6963}\\Generation",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\explorer\\FolderDescriptions\\{56784854-C6CB-462B-8169-88E350ACB882}\\Stream",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{7ace8c1d-1d34-11ef-b467-806e6f6e6963}\\Generation",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\explorer\\FolderDescriptions\\{56784854-C6CB-462B-8169-88E350ACB882}\\LocalRedirectOnly",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\InstallDate",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Tracing\\explorer_RASAPI32\\EnableConsoleTracing",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\explorer\\FolderDescriptions\\{56784854-C6CB-462B-8169-88E350ACB882}\\PublishExpandedPath",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Security_HKLM_only",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\explorer\\FolderDescriptions\\{56784854-C6CB-462B-8169-88E350ACB882}\\ParsingName",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Clients\\Mail\\(Default)",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Clients\\Mail\\DLLPathEx",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\explorer\\FolderDescriptions\\{56784854-C6CB-462B-8169-88E350ACB882}\\Category",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\explorer\\FolderDescriptions\\{56784854-C6CB-462B-8169-88E350ACB882}\\Icon",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\Wow6432Node\\CLSID\\{B196B286-BAB4-101A-B69C-00AA00341D07}\\InprocServer32\\InprocServer32",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\IAM\\Default Mail Account",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\GRE_Initialize\\DisableMetaFiles",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\explorer\\FolderDescriptions\\{56784854-C6CB-462B-8169-88E350ACB882}\\Description",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\Wow6432Node\\Interface\\{8A40A45D-055C-4B62-ABD7-6D613E2CEAEC}\\ProxyStubClsid32\\(Default)",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Clients\\Mail\\NoMailClient",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\SQMClient\\Windows\\CEIPEnable",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\ProfileList\\ProgramData",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\explorer\\FolderDescriptions\\{56784854-C6CB-462B-8169-88E350ACB882}\\ParentFolder",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders\\AppData",
+      "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\ComputerName\\ActiveComputerName\\ComputerName",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\Wow6432Node\\Interface\\{55272A00-42CB-11CE-8135-00AA004BB851}\\ProxyStubClsid32\\(Default)",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\WAB\\Server ID",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Internet Account Manager\\Preconfigured\\PreConfigVerNTDS",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\IAM\\Default LDAP Account",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Internet Account Manager\\Preconfigured\\PreConfigVer",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{7ace8c1e-1d34-11ef-b467-806e6f6e6963}\\Data"
+    ],
+    "directory_enumerated": [
+      "C:\\Users\\Administrator\\AppData\\Roaming\\Microsoft\\Windows",
+      "C:\\Users\\Administrator\\Contacts\\*.group",
+      "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows Mail\\account*.oeaccount",
+      "C:\\Windows\\System32\\ras\\*.pbk",
+      "C:\\Users\\Administrator\\Contacts\\*.contact",
+      "C:\\Users\\Administrator\\AppData\\Roaming\\Thunderbird\\Profiles\\*.*",
+      "C:\\Users\\Administrator\\Contacts\\*",
+      "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows Mail\\*",
+      "C:\\Users",
+      "C:\\ProgramData\\Microsoft\\Network\\Connections\\Pbk\\*.pbk",
+      "C:\\ProgramData\\Microsoft\\Network\\Connections\\Pbk\\rasphone.pbk",
+      "C:\\Users\\Administrator\\AppData\\Roaming\\Microsoft\\Windows\\Cookies",
+      "C:\\Users\\Administrator\\AppData\\Roaming\\Microsoft\\Network\\Connections\\Pbk\\*.pbk",
+      "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows",
+      "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows Mail\\Backup\\account*.oeaccount",
+      "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows\\History",
+      "C:\\Users\\Administrator\\AppData",
+      "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows Mail\\Stationery\\account*.oeaccount",
+      "C:\\Users\\Administrator\\AppData\\Local",
+      "C:\\Users\\Administrator\\AppData\\Roaming\\Microsoft\\Network\\Connections\\Pbk\\rasphone.pbk",
+      "C:\\Windows",
+      "C:\\Users\\Administrator\\AppData\\Roaming"
+    ],
+    "directory_created": [
+      "C:\\ProgramData\\ewosolyzuhobytal",
+      "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\Windows Mail",
+      "C:\\Users\\Administrator\\Contacts",
+      "C:\\Users\\Administrator"
+    ]
+  },
+  "apistats": {
+    "2580": {
+      "LdrUnloadDll": 3,
+      "CoUninitialize": 1,
+      "LookupAccountSidW": 1,
+      "NtDuplicateObject": 1,
+      "LookupPrivilegeValueW": 1,
+      "NtClose": 17,
+      "NtMapViewOfSection": 2,
+      "NtAllocateVirtualMemory": 2,
+      "LdrGetDllHandle": 2,
+      "GetComputerNameW": 1,
+      "CoCreateInstance": 2,
+      "NtUnmapViewOfSection": 1,
+      "SetUnhandledExceptionFilter": 1,
+      "NtCreateFile": 2,
+      "GetSystemTimeAsFileTime": 1,
+      "GetComputerNameA": 1,
+      "CoInitializeEx": 1,
+      "NtCreateSection": 2,
+      "NtOpenKey": 2,
+      "LdrGetProcedureAddress": 1,
+      "CoInitializeSecurity": 1,
+      "GetFileType": 1,
+      "LdrLoadDll": 1,
+      "NtTerminateProcess": 3,
+      "WriteConsoleW": 2,
+      "NtQueryValueKey": 2
+    },
+    "2400": {
+      "GetNativeSystemInfo": 1,
+      "NtDuplicateObject": 7,
+      "CoUninitialize": 1,
+      "RegCloseKey": 18,
+      "NtReadFile": 1,
+      "LdrUnloadDll": 3,
+      "DrawTextExW": 1,
+      "NtSetContextThread": 1,
+      "RegQueryValueExA": 1,
+      "IsDebuggerPresent": 1,
+      "NtTerminateProcess": 3,
+      "NtClose": 74,
+      "GetForegroundWindow": 1,
+      "GetFileAttributesW": 2,
+      "RegQueryValueExW": 8,
+      "DrawTextExA": 1,
+      "NtMapViewOfSection": 1,
+      "GetVolumePathNamesForVolumeNameW": 8,
+      "GetSystemMetrics": 6,
+      "NtCreateThreadEx": 1,
+      "WriteProcessMemory": 1,
+      "RegOpenKeyExW": 15,
+      "NtAllocateVirtualMemory": 201,
+      "RegOpenKeyExA": 1,
+      "NtWriteFile": 1,
+      "LdrGetDllHandle": 13,
+      "RtlDecompressBuffer": 94,
+      "NtQuerySystemInformation": 1,
+      "NtResumeThread": 2,
+      "SHGetFolderPathW": 2,
+      "CreateThread": 1,
+      "CoCreateInstance": 1,
+      "NtUnmapViewOfSection": 4,
+      "SetUnhandledExceptionFilter": 2,
+      "FindResourceExW": 1,
+      "NtFreeVirtualMemory": 148,
+      "GetVolumeNameForVolumeMountPointW": 3,
+      "GetSystemTimeAsFileTime": 3,
+      "GlobalMemoryStatusEx": 1,
+      "NtCreateMutant": 2,
+      "NtProtectVirtualMemory": 64,
+      "CoInitializeEx": 1,
+      "NtGetContextThread": 1,
+      "GetTimeZoneInformation": 2,
+      "NtOpenKey": 14,
+      "LdrGetProcedureAddress": 126,
+      "CreateDirectoryW": 1,
+      "SHGetSpecialFolderLocation": 1,
+      "SetFileAttributesW": 1,
+      "LdrLoadDll": 11,
+      "NtCreateFile": 4,
+      "OutputDebugStringA": 1,
+      "NtQueryInformationFile": 1,
+      "CreateProcessInternalW": 1,
+      "NtQueryValueKey": 9
+    },
+    "2496": {
+      "RegCreateKeyExW": 16,
+      "GetNativeSystemInfo": 1,
+      "getaddrinfo": 3,
+      "CoUninitialize": 2,
+      "RegCloseKey": 92,
+      "NtQueryKey": 2,
+      "NtReadFile": 24,
+      "NtDuplicateObject": 8,
+      "GetSystemInfo": 2,
+      "RegQueryValueExA": 45,
+      "GetSystemWindowsDirectoryA": 3,
+      "GetComputerNameW": 1,
+      "FindResourceW": 1,
+      "NtOpenProcess": 1,
+      "GetFileAttributesExW": 5,
+      "SetFilePointerEx": 3,
+      "NtQueryValueKey": 4,
+      "RegCreateKeyExA": 6,
+      "GetAdaptersAddresses": 2,
+      "GetForegroundWindow": 1,
+      "GetFileAttributesW": 16,
+      "RegQueryValueExW": 87,
+      "HttpOpenRequestW": 6,
+      "NtFreeVirtualMemory": 25,
+      "NtMapViewOfSection": 1,
+      "NtCreateThreadEx": 1,
+      "InternetConnectW": 6,
+      "CreateActCtxW": 5,
+      "InternetCloseHandle": 15,
+      "RegOpenKeyExW": 70,
+      "NtDelayExecution": 6,
+      "InternetQueryOptionA": 12,
+      "NtOpenSection": 1,
+      "SetErrorMode": 22,
+      "NtDeviceIoControlFile": 13,
+      "NtAllocateVirtualMemory": 97,
+      "ReadProcessMemory": 10,
+      "RegOpenKeyExA": 19,
+      "HttpSendRequestW": 5,
+      "NtWriteFile": 3,
+      "LdrGetDllHandle": 28,
+      "OpenServiceA": 2,
+      "LdrUnloadDll": 11,
+      "NtQuerySystemInformation": 1,
+      "NtResumeThread": 1,
+      "LoadStringW": 9,
+      "CoInitializeEx": 4,
+      "CreateThread": 4,
+      "CoCreateInstance": 11,
+      "NtQueryDirectoryFile": 10,
+      "SetUnhandledExceptionFilter": 1,
+      "NtCreateFile": 13,
+      "MessageBoxTimeoutW": 1,
+      "GetSystemTimeAsFileTime": 7,
+      "SizeofResource": 1,
+      "GlobalMemoryStatusEx": 1,
+      "NtQueryAttributesFile": 1,
+      "FindFirstFileExW": 37,
+      "NtCreateMutant": 3,
+      "SHGetFolderPathW": 12,
+      "RegDeleteValueW": 8,
+      "UuidCreate": 1,
+      "NtCreateSection": 1,
+      "InternetSetOptionA": 24,
+      "RegSetValueExW": 14,
+      "NtOpenKey": 12,
+      "SearchPathW": 1,
+      "LoadResource": 1,
+      "LdrGetProcedureAddress": 389,
+      "NtOpenThread": 2,
+      "CreateDirectoryW": 8,
+      "RegSetValueExA": 13,
+      "RegEnumValueA": 14,
+      "SetFileAttributesW": 3,
+      "LdrLoadDll": 209,
+      "OpenSCManagerA": 2,
+      "InternetOpenW": 6,
+      "NtQueryInformationFile": 1,
+      "CreateProcessInternalW": 1,
+      "NtClose": 90
+    }
+  },
+  "signature_evidence": [
+    {
+      "json_pointer": "/signatures/0",
+      "name": "antivm_queries_computername",
+      "description": "Queries for the computername",
+      "marks": [
+        {
+          "call": {
+            "category": "misc",
+            "status": 1,
+            "stacktrace": [],
+            "api": "GetComputerNameW",
+            "return_value": 1,
+            "arguments": {
+              "computer_name": "NONE"
+            },
+            "time": 1717681573.703875,
+            "tid": 2500,
+            "flags": {}
+          },
+          "pid": 2496,
+          "type": "call",
+          "cid": 509
+        },
+        {
+          "call": {
+            "category": "misc",
+            "status": 1,
+            "stacktrace": [],
+            "api": "GetComputerNameA",
+            "return_value": 1,
+            "arguments": {
+              "computer_name": "NONE"
+            },
+            "time": 1717681581.14075,
+            "tid": 2584,
+            "flags": {}
+          },
+          "pid": 2580,
+          "type": "call",
+          "cid": 23
+        },
+        {
+          "call": {
+            "category": "misc",
+            "status": 1,
+            "stacktrace": [],
+            "api": "GetComputerNameW",
+            "return_value": 1,
+            "arguments": {
+              "computer_name": "NONE"
+            },
+            "time": 1717681581.14075,
+            "tid": 2584,
+            "flags": {}
+          },
+          "pid": 2580,
+          "type": "call",
+          "cid": 24
+        }
+      ],
+      "marks_included": 3,
+      "total_marks": 3
+    },
+    {
+      "json_pointer": "/signatures/1",
+      "name": "checks_debugger",
+      "description": "Checks if process is being debugged by a debugger",
+      "marks": [
+        {
+          "call": {
+            "category": "system",
+            "status": 0,
+            "stacktrace": [],
+            "last_error": 0,
+            "nt_status": -1073741515,
+            "api": "IsDebuggerPresent",
+            "return_value": 0,
+            "arguments": {},
+            "time": 1717681561.48475,
+            "tid": 2404,
+            "flags": {}
+          },
+          "pid": 2400,
+          "type": "call",
+          "cid": 23
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/2",
+      "name": "console_output",
+      "description": "Command line console output was observed",
+      "marks": [
+        {
+          "call": {
+            "category": "misc",
+            "status": 1,
+            "stacktrace": [],
+            "api": "WriteConsoleW",
+            "return_value": 1,
+            "arguments": {
+              "buffer": "vssadmin 1.1 - Volume Shadow Copy Service administrative command-line tool\r\n(C) Copyright 2001-2005 Microsoft Corp.\r\n\r\n",
+              "console_handle": "0x00000007"
+            },
+            "time": 1717681579.95375,
+            "tid": 2584,
+            "flags": {}
+          },
+          "pid": 2580,
+          "type": "call",
+          "cid": 11
+        },
+        {
+          "call": {
+            "category": "misc",
+            "status": 1,
+            "stacktrace": [],
+            "api": "WriteConsoleW",
+            "return_value": 1,
+            "arguments": {
+              "buffer": "Error: Unexpected failure: Class not registered \r\n",
+              "console_handle": "0x00000007"
+            },
+            "time": 1717681581.53175,
+            "tid": 2584,
+            "flags": {}
+          },
+          "pid": 2580,
+          "type": "call",
+          "cid": 31
+        }
+      ],
+      "marks_included": 2,
+      "total_marks": 2
+    },
+    {
+      "json_pointer": "/signatures/3",
+      "name": "recon_fingerprint",
+      "description": "Collects information to fingerprint the system (MachineGuid, DigitalProductId, SystemBiosDate)",
+      "marks": [
+        {
+          "category": "registry",
+          "ioc": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\InstallDate",
+          "type": "ioc",
+          "description": null
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/4",
+      "name": "has_pdb",
+      "description": "This executable has a PDB path",
+      "marks": [
+        {
+          "category": "pdb_path",
+          "ioc": "H:\\intountered\\erdicators\\inzantr.pdb",
+          "type": "ioc",
+          "description": null
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/5",
+      "name": "antivm_memory_available",
+      "description": "Checks amount of memory in system, this can be used to detect virtual machines that have a low amount of memory available",
+      "marks": [
+        {
+          "call": {
+            "category": "system",
+            "status": 1,
+            "stacktrace": [],
+            "api": "GlobalMemoryStatusEx",
+            "return_value": 1,
+            "arguments": {},
+            "time": 1717681561.92175,
+            "tid": 2452,
+            "flags": {}
+          },
+          "pid": 2400,
+          "type": "call",
+          "cid": 53
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/6",
+      "name": "pe_unknown_resource_name",
+      "description": "The file contains an unknown PE resource name possibly indicative of a packer",
+      "marks": [
+        {
+          "category": "resource name",
+          "ioc": "None",
+          "type": "ioc",
+          "description": null
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/7",
+      "name": "dumped_buffer",
+      "description": "One or more potentially interesting buffers were extracted, these generally contain injected code, configuration data, etc.",
+      "marks": [],
+      "marks_included": 0,
+      "total_marks": 0
+    },
+    {
+      "json_pointer": "/signatures/8",
+      "name": "suspicious_tld",
+      "description": "Resolves a suspicious Top Level Domain (TLD)",
+      "marks": [
+        {
+          "domain": "chooseyourhost.ru",
+          "type": "generic",
+          "description": "Russian Federation domain TLD"
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/9",
+      "name": "allocates_rwx",
+      "description": "Allocates read-write-execute memory (usually to unpack itself)",
+      "marks": [
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtAllocateVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2400,
+              "region_size": 3735552,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "protection": 64,
+              "process_handle": "0xffffffff",
+              "allocation_type": 8192,
+              "base_address": "0x02080000"
+            },
+            "time": 1717681561.48475,
+            "tid": 2404,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE",
+              "allocation_type": "MEM_RESERVE"
+            }
+          },
+          "pid": 2400,
+          "type": "call",
+          "cid": 15
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtAllocateVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2400,
+              "region_size": 1118208,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 1,
+              "protection": 64,
+              "process_handle": "0xffffffff",
+              "allocation_type": 4096,
+              "base_address": "0x02150000"
+            },
+            "time": 1717681561.48475,
+            "tid": 2404,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE",
+              "allocation_type": "MEM_COMMIT"
+            }
+          },
+          "pid": 2400,
+          "type": "call",
+          "cid": 17
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtAllocateVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2400,
+              "region_size": 4096,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "protection": 64,
+              "process_handle": "0xffffffff",
+              "allocation_type": 12288,
+              "base_address": "0x01f90000"
+            },
+            "time": 1717681562.06275,
+            "tid": 2404,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE",
+              "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+            }
+          },
+          "pid": 2400,
+          "type": "call",
+          "cid": 153
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtAllocateVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2400,
+              "region_size": 4096,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "protection": 64,
+              "process_handle": "0xffffffff",
+              "allocation_type": 12288,
+              "base_address": "0x01f90000"
+            },
+            "time": 1717681562.12575,
+            "tid": 2404,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE",
+              "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+            }
+          },
+          "pid": 2400,
+          "type": "call",
+          "cid": 157
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtAllocateVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2400,
+              "region_size": 4096,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "protection": 64,
+              "process_handle": "0xffffffff",
+              "allocation_type": 12288,
+              "base_address": "0x01f90000"
+            },
+            "time": 1717681562.15675,
+            "tid": 2404,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE",
+              "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+            }
+          },
+          "pid": 2400,
+          "type": "call",
+          "cid": 160
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtAllocateVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2400,
+              "region_size": 4096,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "protection": 64,
+              "process_handle": "0xffffffff",
+              "allocation_type": 12288,
+              "base_address": "0x01f90000"
+            },
+            "time": 1717681562.18775,
+            "tid": 2404,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE",
+              "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+            }
+          },
+          "pid": 2400,
+          "type": "call",
+          "cid": 163
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtAllocateVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2400,
+              "region_size": 4096,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "protection": 64,
+              "process_handle": "0xffffffff",
+              "allocation_type": 12288,
+              "base_address": "0x01f90000"
+            },
+            "time": 1717681562.20375,
+            "tid": 2404,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE",
+              "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+            }
+          },
+          "pid": 2400,
+          "type": "call",
+          "cid": 166
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtAllocateVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2400,
+              "region_size": 4096,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "protection": 64,
+              "process_handle": "0xffffffff",
+              "allocation_type": 12288,
+              "base_address": "0x01f90000"
+            },
+            "time": 1717681562.23475,
+            "tid": 2404,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE",
+              "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+            }
+          },
+          "pid": 2400,
+          "type": "call",
+          "cid": 169
+        }
+      ],
+      "marks_included": 8,
+      "total_marks": 50
+    },
+    {
+      "json_pointer": "/signatures/10",
+      "name": "creates_exe",
+      "description": "Creates executable files on the filesystem",
+      "marks": [
+        {
+          "category": "file",
+          "ioc": "C:\\Windows\\ytaryvus.exe",
+          "type": "ioc",
+          "description": null
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/11",
+      "name": "stealth_window",
+      "description": "A process created a hidden window",
+      "marks": [
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "CreateProcessInternalW",
+            "return_value": 1,
+            "arguments": {
+              "thread_identifier": 2584,
+              "thread_handle": "0x000001f0",
+              "process_identifier": 2580,
+              "current_directory": "C:\\Windows",
+              "filepath": "",
+              "track": 1,
+              "command_line": "vssadmin.exe Delete Shadows /All /Quiet",
+              "filepath_r": "",
+              "stack_pivoted": 0,
+              "creation_flags": 134217728,
+              "process_handle": "0x000001f4",
+              "inherit_handles": 0
+            },
+            "time": 1717681574.625875,
+            "tid": 2576,
+            "flags": {
+              "creation_flags": "CREATE_NO_WINDOW"
+            }
+          },
+          "pid": 2496,
+          "type": "call",
+          "cid": 575
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/12",
+      "name": "antivm_network_adapters",
+      "description": "Checks adapter addresses which can be used to detect virtual network interfaces",
+      "marks": [
+        {
+          "call": {
+            "category": "network",
+            "status": 0,
+            "stacktrace": [],
+            "last_error": 0,
+            "nt_status": -1073741772,
+            "api": "GetAdaptersAddresses",
+            "return_value": 111,
+            "arguments": {
+              "flags": 0,
+              "family": 0
+            },
+            "time": 1717681583.125875,
+            "tid": 2720,
+            "flags": {}
+          },
+          "pid": 2496,
+          "type": "call",
+          "cid": 952
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/13",
+      "name": "packer_entropy",
+      "description": "The binary likely contains encrypted or compressed data indicative of a packer",
+      "marks": [
+        {
+          "entropy": 7.769112806883416,
+          "section": {
+            "size_of_data": "0x00041800",
+            "virtual_address": "0x00001000",
+            "entropy": 7.769112806883416,
+            "name": ".text",
+            "virtual_size": "0x0004172c"
+          },
+          "type": "generic",
+          "description": "A section with a high entropy has been found"
+        },
+        {
+          "entropy": 0.7380281690140845,
+          "type": "generic",
+          "description": "Overall entropy of this PE file is high"
+        }
+      ],
+      "marks_included": 2,
+      "total_marks": 2
+    },
+    {
+      "json_pointer": "/signatures/14",
+      "name": "privilege_luid_check",
+      "description": "Checks for the Locally Unique Identifier on the system for a suspicious privilege",
+      "marks": [
+        {
+          "call": {
+            "category": "system",
+            "status": 1,
+            "stacktrace": [],
+            "api": "LookupPrivilegeValueW",
+            "return_value": 1,
+            "arguments": {
+              "system_name": "",
+              "privilege_name": "SeBackupPrivilege"
+            },
+            "time": 1717681579.95375,
+            "tid": 2584,
+            "flags": {}
+          },
+          "pid": 2580,
+          "type": "call",
+          "cid": 5
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/15",
+      "name": "dumped_buffer2",
+      "description": "One or more of the buffers contains an embedded PE file",
+      "marks": [
+        {
+          "category": "buffer",
+          "ioc": "Buffer with sha1: c8718a50d8fef4ba5c94f30dc5c8aec9adc60ab7",
+          "type": "ioc",
+          "description": null
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/16",
+      "name": "allocates_execute_remote_process",
+      "description": "Allocates execute permission to another process indicative of possible code injection",
+      "marks": [
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtProtectVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2496,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "length": 241664,
+              "protection": 64,
+              "process_handle": "0x000001c4",
+              "base_address": "0x000f0000"
+            },
+            "time": 1717681566.06275,
+            "tid": 2480,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE"
+            }
+          },
+          "pid": 2400,
+          "type": "call",
+          "cid": 806
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/17",
+      "name": "persistence_autorun",
+      "description": "Installs itself for autorun at Windows startup",
+      "marks": [
+        {
+          "type": "generic",
+          "reg_key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\ifaqadew",
+          "reg_value": "C:\\Windows\\ytaryvus.exe"
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/18",
+      "name": "injection_network_trafic",
+      "description": "Network communications indicative of possible code injection originated from the process explorer.exe",
+      "marks": [
+        {
+          "call": {
+            "category": "network",
+            "status": 1,
+            "stacktrace": [],
+            "api": "InternetConnectW",
+            "return_value": 13369352,
+            "arguments": {
+              "username": "",
+              "service": 3,
+              "hostname": "chooseyourhost.ru",
+              "internet_handle": "0x00cc0004",
+              "flags": 0,
+              "password": "",
+              "port": 443
+            },
+            "time": 1717681576.906875,
+            "tid": 2500,
+            "flags": {}
+          },
+          "pid": 2496,
+          "type": "call",
+          "cid": 586
+        },
+        {
+          "call": {
+            "category": "network",
+            "status": 1,
+            "stacktrace": [],
+            "api": "HttpOpenRequestW",
+            "return_value": 13369356,
+            "arguments": {
+              "connect_handle": "0x00cc0008",
+              "http_version": "",
+              "flags": 2223294208,
+              "http_method": "POST",
+              "referer": "",
+              "path": "/topic.php"
+            },
+            "time": 1717681578.875875,
+            "tid": 2500,
+            "flags": {}
+          },
+          "pid": 2496,
+          "type": "call",
+          "cid": 587
+        },
+        {
+          "call": {
+            "category": "network",
+            "status": 1,
+            "stacktrace": [],
+            "api": "InternetConnectW",
+            "return_value": 13369352,
+            "arguments": {
+              "username": "",
+              "service": 3,
+              "hostname": "chooseyourhost.ru",
+              "internet_handle": "0x00cc0004",
+              "flags": 0,
+              "password": "",
+              "port": 443
+            },
+            "time": 1717681602.968875,
+            "tid": 2500,
+            "flags": {}
+          },
+          "pid": 2496,
+          "type": "call",
+          "cid": 1530
+        },
+        {
+          "call": {
+            "category": "network",
+            "status": 1,
+            "stacktrace": [],
+            "api": "HttpOpenRequestW",
+            "return_value": 13369356,
+            "arguments": {
+              "connect_handle": "0x00cc0008",
+              "http_version": "",
+              "flags": 2223294208,
+              "http_method": "POST",
+              "referer": "",
+              "path": "/topic.php"
+            },
+            "time": 1717681602.968875,
+            "tid": 2500,
+            "flags": {}
+          },
+          "pid": 2496,
+          "type": "call",
+          "cid": 1531
+        },
+        {
+          "call": {
+            "category": "network",
+            "status": 1,
+            "stacktrace": [],
+            "api": "InternetConnectW",
+            "return_value": 13369352,
+            "arguments": {
+              "username": "",
+              "service": 3,
+              "hostname": "chooseyourhost.ru",
+              "internet_handle": "0x00cc0004",
+              "flags": 0,
+              "password": "",
+              "port": 443
+            },
+            "time": 1717681619.968875,
+            "tid": 2500,
+            "flags": {}
+          },
+          "pid": 2496,
+          "type": "call",
+          "cid": 1544
+        },
+        {
+          "call": {
+            "category": "network",
+            "status": 1,
+            "stacktrace": [],
+            "api": "HttpOpenRequestW",
+            "return_value": 13369356,
+            "arguments": {
+              "connect_handle": "0x00cc0008",
+              "http_version": "",
+              "flags": 2223294208,
+              "http_method": "POST",
+              "referer": "",
+              "path": "/topic.php"
+            },
+            "time": 1717681619.968875,
+            "tid": 2500,
+            "flags": {}
+          },
+          "pid": 2496,
+          "type": "call",
+          "cid": 1545
+        },
+        {
+          "call": {
+            "category": "network",
+            "status": 1,
+            "stacktrace": [],
+            "api": "InternetConnectW",
+            "return_value": 13369352,
+            "arguments": {
+              "username": "",
+              "service": 3,
+              "hostname": "chooseyourhost.ru",
+              "internet_handle": "0x00cc0004",
+              "flags": 0,
+              "password": "",
+              "port": 443
+            },
+            "time": 1717681636.968875,
+            "tid": 2500,
+            "flags": {}
+          },
+          "pid": 2496,
+          "type": "call",
+          "cid": 1564
+        },
+        {
+          "call": {
+            "category": "network",
+            "status": 1,
+            "stacktrace": [],
+            "api": "HttpOpenRequestW",
+            "return_value": 13369356,
+            "arguments": {
+              "connect_handle": "0x00cc0008",
+              "http_version": "",
+              "flags": 2223294208,
+              "http_method": "POST",
+              "referer": "",
+              "path": "/topic.php"
+            },
+            "time": 1717681636.968875,
+            "tid": 2500,
+            "flags": {}
+          },
+          "pid": 2496,
+          "type": "call",
+          "cid": 1565
+        }
+      ],
+      "marks_included": 8,
+      "total_marks": 12
+    },
+    {
+      "json_pointer": "/signatures/19",
+      "name": "infostealer_mail",
+      "description": "Harvests credentials from local email clients",
+      "marks": [
+        {
+          "category": "registry",
+          "ioc": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows Mail\\Store Root",
+          "type": "ioc",
+          "description": null
+        },
+        {
+          "category": "registry",
+          "ioc": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows Messaging Subsystem\\MSMapiApps",
+          "type": "ioc",
+          "description": null
+        },
+        {
+          "category": "registry",
+          "ioc": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Internet Account Manager\\Shared",
+          "type": "ioc",
+          "description": null
+        },
+        {
+          "category": "registry",
+          "ioc": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Clients\\Mail\\(Default)",
+          "type": "ioc",
+          "description": null
+        }
+      ],
+      "marks_included": 4,
+      "total_marks": 4
+    },
+    {
+      "json_pointer": "/signatures/20",
+      "name": "modifies_proxy_wpad",
+      "description": "Sets or modifies WPAD proxy autoconfiguration file for traffic interception",
+      "marks": [
+        {
+          "call": {
+            "category": "registry",
+            "status": 1,
+            "stacktrace": [],
+            "api": "RegSetValueExA",
+            "return_value": 0,
+            "arguments": {
+              "key_handle": "0x00000438",
+              "value": 1,
+              "regkey_r": "WpadDecisionReason",
+              "reg_type": 4,
+              "regkey": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Wpad\\{C2CD776C-114F-4C9E-A823-059D28ED2278}\\WpadDecisionReason"
+            },
+            "time": 1717681585.687875,
+            "tid": 2720,
+            "flags": {
+              "reg_type": "REG_DWORD"
+            }
+          },
+          "pid": 2496,
+          "type": "call",
+          "cid": 1427
+        },
+        {
+          "call": {
+            "category": "registry",
+            "status": 1,
+            "stacktrace": [],
+            "api": "RegSetValueExA",
+            "return_value": 0,
+            "arguments": {
+              "key_handle": "0x00000438",
+              "value": "prX\n?\u00b8\u00da\u0001",
+              "regkey_r": "WpadDecisionTime",
+              "reg_type": 3,
+              "regkey": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Wpad\\{C2CD776C-114F-4C9E-A823-059D28ED2278}\\WpadDecisionTime"
+            },
+            "time": 1717681585.703875,
+            "tid": 2720,
+            "flags": {
+              "reg_type": "REG_BINARY"
+            }
+          },
+          "pid": 2496,
+          "type": "call",
+          "cid": 1428
+        },
+        {
+          "call": {
+            "category": "registry",
+            "status": 1,
+            "stacktrace": [],
+            "api": "RegSetValueExA",
+            "return_value": 0,
+            "arguments": {
+              "key_handle": "0x00000438",
+              "value": 3,
+              "regkey_r": "WpadDecision",
+              "reg_type": 4,
+              "regkey": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Wpad\\{C2CD776C-114F-4C9E-A823-059D28ED2278}\\WpadDecision"
+            },
+            "time": 1717681585.703875,
+            "tid": 2720,
+            "flags": {
+              "reg_type": "REG_DWORD"
+            }
+          },
+          "pid": 2496,
+          "type": "call",
+          "cid": 1429
+        },
+        {
+          "call": {
+            "category": "registry",
+            "status": 1,
+            "stacktrace": [],
+            "api": "RegSetValueExW",
+            "return_value": 0,
+            "arguments": {
+              "key_handle": "0x00000438",
+              "value": "Network",
+              "regkey_r": "WpadNetworkName",
+              "reg_type": 1,
+              "regkey": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Wpad\\{C2CD776C-114F-4C9E-A823-059D28ED2278}\\WpadNetworkName"
+            },
+            "time": 1717681585.703875,
+            "tid": 2720,
+            "flags": {
+              "reg_type": "REG_SZ"
+            }
+          },
+          "pid": 2496,
+          "type": "call",
+          "cid": 1430
+        },
+        {
+          "call": {
+            "category": "registry",
+            "status": 1,
+            "stacktrace": [],
+            "api": "RegSetValueExA",
+            "return_value": 0,
+            "arguments": {
+              "key_handle": "0x00000450",
+              "value": 1,
+              "regkey_r": "WpadDecisionReason",
+              "reg_type": 4,
+              "regkey": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Wpad\\0a-00-27-00-00-00\\WpadDecisionReason"
+            },
+            "time": 1717681585.703875,
+            "tid": 2720,
+            "flags": {
+              "reg_type": "REG_DWORD"
+            }
+          },
+          "pid": 2496,
+          "type": "call",
+          "cid": 1436
+        },
+        {
+          "call": {
+            "category": "registry",
+            "status": 1,
+            "stacktrace": [],
+            "api": "RegSetValueExA",
+            "return_value": 0,
+            "arguments": {
+              "key_handle": "0x00000450",
+              "value": "prX\n?\u00b8\u00da\u0001",
+              "regkey_r": "WpadDecisionTime",
+              "reg_type": 3,
+              "regkey": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Wpad\\0a-00-27-00-00-00\\WpadDecisionTime"
+            },
+            "time": 1717681585.703875,
+            "tid": 2720,
+            "flags": {
+              "reg_type": "REG_BINARY"
+            }
+          },
+          "pid": 2496,
+          "type": "call",
+          "cid": 1437
+        },
+        {
+          "call": {
+            "category": "registry",
+            "status": 1,
+            "stacktrace": [],
+            "api": "RegSetValueExA",
+            "return_value": 0,
+            "arguments": {
+              "key_handle": "0x00000450",
+              "value": 3,
+              "regkey_r": "WpadDecision",
+              "reg_type": 4,
+              "regkey": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Wpad\\0a-00-27-00-00-00\\WpadDecision"
+            },
+            "time": 1717681585.703875,
+            "tid": 2720,
+            "flags": {
+              "reg_type": "REG_DWORD"
+            }
+          },
+          "pid": 2496,
+          "type": "call",
+          "cid": 1438
+        },
+        {
+          "call": {
+            "category": "registry",
+            "status": 1,
+            "stacktrace": [],
+            "api": "RegSetValueExW",
+            "return_value": 0,
+            "arguments": {
+              "key_handle": "0x00000434",
+              "value": "{C2CD776C-114F-4C9E-A823-059D28ED2278}",
+              "regkey_r": "WpadLastNetwork",
+              "reg_type": 1,
+              "regkey": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Wpad\\WpadLastNetwork"
+            },
+            "time": 1717681585.703875,
+            "tid": 2720,
+            "flags": {
+              "reg_type": "REG_SZ"
+            }
+          },
+          "pid": 2496,
+          "type": "call",
+          "cid": 1519
+        }
+      ],
+      "marks_included": 8,
+      "total_marks": 8
+    },
+    {
+      "json_pointer": "/signatures/21",
+      "name": "injection_ntsetcontextthread",
+      "description": "Used NtSetContextThread to modify a thread in a remote process indicative of process injection",
+      "marks": [
+        {
+          "category": "Process injection",
+          "ioc": "Process 2400 called NtSetContextThread to modify thread in remote process 2496",
+          "type": "ioc",
+          "description": null
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtSetContextThread",
+            "return_value": 0,
+            "arguments": {
+              "thread_handle": "0x000001c0",
+              "registers": {
+                "eip": 2011562436,
+                "esp": 5700732,
+                "edi": 0,
+                "eax": 1088640,
+                "ebp": 0,
+                "edx": 0,
+                "ebx": 2130567168,
+                "esi": 0,
+                "ecx": 0
+              },
+              "process_identifier": 2496
+            },
+            "time": 1717681566.06275,
+            "tid": 2480,
+            "flags": {}
+          },
+          "pid": 2400,
+          "type": "call",
+          "cid": 805
+        }
+      ],
+      "marks_included": 2,
+      "total_marks": 2
+    },
+    {
+      "json_pointer": "/signatures/22",
+      "name": "ransomware_shadowcopy",
+      "description": "Removes the Shadow Copy to avoid recovery of the system",
+      "marks": [
+        {
+          "category": "cmdline",
+          "ioc": "vssadmin.exe Delete Shadows /All /Quiet",
+          "type": "ioc",
+          "description": null
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/23",
+      "name": "injection_resumethread",
+      "description": "Resumed a suspended thread in a remote process potentially indicative of process injection",
+      "marks": [
+        {
+          "category": "Process injection",
+          "ioc": "Process 2400 resumed a thread in remote process 2496",
+          "type": "ioc",
+          "description": null
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtResumeThread",
+            "return_value": 0,
+            "arguments": {
+              "thread_handle": "0x000001c0",
+              "suspend_count": 1,
+              "process_identifier": 2496
+            },
+            "time": 1717681566.54675,
+            "tid": 2480,
+            "flags": {}
+          },
+          "pid": 2400,
+          "type": "call",
+          "cid": 807
+        }
+      ],
+      "marks_included": 2,
+      "total_marks": 2
+    },
+    {
+      "json_pointer": "/signatures/24",
+      "name": "stealth_system_procname",
+      "description": "Created a process named as a common system process",
+      "marks": [
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "CreateProcessInternalW",
+            "return_value": 1,
+            "arguments": {
+              "thread_identifier": 2500,
+              "thread_handle": "0x000001c0",
+              "process_identifier": 2496,
+              "current_directory": "",
+              "filepath": "C:\\Windows\\System32\\explorer.exe",
+              "track": 1,
+              "command_line": "",
+              "filepath_r": "C:\\Windows\\system32\\explorer.exe",
+              "stack_pivoted": 0,
+              "creation_flags": 4,
+              "process_handle": "0x000001c4",
+              "inherit_handles": 0
+            },
+            "time": 1717681566.04675,
+            "tid": 2480,
+            "flags": {
+              "creation_flags": "CREATE_SUSPENDED"
+            }
+          },
+          "pid": 2400,
+          "type": "call",
+          "cid": 797
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/25",
+      "name": "suspicious_command_tools",
+      "description": "Uses suspicious command line tools or Windows utilities",
+      "marks": [
+        {
+          "category": "cmdline",
+          "ioc": "vssadmin.exe Delete Shadows /All /Quiet",
+          "type": "ioc",
+          "description": null
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/26",
+      "name": "injection_runpe",
+      "description": "Executed a process and injected code into it, probably while unpacking",
+      "marks": [
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtResumeThread",
+            "return_value": 0,
+            "arguments": {
+              "thread_handle": "0x000001ac",
+              "suspend_count": 1,
+              "process_identifier": 2400
+            },
+            "time": 1717681565.59375,
+            "tid": 2480,
+            "flags": {}
+          },
+          "pid": 2400,
+          "type": "call",
+          "cid": 750
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "CreateProcessInternalW",
+            "return_value": 1,
+            "arguments": {
+              "thread_identifier": 2500,
+              "thread_handle": "0x000001c0",
+              "process_identifier": 2496,
+              "current_directory": "",
+              "filepath": "C:\\Windows\\System32\\explorer.exe",
+              "track": 1,
+              "command_line": "",
+              "filepath_r": "C:\\Windows\\system32\\explorer.exe",
+              "stack_pivoted": 0,
+              "creation_flags": 4,
+              "process_handle": "0x000001c4",
+              "inherit_handles": 0
+            },
+            "time": 1717681566.04675,
+            "tid": 2480,
+            "flags": {
+              "creation_flags": "CREATE_SUSPENDED"
+            }
+          },
+          "pid": 2400,
+          "type": "call",
+          "cid": 797
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtAllocateVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2496,
+              "region_size": 241664,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "protection": 4,
+              "process_handle": "0x000001c4",
+              "allocation_type": 12288,
+              "base_address": "0x000f0000"
+            },
+            "time": 1717681566.06275,
+            "tid": 2480,
+            "flags": {
+              "protection": "PAGE_READWRITE",
+              "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+            }
+          },
+          "pid": 2400,
+          "type": "call",
+          "cid": 799
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "buffer": "c8718a50d8fef4ba5c94f30dc5c8aec9adc60ab7",
+            "api": "WriteProcessMemory",
+            "return_value": 1,
+            "arguments": {
+              "process_identifier": 2496,
+              "buffer": "",
+              "process_handle": "0x000001c4",
+              "base_address": "0x000f0000"
+            },
+            "time": 1717681566.06275,
+            "tid": 2480,
+            "flags": {}
+          },
+          "pid": 2400,
+          "type": "call",
+          "cid": 800
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtGetContextThread",
+            "return_value": 0,
+            "arguments": {
+              "thread_handle": "0x000001c0"
+            },
+            "time": 1717681566.06275,
+            "tid": 2480,
+            "flags": {}
+          },
+          "pid": 2400,
+          "type": "call",
+          "cid": 804
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtSetContextThread",
+            "return_value": 0,
+            "arguments": {
+              "thread_handle": "0x000001c0",
+              "registers": {
+                "eip": 2011562436,
+                "esp": 5700732,
+                "edi": 0,
+                "eax": 1088640,
+                "ebp": 0,
+                "edx": 0,
+                "ebx": 2130567168,
+                "esi": 0,
+                "ecx": 0
+              },
+              "process_identifier": 2496
+            },
+            "time": 1717681566.06275,
+            "tid": 2480,
+            "flags": {}
+          },
+          "pid": 2400,
+          "type": "call",
+          "cid": 805
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtResumeThread",
+            "return_value": 0,
+            "arguments": {
+              "thread_handle": "0x000001c0",
+              "suspend_count": 1,
+              "process_identifier": 2496
+            },
+            "time": 1717681566.54675,
+            "tid": 2480,
+            "flags": {}
+          },
+          "pid": 2400,
+          "type": "call",
+          "cid": 807
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtResumeThread",
+            "return_value": 0,
+            "arguments": {
+              "thread_handle": "0x00000140",
+              "suspend_count": 1,
+              "process_identifier": 2496
+            },
+            "time": 1717681570.671875,
+            "tid": 2500,
+            "flags": {}
+          },
+          "pid": 2496,
+          "type": "call",
+          "cid": 377
+        }
+      ],
+      "marks_included": 8,
+      "total_marks": 9
+    }
+  ],
+  "selected_calls": [
+    {
+      "json_pointer": "/behavior/processes/1/calls/5",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a4f2b",
+        "function_name": "FlsAlloc"
+      },
+      "time": 1717681561.40675,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/6",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a1252",
+        "function_name": "FlsGetValue"
+      },
+      "time": 1717681561.40675,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/7",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a4208",
+        "function_name": "FlsSetValue"
+      },
+      "time": 1717681561.40675,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/8",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a359f",
+        "function_name": "FlsFree"
+      },
+      "time": 1717681561.40675,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/22",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "uxtheme",
+        "module_address": "0x75060000",
+        "function_address": "0x75074571",
+        "function_name": "ThemeInitApiHook"
+      },
+      "time": 1717681561.48475,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/27",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "USER32",
+        "module_address": "0x77610000",
+        "function_address": "0x776281a6",
+        "function_name": "IsProcessDPIAware"
+      },
+      "time": 1717681561.50075,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/37",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "SETUPAPI",
+        "module_address": "0x75c30000",
+        "function_address": "0x773f5ff7",
+        "function_name": "CM_Get_Device_Interface_List_Size_ExW"
+      },
+      "time": 1717681561.92175,
+      "tid": 2452,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/59",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "SETUPAPI",
+        "module_address": "0x75c30000",
+        "function_address": "0x773f5480",
+        "function_name": "CM_Get_Device_Interface_List_ExW"
+      },
+      "time": 1717681561.93775,
+      "tid": 2452,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/114",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 386,
+        "module": "comctl32",
+        "module_address": "0x74c90000",
+        "function_address": "0x74cbe58f",
+        "function_name": ""
+      },
+      "time": 1717681561.95375,
+      "tid": 2452,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/604",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "ntdll",
+        "module_address": "0x77e50000",
+        "function_address": "0x77e96d39",
+        "function_name": "RtlUnwind"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/605",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "ntdll",
+        "module_address": "0x77e50000",
+        "function_address": "0x77e6fa00",
+        "function_name": "NtQueryInformationFile"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/606",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "ntdll",
+        "module_address": "0x77e50000",
+        "function_address": "0x77e6f9d0",
+        "function_name": "NtClose"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/607",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "ntdll",
+        "module_address": "0x77e50000",
+        "function_address": "0x77e6f8e0",
+        "function_name": "NtReadFile"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/608",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "ntdll",
+        "module_address": "0x77e50000",
+        "function_address": "0x77e6f918",
+        "function_name": "NtWriteFile"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/610",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "SHLWAPI",
+        "module_address": "0x774c0000",
+        "function_address": "0x774dc39c",
+        "function_name": "PathCombineW"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/612",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a1916",
+        "function_name": "InitializeCriticalSectionAndSpinCount"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/613",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763acb29",
+        "function_name": "SetHandleCount"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/614",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a51e3",
+        "function_name": "GetEnvironmentStringsW"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/615",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a170d",
+        "function_name": "WideCharToMultiByte"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/616",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a51cb",
+        "function_name": "FreeEnvironmentStringsW"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/617",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a14b1",
+        "function_name": "GetModuleFileNameA"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/618",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a51b3",
+        "function_name": "GetStdHandle"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/619",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a1282",
+        "function_name": "WriteFile"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/620",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a7a10",
+        "function_name": "ExitProcess"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/621",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a11a9",
+        "function_name": "SetLastError"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/622",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a3587",
+        "function_name": "TlsFree"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/623",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x77e89d35",
+        "function_name": "DecodePointer"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/624",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a1809",
+        "function_name": "GetCurrentProcess"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/625",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a110c",
+        "function_name": "GetTickCount"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/626",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a17ec",
+        "function_name": "GetCurrentThread"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/627",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a14e9",
+        "function_name": "GetProcessHeap"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/628",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763bd60f",
+        "function_name": "GetProcessTimes"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/629",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a1450",
+        "function_name": "GetCurrentThreadId"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/630",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a11f8",
+        "function_name": "GetCurrentProcessId"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/631",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x764253eb",
+        "function_name": "GetThreadTimes"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/632",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x77e91f6e",
+        "function_name": "HeapReAlloc"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/633",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x77e7e026",
+        "function_name": "HeapAlloc"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/634",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a1400",
+        "function_name": "InterlockedIncrement"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/635",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a13f0",
+        "function_name": "InterlockedDecrement"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/636",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a14c9",
+        "function_name": "HeapFree"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/637",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a1484",
+        "function_name": "InterlockedCompareExchange"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/638",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a35b7",
+        "function_name": "HeapDestroy"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/639",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a4a2d",
+        "function_name": "HeapCreate"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/640",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x77e83002",
+        "function_name": "HeapSize"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/641",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a192e",
+        "function_name": "MultiByteToWideChar"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/642",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a87c9",
+        "function_name": "SetUnhandledExceptionFilter"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/643",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a4259",
+        "function_name": "CreateDirectoryW"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/644",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a1b18",
+        "function_name": "GetFileAttributesW"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/645",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a3f5c",
+        "function_name": "CreateFileW"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/646",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a11c0",
+        "function_name": "GetLastError"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/647",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763bd4f7",
+        "function_name": "SetFileAttributesW"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/648",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a34b0",
+        "function_name": "GetModuleHandleW"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/649",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a1222",
+        "function_name": "GetProcAddress"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/650",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a2d3c",
+        "function_name": "LocalFree"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/651",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a3531",
+        "function_name": "GetFileType"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/652",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a3509",
+        "function_name": "GetSystemTimeAsFileTime"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/653",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a1ae5",
+        "function_name": "GetVersionExW"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/654",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763c79d4",
+        "function_name": "GetThreadContext"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/655",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x76425393",
+        "function_name": "SetThreadContext"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/656",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a103d",
+        "function_name": "CreateProcessW"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/657",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763bd9c8",
+        "function_name": "VirtualFreeEx"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/658",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763bd802",
+        "function_name": "TerminateProcess"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/659",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a4950",
+        "function_name": "GetModuleFileNameW"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/660",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x764245bf",
+        "function_name": "VirtualProtectEx"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/661",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763bd9b0",
+        "function_name": "VirtualAllocEx"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/662",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763bd9e0",
+        "function_name": "WriteProcessMemory"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/663",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a43ef",
+        "function_name": "ResumeThread"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/664",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a34d5",
+        "function_name": "CreateThread"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/665",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a424c",
+        "function_name": "CreateMutexW"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/666",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a5235",
+        "function_name": "IsProcessorFeaturePresent"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/667",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x77e82c42",
+        "function_name": "InitializeCriticalSection"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/668",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a10ff",
+        "function_name": "Sleep"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/669",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x77e72270",
+        "function_name": "LeaveCriticalSection"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/670",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a5151",
+        "function_name": "OpenMutexW"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/671",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x77e722b0",
+        "function_name": "EnterCriticalSection"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/672",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a183e",
+        "function_name": "CreateEventW"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/673",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x77e845f5",
+        "function_name": "DeleteCriticalSection"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/674",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x76423f49",
+        "function_name": "WTSGetActiveConsoleSessionId"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/675",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a14fb",
+        "function_name": "TlsSetValue"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/676",
+      "pid": 2400,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76390000",
+        "function_address": "0x763a11e0",
+        "function_name": "TlsGetValue"
+      },
+      "time": 1717681565.59375,
+      "tid": 2404,
+      "flags": {}
+    }
+  ],
+  "matching_call_n": 519,
+  "scope": "Triage extract only; consult full raw report for complete context. Native sandbox descriptions may expose vendor judgments. X-ERD predictions are omitted.",
+  "verified_human_annotation": false
+}

@@ -1,0 +1,261 @@
+{
+  "execution_id": "EXEC-add156cbc7bf",
+  "report_sha256": "6d46c16431733848939c39463584ee2eda4e5cbb41e3bb5bfa1deb8c18a146f3",
+  "full_report_relative_path": "../../X_ERD_Reviewer_Revision/data/raw_reports/10011.json",
+  "summary": {},
+  "apistats": {
+    "2372": {
+      "__exception__": 1,
+      "NtTerminateProcess": 1,
+      "NtProtectVirtualMemory": 4
+    }
+  },
+  "signature_evidence": [
+    {
+      "json_pointer": "/signatures/0",
+      "name": "pe_features",
+      "description": "The executable contains unknown PE section names indicative of a packer (could be a false positive)",
+      "marks": [
+        {
+          "category": "section",
+          "ioc": ".gpyp",
+          "type": "ioc",
+          "description": null
+        },
+        {
+          "category": "section",
+          "ioc": ".xsrkt",
+          "type": "ioc",
+          "description": null
+        },
+        {
+          "category": "section",
+          "ioc": ".tkdel",
+          "type": "ioc",
+          "description": null
+        }
+      ],
+      "marks_included": 3,
+      "total_marks": 3
+    },
+    {
+      "json_pointer": "/signatures/1",
+      "name": "raises_exception",
+      "description": "One or more processes crashed",
+      "marks": [
+        {
+          "call": {
+            "category": "__notification__",
+            "status": 1,
+            "stacktrace": [],
+            "raw": [
+              "stacktrace"
+            ],
+            "api": "__exception__",
+            "return_value": 0,
+            "arguments": {
+              "stacktrace": "",
+              "registers": {
+                "esp": 1637164,
+                "edi": 4194464,
+                "eax": 1979322752,
+                "ebp": 2317282796,
+                "edx": 4194832,
+                "ebx": 4282620,
+                "esi": 4276262,
+                "ecx": 3
+              },
+              "exception": {
+                "instruction_r": "f2 fe 69 c0 fd 43 03 00 05 c3 9e 26 00 46 a3 34",
+                "symbol": "10011+0xbb72",
+                "address": "0x40bb72",
+                "module": "10011.exe",
+                "exception_code": "0xc000001d",
+                "offset": 47986
+              }
+            },
+            "time": 1717621184.45375,
+            "tid": 2376,
+            "flags": {}
+          },
+          "pid": 2372,
+          "type": "call",
+          "cid": 4
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/2",
+      "name": "allocates_rwx",
+      "description": "Allocates read-write-execute memory (usually to unpack itself)",
+      "marks": [
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtProtectVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2372,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "length": 4096,
+              "protection": 64,
+              "process_handle": "0xffffffff",
+              "base_address": "0x00400000"
+            },
+            "time": 1717621184.45375,
+            "tid": 2376,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE"
+            }
+          },
+          "pid": 2372,
+          "type": "call",
+          "cid": 0
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtProtectVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2372,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "length": 65536,
+              "protection": 64,
+              "process_handle": "0xffffffff",
+              "base_address": "0x00401000"
+            },
+            "time": 1717621184.45375,
+            "tid": 2376,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE"
+            }
+          },
+          "pid": 2372,
+          "type": "call",
+          "cid": 1
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtProtectVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2372,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "length": 12288,
+              "protection": 64,
+              "process_handle": "0xffffffff",
+              "base_address": "0x00411000"
+            },
+            "time": 1717621184.45375,
+            "tid": 2376,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE"
+            }
+          },
+          "pid": 2372,
+          "type": "call",
+          "cid": 2
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtProtectVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2372,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "length": 77824,
+              "protection": 64,
+              "process_handle": "0xffffffff",
+              "base_address": "0x00414000"
+            },
+            "time": 1717621184.45375,
+            "tid": 2376,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE"
+            }
+          },
+          "pid": 2372,
+          "type": "call",
+          "cid": 3
+        }
+      ],
+      "marks_included": 4,
+      "total_marks": 4
+    },
+    {
+      "json_pointer": "/signatures/3",
+      "name": "packer_entropy",
+      "description": "The binary likely contains encrypted or compressed data indicative of a packer",
+      "marks": [
+        {
+          "entropy": 7.691735237804436,
+          "section": {
+            "size_of_data": "0x0000a800",
+            "virtual_address": "0x00001000",
+            "entropy": 7.691735237804436,
+            "name": ".gpyp",
+            "virtual_size": "0x0000f13e"
+          },
+          "type": "generic",
+          "description": "A section with a high entropy has been found"
+        },
+        {
+          "entropy": 7.450757319332575,
+          "section": {
+            "size_of_data": "0x00000600",
+            "virtual_address": "0x00011000",
+            "entropy": 7.450757319332575,
+            "name": ".xsrkt",
+            "virtual_size": "0x0000213c"
+          },
+          "type": "generic",
+          "description": "A section with a high entropy has been found"
+        },
+        {
+          "entropy": 7.060302458058344,
+          "section": {
+            "size_of_data": "0x00001600",
+            "virtual_address": "0x00014000",
+            "entropy": 7.060302458058344,
+            "name": ".tkdel",
+            "virtual_size": "0x00013000"
+          },
+          "type": "generic",
+          "description": "A section with a high entropy has been found"
+        },
+        {
+          "entropy": 0.98,
+          "type": "generic",
+          "description": "Overall entropy of this PE file is high"
+        }
+      ],
+      "marks_included": 4,
+      "total_marks": 4
+    }
+  ],
+  "selected_calls": [],
+  "matching_call_n": 0,
+  "scope": "Triage extract only; consult full raw report for complete context. Native sandbox descriptions may expose vendor judgments. X-ERD predictions are omitted.",
+  "verified_human_annotation": false
+}

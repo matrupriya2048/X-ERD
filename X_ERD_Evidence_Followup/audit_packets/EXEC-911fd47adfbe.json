@@ -1,0 +1,1891 @@
+{
+  "execution_id": "EXEC-911fd47adfbe",
+  "report_sha256": "82bbea65d03eb67dd5fc6e466f853f2deb48a95ce0b4b299ef1ebb29d7d3bc0e",
+  "full_report_relative_path": "../../X_ERD_Reviewer_Revision/data/raw_reports/10030.json",
+  "summary": {
+    "file_opened": [
+      "C:\\Windows\\System32\\atl.dll",
+      "C:\\Users\\Administrator\\AppData\\Local\\Temp\\10030.exe"
+    ],
+    "file_read": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Temp\\10030.exe"
+    ],
+    "regkey_opened": [
+      "HKEY_LOCAL_MACHINE\\Software\\Policies\\Microsoft\\Windows NT\\Rpc",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\.z96\\Classes\\12512",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\.z96",
+      "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\OLE",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Classes",
+      "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\crypt32",
+      "HKEY_LOCAL_MACHINE\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\OLEAUT",
+      "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\OLE\\Tracing",
+      "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Rpc",
+      "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows"
+    ],
+    "regkey_read": [
+      "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\Nls\\Language\\InstallLanguageFallback",
+      "HKEY_LOCAL_MACHINE\\SYSTEM\\Setup\\OOBEInProgress",
+      "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\services\\crypt32\\DebugHeapFlags",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\OLE\\PageAllocatorSystemHeapIsPrivate",
+      "HKEY_LOCAL_MACHINE\\SYSTEM\\Setup\\SystemSetupInProgress",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Security_HKLM_only",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\OLE\\PageAllocatorUseSystemHeap",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows NT\\CurrentVersion\\Windows\\LoadAppInit_DLLs",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\DisableImprovedZoneCheck",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\GRE_Initialize\\DisableMetaFiles",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\SQMClient\\Windows\\CEIPEnable",
+      "HKEY_CURRENT_USER\\Control Panel\\Desktop\\PreferredUILanguages",
+      "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\MUI\\UILanguages\\en-US\\Type",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Rpc\\MaxRpcSize",
+      "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\MUI\\UILanguages\\en-US\\AlternateCodePage",
+      "HKEY_CURRENT_USER\\Control Panel\\Desktop\\MuiCached\\MachinePreferredUILanguages",
+      "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\Nls\\CustomLocale\\EMPTY",
+      "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\ComputerName\\ActiveComputerName\\ComputerName"
+    ],
+    "dll_loaded": [
+      "CRYPT32.dll",
+      "C:\\Windows\\system32\\IMM32.DLL",
+      "KERNEL32.dll",
+      "gdi32.dll",
+      "WININET.dll",
+      "SHELL32.dll",
+      "kernel32.dll",
+      "msvcrt.dll",
+      "Secur32.dll",
+      "GDI32.dll",
+      "NETAPI32.dll",
+      "ADVAPI32.dll",
+      "rpcrt4.dll",
+      "ole32.dll",
+      "SHLWAPI.dll",
+      "WS2_32.dll",
+      "USER32.dll",
+      "OLEAUT32.dll"
+    ]
+  },
+  "apistats": {
+    "2392": {
+      "NtDuplicateObject": 4,
+      "RegCloseKey": 9,
+      "NtReadFile": 1,
+      "GetNativeSystemInfo": 1,
+      "GetSystemInfo": 2,
+      "RegQueryValueExA": 3,
+      "WSAStartup": 1,
+      "NtTerminateProcess": 3,
+      "NtQueryValueKey": 14,
+      "RegQueryValueExW": 4,
+      "NtOpenDirectoryObject": 1,
+      "NtCreateThreadEx": 1,
+      "RegOpenKeyExW": 6,
+      "SetErrorMode": 1,
+      "NtAllocateVirtualMemory": 16,
+      "RegOpenKeyExA": 10,
+      "NtFreeVirtualMemory": 3,
+      "LdrUnloadDll": 1,
+      "NtQuerySystemInformation": 2,
+      "NtEnumerateValueKey": 1,
+      "NtResumeThread": 1,
+      "GetFileSizeEx": 1,
+      "NtUnmapViewOfSection": 2,
+      "GetSystemDirectoryW": 3,
+      "NtCreateFile": 2,
+      "GetVolumeNameForVolumeMountPointW": 2,
+      "GetSystemTimeAsFileTime": 3,
+      "GlobalMemoryStatusEx": 1,
+      "NtProtectVirtualMemory": 3,
+      "SHGetFolderPathW": 2,
+      "LdrGetDllHandle": 2097,
+      "NtOpenKey": 27,
+      "LdrGetProcedureAddress": 2524,
+      "NtEnumerateKey": 2,
+      "LdrLoadDll": 19,
+      "NtClose": 44
+    }
+  },
+  "signature_evidence": [
+    {
+      "json_pointer": "/signatures/0",
+      "name": "antivm_memory_available",
+      "description": "Checks amount of memory in system, this can be used to detect virtual machines that have a low amount of memory available",
+      "marks": [
+        {
+          "call": {
+            "category": "system",
+            "status": 1,
+            "stacktrace": [],
+            "api": "GlobalMemoryStatusEx",
+            "return_value": 1,
+            "arguments": {},
+            "time": 1717681948.2655,
+            "tid": 2396,
+            "flags": {}
+          },
+          "pid": 2392,
+          "type": "call",
+          "cid": 4764
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/1",
+      "name": "pe_features",
+      "description": "The executable contains unknown PE section names indicative of a packer (could be a false positive)",
+      "marks": [
+        {
+          "category": "section",
+          "ioc": ".textQ1",
+          "type": "ioc",
+          "description": null
+        },
+        {
+          "category": "section",
+          "ioc": ".textQ2",
+          "type": "ioc",
+          "description": null
+        }
+      ],
+      "marks_included": 2,
+      "total_marks": 2
+    },
+    {
+      "json_pointer": "/signatures/2",
+      "name": "allocates_rwx",
+      "description": "Allocates read-write-execute memory (usually to unpack itself)",
+      "marks": [
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtAllocateVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2392,
+              "region_size": 258048,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "protection": 64,
+              "process_handle": "0xffffffff",
+              "allocation_type": 12288,
+              "base_address": "0x00500000"
+            },
+            "time": 1717681947.1095,
+            "tid": 2396,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE",
+              "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+            }
+          },
+          "pid": 2392,
+          "type": "call",
+          "cid": 5
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtAllocateVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2392,
+              "region_size": 4096,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "protection": 64,
+              "process_handle": "0xffffffff",
+              "allocation_type": 12288,
+              "base_address": "0x00540000"
+            },
+            "time": 1717681947.1095,
+            "tid": 2396,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE",
+              "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+            }
+          },
+          "pid": 2392,
+          "type": "call",
+          "cid": 6
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtAllocateVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2392,
+              "region_size": 266240,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "protection": 64,
+              "process_handle": "0xffffffff",
+              "allocation_type": 12288,
+              "base_address": "0x00550000"
+            },
+            "time": 1717681947.1095,
+            "tid": 2396,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE",
+              "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+            }
+          },
+          "pid": 2392,
+          "type": "call",
+          "cid": 7
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtAllocateVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2392,
+              "region_size": 299008,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "protection": 64,
+              "process_handle": "0xffffffff",
+              "allocation_type": 12288,
+              "base_address": "0x005a0000"
+            },
+            "time": 1717681947.3285,
+            "tid": 2396,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE",
+              "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+            }
+          },
+          "pid": 2392,
+          "type": "call",
+          "cid": 4192
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtAllocateVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2392,
+              "region_size": 266240,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "protection": 64,
+              "process_handle": "0xffffffff",
+              "allocation_type": 12288,
+              "base_address": "0x00610000"
+            },
+            "time": 1717681947.3285,
+            "tid": 2396,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE",
+              "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+            }
+          },
+          "pid": 2392,
+          "type": "call",
+          "cid": 4196
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtAllocateVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2392,
+              "region_size": 266240,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 1,
+              "protection": 64,
+              "process_handle": "0xffffffff",
+              "allocation_type": 12288,
+              "base_address": "0x00400000"
+            },
+            "time": 1717681948.2495,
+            "tid": 2396,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE",
+              "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+            }
+          },
+          "pid": 2392,
+          "type": "call",
+          "cid": 4733
+        }
+      ],
+      "marks_included": 6,
+      "total_marks": 6
+    },
+    {
+      "json_pointer": "/signatures/3",
+      "name": "packer_entropy",
+      "description": "The binary likely contains encrypted or compressed data indicative of a packer",
+      "marks": [
+        {
+          "entropy": 7.675087855781473,
+          "section": {
+            "size_of_data": "0x00040c00",
+            "virtual_address": "0x00002000",
+            "entropy": 7.675087855781473,
+            "name": ".textQ1",
+            "virtual_size": "0x00040a78"
+          },
+          "type": "generic",
+          "description": "A section with a high entropy has been found"
+        },
+        {
+          "entropy": 0.9504587155963303,
+          "type": "generic",
+          "description": "Overall entropy of this PE file is high"
+        }
+      ],
+      "marks_included": 2,
+      "total_marks": 2
+    }
+  ],
+  "selected_calls": [
+    {
+      "json_pointer": "/behavior/processes/1/calls/9",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "KERNELBASE",
+        "module_address": "0x77260000",
+        "function_address": "0x77271d54",
+        "function_name": "LoadLibraryExA"
+      },
+      "time": 1717681947.1095,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/11",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76230000",
+        "function_address": "0x76241222",
+        "function_name": "GetProcAddress"
+      },
+      "time": 1717681947.1095,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/12",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76230000",
+        "function_address": "0x76244913",
+        "function_name": "LoadLibraryExA"
+      },
+      "time": 1717681947.1095,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/13",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76230000",
+        "function_address": "0x7624495d",
+        "function_name": "LoadLibraryExW"
+      },
+      "time": 1717681947.1095,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/14",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76230000",
+        "function_address": "0x76241245",
+        "function_name": "GetModuleHandleA"
+      },
+      "time": 1717681947.1095,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/15",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76230000",
+        "function_address": "0x762453c6",
+        "function_name": "CreateFileA"
+      },
+      "time": 1717681947.1095,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/16",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76230000",
+        "function_address": "0x76262b7a",
+        "function_name": "lstrcatA"
+      },
+      "time": 1717681947.1095,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/17",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76230000",
+        "function_address": "0x76262b0a",
+        "function_name": "GetWindowsDirectoryA"
+      },
+      "time": 1717681947.1095,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/18",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76230000",
+        "function_address": "0x762434b0",
+        "function_name": "GetModuleHandleW"
+      },
+      "time": 1717681947.1095,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/20",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76230000",
+        "function_address": "0x762414e9",
+        "function_name": "GetProcessHeap"
+      },
+      "time": 1717681947.1095,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/21",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76230000",
+        "function_address": "0x77abe026",
+        "function_name": "HeapAlloc"
+      },
+      "time": 1717681947.1095,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/24",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99790",
+        "function_name": "memset"
+      },
+      "time": 1717681947.1095,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/26",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1095,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/28",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1095,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/30",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1095,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/32",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1095,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/34",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1095,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/36",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1095,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/38",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1095,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/40",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1095,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/42",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/44",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/46",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/48",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/50",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/52",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/54",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/56",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/58",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/60",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/62",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/64",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/66",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/68",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/70",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/72",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/74",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/76",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/78",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/80",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/82",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/84",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/86",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/88",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/90",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/92",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/94",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/96",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/98",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/100",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/102",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/104",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/106",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/108",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/110",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/112",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/114",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/116",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/118",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/120",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/122",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/124",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/126",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/128",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/130",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/132",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/134",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/136",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/138",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/140",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/142",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/144",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/146",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/148",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/150",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/152",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/154",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/156",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/158",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/160",
+      "pid": 2392,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "msvcrt",
+        "module_address": "0x75b90000",
+        "function_address": "0x75b99910",
+        "function_name": "memcpy"
+      },
+      "time": 1717681947.1245,
+      "tid": 2396,
+      "flags": {}
+    }
+  ],
+  "matching_call_n": 2525,
+  "scope": "Triage extract only; consult full raw report for complete context. Native sandbox descriptions may expose vendor judgments. X-ERD predictions are omitted.",
+  "verified_human_annotation": false
+}

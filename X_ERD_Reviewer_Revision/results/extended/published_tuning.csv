@@ -1,0 +1,60 @@
+model,parameters,cv_auc,cv_sd
+MLRan-LGB,"{""learning_rate"": 0.01, ""n_estimators"": 50, ""num_leaves"": 15}",0.9689934088982172,0.02582108078787922
+MLRan-LGB,"{""learning_rate"": 0.01, ""n_estimators"": 50, ""num_leaves"": 31}",0.9777078085066918,0.01830792244609918
+MLRan-LGB,"{""learning_rate"": 0.01, ""n_estimators"": 100, ""num_leaves"": 15}",0.9760278073980263,0.026247577150083076
+MLRan-LGB,"{""learning_rate"": 0.01, ""n_estimators"": 100, ""num_leaves"": 31}",0.9823548409841902,0.0184264052162118
+MLRan-DT,"{""max_depth"": null, ""min_samples_split"": 2}",0.9573946747615482,0.017264713869785155
+MLRan-DT,"{""max_depth"": null, ""min_samples_split"": 5}",0.9671751590229164,0.018664885878004023
+MLRan-DT,"{""max_depth"": null, ""min_samples_split"": 10}",0.972440396800668,0.01939114180986143
+MLRan-DT,"{""max_depth"": 10, ""min_samples_split"": 2}",0.9561454420452805,0.021984226946220986
+MLRan-DT,"{""max_depth"": 10, ""min_samples_split"": 5}",0.9577090351961651,0.021883467957550588
+MLRan-DT,"{""max_depth"": 10, ""min_samples_split"": 10}",0.9606642355980869,0.023855274551686387
+MLRan-DT,"{""max_depth"": 20, ""min_samples_split"": 2}",0.9573946747615482,0.017264713869785155
+MLRan-DT,"{""max_depth"": 20, ""min_samples_split"": 5}",0.9671751590229164,0.018664885878004023
+MLRan-DT,"{""max_depth"": 20, ""min_samples_split"": 10}",0.972440396800668,0.01939114180986143
+MLRan-LR,"{""C"": 0.01}",0.9951651759077275,0.004833474633712509
+MLRan-LR,"{""C"": 0.1}",0.998307900783792,0.0018268548915746459
+MLRan-LR,"{""C"": 1}",0.9988690509367766,0.001389111989928496
+MLRan-LR,"{""C"": 10}",0.9988060044787237,0.0013998966814891371
+MLRan-RF,"{""max_depth"": null, ""min_samples_split"": 2, ""n_estimators"": 50}",0.9958174362448896,0.004592216702743875
+MLRan-RF,"{""max_depth"": null, ""min_samples_split"": 2, ""n_estimators"": 100}",0.9963687453431233,0.004036210403104896
+MLRan-RF,"{""max_depth"": null, ""min_samples_split"": 2, ""n_estimators"": 200}",0.9965106185926226,0.0038336075815407935
+MLRan-RF,"{""max_depth"": null, ""min_samples_split"": 5, ""n_estimators"": 50}",0.9960696328642523,0.004537784356479411
+MLRan-RF,"{""max_depth"": null, ""min_samples_split"": 5, ""n_estimators"": 100}",0.9961760550925457,0.0044472018778210845
+MLRan-RF,"{""max_depth"": null, ""min_samples_split"": 5, ""n_estimators"": 200}",0.996379394165151,0.00430924846200207
+MLRan-RF,"{""max_depth"": 10, ""min_samples_split"": 2, ""n_estimators"": 50}",0.9952025933631758,0.005432057387266242
+MLRan-RF,"{""max_depth"": 10, ""min_samples_split"": 2, ""n_estimators"": 100}",0.9957180796007504,0.004745231217582608
+MLRan-RF,"{""max_depth"": 10, ""min_samples_split"": 2, ""n_estimators"": 200}",0.9960475192039214,0.00439527224310821
+MLRan-RF,"{""max_depth"": 10, ""min_samples_split"": 5, ""n_estimators"": 50}",0.9956359893787424,0.004776039208662363
+MLRan-RF,"{""max_depth"": 10, ""min_samples_split"": 5, ""n_estimators"": 100}",0.9962421156076019,0.003989454930987081
+MLRan-RF,"{""max_depth"": 10, ""min_samples_split"": 5, ""n_estimators"": 200}",0.9963895353565259,0.0038692272020151874
+MLRan-RF,"{""max_depth"": 20, ""min_samples_split"": 2, ""n_estimators"": 50}",0.9957247796908346,0.004837510996873024
+MLRan-RF,"{""max_depth"": 20, ""min_samples_split"": 2, ""n_estimators"": 100}",0.996369929391622,0.004140272844381179
+MLRan-RF,"{""max_depth"": 20, ""min_samples_split"": 2, ""n_estimators"": 200}",0.9967450633680421,0.003661160119646906
+MLRan-RF,"{""max_depth"": 20, ""min_samples_split"": 5, ""n_estimators"": 50}",0.9957346651632677,0.004946118326400244
+MLRan-RF,"{""max_depth"": 20, ""min_samples_split"": 5, ""n_estimators"": 100}",0.9961728773246565,0.0044926806569154125
+MLRan-RF,"{""max_depth"": 20, ""min_samples_split"": 5, ""n_estimators"": 200}",0.9963068715118794,0.004403073923247177
+MLRan-ET,"{""max_depth"": null, ""min_samples_split"": 2, ""n_estimators"": 50}",0.9965662231852991,0.003570967315229513
+MLRan-ET,"{""max_depth"": null, ""min_samples_split"": 2, ""n_estimators"": 100}",0.9966138852618679,0.0035518251991500938
+MLRan-ET,"{""max_depth"": null, ""min_samples_split"": 2, ""n_estimators"": 200}",0.9966087607304237,0.0035248488442665153
+MLRan-ET,"{""max_depth"": null, ""min_samples_split"": 5, ""n_estimators"": 50}",0.9962293023753764,0.004106658293641716
+MLRan-ET,"{""max_depth"": null, ""min_samples_split"": 5, ""n_estimators"": 100}",0.9963896736858787,0.0039870216578683825
+MLRan-ET,"{""max_depth"": null, ""min_samples_split"": 5, ""n_estimators"": 200}",0.9964361726537133,0.004116677254514461
+MLRan-ET,"{""max_depth"": 10, ""min_samples_split"": 2, ""n_estimators"": 50}",0.9960333372725473,0.004069512873421457
+MLRan-ET,"{""max_depth"": 10, ""min_samples_split"": 2, ""n_estimators"": 100}",0.9963139212325759,0.004023381242344563
+MLRan-ET,"{""max_depth"": 10, ""min_samples_split"": 2, ""n_estimators"": 200}",0.9962524750801575,0.004176182249142487
+MLRan-ET,"{""max_depth"": 10, ""min_samples_split"": 5, ""n_estimators"": 50}",0.9952066061834897,0.0050703959909025684
+MLRan-ET,"{""max_depth"": 10, ""min_samples_split"": 5, ""n_estimators"": 100}",0.9958843705192076,0.00453359265465226
+MLRan-ET,"{""max_depth"": 10, ""min_samples_split"": 5, ""n_estimators"": 200}",0.9958623076219423,0.004616945568155683
+MLRan-ET,"{""max_depth"": 20, ""min_samples_split"": 2, ""n_estimators"": 50}",0.9965748408501757,0.0037542266172770834
+MLRan-ET,"{""max_depth"": 20, ""min_samples_split"": 2, ""n_estimators"": 100}",0.9967730699857182,0.003454334208278244
+MLRan-ET,"{""max_depth"": 20, ""min_samples_split"": 2, ""n_estimators"": 200}",0.9967541658201924,0.003543898595793141
+MLRan-ET,"{""max_depth"": 20, ""min_samples_split"": 5, ""n_estimators"": 50}",0.9964306559775896,0.0038260579058868277
+MLRan-ET,"{""max_depth"": 20, ""min_samples_split"": 5, ""n_estimators"": 100}",0.9966481642908028,0.0037325904588097086
+MLRan-ET,"{""max_depth"": 20, ""min_samples_split"": 5, ""n_estimators"": 200}",0.996631216406907,0.0037946142497208997
+EldeRan-adapted,"{""regularization"": 0}",0.9972592388161701,0.0037524952231832824
+EldeRan-adapted,"{""regularization"": 2e-05}",0.9988678179046417,0.0018383867613042113
+EldeRan-adapted,"{""regularization"": 0.0002}",0.9987061714766335,0.0021213750515776094
+EldeRan-adapted,"{""regularization"": 0.002}",0.9983145402933292,0.002582326682908589
+EldeRan-adapted,"{""regularization"": 0.02}",0.9969990274930348,0.003462345694742833
+EldeRan-adapted,"{""regularization"": 0.2}",0.9871990485202122,0.009910110676937377

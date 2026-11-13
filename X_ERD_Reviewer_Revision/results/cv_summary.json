@@ -1,0 +1,132 @@
+{
+  "fpr": {
+    "family": "four competitors, endpoint-specific Holm adjustment",
+    "comparisons": {
+      "RF": {
+        "n": 50,
+        "mean_difference": -0.001274509803921,
+        "sd_difference": 0.003843255667790221,
+        "lower": 21,
+        "higher": 10,
+        "ties": 19,
+        "nb_t": -0.6382076742431032,
+        "nb_p": 0.5263101269456726,
+        "wilcoxon_p": 0.016179762513497026,
+        "paired_rank_biserial": -0.48588709677419356,
+        "zero_method": "wilcox",
+        "correction_factor": 0.27,
+        "nb_holm_p": 1.0
+      },
+      "XGB": {
+        "n": 50,
+        "mean_difference": -0.0025000000000004003,
+        "sd_difference": 0.002689020920311019,
+        "lower": 34,
+        "higher": 2,
+        "ties": 14,
+        "nb_t": -1.7892208301195254,
+        "nb_p": 0.07976101672061177,
+        "wilcoxon_p": 1.8323017533014386e-06,
+        "paired_rank_biserial": -0.8888888888888888,
+        "zero_method": "wilcox",
+        "correction_factor": 0.27,
+        "nb_holm_p": 0.3190440668824471
+      },
+      "LGB": {
+        "n": 50,
+        "mean_difference": -0.0018137254901959999,
+        "sd_difference": 0.002792792241261953,
+        "lower": 27,
+        "higher": 6,
+        "ties": 17,
+        "nb_t": -1.2498302887573889,
+        "nb_p": 0.21729821106952615,
+        "wilcoxon_p": 7.297840570134783e-05,
+        "paired_rank_biserial": -0.7647058823529411,
+        "zero_method": "wilcox",
+        "correction_factor": 0.27,
+        "nb_holm_p": 0.6518946332085784
+      },
+      "RF+LGB": {
+        "n": 50,
+        "mean_difference": 0.00034313725490240005,
+        "sd_difference": 0.0015666566751545861,
+        "lower": 4,
+        "higher": 11,
+        "ties": 35,
+        "nb_t": 0.4215141488425595,
+        "nb_p": 0.6752231269246194,
+        "wilcoxon_p": 0.13186168007604576,
+        "paired_rank_biserial": 0.4083333333333333,
+        "zero_method": "wilcox",
+        "correction_factor": 0.27,
+        "nb_holm_p": 1.0
+      }
+    }
+  },
+  "recall": {
+    "family": "four competitors, endpoint-specific Holm adjustment",
+    "comparisons": {
+      "RF": {
+        "n": 50,
+        "mean_difference": -0.00042895442359279994,
+        "sd_difference": 0.003766615351403762,
+        "lower": 16,
+        "higher": 14,
+        "ties": 20,
+        "nb_t": -0.21916843003280181,
+        "nb_p": 0.8274292444518909,
+        "wilcoxon_p": 0.41536758367965654,
+        "paired_rank_biserial": -0.16559139784946236,
+        "zero_method": "wilcox",
+        "correction_factor": 0.27,
+        "nb_holm_p": 1.0
+      },
+      "XGB": {
+        "n": 50,
+        "mean_difference": 0.00042895442359240014,
+        "sd_difference": 0.003354651618607157,
+        "lower": 10,
+        "higher": 16,
+        "ties": 24,
+        "nb_t": 0.2460831308160096,
+        "nb_p": 0.8066458097360909,
+        "wilcoxon_p": 0.3133398965028117,
+        "paired_rank_biserial": 0.21937321937321938,
+        "zero_method": "wilcox",
+        "correction_factor": 0.27,
+        "nb_holm_p": 1.0
+      },
+      "LGB": {
+        "n": 50,
+        "mean_difference": -0.0015549597855212002,
+        "sd_difference": 0.003068265837206202,
+        "lower": 32,
+        "higher": 5,
+        "ties": 13,
+        "nb_t": -0.9753136335878428,
+        "nb_p": 0.33419528872870136,
+        "wilcoxon_p": 0.00014001428032834343,
+        "paired_rank_biserial": -0.6600284495021337,
+        "zero_method": "wilcox",
+        "correction_factor": 0.27,
+        "nb_holm_p": 1.0
+      },
+      "RF+LGB": {
+        "n": 50,
+        "mean_difference": -0.000375335120643,
+        "sd_difference": 0.0017136619931970923,
+        "lower": 11,
+        "higher": 4,
+        "ties": 35,
+        "nb_t": -0.4215141488419017,
+        "nb_p": 0.6752231269250965,
+        "wilcoxon_p": 0.13186168007604576,
+        "paired_rank_biserial": -0.4083333333333333,
+        "zero_method": "wilcox",
+        "correction_factor": 0.27,
+        "nb_holm_p": 1.0
+      }
+    }
+  }
+}

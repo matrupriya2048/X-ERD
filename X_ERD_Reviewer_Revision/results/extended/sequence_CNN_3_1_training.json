@@ -1,0 +1,556 @@
+{
+  "inner_train_indices": [
+    2,
+    3,
+    4,
+    5,
+    9,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    20,
+    22,
+    24,
+    26,
+    30,
+    32,
+    34,
+    37,
+    38,
+    39,
+    41,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    50,
+    51,
+    54,
+    55,
+    56,
+    57,
+    59,
+    63,
+    64,
+    65,
+    66,
+    68,
+    70,
+    71,
+    73,
+    74,
+    75,
+    76,
+    78
+  ],
+  "inner_validation_indices": [
+    6,
+    7,
+    10,
+    11,
+    21,
+    28,
+    29,
+    35,
+    36,
+    42,
+    52,
+    58,
+    61,
+    62,
+    69,
+    77
+  ],
+  "final_train_indices": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    20,
+    21,
+    22,
+    24,
+    26,
+    28,
+    29,
+    30,
+    32,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    50,
+    51,
+    52,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    68,
+    69,
+    70,
+    71,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78
+  ],
+  "test_indices": [
+    0,
+    1,
+    8,
+    19,
+    23,
+    25,
+    27,
+    31,
+    33,
+    40,
+    49,
+    53,
+    60,
+    67,
+    72,
+    79
+  ],
+  "vocabulary": {
+    "cocreateinstance": 2,
+    "cocreateinstanceex": 3,
+    "cogetclassobject": 4,
+    "coinitializeex": 5,
+    "coinitializesecurity": 6,
+    "copyfilea": 7,
+    "copyfilew": 8,
+    "couninitialize": 9,
+    "createactctxw": 10,
+    "createdirectoryw": 11,
+    "createprocessinternalw": 12,
+    "createthread": 13,
+    "createtoolhelp32snapshot": 14,
+    "cryptacquirecontexta": 15,
+    "cryptacquirecontextw": 16,
+    "deletefilew": 17,
+    "deviceiocontrol": 18,
+    "drawtextexw": 19,
+    "enumwindows": 20,
+    "findfirstfileexw": 21,
+    "findresourcea": 22,
+    "findresourceexw": 23,
+    "findresourcew": 24,
+    "getcomputernamew": 25,
+    "getcursorpos": 26,
+    "getdiskfreespacew": 27,
+    "getfileattributesw": 28,
+    "getfileinformationbyhandle": 29,
+    "getfileinformationbyhandleex": 30,
+    "getfilesize": 31,
+    "getfilesizeex": 32,
+    "getfiletype": 33,
+    "getfileversioninfosizew": 34,
+    "getfileversioninfow": 35,
+    "getforegroundwindow": 36,
+    "getkeystate": 37,
+    "getnativesysteminfo": 38,
+    "getsystemdirectorya": 39,
+    "getsystemdirectoryw": 40,
+    "getsysteminfo": 41,
+    "getsystemmetrics": 42,
+    "getsystemtimeasfiletime": 43,
+    "getsystemwindowsdirectoryw": 44,
+    "gettemppathw": 45,
+    "gettimezoneinformation": 46,
+    "getusernameexw": 47,
+    "getvolumenameforvolumemountpointw": 48,
+    "getvolumepathnamew": 49,
+    "globalmemorystatus": 50,
+    "globalmemorystatusex": 51,
+    "internetcrackurlw": 52,
+    "isdebuggerpresent": 53,
+    "iwbemservices_execquery": 54,
+    "ldrgetdllhandle": 55,
+    "ldrgetprocedureaddress": 56,
+    "ldrloaddll": 57,
+    "ldrunloaddll": 58,
+    "loadresource": 59,
+    "loadstringa": 60,
+    "loadstringw": 61,
+    "lookupprivilegevaluew": 62,
+    "messageboxtimeouta": 63,
+    "netgetjoininformation": 64,
+    "ntallocatevirtualmemory": 65,
+    "ntclose": 66,
+    "ntcreatefile": 67,
+    "ntcreatekey": 68,
+    "ntcreatemutant": 69,
+    "ntcreatesection": 70,
+    "ntcreatethreadex": 71,
+    "ntdelayexecution": 72,
+    "ntdeviceiocontrolfile": 73,
+    "ntduplicateobject": 74,
+    "ntenumeratekey": 75,
+    "ntenumeratevaluekey": 76,
+    "ntfreevirtualmemory": 77,
+    "ntgetcontextthread": 78,
+    "ntmapviewofsection": 79,
+    "ntopendirectoryobject": 80,
+    "ntopenfile": 81,
+    "ntopenkey": 82,
+    "ntopenkeyex": 83,
+    "ntopenmutant": 84,
+    "ntopenprocess": 85,
+    "ntopensection": 86,
+    "ntopenthread": 87,
+    "ntprotectvirtualmemory": 88,
+    "ntqueryattributesfile": 89,
+    "ntquerydirectoryfile": 90,
+    "ntqueryinformationfile": 91,
+    "ntquerykey": 92,
+    "ntquerysysteminformation": 93,
+    "ntqueryvaluekey": 94,
+    "ntreadfile": 95,
+    "ntresumethread": 96,
+    "ntsetcontextthread": 97,
+    "ntsetinformationfile": 98,
+    "ntsetvaluekey": 99,
+    "ntterminateprocess": 100,
+    "ntunmapviewofsection": 101,
+    "ntwritefile": 102,
+    "oleinitialize": 103,
+    "openscmanagerw": 104,
+    "openservicew": 105,
+    "readprocessmemory": 106,
+    "regclosekey": 107,
+    "regcreatekeyexa": 108,
+    "regcreatekeyexw": 109,
+    "regenumkeyexa": 110,
+    "regenumkeyexw": 111,
+    "regenumkeyw": 112,
+    "regenumvaluew": 113,
+    "regopenkeyexa": 114,
+    "regopenkeyexw": 115,
+    "regqueryinfokeyw": 116,
+    "regqueryvalueexa": 117,
+    "regqueryvalueexw": 118,
+    "regsetvalueexa": 119,
+    "regsetvalueexw": 120,
+    "removedirectorya": 121,
+    "rtladdvectoredcontinuehandler": 122,
+    "rtladdvectoredexceptionhandler": 123,
+    "searchpathw": 124,
+    "sendnotifymessagew": 125,
+    "setendoffile": 126,
+    "seterrormode": 127,
+    "setfilepointer": 128,
+    "setfilepointerex": 129,
+    "setfiletime": 130,
+    "setunhandledexceptionfilter": 131,
+    "setwindowshookexa": 132,
+    "shgetfolderpathw": 133,
+    "sizeofresource": 134,
+    "timegettime": 135,
+    "uuidcreate": 136,
+    "writeconsolew": 137,
+    "wsastartup": 138
+  },
+  "seed": 1,
+  "kind": "CNN",
+  "best_epoch": 43,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.6607189973195394,
+      "validation_loss": 0.6253581643104553
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.6079800526301066,
+      "validation_loss": 0.5709336400032043
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.5612290402253469,
+      "validation_loss": 0.5312971472740173
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.520270307858785,
+      "validation_loss": 0.4994426667690277
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.48122772574424744,
+      "validation_loss": 0.47895997762680054
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.48838799198468524,
+      "validation_loss": 0.4667414724826813
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.46041325728098553,
+      "validation_loss": 0.44988879561424255
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.44519907236099243,
+      "validation_loss": 0.4330711364746094
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.443269540866216,
+      "validation_loss": 0.4169473648071289
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.42044209440549213,
+      "validation_loss": 0.3995705842971802
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.4107867181301117,
+      "validation_loss": 0.3815869688987732
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.38299418489138287,
+      "validation_loss": 0.36446648836135864
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.3734908203283946,
+      "validation_loss": 0.34791651368141174
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.3396232525507609,
+      "validation_loss": 0.32869526743888855
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.3141338924566905,
+      "validation_loss": 0.31054699420928955
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.2922198971112569,
+      "validation_loss": 0.2946503162384033
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.27518893281618756,
+      "validation_loss": 0.2806989550590515
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.27009619772434235,
+      "validation_loss": 0.26632872223854065
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.2529892971118291,
+      "validation_loss": 0.25693807005882263
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.222203495601813,
+      "validation_loss": 0.24779827892780304
+    },
+    {
+      "epoch": 21,
+      "train_loss": 0.18704349795977274,
+      "validation_loss": 0.2379688173532486
+    },
+    {
+      "epoch": 22,
+      "train_loss": 0.19664506365855536,
+      "validation_loss": 0.23042726516723633
+    },
+    {
+      "epoch": 23,
+      "train_loss": 0.13704359779755274,
+      "validation_loss": 0.2158714234828949
+    },
+    {
+      "epoch": 24,
+      "train_loss": 0.13564319411913553,
+      "validation_loss": 0.20232735574245453
+    },
+    {
+      "epoch": 25,
+      "train_loss": 0.12187831103801727,
+      "validation_loss": 0.19096364080905914
+    },
+    {
+      "epoch": 26,
+      "train_loss": 0.13314841190973917,
+      "validation_loss": 0.18224970996379852
+    },
+    {
+      "epoch": 27,
+      "train_loss": 0.09182466318209966,
+      "validation_loss": 0.17658421397209167
+    },
+    {
+      "epoch": 28,
+      "train_loss": 0.09187420705954234,
+      "validation_loss": 0.17966964840888977
+    },
+    {
+      "epoch": 29,
+      "train_loss": 0.07648453116416931,
+      "validation_loss": 0.17183361947536469
+    },
+    {
+      "epoch": 30,
+      "train_loss": 0.05473030606905619,
+      "validation_loss": 0.17138516902923584
+    },
+    {
+      "epoch": 31,
+      "train_loss": 0.05479355032245318,
+      "validation_loss": 0.18828918039798737
+    },
+    {
+      "epoch": 32,
+      "train_loss": 0.061764564365148544,
+      "validation_loss": 0.18638403713703156
+    },
+    {
+      "epoch": 33,
+      "train_loss": 0.06302743467191856,
+      "validation_loss": 0.1791115552186966
+    },
+    {
+      "epoch": 34,
+      "train_loss": 0.03679400744537512,
+      "validation_loss": 0.1698937863111496
+    },
+    {
+      "epoch": 35,
+      "train_loss": 0.05444988235831261,
+      "validation_loss": 0.1647215038537979
+    },
+    {
+      "epoch": 36,
+      "train_loss": 0.06573734773943822,
+      "validation_loss": 0.16541224718093872
+    },
+    {
+      "epoch": 37,
+      "train_loss": 0.03885549927751223,
+      "validation_loss": 0.18055790662765503
+    },
+    {
+      "epoch": 38,
+      "train_loss": 0.04869413934648037,
+      "validation_loss": 0.20611077547073364
+    },
+    {
+      "epoch": 39,
+      "train_loss": 0.08028419191638629,
+      "validation_loss": 0.18312807381153107
+    },
+    {
+      "epoch": 40,
+      "train_loss": 0.041470326172808804,
+      "validation_loss": 0.17698535323143005
+    },
+    {
+      "epoch": 41,
+      "train_loss": 0.040445675142109394,
+      "validation_loss": 0.1659313291311264
+    },
+    {
+      "epoch": 42,
+      "train_loss": 0.05330626914898554,
+      "validation_loss": 0.16353443264961243
+    },
+    {
+      "epoch": 43,
+      "train_loss": 0.06973950068155925,
+      "validation_loss": 0.1506737619638443
+    },
+    {
+      "epoch": 44,
+      "train_loss": 0.04904393696536621,
+      "validation_loss": 0.1601053923368454
+    },
+    {
+      "epoch": 45,
+      "train_loss": 0.047828766206900276,
+      "validation_loss": 0.1727776676416397
+    },
+    {
+      "epoch": 46,
+      "train_loss": 0.050520541767279305,
+      "validation_loss": 0.1637057065963745
+    },
+    {
+      "epoch": 47,
+      "train_loss": 0.03726875223219395,
+      "validation_loss": 0.1574862003326416
+    },
+    {
+      "epoch": 48,
+      "train_loss": 0.08414872704694669,
+      "validation_loss": 0.16463470458984375
+    },
+    {
+      "epoch": 49,
+      "train_loss": 0.034147776663303375,
+      "validation_loss": 0.16620983183383942
+    },
+    {
+      "epoch": 50,
+      "train_loss": 0.08475019751737516,
+      "validation_loss": 0.15930838882923126
+    },
+    {
+      "epoch": 51,
+      "train_loss": 0.021392040342713397,
+      "validation_loss": 0.16563837230205536
+    }
+  ],
+  "seconds": 6.025998592376709,
+  "parameter_count": 29217,
+  "torch": "2.7.1+cpu"
+}

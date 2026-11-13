@@ -1,0 +1,8 @@
+START sequences
+Sequence fold 0 train/test 64 16
+Sequence fold 1 train/test 64 16
+Sequence fold 2 train/test 64 16
+Sequence fold 3 train/test 64 16
+Sequence fold 4 train/test 64 16
+Sequence comparison complete
+DONE sequences 395.4

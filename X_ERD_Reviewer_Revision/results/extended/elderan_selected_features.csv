@@ -1,0 +1,484 @@
+source_feature_index,name
+118,API:CreateDirectoryW
+14263,DIR:ENUMERATED:C:\Documents and Settings\MyUser\Desktop\test-personal-files\img\
+328,DROP:tmp
+11682,FILES_EXT:OPENED:tmp
+12039,FILES_EXT:WRITTEN:tmp
+166,API:CoInitializeEx
+63,API:SetFilePointer
+6,API:NtReadVirtualMemory
+2014,REG:OPENED:HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\
+223,API:SearchPathW
+21000,STR:6301;comctl32.dll
+12240,FILES_EXT:WRITTEN:dll
+539,DROP:dll
+53,API:SetEndOfFile
+3363,REG:OPENED:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uninstall\
+23282,STR:8583;shell32.dll
+147,API:GetFileAttributesW
+21,API:GetSystemDirectoryW
+18249,STR:3550;advapi32.dll
+18090,STR:3391;oleaut32.dll
+100,API:SizeofResource
+5238,REG:READ:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes\
+3664,REG:READ:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\
+11583,FILES_EXT:OPENED:exe
+167,API:NtTerminateProcess
+5283,REG:READ:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\
+11575,FILES_EXT:OPENED:ini
+1803,REG:OPENED:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\
+196,API:NtDuplicateObject
+756,REG:OPENED:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\
+1892,REG:OPENED:HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\
+11912,FILES_EXT:READ:ini
+81,API:IsDebuggerPresent
+11924,FILES_EXT:READ:exe
+2500,REG:OPENED:HKEY_CURRENT_USER\software\Microsoft\Windows\CurrentVersion\Explorer\
+3849,REG:READ:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\
+1378,REG:OPENED:HKEY_LOCAL_MACHINE\software\Microsoft\Windows\CurrentVersion\Explorer\
+177,API:GetFileSize
+2541,REG:OPENED:HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\
+4091,REG:READ:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ThemeManager\
+9421,FILES:READ:C:\Documents and Settings\MyUser\Local Settings\Temp\
+1213,REG:OPENED:HKEY_CURRENT_USER\Software\Microsoft\windows\CurrentVersion\Explorer\
+1432,REG:OPENED:HKEY_LOCAL_MACHINE\Software\Microsoft\windows\CurrentVersion\Explorer\
+160,API:NtGetContextThread
+186,API:NtSetContextThread
+83,API:FindResourceW
+2547,REG:OPENED:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\ShellCompatibility\Objects\
+153,API:LoadResource
+1281,REG:OPENED:HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\
+2324,REG:OPENED:HKEY_CLASSES_ROOT\CLSID\{00BB2763-6A77-11D0-A535-00C04FD7D062}\
+4520,REG:READ:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{00BB2763-6A77-11D0-A535-00C04FD7D062}\InProcServer32\
+3976,REG:READ:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Tcpip\Parameters\
+911,REG:OPENED:HKEY_CLASSES_ROOT\
+228,API:GetSystemMetrics
+3817,REG:READ:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\
+104,API:SetErrorMode
+156,API:FindResourceExW
+816,REG:OPENED:HKEY_CLASSES_ROOT\Drive\shellex\FolderExtensions\
+1326,REG:OPENED:HKEY_CLASSES_ROOT\Drive\shellex\
+3788,REG:READ:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\CPC\Volume\{e7136b33-a421-11e5-b597-806d6172696f}\
+11349,FILES_EXT:DELETED:tmp
+26,API:GetDiskFreeSpaceExW
+128,API:WriteProcessMemory
+5599,REG:READ:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Setup\
+21982,STR:7283;kernel32.dll
+2591,REG:OPENED:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\CPC\
+2811,REG:OPENED:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\CPC\Volume\
+2627,REG:OPENED:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\
+2882,REG:OPENED:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\ShellEx\
+2913,REG:OPENED:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\
+5295,REG:READ:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\
+2344,REG:OPENED:HKEY_CLASSES_ROOT\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\
+146,API:GetVolumePathNamesForVolumeNameW
+1196,REG:OPENED:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\
+1765,REG:OPENED:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\
+5992,REG:WRITTEN:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\{e7136b33-a421-11e5-b597-806d6172696f}\
+2601,REG:OPENED:HKEY_CURRENT_USER\Control Panel\
+5415,REG:READ:HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Windows\
+3250,REG:OPENED:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Setup\
+5294,REG:READ:HKEY_LOCAL_MACHINE\SYSTEM\WPA\PnP\
+1766,REG:OPENED:HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\
+22,API:LookupPrivilegeValueW
+145,API:RegEnumKeyW
+2960,REG:OPENED:HKEY_LOCAL_MACHINE\System\WPA\
+162,API:NtSetInformationFile
+11899,FILES_EXT:READ:tmp
+29765,STR:15066;KERNEL32.dll
+7978,FILES:OPENED:C:\Documents and Settings\MyUser\Local Settings\Temp\
+14114,DIR:ENUMERATED:c:\Documents and Settings\All Users\Start Menu\
+9451,FILES:READ:C:\WINDOWS\
+103,API:GetSystemWindowsDirectoryW
+14136,DIR:ENUMERATED:C:\WINDOWS\pchealth\helpctr\
+10,API:NtQueryKey
+101,API:FindFirstFileExW
+126,API:RegSetValueExW
+1402,REG:OPENED:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\
+189,API:WSAStartup
+1357,REG:OPENED:HKEY_LOCAL_MACHINE\System\
+12232,FILES_EXT:WRITTEN:ini
+19094,STR:4395;VERSION.dll
+11399,FILES_EXT:OPENED:Manifest
+4,API:GetSystemInfo
+11812,FILES_EXT:OPENED:dll
+80,API:SetUnhandledExceptionFilter
+176,API:GetCursorPos
+8512,FILES:OPENED:C:\WINDOWS\WinSxS\
+11778,FILES_EXT:OPENED:2180_x-ww_a84f1ff9
+14131,DIR:ENUMERATED:C:\Program Files\2YourFace\
+14657,DIR:ENUMERATED:c:\Documents and Settings\All Users\Application Data\Microsoft\User Account Pictures\
+152,API:NtQueryInformationFile
+2103,REG:OPENED:HKEY_LOCAL_MACHINE\Software\CodeGear\
+2963,REG:OPENED:HKEY_CURRENT_USER\Software\CodeGear\
+219,API:NtQueryDirectoryFile
+8,API:GetKeyState
+11922,FILES_EXT:READ:dll
+20853,STR:6154;user32.dll
+4101,REG:READ:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\
+11473,FILES_EXT:OPENED:bmp
+215,API:SendNotifyMessageW
+5570,REG:READ:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\CPC\Volume\{e7136b30-a421-11e5-b597-806d6172696f}\
+7117,REG:WRITTEN:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\{e7136b30-a421-11e5-b597-806d6172696f}\
+366,DROP:bmp
+7964,FILES:OPENED:Device\
+67,API:DeleteFileW
+9345,FILES:READ:C:\WINDOWS\system32\
+60,API:NtDeviceIoControlFile
+1181,REG:OPENED:HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\
+66,API:OleInitialize
+12365,DIR:CREATED:C:\Documents and Settings\MyUser\Local Settings\Temp\is-VTBO7.tmp\
+834,REG:OPENED:HKEY_LOCAL_MACHINE\SYSTEM\
+204,API:NtCreateFile
+169,API:NtCreateSection
+155,API:GetTempPathW
+134,API:RegCreateKeyExW
+5621,REG:READ:HKEY_LOCAL_MACHINE\SYSTEM\Setup\
+13241,DIR:ENUMERATED:C:\Documents and Settings\MyUser\Application Data\FTP Explorer\
+3112,REG:OPENED:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\ShellCompatibility\Applications\
+224,API:RegQueryValueExW
+2,API:NtOpenFile
+11699,FILES_EXT:OPENED:msi
+12063,FILES_EXT:WRITTEN:msi
+363,DROP:msi
+7281,FILES:DELETED:C:\Documents and Settings\MyUser\Local Settings\Temp\
+163,API:GetNativeSystemInfo
+29792,STR:15093;SHAutoComplete
+142,API:FindResourceExA
+98,API:RtlDecompressBuffer
+229,API:GetDiskFreeSpaceW
+201,API:CoCreateInstance
+133,API:CreateProcessInternalW
+24564,STR:9865;MSVCRT.dll
+2099,REG:OPENED:HKEY_LOCAL_MACHINE\Software\Classes\Installer\Products\
+87,API:GetSystemWindowsDirectoryA
+899,REG:OPENED:HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Installer\Managed\S-1-5-21-2000478354-1606980848-1343024091-1003\Installer\Products\
+1624,REG:OPENED:HKEY_CURRENT_USER\Software\Microsoft\Installer\Products\
+14510,DIR:ENUMERATED:C:\Program Files\MSECache\
+14743,STR:44;mscoree.dll
+207,API:NtCreateMutant
+213,API:RegOpenKeyExW
+15264,STR:565;WUSER32.DLL
+113,API:NtMapViewOfSection
+24726,STR:10027;SHELL32.dll
+22418,STR:7719;kernel32.DLL
+22641,STR:7942;WTSAPI32.dll
+8870,FILES:OPENED:C:\WINDOWS\system32\
+78,API:__exception__
+4545,REG:READ:HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Installer\
+65,API:FindResourceA
+3417,REG:READ:HKEY_CURRENT_USER\Control Panel\Desktop\
+123,API:NtUnmapViewOfSection
+1212,REG:OPENED:HKEY_CLASSES_ROOT\CLSID\{73FDDC80-AEA9-101A-98A7-00AA00374959}\Implemented Categories\
+1806,REG:OPENED:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\SystemFileAssociations\.rtf\ShellEx\
+2433,REG:OPENED:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\rtffile\ShellEx\
+3396,REG:READ:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Applets\Wordpad\RTF\
+3814,REG:READ:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Applets\Wordpad\Text\
+3936,REG:READ:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Tcpip\Linkage\
+4013,REG:READ:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\rtffile\CLSID\
+4305,REG:READ:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Applets\Wordpad\Recent File List\
+4711,REG:READ:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\rtffile\
+5329,REG:READ:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\SystemFileAssociations\.rtf\
+5479,REG:READ:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Applets\Wordpad\Write\
+5610,REG:READ:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Applets\Wordpad\IP\
+27392,STR:12693;modemui.dll
+28332,STR:13633;certcli.dll
+2033,REG:OPENED:HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\
+3068,REG:OPENED:HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\
+555,DROP:txt
+12252,FILES_EXT:WRITTEN:txt
+20045,STR:5346;msi.dll
+11588,FILES_EXT:OPENED:txt
+130,API:RegCloseKey
+2825,REG:OPENED:HKEY_CURRENT_USER\Software\Borland\Delphi\
+8488,FILES:OPENED:Ip
+45,API:RemoveDirectoryW
+3305,REG:OPENED:HKEY_CURRENT_USER\Software\Borland\
+1138,REG:OPENED:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\OLEAUT\
+3186,REG:OPENED:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Applets\
+255,DROP:log
+47,API:NtSuspendThread
+818,REG:OPENED:HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NetBT\
+161,API:ReadProcessMemory
+210,API:NtResumeThread
+107,API:SetFileAttributesW
+11915,FILES_EXT:READ:msi
+14,API:GetVolumeNameForVolumeMountPointW
+3786,REG:READ:HKEY_CURRENT_USER\Software\Microsoft\Installer\Products\E394C25038CB7414082018EBC7145D83\
+4067,REG:READ:HKEY_CURRENT_USER\Software\Microsoft\Installer\Products\E22975AAFFC4F95478A4C9D91ADCA26D\
+4879,REG:READ:HKEY_CURRENT_USER\Software\Microsoft\Installer\Products\00794822923BE1448B98724543C2FA86\
+5513,REG:READ:HKEY_CURRENT_USER\Software\Microsoft\Installer\Products\78732DB11FE15BE49B7EAB2B2A454839\
+4459,REG:READ:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\FileSystem\
+3794,REG:READ:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Nls\Locale\
+2356,REG:OPENED:HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\
+211,API:SHGetSpecialFolderLocation
+7017,REG:WRITTEN:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run\
+42,API:FindWindowExA
+11972,FILES_EXT:WRITTEN:log
+24898,STR:10199;COMCTL32.dll
+25299,STR:10600;msimg32.dll
+3678,REG:READ:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Nls\Language Groups\
+11631,FILES_EXT:OPENED:log
+4794,REG:READ:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Tracing\RASAPI32\
+12,API:EnumWindows
+95,API:RegEnumKeyExW
+733,REG:OPENED:HKEY_CURRENT_USER\CLSID\
+64,API:CreateToolhelp32Snapshot
+1946,REG:OPENED:HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\
+2771,REG:OPENED:HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc\
+10263,FILES:WRITTEN:C:\Documents and Settings\MyUser\Local Settings\Temp\
+61,API:Process32NextW
+29754,STR:15055;MFC42.DLL
+3671,REG:READ:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\COM3\
+165,API:Process32FirstW
+129,API:DeviceIoControl
+120,API:GetComputerNameW
+3963,REG:READ:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Interface\{000C101C-0000-0000-C000-000000000046}\ProxyStubClsid32\
+2562,REG:OPENED:HKEY_CLASSES_ROOT\CLSID\
+4698,REG:READ:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\
+12344,DIR:CREATED:C:\Documents and Settings\MyUser\Local Settings\Temp\is-6RMCD.tmp\
+3470,REG:READ:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor\
+3244,REG:OPENED:HKEY_LOCAL_MACHINE\Software\Microsoft\Tracing\
+5545,REG:READ:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\WinTrust\Trust Providers\Software Publishing\
+109,API:UnhookWindowsHookEx
+5381,REG:READ:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList\S-1-5-21-2000478354-1606980848-1343024091-1003\
+10594,FILES:WRITTEN:C:\Documents and Settings\MyUser\Application Data\
+22495,STR:7796;OPENGL32.dll
+4366,REG:READ:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList\
+9194,FILES:OPENED:C:\Documents and Settings\MyUser\
+1549,REG:OPENED:HKEY_LOCAL_MACHINE\Software\Microsoft\Cryptography\Providers\Trust\DiagnosticPolicy\
+2873,REG:OPENED:HKEY_LOCAL_MACHINE\Software\Microsoft\Cryptography\Providers\Trust\Certificate\
+5036,REG:READ:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\ProductOptions\
+9734,FILES:WRITTEN:C:\Documents and Settings\All Users\Application Data\
+2680,REG:OPENED:HKEY_CURRENT_USER\Software\Microsoft\windows\CurrentVersion\Internet Settings\
+40,API:LdrLoadDll
+2105,REG:OPENED:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\
+20888,STR:6189;MFC42u.DLL
+140,API:LdrUnloadDll
+5,API:WriteConsoleW
+1722,REG:OPENED:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 1\CryptDllEncodeObjectEx\
+21527,STR:6828;ODBC32.dll
+3513,REG:READ:HKEY_CURRENT_USER\Software\Microsoft\Command Processor\
+1945,REG:OPENED:HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\
+7,API:RemoveDirectoryA
+23671,STR:8972;ole32.dll
+12868,DIR:CREATED:C:\Program Files\NetDrive2\locale\ko\
+68,API:NtProtectVirtualMemory
+21600,STR:6901;Shell32.dll
+23698,STR:8999;CryptGenRandom
+3982,REG:READ:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders\
+7261,FILES:DELETED:C:\Documents and Settings\MyUser\Application Data\
+10601,FILES:WRITTEN:C:\Documents and Settings\MyUser\Local Settings\Application Data\
+217,API:__anomaly__
+357,DROP:xml
+12058,FILES_EXT:WRITTEN:xml
+2604,REG:OPENED:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\
+137,API:GetComputerNameA
+13211,DIR:ENUMERATED:C:\Documents and Settings\MyUser\Local Settings\Application Data\Programs\Python\Python35-32\Lib\test\test_importlib\namespace_pkgs\project1\parent\child\__pycache__\
+5302,REG:READ:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Session Manager\
+4233,REG:READ:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\
+12244,FILES_EXT:WRITTEN:exe
+226,API:RegOpenKeyExA
+1194,REG:OPENED:HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\svchost.exe\
+5635,REG:READ:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\
+17292,STR:2593;SHLWAPI.dll
+16495,STR:1796;Advapi32.dll
+1105,REG:OPENED:HKEY_CURRENT_USER\SOFTWARE\
+26548,STR:11849;nKERNEL32.DLL
+11372,FILES_EXT:DELETED:bat
+91,API:CryptAcquireContextW
+5436,REG:READ:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\
+17572,STR:2873;Kernel32.DLL
+187,API:NtOpenDirectoryObject
+92,API:MessageBoxTimeoutW
+4381,REG:READ:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Rpc\
+24511,STR:9812;Riched20.dll
+24944,STR:10245;shfolder.dll
+90,API:MessageBoxTimeoutA
+3353,REG:OPENED:HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\
+3427,REG:READ:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders\
+28,API:Module32FirstW
+124,API:SetWindowsHookExW
+20472,STR:5773;wininet.dll
+178,API:FindWindowA
+32,API:NtFreeVirtualMemory
+24168,STR:9469;SHELL32.DLL
+836,REG:OPENED:HKEY_CURRENT_USER\Software\Microsoft\Protected Storage System Provider\S-1-5-21-2000478354-1606980848-1343024091-1003\Data\89c39569-6841-11d2-9f59-0000f8085266\b10c4e6e-cae0-41c9-8711-cc011b9feae7\
+2568,REG:OPENED:HKEY_CURRENT_USER\Software\Microsoft\Protected Storage System Provider\S-1-5-21-2000478354-1606980848-1343024091-1003\Data 2\
+4130,REG:READ:HKEY_CURRENT_USER\Software\Microsoft\Protected Storage System Provider\S-1-5-21-2000478354-1606980848-1343024091-1003\Data\89c39569-6841-11d2-9f59-0000f8085266\b10c4e6e-cae0-41c9-8711-cc011b9feae7\IdentitiesPass\
+7707,FILES:OPENED:?\PIPE\
+9587,FILES:READ:?\PIPE\
+10016,FILES:WRITTEN:?\PIPE\
+28341,STR:13642;setupapi.dll
+19459,STR:4760;CryptReleaseContext
+16332,STR:1633;COMDLG32.dll
+2221,REG:OPENED:HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\
+181,API:RtlCreateUserThread
+543,DROP:exe
+24364,STR:9665;2http://crl.comodoca.com/COMODORSACodeSigningCA.crl0t
+15586,STR:887;DecryptFileA
+15598,STR:899;ekernel32.dll
+2859,REG:OPENED:HKEY_CURRENT_USER\Software\
+122,API:NtOpenProcess
+209,API:GetFileSizeEx
+13177,DIR:ENUMERATED:C:\Documents and Settings\MyUser\Local Settings\Temp\7zS1.tmp\QNAP\
+13883,DIR:ENUMERATED:C:\Documents and Settings\MyUser\Local Settings\Temp\is-RNLAO.tmp\
+11,API:OpenServiceW
+728,REG:OPENED:HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\WinSock2\
+4193,REG:READ:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\
+7415,FILES:OPENED:C:\
+75,API:select
+20822,STR:6123;NTDLL.DLL
+2028,REG:OPENED:HKEY_CLASSES_ROOT\http\shell\open\
+84,API:GetUserNameW
+1004,REG:OPENED:HKEY_CLASSES_ROOT\clsid\
+1793,REG:OPENED:HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\
+2174,REG:OPENED:HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows NT\CurrentVersion\
+7312,FILES:DELETED:C:\WINDOWS\Tasks\
+11358,FILES_EXT:DELETED:job
+25468,STR:10769;VBA6.DLL
+27869,STR:13170;OLEAUT32.dll
+4811,REG:READ:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3\
+1659,REG:OPENED:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\
+2096,REG:OPENED:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\
+2738,REG:OPENED:HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Winsock2\
+15157,STR:458;crypt32.dll
+264,DROP:bin
+183,API:VirtualFreeEx
+27,API:CreateRemoteThread
+151,API:RegCreateKeyExA
+6965,REG:WRITTEN:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\
+18938,STR:4239;pdh.dll
+3536,REG:READ:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\MediaProperties\PrivateProperties\Joystick\Winmm\
+15777,STR:1078;WINTRUST.dll
+29766,STR:15067;version.dll
+2437,REG:OPENED:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\NameSpace_Catalog5\
+2508,REG:OPENED:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\
+3178,REG:OPENED:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9\
+4636,REG:READ:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000011\
+4745,REG:READ:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000010\
+4881,REG:READ:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\NameSpace_Catalog5\
+4981,REG:READ:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000002\
+4995,REG:READ:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000001\
+5059,REG:READ:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000007\
+5078,REG:READ:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000008\
+5127,REG:READ:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000006\
+5147,REG:READ:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000005\
+5166,REG:READ:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000004\
+5211,REG:READ:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000002\
+5532,REG:READ:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9\
+434,DROP:html
+20464,STR:5765;Msi.dll
+29287,STR:14588;MSVCR90.dll
+2246,REG:OPENED:HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\
+7476,FILES:OPENED:C:\Documents and Settings\All Users\Documents\My Pictures\
+358,DROP:rtf
+24804,STR:10105;Cabinet.dll
+5230,REG:READ:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000001\
+11933,FILES_EXT:READ:cab
+13741,DIR:ENUMERATED:C:\Documents and Settings\MyUser\Local Settings\Temp\is-JK84M.tmp\
+24612,STR:9913;CryptGetHashParam
+11518,FILES_EXT:OPENED:DAT
+14865,STR:166;*.k}fo
+20983,STR:6284;WARNING
+26943,STR:12244;printeula.dll
+1216,REG:OPENED:HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows NT\
+3173,REG:OPENED:HKEY_LOCAL_MACHINE\SOFTWARE\
+72,API:GetAsyncKeyState
+199,API:CoInitializeSecurity
+25163,STR:10464;CryptAcquireContextA
+1266,REG:OPENED:HKEY_LOCAL_MACHINE\Software\Microsoft\
+200,API:NtQueryAttributesFile
+17945,STR:3246;aicustact.dll
+25542,STR:10843;NTDSAPI.dll
+1755,REG:OPENED:HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\
+13668,DIR:ENUMERATED:C:\Documents and Settings\MyUser\Local Settings\Application Data\Programs\Python\Python35-32\Lib\distutils\tests\__pycache__\
+7873,FILES:OPENED:C:\Documents and Settings\MyUser\Local Settings\
+11571,FILES_EXT:OPENED:inf
+214,API:ioctlsocket
+4110,REG:READ:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\ldap\
+2792,REG:OPENED:HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\
+20409,STR:5710;wixca.dll
+23399,STR:8700;CustomActions.dll
+25476,STR:10777;CREATOR OWNER
+31,API:NtEnumerateKey
+465,DROP:job
+7673,FILES:OPENED:C:\WINDOWS\Tasks\
+7790,FILES:OPENED:C:\WINDOWS\system32\Microsoft\Protect\S-1-5-18\User\
+11521,FILES_EXT:OPENED:job
+12158,FILES_EXT:WRITTEN:job
+25431,STR:10732;MSVBVM60.DLL
+36,API:OpenServiceA
+171,API:getsockname
+2445,REG:OPENED:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\
+1312,REG:OPENED:HKEY_LOCAL_MACHINE\Software\
+3612,REG:READ:HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Safer\CodeIdentifiers\
+5198,REG:READ:HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Safer\CodeIdentifiers\0\Hashes\{7fb9cd2e-3076-4df9-a57b-b813f72dbb91}\
+5499,REG:READ:HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Safer\CodeIdentifiers\0\Hashes\{349d35ab-37b5-462f-9b89-edd5fbde1328}\
+1562,REG:OPENED:HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\
+222,API:GetFileType
+8321,FILES:OPENED:C:\WINDOWS\Fonts\
+23481,STR:8782;NETAPI32.DLL
+24169,STR:9470;DPCA.DLL
+25268,STR:10569;HMAC-MD5
+28837,STR:14138;\MSCOREE.dll
+2775,REG:OPENED:HKEY_CLASSES_ROOT\HTTP\shell\open\
+5229,REG:READ:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Lsa\SspiCache\msnsspc.dll\
+5534,REG:READ:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Lsa\SspiCache\digest.dll\
+13499,DIR:ENUMERATED:C:\Documents and Settings\MyUser\Local Settings\Application Data\Craftcoin\
+15343,"STR:644;""thawte SHA256 Code Signing CA - G2"
+16264,"STR:1565;""thawte SHA256 Code Signing CA - G20"
+17130,STR:2431;drmv2clt.dll
+17793,STR:3094;sisbkup.dll
+18679,STR:3980;Z1AES<
+21080,STR:6381;System.Security.Cryptography.X509Certificates
+24796,"STR:10097;  <assemblyIdentity version=""1.9.1.0"" processorArchitecture=""X86"" name=""Unlocker"" type=""win32""/>"
+25830,STR:11131;V9EMpvT498vy39H.dll
+11472,FILES_EXT:OPENED:dat
+27620,STR:12921;msvcrt.dll
+8520,FILES:OPENED:C:\WINDOWS\
+19411,STR:4712;IS_CLASS(dttPtr->dttType->tpMask) && (dttPtr->dttType->tpClass.tpcFlags & CF_HAS_DTOR)
+23894,STR:9195;elemType->tpClass.tpcFlags & CF_HAS_DTOR
+26715,STR:12016;dttPtr->dttType->tpPtr.tppBaseType->tpClass.tpcFlags & CF_HAS_DTOR
+30046,STR:15347;varType->tpClass.tpcFlags & CF_HAS_DTOR
+1877,REG:OPENED:HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\crypt32\
+144,API:SetWindowsHookExA
+25186,STR:10487;CryptAcquireContextW
+15,API:HttpOpenRequestA
+34,API:RegQueryInfoKeyA
+14740,STR:41;PSAPI.DLL
+12024,FILES_EXT:WRITTEN:req
+18432,STR:3733;secur32.dll
+231,API:FindWindowW
+96,API:RegEnumKeyExA
+1,API:WriteConsoleA
+11792,FILES_EXT:OPENED:cfg
+18144,STR:3445;(DigiCert SHA2 Assured ID Code Signing CA0
+21752,STR:7053;encryption
+22996,STR:8297;(DigiCert SHA2 Assured ID Code Signing CA
+24223,STR:9524;CryptProtectMemory
+27934,STR:13235;msmcustomaction.dll
+23209,STR:8510;CryptDestroyHash
+11375,FILES_EXT:DELETED:exe
+73,API:LdrGetDllHandle
+0,API:GetSystemDirectoryA
+139,API:RegSetValueExA
+4160,REG:READ:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Drivers32\
+28953,STR:14254;ntdll.dll
+3481,REG:READ:HKEY_LOCAL_MACHINE\SOFTWARE\Classes\HTTP\shell\open\command\
+5466,REG:READ:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole\
+15816,STR:1117;MSIMG32.dll
+12521,DIR:CREATED:C:\Documents and Settings\MyUser\Local Settings\Temp\is-S5OKG.tmp\
+202,API:RegQueryValueExA
+12763,DIR:CREATED:C:\Documents and Settings\MyUser\Local Settings\Temp\is-Q465B.tmp\
+149,API:SetFilePointerEx
+23687,STR:8988;wsock32.dll
+49,API:InternetOpenW
+193,API:InternetQueryOptionA
+12287,DIR:CREATED:C:\Program Files\Synology\CloudStation\
+11527,FILES_EXT:OPENED:bat
+5142,REG:READ:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\
+1874,REG:OPENED:HKEY_CURRENT_USER\Software\Microsoft\Multimedia\Audio Compression Manager\
+4406,REG:READ:HKEY_CURRENT_USER\Software\Microsoft\Multimedia\Audio Compression Manager\Priority v4.00\
+4649,REG:READ:HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\VBoxSF\NetworkProvider\
+17843,STR:3144;wship6.dll

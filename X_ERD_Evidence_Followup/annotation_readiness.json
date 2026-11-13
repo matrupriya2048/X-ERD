@@ -1,0 +1,16 @@
+{
+  "report_n": 100,
+  "mapping_packet_n": 20,
+  "completed_human_reviews": 0,
+  "reports_with_numeric_timestamps": 100,
+  "reports_with_crypto_api_calls": 8,
+  "reports_with_timestamped_crypto_hints": 8,
+  "reports_with_write_api_calls": 85,
+  "verified_onset_annotations": 0,
+  "input_formats": {
+    "report_object": 20,
+    "sequence_only_array": 80
+  },
+  "interpretation": "Data-readiness audit of existing 20 benchmark reports and 80 external JSON inputs. Sequence-only arrays are not treated as full Cuckoo reports. Zero supplied verified annotations is not evidence that encryption did not occur.",
+  "source_sha256": "33a1785f9079f939011f84d9ae9d8ee26af72ab0a5cc16f81f319385fed6ea98"
+}

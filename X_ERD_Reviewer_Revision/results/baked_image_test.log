@@ -1,0 +1,14 @@
+...............                                                          [100%]
+=============================== warnings summary ===============================
+tests/test_scientific_invariants.py::test_raw_parquet_supports_id_column_and_named_index
+  /usr/local/lib/python3.11/site-packages/xerd/additional.py:17: Pandas4Warning: The 'verify_integrity' keyword in DataFrame.set_index is deprecated and will be removed in a future version. Directly check the result.index.is_unique instead.
+    if 'sample_id' in frame.columns:frame=frame.set_index('sample_id',verify_integrity=True)
+
+tests/test_scientific_invariants.py: 12 warnings
+  /usr/local/lib/python3.11/site-packages/sklearn/utils/validation.py:2827: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+15 passed, 13 warnings in 5.41s
+START core
+DONE core 8.3 seconds

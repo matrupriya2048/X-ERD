@@ -1,0 +1,53 @@
+{
+  "scope": "Descriptive comparison of active selected indicators; aggregate modality differences do not identify a causal failure mechanism. No target tuning is performed.",
+  "rows": [
+    {
+      "category": "API",
+      "feature_count": 63,
+      "source_benign_mean_active": 28.834803921568625,
+      "external_benign_mean_active": 24.318681318681318
+    },
+    {
+      "category": "DIRECTORY",
+      "feature_count": 10,
+      "source_benign_mean_active": 1.7607843137254902,
+      "external_benign_mean_active": 0.0
+    },
+    {
+      "category": "DROP",
+      "feature_count": 23,
+      "source_benign_mean_active": 4.524019607843138,
+      "external_benign_mean_active": 4.291208791208791
+    },
+    {
+      "category": "FILE",
+      "feature_count": 16,
+      "source_benign_mean_active": 4.1911764705882355,
+      "external_benign_mean_active": 1.032967032967033
+    },
+    {
+      "category": "REG",
+      "feature_count": 90,
+      "source_benign_mean_active": 20.943627450980394,
+      "external_benign_mean_active": 7.1208791208791204
+    },
+    {
+      "category": "SIGNATURE",
+      "feature_count": 20,
+      "source_benign_mean_active": 3.087254901960784,
+      "external_benign_mean_active": 2.1153846153846154
+    },
+    {
+      "category": "STRING",
+      "feature_count": 223,
+      "source_benign_mean_active": 27.406372549019608,
+      "external_benign_mean_active": 33.76373626373626
+    },
+    {
+      "category": "SYSTEM",
+      "feature_count": 38,
+      "source_benign_mean_active": 13.406862745098042,
+      "external_benign_mean_active": 4.087912087912088
+    }
+  ]
+}

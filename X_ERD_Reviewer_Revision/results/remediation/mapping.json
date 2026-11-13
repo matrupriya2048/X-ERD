@@ -1,0 +1,3945 @@
+{
+  "schema_version": "reviewer-revision-2",
+  "feature_count": 483,
+  "mapped_features": 105,
+  "distinct_techniques": [
+    "T1012",
+    "T1055",
+    "T1106",
+    "T1497.001",
+    "T1547.001"
+  ],
+  "all_feature_mappings": {
+    "API:NtProtectVirtualMemory": {
+      "prefix": "API:Nt",
+      "technique_id": "T1106",
+      "confidence_tier": "Low",
+      "rationale": "Native API primitive; not a standalone finding of malicious activity.",
+      "rule_specificity_score": 1
+    },
+    "API:CreateProcessInternalW": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:LdrGetProcedureAddress": {
+      "exact": "API:LdrGetProcedureAddress",
+      "technique_id": "T1106",
+      "confidence_tier": "Low",
+      "rationale": "Native API use; dynamic resolution alone does not prove malicious obfuscation T1027.007.",
+      "rule_specificity_score": 1
+    },
+    "API:CreateActCtxW": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:GetNativeSystemInfo": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:NtAllocateVirtualMemory": {
+      "prefix": "API:Nt",
+      "technique_id": "T1106",
+      "confidence_tier": "Low",
+      "rationale": "Native API primitive; not a standalone finding of malicious activity.",
+      "rule_specificity_score": 1
+    },
+    "API:NtQueryInformationFile": {
+      "prefix": "API:Nt",
+      "technique_id": "T1106",
+      "confidence_tier": "Low",
+      "rationale": "Native API primitive; not a standalone finding of malicious activity.",
+      "rule_specificity_score": 1
+    },
+    "API:NtOpenProcess": {
+      "prefix": "API:Nt",
+      "technique_id": "T1106",
+      "confidence_tier": "Low",
+      "rationale": "Native API primitive; not a standalone finding of malicious activity.",
+      "rule_specificity_score": 1
+    },
+    "API:CoUninitialize": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:Process32NextW": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:CreateToolhelp32Snapshot": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:RegSetValueExW": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:GetSystemMetrics": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:NtDelayExecution": {
+      "prefix": "API:Nt",
+      "technique_id": "T1106",
+      "confidence_tier": "Low",
+      "rationale": "Native API primitive; not a standalone finding of malicious activity.",
+      "rule_specificity_score": 1
+    },
+    "API:CoCreateInstance": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:NtWriteFile": {
+      "prefix": "API:Nt",
+      "technique_id": "T1106",
+      "confidence_tier": "Low",
+      "rationale": "Native API primitive; not a standalone finding of malicious activity.",
+      "rule_specificity_score": 1
+    },
+    "API:NtQueryKey": {
+      "prefix": "API:Nt",
+      "technique_id": "T1106",
+      "confidence_tier": "Low",
+      "rationale": "Native API primitive; not a standalone finding of malicious activity.",
+      "rule_specificity_score": 1
+    },
+    "API:OpenServiceW": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:GetComputerNameW": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:RegCreateKeyExA": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:SHGetFolderPathW": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:RegCreateKeyExW": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:NtSetInformationFile": {
+      "prefix": "API:Nt",
+      "technique_id": "T1106",
+      "confidence_tier": "Low",
+      "rationale": "Native API primitive; not a standalone finding of malicious activity.",
+      "rule_specificity_score": 1
+    },
+    "API:NtQueryDirectoryFile": {
+      "prefix": "API:Nt",
+      "technique_id": "T1106",
+      "confidence_tier": "Low",
+      "rationale": "Native API primitive; not a standalone finding of malicious activity.",
+      "rule_specificity_score": 1
+    },
+    "API:OpenSCManagerW": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:RegSetValueExA": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:Process32FirstW": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:UuidCreate": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:FindResourceExW": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:RegEnumValueW": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:GetFileAttributesExW": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:DrawTextExW": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:GetFileVersionInfoSizeW": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:GetTempPathW": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:GetFileVersionInfoW": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:LoadResource": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:DeviceIoControl": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:FindWindowW": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:CreateDirectoryW": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:GetSystemDirectoryW": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:RegEnumKeyExW": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:GetDiskFreeSpaceExW": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:SetWindowsHookExW": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:GetFileInformationByHandle": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:GetSystemWindowsDirectoryW": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:WriteConsoleW": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:GetComputerNameA": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:WriteProcessMemory": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:NtGetContextThread": {
+      "prefix": "API:Nt",
+      "technique_id": "T1106",
+      "confidence_tier": "Low",
+      "rationale": "Native API primitive; not a standalone finding of malicious activity.",
+      "rule_specificity_score": 1
+    },
+    "API:NtSetContextThread": {
+      "exact": "API:NtSetContextThread",
+      "technique_id": "T1055",
+      "confidence_tier": "Low",
+      "rationale": "Candidate injection-related primitive; target process and execution context need corroboration.",
+      "rule_specificity_score": 1
+    },
+    "API:ioctlsocket": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:RegQueryInfoKeyW": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:GetSystemDirectoryA": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:FindResourceA": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:SHGetSpecialFolderLocation": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:RemoveDirectoryA": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:SendNotifyMessageW": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:GlobalMemoryStatus": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:LoadStringA": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:GetCursorPos": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:RemoveDirectoryW": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:RegDeleteKeyW": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "API:RtlAddVectoredExceptionHandler": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "REG:OPENED:HKEY_CURRENT_USER\\Software\\Borland\\Delphi\\Locales": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_CURRENT_USER\\Software\\Microsoft\\CTF\\LayoutIcon\\0409\\00020409": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{748d58ed-7f9a-11ef-945b-806e6f6e6963}\\": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{748d58ee-7f9a-11ef-945b-806e6f6e6963}\\": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{748d58f1-7f9a-11ef-945b-806e6f6e6963}\\": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{887e67eb-1985-11ef-9840-806e6f6e6963}\\": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{887e67ec-1985-11ef-9840-806e6f6e6963}\\": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{887e67ef-1985-11ef-9840-806e6f6e6963}\\": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Wpad\\{68AD045D-A60B-4E2E-BC0E-3B43DE6B671F}": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Comdlg32": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Shell Extensions\\Cached": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\CTF\\KnownClasses": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\LanguagePack\\SurrogateFallback": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\LanguagePack\\SurrogateFallback\\MS Sans Serif": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\explorer\\FolderDescriptions\\{7C5A40EF-A0FB-4BFC-874A-C0F2E0B9FA8E}": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\explorer\\FolderDescriptions\\{7C5A40EF-A0FB-4BFC-874A-C0F2E0B9FA8E}\\PropertyBag": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\services\\Winsock\\Setup Migration\\Providers\\Tcpip": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\Winsock\\Parameters": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\Winsock\\Setup Migration\\Providers": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_LOCAL_MACHINE\\Software\\Microsoft\\CTF\\TIP\\{0000897b-83df-4b96-be07-0fb58b01c4a4}\\LanguageProfile\\0x00000000\\{0001bea3-ed56-483d-a2e2-aeae25577436}": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\ProfileList\\S-1-5-21-1333523494-3206289307-1491016761-500": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\ProfileList\\S-1-5-21-349486357-1417008628-870289929-500": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\ProfileList\\S-1-5-21-4114181432-2397392814-2180606575-500": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_LOCAL_MACHINE\\Software\\Policies\\Microsoft\\Windows\\Installer": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Control\\Class\\{4d36e972-e325-11ce-bfc1-08002be10318}": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Services\\LDAP": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Services\\Tcpip6\\Parameters\\Winsock": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters\\Winsock": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:OPENED:HKEY_LOCAL_MACHINE\\System\\Setup": {
+      "prefix": "REG:OPENED:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry handle opening is only weak query evidence.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Keyboard Layout\\Toggle\\Hotkey": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Keyboard Layout\\Toggle\\Language Hotkey": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Keyboard Layout\\Toggle\\Layout Hotkey": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Command Processor\\AutoRun": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Command Processor\\CompletionChar": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Command Processor\\DefaultColor": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Command Processor\\DelayedExpansion": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Command Processor\\DisableUNCCheck": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Command Processor\\EnableExtensions": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Command Processor\\PathCompletionChar": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows\\DragDelay": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\UseDoubleClickTimer": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{748d58ed-7f9a-11ef-945b-806e6f6e6963}\\Data": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{748d58ed-7f9a-11ef-945b-806e6f6e6963}\\Generation": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{748d58ee-7f9a-11ef-945b-806e6f6e6963}\\Data": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{748d58ee-7f9a-11ef-945b-806e6f6e6963}\\Generation": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{748d58f1-7f9a-11ef-945b-806e6f6e6963}\\Data": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{748d58f1-7f9a-11ef-945b-806e6f6e6963}\\Generation": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{7ace8c1d-1d34-11ef-b467-806e6f6e6963}\\Data": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{7ace8c1d-1d34-11ef-b467-806e6f6e6963}\\Generation": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{7ace8c1e-1d34-11ef-b467-806e6f6e6963}\\Data": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{7ace8c1e-1d34-11ef-b467-806e6f6e6963}\\Generation": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{7ace8c21-1d34-11ef-b467-806e6f6e6963}\\Data": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{7ace8c21-1d34-11ef-b467-806e6f6e6963}\\Generation": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{887e67eb-1985-11ef-9840-806e6f6e6963}\\Data": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{887e67eb-1985-11ef-9840-806e6f6e6963}\\Generation": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{887e67ec-1985-11ef-9840-806e6f6e6963}\\Data": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{887e67ec-1985-11ef-9840-806e6f6e6963}\\Generation": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{887e67ef-1985-11ef-9840-806e6f6e6963}\\Data": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\CPC\\Volume\\{887e67ef-1985-11ef-9840-806e6f6e6963}\\Generation": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Wpad\\WpadOverride": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\AllowFileCLSIDJunctions": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\NoClose": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\NoDrives": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\NoNetConnectDisconnect": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\NoRecentDocsHistory": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\NoRun": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\CTF\\TIP\\{0000897b-83df-4b96-be07-0fb58b01c4a4}\\LanguageProfile\\0x00000000\\{0001bea3-ed56-483d-a2e2-aeae25577436}\\Enable": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\OLE\\PageAllocatorSystemHeapIsPrivate": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\OLE\\PageAllocatorUseSystemHeap": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\SQMClient\\Windows\\DisabledSessions\\GlobalSession": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\SQMClient\\Windows\\DisabledSessions\\MachineThrottling": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\FontSubstitutes\\MS Shell Dlg": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\ProfileList\\S-1-5-21-1333523494-3206289307-1491016761-500\\ProfileImagePath": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\ProfileList\\S-1-5-21-349486357-1417008628-870289929-500\\ProfileImagePath": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\ProfileList\\S-1-5-21-4114181432-2397392814-2180606575-500\\ProfileImagePath": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\DevicePath": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\AllowFileCLSIDJunctions": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\CTF\\EnableAnchorContext": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows NT\\CurrentVersion\\Windows\\LoadAppInit_DLLs": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\CommonFilesDir": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\ProgramFilesDir": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\Windows Error Reporting\\WMR\\Disable": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\CMF\\Config\\SYSTEM": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\Nls\\CodePage\\950": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\Nls\\Language Groups\\1": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "REG:READ:HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\Nls\\Locale\\00000409": {
+      "prefix": "REG:READ:",
+      "technique_id": "T1012",
+      "confidence_tier": "Low",
+      "rationale": "Registry query evidence; benign and malicious software both query the registry.",
+      "rule_specificity_score": 1
+    },
+    "FILE:EXISTS:c:\\": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "FILE:EXISTS:c:\\programdata\\microsoft\\windows\\start menu\\programs": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "FILE:EXISTS:c:\\users": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "FILE:FAILED:\\device\\netbt_tcpip_{846ee342-7039-11de-9d20-806e6f6e6963}": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "FILE:FAILED:c:\\users\\administrator\\appdata\\local\\temp": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "FILE:OPENED:\\\\?\\pipe\\wkssvc": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "FILE:OPENED:c:\\": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "FILE:OPENED:c:\\program files (x86)": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "FILE:OPENED:c:\\program files\\windows nt\\accessories\\wordpad.exe": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "FILE:OPENED:c:\\windows\\globalization\\sorting\\sortdefault.nls": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "FILE:OPENED:c:\\windows\\system32": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "FILE:OPENED:c:\\windows\\system32\\en-us\\imageres.dll.mui": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "FILE:OPENED:c:\\windows\\system32\\en-us\\netmsg.dll.mui": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "FILE:READ:\\\\?\\pipe\\wkssvc": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "FILE:RECREATED:\\??\\nsi": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "FILE:WRITTEN:\\\\?\\pipe\\wkssvc": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DIRECTORY:CREATED:c:\\users": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DIRECTORY:CREATED:c:\\users\\administrator": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DIRECTORY:CREATED:c:\\users\\administrator\\appdata": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DIRECTORY:CREATED:c:\\users\\administrator\\appdata\\local\\microsoft\\windows\\wer\\reportarchive": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DIRECTORY:CREATED:c:\\users\\administrator\\appdata\\roaming": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DIRECTORY:ENUMERATED:c:\\documents and settings\\*.*": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DIRECTORY:ENUMERATED:c:\\perflogs\\*.*": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DIRECTORY:ENUMERATED:c:\\perflogs\\admin\\*.*": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DIRECTORY:ENUMERATED:c:\\users\\administrator": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DIRECTORY:ENUMERATED:c:\\windows\\system32\\*.*": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:                                 h": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:         (((((                  h": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:         h((((                  h": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:        <requestedexecutionlevel level=\"asinvoker\" uiaccess=\"false\"></requestedexecutionlevel>": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:        <supportedos id=\"{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}\"/>": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:        }": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:      </requestedprivileges>": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:      <requestedprivileges>": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:    processorarchitecture=\"x86\"": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:  </trustinfo>": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:  <trustinfo xmlns=\"urn:schemas-microsoft-com:asm.v3\">": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:!this program cannot be run in dos mode.": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:- abort() has been called": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:.?avexception@std@@": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:.aspack": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:.cctor": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:.data$r": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:.pdata": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:.rdata$r": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:.reloc": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:7777777": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:8ldict": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:9c`u99c\\t4": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:9ldict": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:;;b&f7b": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:</application>": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:</body>": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:</dependency>": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:</form>": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:</html>": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:<dependency>": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:<head>": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:>ldict": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:?da/b6h": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:@.data": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:@.reloc": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:@h??weldj;": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:@h??weldj>": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:@hnfhd": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:__based(": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:_cicos": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:_initterm": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:`.itext": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:`.rdata": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:`.rsrc": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:a_a^a]a\\_": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:a_a^a]a\\_^]": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:accept": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:b4fhd&b": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:bad allocation": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:beginpaint": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:callwindowproca": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:cmd.exe": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:comctl32.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:computehash": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:concat": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:contains": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:context": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:control": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:corexitprocess": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:cotaskmemfree": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:createdirectorya": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:createdirectoryw": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:createencryptor": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:createwindowexa": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:cryptdecrypt": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:cryptencrypt": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:cryptstringtobinarya": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:d/;rd'c7crd": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:delete": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:deletefilea": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:desktop.ini": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:dispatchmessagea": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:dispose": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:dllgetversion": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:dosdatetimetofiletime": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:drawtexta": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:drdhd7h": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:e(?(e8b": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:eabort": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:enablewindow": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:enddialog": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:endpaint": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:entercriticalsection": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:enumprocesses": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:exe(;2d": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:f9:t!v": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:fileversion": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:findfirstfilea": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:findfirstfileexa": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:findfirstfileexw": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:flushfilebuffers": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:get_length": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:get_name": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:getcomputernamew": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:getconsolecp": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:getconsolemode": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:getcurrentprocessid": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:getenvironmentvariablea": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:getexitcodeprocess": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:getfileattributesa": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:getfiles": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:getfullpathnamea": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:getlogicaldrives": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:getmodulefilenamew": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:getshortpathnamea": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:getstartupinfow": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:getsysteminfo": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:gettempfilenamea": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:gettempfilenamew": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:gettemppatha": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:getwindowrect": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:globalfree": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:heapalloc": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:ienumerator": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:imagelist_create": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:imagelist_destroy": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:initializearray": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:install": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:interlockedexchange": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:internalname": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:invalidaterect": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:iphlpapi.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:isdbcsleadbyte": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:isvalidcodepage": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:iswindow": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:iswindowenabled": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:iswindowvisible": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:kernel32.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:labels": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:lca<e3": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:leavecriticalsection": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:loader error": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:loadresource": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:locale": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:localfree": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:lockresource": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:lookup": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:lstrcata": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:lstrcmpia": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:lstrcpya": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:lstrlena": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:malloc": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:memmove": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:memset": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:mscoree.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:msi.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:msvbvm60.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:msvcrt.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:ntdll.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:nullsoftinst": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:oleaut32.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:oleinitialize": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:openmutexw": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:operator": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:originalfilename": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:p.rsrc": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:padpadp": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:pp9e u:ppvwp": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:pppppp": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:pppppws": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:productcode": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:productversion": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:programfilesdir": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:pssssss": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:qqswj0j@": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:readfile": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:readprocessmemory": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:regclosekey": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:regdeletekeyexw": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:regdeletevaluea": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:regsetvalueexa": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:remove": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:removedirectorya": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:removedirectoryw": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:return false;": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:runtime error     at 00000000": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:sendmessagea": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:setbkcolor": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:setcurrentdirectorya": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:setdlgitemtexta": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:setendoffile": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:setfilepointerex": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:setfiletime": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:setservicestatus": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:setstdhandle": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:settimer": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:setup.exe": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:setwindowpos": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:shell32.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:shellexecutea": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:shgetmalloc": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:shlwapi.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:showwindow": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:sizeofresource": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:special": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:ssvwh ": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:stringfileinfo": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:the ordinal %u could not be located in the dynamic link library %s": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:the procedure entry point %s could not be located in the dynamic link library %s": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:this program must be run under win32": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:toarray": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:trackpopupmenu": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:translation": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:unhandledexceptionfilter": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:uqpxy]y[": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:user32": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:uvwatauavawh": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:varfileinfo": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:virtualallocex": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:virtualquery": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:vs_version_info": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:watauavawh": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:wow64disablewow64fsredirection": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:writeconsolew": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:wtsapi32.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:wuser32.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:wwwpws": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:wwwwww": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:wwwwwwww": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:wwwwwx": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "STRING:y_^][y": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:advapi32": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:advapi32.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:c:\\windows\\system32\\imm32.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:c:\\windows\\system32\\ole32.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:c:\\windows\\system32\\uxtheme.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:c:\\windows\\system32\\version.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:c:\\windows\\system32\\wship6.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:c:\\windows\\system32\\wshtcpip.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:c:\\windows\\system32\\xmllite.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:c:\\windows\\syswow64\\msctf.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:c:\\windows\\winsxs\\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.17514_none_2b24536c71ed437a\\gdiplus.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:cfgmgr32.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:comctl32.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:crypt32.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:dwmapi.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:gdiplus.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:imm32.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:iphlpapi": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:mpr.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:msimg32.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:msls31.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:netutils.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:nsi.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:rasman.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:riched20": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:riched20.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:shlwapi.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:sspicli.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:urlmon.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:user32": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:usp10.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:uxtheme.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:DLL_LOADED:version.dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:GUID:{000214f9-0000-0000-c000-000000000046}": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:GUID:{2933bf81-7b36-11d2-b20e-00c04f983e60}": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:GUID:{56fdf344-fd6d-11d0-958a-006097c9a090}": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:GUID:{ea1afb91-9e28-4b86-90e9-9e9f8a5eefaf}": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SYSTEM:GUID:{f5078f32-c551-11d3-89b9-0000f81fe221}": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DROP:EXTENSION:bmp": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DROP:EXTENSION:dat": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DROP:EXTENSION:dll": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DROP:EXTENSION:exe": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DROP:EXTENSION:ini": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DROP:EXTENSION:log": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DROP:EXTENSION:png": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DROP:EXTENSION:ttf": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DROP:EXTENSION:wav": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DROP:EXTENSION:xml": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DROP:TYPE:ascii_text": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DROP:TYPE:ascii_text,_with_crlf_line_terminators": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DROP:TYPE:empty": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DROP:TYPE:little-endian_utf-16_unicode_text,_with_crlf,_cr_line_terminators": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DROP:TYPE:pc_bitmap,_windows_3.x_format,_164_x_314_x_24": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DROP:TYPE:pe32+_executable_(console)_x86-64,_for_ms_windows": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DROP:TYPE:pe32+_executable_(dll)_(gui)_x86-64,_for_ms_windows": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DROP:TYPE:pe32_executable_(dll)_(console)_intel_80386,_for_ms_windows": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DROP:TYPE:pe32_executable_(dll)_(gui)_intel_80386,_for_ms_windows": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DROP:TYPE:pe32_executable_(dll)_(gui)_intel_80386_(stripped_to_external_pdb),_for_ms_windows": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DROP:TYPE:pe32_executable_(gui)_intel_80386,_for_ms_windows,_nullsoft_installer_self-extracting_archive": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DROP:TYPE:xml_1.0_document,_ascii_text,_with_crlf_line_terminators": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "DROP:TYPE:xml_1.0_document,_ascii_text,_with_very_long_lines,_with_crlf_line_terminators": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SIGNATURE:allocates_execute_remote_process": {
+      "exact": "SIGNATURE:allocates_execute_remote_process",
+      "technique_id": "T1055",
+      "confidence_tier": "Medium",
+      "rationale": "Executable remote allocation suggests injection, but no specific sub-technique is established.",
+      "rule_specificity_score": 2
+    },
+    "SIGNATURE:allocates_rwx": {
+      "exact": "SIGNATURE:allocates_rwx",
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rationale": "RWX allocation alone does not demonstrate an APC queue or remote process injection.",
+      "rule_specificity_score": 0
+    },
+    "SIGNATURE:antisandbox_foregroundwindows": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SIGNATURE:antivm_disk_size": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SIGNATURE:antivm_queries_computername": {
+      "exact": "SIGNATURE:antivm_queries_computername",
+      "technique_id": "T1497.001",
+      "confidence_tier": "Medium",
+      "rationale": "Sandbox anti-VM signature; environmental checks require contextual interpretation.",
+      "rule_specificity_score": 2
+    },
+    "SIGNATURE:console_output": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SIGNATURE:dead_host": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SIGNATURE:exe_appdata": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SIGNATURE:has_authenticode": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SIGNATURE:injection_modifies_memory": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SIGNATURE:injection_ntsetcontextthread": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SIGNATURE:injection_process_search": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SIGNATURE:injection_runpe": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SIGNATURE:injection_write_memory": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SIGNATURE:network_http": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SIGNATURE:network_icmp": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SIGNATURE:nolookup_communication": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SIGNATURE:origin_langid": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SIGNATURE:packer_entropy": {
+      "technique_id": null,
+      "confidence_tier": "Footprint",
+      "rule_specificity_score": 0,
+      "rationale": "No context-supported technique inferred from this feature alone."
+    },
+    "SIGNATURE:persistence_autorun": {
+      "exact": "SIGNATURE:persistence_autorun",
+      "technique_id": "T1547.001",
+      "confidence_tier": "High",
+      "rationale": "Explicit sandbox autorun signature; verify the underlying key write for forensic confirmation.",
+      "rule_specificity_score": 3
+    }
+  },
+  "attribution_sample_ids": [
+    11027,
+    11030,
+    11033,
+    11035,
+    11036,
+    11037,
+    11039,
+    11040,
+    11043,
+    11044,
+    11045,
+    11048,
+    11049,
+    11050,
+    11051,
+    11052,
+    11054,
+    11055,
+    11057,
+    11059,
+    11060,
+    11061,
+    11064,
+    11065,
+    11066,
+    11067,
+    11068,
+    11090,
+    11095,
+    11097,
+    11098,
+    11099,
+    11100,
+    11102,
+    11104,
+    11105,
+    11106,
+    11107,
+    11108,
+    11109,
+    11111,
+    11115,
+    11118,
+    11119,
+    11121,
+    11122,
+    11123,
+    11125,
+    11128,
+    11130,
+    11131,
+    11132,
+    11133,
+    11135,
+    11136,
+    11137,
+    11138,
+    11139,
+    11140,
+    11141,
+    11142,
+    11144,
+    11145,
+    11146,
+    11148,
+    11149,
+    11150,
+    11151,
+    11152,
+    11156,
+    11157,
+    11174,
+    11178,
+    11179,
+    11181,
+    11188,
+    11190,
+    11225,
+    11241,
+    11255,
+    11266,
+    11272,
+    11275,
+    11276,
+    11280,
+    11283,
+    11285,
+    11288,
+    11289,
+    11290,
+    11291,
+    11293,
+    11295,
+    11296,
+    11297,
+    11300,
+    11302,
+    11303,
+    11304,
+    11305,
+    11306,
+    11307,
+    11310,
+    11312,
+    11314,
+    11315,
+    11316,
+    11321,
+    11322,
+    11325,
+    11328,
+    11330,
+    11332,
+    11334,
+    11336,
+    11338,
+    11340,
+    11343,
+    11345,
+    11346,
+    11347,
+    11348,
+    11349,
+    11350,
+    11351,
+    11354,
+    11355,
+    11357,
+    11359,
+    11361,
+    11365,
+    11367,
+    11368,
+    11372,
+    11373,
+    11376,
+    11377,
+    11391,
+    11392,
+    11393,
+    11396,
+    11397,
+    11398,
+    11399,
+    11400,
+    11401,
+    11405,
+    11407,
+    11408,
+    11409,
+    11410,
+    11411,
+    11412,
+    11413,
+    11415,
+    11416,
+    11417,
+    11418,
+    11419,
+    11420,
+    11421,
+    11422,
+    11423,
+    11424,
+    11425,
+    11426,
+    11427,
+    11428,
+    11430,
+    11431,
+    11432,
+    11433,
+    11434,
+    11435,
+    11436,
+    11437,
+    11439,
+    11440,
+    11441,
+    11442,
+    11443,
+    11444,
+    11445,
+    11446,
+    11447,
+    11448,
+    11450,
+    11451,
+    11454,
+    11455,
+    11457,
+    11458,
+    11459,
+    11460,
+    11461,
+    11462,
+    11463,
+    11464,
+    11466,
+    11467,
+    11468,
+    11469,
+    11470,
+    11471,
+    11472,
+    11473,
+    11474,
+    11475,
+    11476,
+    11477,
+    11478,
+    11479,
+    11658,
+    11662,
+    11663,
+    11672,
+    11679,
+    11680,
+    11688,
+    11689,
+    11690,
+    11691,
+    11692,
+    11695,
+    11706,
+    11707,
+    11708,
+    11709,
+    11710,
+    11711,
+    11712,
+    11724,
+    11725,
+    11732,
+    11747,
+    11749,
+    11750,
+    11751,
+    11752,
+    11753,
+    11754,
+    11755,
+    11757,
+    11758,
+    11759,
+    11760,
+    11762,
+    11763,
+    11774,
+    11779,
+    11781,
+    11782,
+    11783,
+    11813,
+    11814,
+    11815,
+    11816,
+    11817,
+    11818,
+    11830,
+    11831,
+    11832,
+    11834,
+    11835,
+    11836,
+    11837,
+    11838,
+    11839,
+    11840,
+    11841,
+    11842,
+    11843,
+    11844,
+    11845,
+    11846,
+    11847,
+    11848,
+    11863,
+    11869,
+    11870,
+    11875,
+    11876,
+    11877,
+    11896,
+    11907,
+    11909,
+    11990,
+    12008,
+    12009,
+    12010,
+    12011,
+    12012,
+    12013,
+    12014,
+    12015,
+    12016,
+    12017,
+    12018,
+    12019,
+    12020,
+    12021,
+    12022,
+    12023,
+    12024,
+    12025,
+    12026,
+    12027,
+    12053,
+    12068,
+    12109,
+    12110,
+    12111,
+    12112,
+    12113,
+    12114,
+    12115,
+    12116,
+    12117,
+    12118,
+    12119,
+    12121,
+    12122,
+    12123,
+    12124,
+    12126,
+    12127,
+    12130,
+    12131,
+    12132,
+    12134,
+    12135,
+    12136,
+    12137,
+    12138,
+    12141,
+    12142,
+    12143,
+    12144,
+    12145,
+    12146,
+    12147,
+    12148,
+    12149,
+    12150,
+    12151,
+    12152,
+    12153,
+    12154,
+    12155,
+    12156,
+    12157,
+    12158,
+    12171,
+    12172,
+    12268,
+    12285,
+    12286,
+    12315,
+    12316,
+    12317,
+    12318,
+    12319,
+    12320,
+    12324,
+    12325,
+    12326,
+    12327,
+    12329,
+    12331,
+    12332,
+    12333,
+    12334,
+    12335,
+    12336,
+    12337,
+    12338,
+    12339,
+    12340,
+    12341,
+    12342,
+    12343,
+    12345,
+    12346,
+    12347,
+    12348,
+    12350,
+    12351,
+    12352,
+    12353,
+    12354,
+    12355,
+    12356,
+    12357,
+    12358,
+    12359,
+    12360,
+    12377,
+    12379,
+    12380,
+    12381,
+    12383,
+    12385,
+    12386,
+    12387,
+    12393,
+    12394,
+    12395,
+    12396,
+    12397,
+    12398,
+    12399,
+    12400,
+    12401,
+    12403,
+    12404,
+    12406,
+    12407,
+    12408,
+    12409,
+    12410,
+    12411,
+    12412,
+    12413,
+    12414,
+    12415,
+    12416,
+    12417,
+    12443,
+    12444,
+    12445,
+    12446,
+    12447,
+    12448,
+    12449,
+    12450,
+    12451,
+    12452,
+    12453,
+    12454,
+    12492,
+    12494,
+    12495,
+    12496,
+    12497,
+    12498,
+    12503,
+    12504,
+    12506,
+    12507,
+    12510,
+    12512,
+    12513,
+    12516,
+    12517,
+    12518,
+    12519,
+    12520,
+    12521,
+    12522
+  ],
+  "attribution_output": "trained stack logit, active positive mass",
+  "mass_mapped_per_sample": [
+    0.321507465056783,
+    0.10026519999527067,
+    0.3265432343045591,
+    0.29755664352373473,
+    0.40256502127811755,
+    0.0,
+    0.21202870156836484,
+    0.27075085944184046,
+    0.32145046091526147,
+    0.3312916961649603,
+    0.334529869684438,
+    0.3213927000329599,
+    0.21182121222901903,
+    0.009982554700759365,
+    0.031219629846290016,
+    0.0,
+    0.31643159173941965,
+    0.0,
+    0.3213927000329599,
+    0.018570363790803603,
+    0.31632066976509027,
+    0.26614516670533395,
+    0.32147016723781807,
+    0.006168929914311185,
+    0.011519069628341863,
+    0.33041593203760783,
+    0.0,
+    0.2587097465245947,
+    0.01961316848192543,
+    0.32156764449302333,
+    0.13961335770571304,
+    0.16149280775511668,
+    0.3213927000329599,
+    0.015572167162470368,
+    0.31632066976509027,
+    0.32854248868161084,
+    0.3213927000329599,
+    0.32612621396798214,
+    0.05760739293266661,
+    0.1258128417826377,
+    0.0,
+    0.05760739293266661,
+    0.0,
+    0.018344459427809007,
+    0.0,
+    0.32579662910626117,
+    0.0,
+    0.31632066976509027,
+    0.0,
+    0.09207730439341051,
+    0.10332077909873513,
+    0.010887467130191609,
+    0.31632066976509027,
+    0.012995962449542948,
+    0.08037881273781088,
+    0.321507465056783,
+    0.3213927000329599,
+    0.010316191739691786,
+    0.0,
+    0.09139599974711597,
+    0.08025315560786117,
+    0.12500727114167207,
+    0.18090101274043666,
+    0.26614516670533395,
+    0.009083758511447493,
+    0.3213927000329599,
+    0.3213927000329599,
+    0.01026537258795674,
+    0.017427807194901546,
+    0.0,
+    0.31632066976509027,
+    0.2901173998737334,
+    0.3163744006668973,
+    0.32612621396798214,
+    0.27075085944184046,
+    0.03017234443410238,
+    0.27070609450420163,
+    0.26614516670533395,
+    0.32156764449302333,
+    0.321507465056783,
+    0.321507465056783,
+    0.321507465056783,
+    0.01851354589892727,
+    0.007057674946187551,
+    0.32145046091526147,
+    0.32779154724707205,
+    0.26719425756669146,
+    0.005540874750535604,
+    0.3213927000329599,
+    0.3213927000329599,
+    0.03017234443410238,
+    0.0,
+    0.0,
+    0.007196960058779413,
+    0.10042942320936098,
+    0.287623488456763,
+    0.3213927000329599,
+    0.3215820381417762,
+    0.08408635081644107,
+    0.2706073758341743,
+    0.10004068520031685,
+    0.20069686459778743,
+    0.008072836662100374,
+    0.0,
+    0.015828134019547413,
+    0.10706668550710004,
+    0.017350104726621383,
+    0.007049784978649236,
+    0.32917477781720467,
+    0.2880263378829862,
+    0.13892302723676606,
+    0.019560958962517777,
+    0.33914573106422446,
+    0.0,
+    0.1216740667824148,
+    0.26614516670533395,
+    0.017350104726621383,
+    0.0,
+    0.319544655205781,
+    0.32539256679982054,
+    0.007252409108364704,
+    0.11040111088002394,
+    0.0,
+    0.01679165440319375,
+    0.20553204019104837,
+    0.31643159173941965,
+    0.08547379968743775,
+    0.3215820381417762,
+    0.013752009261445736,
+    0.0,
+    0.01621159941457553,
+    0.270773883804204,
+    0.036125995277178295,
+    0.09098369321650948,
+    0.08545746367338608,
+    0.10992319006410639,
+    0.0907470169569013,
+    0.12303920520296555,
+    0.10586295495009242,
+    0.321507465056783,
+    0.27070609450420163,
+    0.10510038471821717,
+    0.0847741673576107,
+    0.017350104726621383,
+    0.0980333681925045,
+    0.09489715370222315,
+    0.0,
+    0.31632066976509027,
+    0.12738371028623588,
+    0.1341470441763773,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.1388818296590455,
+    0.0,
+    0.0,
+    0.0,
+    0.10918533978603985,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.06918217193505925,
+    0.06918217193505925,
+    0.22962372126974614,
+    0.01898830180580159,
+    0.22931890184958362,
+    0.2148519417852214,
+    0.22837837437428565,
+    0.3047525472993316,
+    0.26847112382775373,
+    0.2925262828228352,
+    0.29307316533370814,
+    0.2849217500606849,
+    0.30014409286174526,
+    0.30014409286174526,
+    0.28886530290917606,
+    0.26494981264379697,
+    0.04193430312554069,
+    0.20051147291806332,
+    0.18361013033571938,
+    0.35355516341100235,
+    0.35355516341100235,
+    0.040298170350988906,
+    0.2260909507697018,
+    0.19086622291217167,
+    0.29345778475530354,
+    0.03253519912223302,
+    0.0,
+    0.0,
+    0.09586097880962575,
+    0.09491697614005426,
+    0.033897804257759546,
+    0.2844968456810837,
+    0.5658905236735191,
+    0.2835349081048977,
+    0.2260909507697018,
+    0.2260909507697018,
+    0.20179099016801247,
+    0.04099878446184532,
+    0.10720138530822264,
+    0.0,
+    0.10832677973177386,
+    0.0,
+    0.09032258535904988,
+    0.09032258535904988,
+    0.3104051500859981,
+    0.22579607150084047,
+    0.22579607150084047,
+    0.09032258535904988,
+    0.07966080823175407,
+    0.09032258535904988,
+    0.0,
+    0.07966080823175407,
+    0.22579607150084047,
+    0.09032258535904988,
+    0.2740005102128813,
+    0.2740005102128813,
+    0.09032258535904988,
+    0.22579607150084047,
+    0.19983624114004703,
+    0.09032258535904988,
+    0.319698690379283,
+    0.2740005102128813,
+    0.2849217500606849,
+    0.19983624114004703,
+    0.19983624114004703,
+    0.09972233929041498,
+    0.0,
+    0.11342599513700159,
+    0.28304177952780246,
+    0.5152737674811805,
+    0.15681900036005653,
+    0.06137717043770747,
+    0.31907555049756836,
+    0.20411712960555867,
+    0.6081833094465586,
+    0.442465821997084,
+    0.5665331877489657,
+    0.48695865606723665,
+    0.5228638682879009,
+    0.5228638682879009,
+    0.533098369738358,
+    0.5790346541420375,
+    0.5394450402844342,
+    0.533240684816287,
+    0.3413675221494961,
+    0.33428770046615225,
+    0.36101616630719396,
+    0.3766818031870558,
+    0.3766818031870558,
+    0.3695773014604677,
+    0.37712531045436526,
+    0.3504338298896519,
+    0.37573395057777526,
+    0.32953186110775107,
+    0.3413675221494961,
+    0.08941639922992897,
+    0.021970182934917426,
+    0.0,
+    0.49171041724407494,
+    0.058969993020988924,
+    0.5394450402844342,
+    0.4633820919616113,
+    0.4633820919616113,
+    0.0695591387196502,
+    0.5763029357573198,
+    0.5399489409837994,
+    0.535395591481188,
+    0.5763029357573198,
+    0.5394450402844342,
+    0.0,
+    0.0,
+    0.722416085756895,
+    0.6272652621552419,
+    0.7010037756871957,
+    0.586390117505969,
+    0.5394450402844342,
+    0.5349703900979074,
+    0.5394450402844342,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.5308111203167877,
+    0.5394450402844342,
+    0.5383214309968164,
+    0.5383214309968164,
+    0.5383214309968164,
+    0.5383214309968164,
+    0.5383214309968164,
+    0.5383214309968164,
+    0.49769998887914174,
+    0.49769998887914174,
+    0.49769998887914174,
+    0.5337431852058468,
+    0.5383214309968164,
+    0.5383214309968164,
+    0.5328007552801103,
+    0.4935183130558777,
+    0.5625351502339188,
+    0.4935183130558777,
+    0.012554410879895554,
+    0.07309414405853618,
+    0.09211255345183539,
+    0.01898830180580159,
+    0.015588232240947861,
+    0.37192526979278123,
+    0.20112996997109067,
+    0.23305577283887066,
+    0.23318055571629984,
+    0.21769285137795089,
+    0.232406428086803,
+    0.232406428086803,
+    0.21630263232704283,
+    0.23788287068719383,
+    0.232406428086803,
+    0.23232907501883307,
+    0.17086949400747234,
+    0.5152737674811805,
+    0.14165810576023757,
+    0.1305511629009549,
+    0.22843624205008767,
+    0.2569669306604692,
+    0.3583239326895421,
+    0.24372332955734946,
+    0.14376236127407777,
+    0.14858269659699988,
+    0.23329242382920987,
+    0.2418374038101284,
+    0.2330960096625181,
+    0.1322087750485406,
+    0.18923054944291798,
+    0.16160587826559572,
+    0.15221679609101005,
+    0.1417574462925205,
+    0.22080209181074986,
+    0.18707332946535754,
+    0.23539341432538524,
+    0.26541118847864725,
+    0.17286040060091049,
+    0.20920012405388042,
+    0.2031202221605704,
+    0.2031202221605704,
+    0.0,
+    0.035125883964202596,
+    0.3453449391399533,
+    0.2333291105220024,
+    0.23784788245683236,
+    0.2182227688522294,
+    0.29027807711715864,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.5446688386753221,
+    0.0,
+    0.0,
+    0.0,
+    0.5664265239149744,
+    0.3936819543358893,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.21392349264316268,
+    0.0,
+    0.03131988509827339,
+    0.040192139956191614,
+    0.0,
+    0.035125883964202596,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.23784788245683236,
+    0.2330960096625181,
+    0.23181759044903916,
+    0.23305577283887066,
+    0.0875429946845228,
+    0.27550287764149434,
+    0.0,
+    0.27550287764149434,
+    0.27550287764149434,
+    0.27550287764149434,
+    0.01354027681427972,
+    0.0,
+    0.3660509320875052,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.22652465216494572,
+    0.0,
+    0.0,
+    0.0,
+    0.24050438938115268,
+    0.22626998773257773
+  ],
+  "mass_mean": 0.175844127895574,
+  "mass_median": 0.12738371028623588,
+  "independent_accuracy": "NOT EVALUATED: no independent human/external reference labels supplied",
+  "confidence_scope": "qualitative rule specificity, not calibrated probabilities or a forensic ground truth"
+}

@@ -1,0 +1,155 @@
+{
+  "steps": 20,
+  "normalization": "x-axis k/20; exact same samples/model/grid for all schemes",
+  "ranking": "active indicators, signed attribution toward true class; random order control",
+  "limitation": "zeroing may produce out-of-distribution inputs; deletion is empirical sensitivity, not proof of explanation correctness",
+  "results": {
+    "all": {
+      "LGB": {
+        "mean": 0.4852736074695932,
+        "sample_sd": 0.2618726151065844,
+        "mean_ci95_normal": [
+          0.45563993140385833,
+          0.514907283535328
+        ]
+      },
+      "uniform_surrogate": {
+        "mean": 0.49211927831987756,
+        "sample_sd": 0.2697148604355773,
+        "mean_ci95_normal": [
+          0.4615981686536007,
+          0.5226403879861544
+        ]
+      },
+      "stack_logit": {
+        "mean": 0.45540854621802385,
+        "sample_sd": 0.2311919733743502,
+        "mean_ci95_normal": [
+          0.4292467115978401,
+          0.4815703808382076
+        ]
+      },
+      "random": {
+        "mean": 0.9416257171621254,
+        "sample_sd": 0.1864841482736672,
+        "mean_ci95_normal": [
+          0.9205230492138671,
+          0.9627283851103837
+        ]
+      },
+      "stack_vs_LGB": {
+        "mean_difference": -0.029865061251569274,
+        "paired_t_p": 6.682986209381837e-08,
+        "wilcoxon_p": 0.0005109712498583324
+      },
+      "stack_vs_uniform_surrogate": {
+        "mean_difference": -0.03671073210185354,
+        "paired_t_p": 8.009023749992659e-11,
+        "wilcoxon_p": 1.8748594046261648e-08
+      },
+      "stack_vs_random": {
+        "mean_difference": -0.48621717094410144,
+        "paired_t_p": 2.8541457353775634e-114,
+        "wilcoxon_p": 8.775220061951177e-50
+      }
+    },
+    "benign": {
+      "LGB": {
+        "mean": 0.45243972574612806,
+        "sample_sd": 0.269073403215772,
+        "mean_ci95_normal": [
+          0.4093790130522521,
+          0.495500438440004
+        ]
+      },
+      "uniform_surrogate": {
+        "mean": 0.44566885444617355,
+        "sample_sd": 0.27666949429307863,
+        "mean_ci95_normal": [
+          0.4013925140032624,
+          0.48994519488908467
+        ]
+      },
+      "stack_logit": {
+        "mean": 0.43066950992613034,
+        "sample_sd": 0.2283169273006513,
+        "mean_ci95_normal": [
+          0.3941311917863848,
+          0.4672078280658759
+        ]
+      },
+      "random": {
+        "mean": 0.960107280104091,
+        "sample_sd": 0.14698582569906812,
+        "mean_ci95_normal": [
+          0.936584648974978,
+          0.983629911233204
+        ]
+      },
+      "stack_vs_LGB": {
+        "mean_difference": -0.021770215819997614,
+        "paired_t_p": 0.00042643701542580386,
+        "wilcoxon_p": 0.38014267857538986
+      },
+      "stack_vs_uniform_surrogate": {
+        "mean_difference": -0.014999344520043104,
+        "paired_t_p": 0.03948329913041022,
+        "wilcoxon_p": 0.8752708086958555
+      },
+      "stack_vs_random": {
+        "mean_difference": -0.5294377701779608,
+        "paired_t_p": 3.186080277369635e-65,
+        "wilcoxon_p": 1.5246674409619296e-25
+      }
+    },
+    "ransomware": {
+      "LGB": {
+        "mean": 0.5181074891930585,
+        "sample_sd": 0.25108502274226363,
+        "mean_ci95_normal": [
+          0.47792551692517965,
+          0.5582894614609373
+        ]
+      },
+      "uniform_surrogate": {
+        "mean": 0.5385697021935815,
+        "sample_sd": 0.2551277842847821,
+        "mean_ci95_normal": [
+          0.497740753334216,
+          0.579398651052947
+        ]
+      },
+      "stack_logit": {
+        "mean": 0.48014758250991735,
+        "sample_sd": 0.23215793322245326,
+        "mean_ci95_normal": [
+          0.44299457540248677,
+          0.5173005896173479
+        ]
+      },
+      "random": {
+        "mean": 0.9231441542201594,
+        "sample_sd": 0.21793007881364845,
+        "mean_ci95_normal": [
+          0.8882680780305592,
+          0.9580202304097596
+        ]
+      },
+      "stack_vs_LGB": {
+        "mean_difference": -0.037959906683140934,
+        "paired_t_p": 3.5766369090215784e-05,
+        "wilcoxon_p": 0.00019103073830554977
+      },
+      "stack_vs_uniform_surrogate": {
+        "mean_difference": -0.058422119683663995,
+        "paired_t_p": 4.999305198046658e-12,
+        "wilcoxon_p": 7.667769674979067e-11
+      },
+      "stack_vs_random": {
+        "mean_difference": -0.44299657171024215,
+        "paired_t_p": 2.4749173217334885e-52,
+        "wilcoxon_p": 5.342325725406216e-26
+      }
+    }
+  }
+}

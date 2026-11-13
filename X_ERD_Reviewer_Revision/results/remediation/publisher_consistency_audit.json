@@ -1,0 +1,20 @@
+{
+  "publication": "https://doi.org/10.3991/ijim.v19i10.49245",
+  "publication_description": "140 selected ransomware samples; score at least 5; duplicates and nonfunctional samples removed (pp.206-207). This description is not substituted for inspection of the currently downloadable artifacts.",
+  "currently_listed_report_files": 138,
+  "acquired_report_files": 135,
+  "files_with_audited_target_md5": 134,
+  "distinct_audited_target_md5": 77,
+  "reports_with_numeric_score": 134,
+  "reports_with_numeric_score_below5": 63,
+  "accepted_unique_reports_with_numeric_score": 58,
+  "accepted_unique_reports_with_numeric_score_below5": 26,
+  "exclusion_counts": {
+    "excluded_source_or_development_overlap": 32,
+    "evaluated": 58,
+    "excluded_duplicate_executable": 44,
+    "unprocessed": 1,
+    "unavailable_download": 3
+  },
+  "interpretation": "Current report inventory does not fully substantiate the publication curation description. Report files and selected samples are different units; reasons for the discrepancy are not established. Publisher ransomware labels are retained without fresh adjudication; no local Cuckoo-score filter, relabeling or model change is applied. Sensitivity is conditional on available publisher-labeled inputs and documented exclusions."
+}

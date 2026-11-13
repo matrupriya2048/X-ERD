@@ -1,0 +1,148 @@
+{
+  "fpr": {
+    "comparisons": {
+      "RF": {
+        "n": 50,
+        "mean_difference": -0.00039215686274439996,
+        "sd_difference": 0.003617134893597812,
+        "lower": 18,
+        "higher": 20,
+        "ties": 12,
+        "nb_t": -0.2086475225375924,
+        "nb_p": 0.8355883343605759,
+        "wilcoxon_p": 0.42885358491951864,
+        "paired_rank_biserial": -0.14304993252361672,
+        "zero_method": "wilcox",
+        "correction_factor": 0.27,
+        "nb_holm_p": 1.0
+      },
+      "XGB": {
+        "n": 50,
+        "mean_difference": -0.0020588235294122003,
+        "sd_difference": 0.002542315806816672,
+        "lower": 30,
+        "higher": 3,
+        "ties": 17,
+        "nb_t": -1.5585033610339667,
+        "nb_p": 0.1255500042454884,
+        "wilcoxon_p": 4.926151376888671e-06,
+        "paired_rank_biserial": -0.8770053475935828,
+        "zero_method": "wilcox",
+        "correction_factor": 0.27,
+        "nb_holm_p": 0.5022000169819536
+      },
+      "LGB": {
+        "n": 50,
+        "mean_difference": -0.0012745098039211999,
+        "sd_difference": 0.00329355070484729,
+        "lower": 22,
+        "higher": 11,
+        "ties": 17,
+        "nb_t": -0.7447267344791443,
+        "nb_p": 0.4599939822411031,
+        "wilcoxon_p": 0.009403075902347976,
+        "paired_rank_biserial": -0.5044563279857398,
+        "zero_method": "wilcox",
+        "correction_factor": 0.27,
+        "nb_holm_p": 1.0
+      },
+      "RF+LGB": {
+        "n": 50,
+        "mean_difference": 9.8039215686e-05,
+        "sd_difference": 0.0016393137129868441,
+        "lower": 8,
+        "higher": 8,
+        "ties": 34,
+        "nb_t": 0.11509484552191207,
+        "nb_p": 0.9088403064218213,
+        "wilcoxon_p": 0.6531973953342447,
+        "paired_rank_biserial": 0.11764705882352941,
+        "zero_method": "wilcox",
+        "correction_factor": 0.27,
+        "nb_holm_p": 1.0
+      }
+    },
+    "mean_by_model": {
+      "RF": 0.013529411764705884,
+      "XGB": 0.015196078431372549,
+      "LGB": 0.014411764705882353,
+      "RF+XGB": 0.01318627450980392,
+      "RF+LGB": 0.01303921568627451,
+      "XGB+LGB": 0.013823529411764708,
+      "X-ERD": 0.013137254901960785
+    }
+  },
+  "recall": {
+    "comparisons": {
+      "RF": {
+        "n": 50,
+        "mean_difference": 3.9995784462121265e-16,
+        "sd_difference": 0.0033388731854006753,
+        "lower": 17,
+        "higher": 14,
+        "ties": 19,
+        "nb_t": 2.305326342494287e-13,
+        "nb_p": 0.999999999999817,
+        "wilcoxon_p": 1.0,
+        "paired_rank_biserial": 0.0,
+        "zero_method": "wilcox",
+        "correction_factor": 0.27,
+        "nb_holm_p": 1.0
+      },
+      "XGB": {
+        "n": 50,
+        "mean_difference": 0.0005898123324398001,
+        "sd_difference": 0.0030297786965250216,
+        "lower": 12,
+        "higher": 18,
+        "ties": 20,
+        "nb_t": 0.37464596484230084,
+        "nb_p": 0.7095403758971939,
+        "wilcoxon_p": 0.17748517266245611,
+        "paired_rank_biserial": 0.2709677419354839,
+        "zero_method": "wilcox",
+        "correction_factor": 0.27,
+        "nb_holm_p": 1.0
+      },
+      "LGB": {
+        "n": 50,
+        "mean_difference": -0.0011260053619301998,
+        "sd_difference": 0.0023665249644997245,
+        "lower": 22,
+        "higher": 7,
+        "ties": 21,
+        "nb_t": -0.9156879229693538,
+        "nb_p": 0.3643151989660281,
+        "wilcoxon_p": 0.002085190209945359,
+        "paired_rank_biserial": -0.6137931034482759,
+        "zero_method": "wilcox",
+        "correction_factor": 0.27,
+        "nb_holm_p": 1.0
+      },
+      "RF+LGB": {
+        "n": 50,
+        "mean_difference": -0.0001608579088472,
+        "sd_difference": 0.001570746584021074,
+        "lower": 8,
+        "higher": 6,
+        "ties": 36,
+        "nb_t": -0.19708538160340447,
+        "nb_p": 0.8445759630762123,
+        "wilcoxon_p": 0.46685427082272546,
+        "paired_rank_biserial": -0.2,
+        "zero_method": "wilcox",
+        "correction_factor": 0.27,
+        "nb_holm_p": 1.0
+      }
+    },
+    "mean_by_model": {
+      "RF": 0.9904021447721179,
+      "XGB": 0.9898123324396784,
+      "LGB": 0.9915281501340482,
+      "RF+XGB": 0.989544235924933,
+      "RF+LGB": 0.9905630026809651,
+      "XGB+LGB": 0.9906702412868633,
+      "X-ERD": 0.9904021447721179
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "probability": 2.055599738314844e-07,
+  "detected": false,
+  "model": "RF+LGB multi-collection adaptation",
+  "active_feature_n": 42,
+  "input_schema": {
+    "adapter_applied": true,
+    "mapped_event_n": 1557,
+    "unsupported_event_counts": {},
+    "strings_source": "target.file.strings",
+    "mapped_summary_fields": [
+      "dll_loaded",
+      "file_read",
+      "file_written",
+      "regkey_deleted",
+      "regkey_read",
+      "regkey_written"
+    ],
+    "scope": "Observed typed events only. Aggregate files/keys are not relabeled as operation-specific evidence."
+  },
+  "scope": "Full-run classifier output, not an early-encryption or forensic technique confirmation."
+}

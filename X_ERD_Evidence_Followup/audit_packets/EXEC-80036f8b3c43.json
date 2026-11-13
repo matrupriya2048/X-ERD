@@ -1,0 +1,2832 @@
+{
+  "execution_id": "EXEC-80036f8b3c43",
+  "report_sha256": "274942e411b8a21d3d8dae38145c11a602f1cc776ee5edc454972ca16d44ef43",
+  "full_report_relative_path": "../../X_ERD_Reviewer_Revision/data/raw_reports/10014.json",
+  "summary": {
+    "file_created": [
+      "C:\\Users\\Administrator\\AppData\\Roaming\\ms4245398.bat",
+      "C:\\Users\\Administrator\\AppData\\Roaming\\Identities\\htwclcvn.exe"
+    ],
+    "dll_loaded": [
+      "ADVAPI32.dll",
+      "C:\\Windows\\system32\\IMM32.DLL",
+      "dwmapi.dll",
+      "gdi32.dll",
+      "shell32.dll",
+      "kernel32.dll",
+      "UxTheme.dll",
+      "comctl32",
+      "advapi32.dll",
+      "rpcrt4.dll",
+      "COMCTL32.DLL",
+      "COMCTL32.dll",
+      "imm32.dll"
+    ],
+    "file_opened": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rechnung_11_2014_vodafone_team_00200034994_00003999300067_11_0000002738.exe",
+      "C:\\Windows\\System32\\svchost.exe",
+      "C:\\Users\\Administrator\\AppData\\Roaming\\ms4245398.bat",
+      "C:\\",
+      "C:\\Users\\Administrator\\AppData\\Roaming\\Identities\\htwclcvn.exe"
+    ],
+    "regkey_opened": [
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Command Processor",
+      "HKEY_LOCAL_MACHINE\\Software\\Policies\\Microsoft\\Windows NT\\Rpc",
+      "HKEY_CURRENT_USER\\Software\\Netscape\\5.0\\c54ce28a\\qc54ce28a",
+      "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Command Processor",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+      "HKEY_CURRENT_USER\\Software\\Policies\\Microsoft\\Windows\\System",
+      "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\FontSubstitutes",
+      "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Rpc",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\CTF\\Compatibility\\rechnung_11_2014_vodafone_team_00200034994_00003999300067_11_0000002738.exe"
+    ],
+    "command_line": [
+      "\"C:\\Windows\\system32\\cmd.exe\" /c \"C:\\Users\\ADMINI~1\\AppData\\Roaming\\MS4245~1.BAT\"",
+      "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rechnung_11_2014_vodafone_team_00200034994_00003999300067_11_0000002738.exe"
+    ],
+    "file_written": [
+      "C:\\Users\\Administrator\\AppData\\Roaming\\ms4245398.bat",
+      "C:\\Users\\Administrator\\AppData\\Roaming\\Identities\\htwclcvn.exe"
+    ],
+    "file_deleted": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rechnung_11_2014_vodafone_team_00200034994_00003999300067_11_0000002738.exe",
+      "C:\\Users\\Administrator\\AppData\\Roaming\\Identities\\htwclcvn.exe:Zone.Identifier",
+      "C:\\Users\\Administrator\\AppData\\Roaming\\ms4245398.bat"
+    ],
+    "file_exists": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rechnung_11_2014_vodafone_team_00200034994_00003999300067_11_0000002738.exe",
+      "C:\\Users\\Administrator\\AppData\\Roaming",
+      "C:\\Users\\Administrator\\AppData\\Local\\Temp",
+      "C:\\Users\\Administrator\\AppData\\Roaming\\ms4245398.bat"
+    ],
+    "mutex": [
+      "ci9d0",
+      "cm9d0"
+    ],
+    "file_failed": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rechnung_11_2014_vodafone_team_00200034994_00003999300067_11_0000002738.exe",
+      "C:\\myapp.exe",
+      "C:\\Users\\Administrator\\AppData\\Local\\Temp\\myapp.exe",
+      "C:\\Windows\\explorer.exe\\",
+      "C:\\Users\\Administrator\\AppData\\Roaming\\ms4245398.bat"
+    ],
+    "file_read": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rechnung_11_2014_vodafone_team_00200034994_00003999300067_11_0000002738.exe",
+      "C:\\Users\\Administrator\\AppData\\Roaming\\ms4245398.bat"
+    ],
+    "regkey_read": [
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Command Processor\\AutoRun",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Command Processor\\DisableUNCCheck",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Rpc\\MaxRpcSize",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\safer\\codeidentifiers\\LogFileName",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Command Processor\\DelayedExpansion",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Command Processor\\CompletionChar",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Command Processor\\DefaultColor",
+      "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\Nls\\CustomLocale\\en-US",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Command Processor\\DelayedExpansion",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\FontSubstitutes\\Segoe UI",
+      "HKEY_LOCAL_MACHINE\\SYSTEM\\Setup\\SystemSetupInProgress",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Command Processor\\EnableExtensions",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\safer\\codeidentifiers\\DefaultLevel",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\GRE_Initialize\\DisableMetaFiles",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Command Processor\\PathCompletionChar",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\Windows Error Reporting\\WMR\\Disable",
+      "HKEY_LOCAL_MACHINE\\SYSTEM\\Setup\\OOBEInProgress",
+      "HKEY_CURRENT_USER\\Software\\Netscape\\5.0\\c54ce28a\\qc54ce28a\\(Default)",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Command Processor\\EnableExtensions",
+      "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\Nls\\Language Groups\\1",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows NT\\CurrentVersion\\Windows\\LoadAppInit_DLLs",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\SQMClient\\Windows\\CEIPEnable",
+      "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\Nls\\ExtendedLocale\\en-US",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\safer\\codeidentifiers\\PolicyScope",
+      "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\ComputerName\\ActiveComputerName\\ComputerName",
+      "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\Srp\\GP\\RuleCount",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\safer\\codeidentifiers\\SaferFlags",
+      "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\Nls\\Locale\\00000409",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Command Processor\\CompletionChar",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Command Processor\\PathCompletionChar",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\UseDoubleClickTimer",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\safer\\codeidentifiers\\Levels",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Command Processor\\DisableUNCCheck",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\FontSubstitutes\\\u5b8b\u4f53",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Command Processor\\DefaultColor",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Command Processor\\AutoRun"
+    ],
+    "directory_enumerated": [
+      "C:\\Users\\Administrator\\AppData\\Local\\Temp",
+      "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rechnung_11_2014_vodafone_team_00200034994_00003999300067_11_0000002738.exe",
+      "C:\\Users\\Administrator\\AppData\\Roaming",
+      "C:\\Users\\Administrator\\AppData",
+      "C:\\Users\\Administrator\\AppData\\Local",
+      "C:\\Users\\Administrator",
+      "C:\\Users",
+      "C:\\Users\\Administrator\\AppData\\Local\\Temp\\RECHNU~1.EXE",
+      "C:\\Users\\Administrator\\AppData\\Roaming\\ms4245398.bat"
+    ]
+  },
+  "apistats": {
+    "2432": {
+      "LdrUnloadDll": 4,
+      "GetNativeSystemInfo": 2,
+      "GetShortPathNameW": 2,
+      "GetSystemInfo": 1,
+      "LookupPrivilegeValueW": 1,
+      "NtQueryValueKey": 3,
+      "NtOpenProcess": 1,
+      "NtFreeVirtualMemory": 1,
+      "WriteProcessMemory": 1,
+      "SetFileTime": 1,
+      "NtReadFile": 11,
+      "DeleteFileW": 1,
+      "NtWriteFile": 11,
+      "LdrGetDllHandle": 11,
+      "RtlDecompressBuffer": 1,
+      "NtQuerySystemInformation": 3,
+      "NtAllocateVirtualMemory": 4,
+      "GetSystemDirectoryW": 2,
+      "NtCreateFile": 5,
+      "GetSystemTimeAsFileTime": 4,
+      "NtCreateMutant": 1,
+      "NtProtectVirtualMemory": 3,
+      "SHGetFolderPathW": 3,
+      "NtOpenKey": 3,
+      "LdrGetProcedureAddress": 15,
+      "SetFileAttributesW": 1,
+      "NtOpenKeyEx": 2,
+      "LdrLoadDll": 6,
+      "NtTerminateProcess": 3,
+      "NtQueryInformationFile": 1,
+      "CreateProcessInternalW": 1,
+      "NtClose": 23
+    },
+    "2512": {
+      "RegCreateKeyExW": 1,
+      "NtDuplicateObject": 3,
+      "GetVolumePathNameW": 1,
+      "RegCloseKey": 3,
+      "NtReadFile": 14,
+      "LdrUnloadDll": 1,
+      "RegQueryValueExA": 1,
+      "NtTerminateProcess": 3,
+      "NtQueryValueKey": 16,
+      "GetFileAttributesW": 9,
+      "RegQueryValueExW": 15,
+      "NtOpenDirectoryObject": 1,
+      "NtCreateThreadEx": 1,
+      "GetFileSize": 2,
+      "RegOpenKeyExW": 4,
+      "SetErrorMode": 14,
+      "NtAllocateVirtualMemory": 7,
+      "RegOpenKeyExA": 1,
+      "DeleteFileW": 2,
+      "LdrGetDllHandle": 11,
+      "NtFreeVirtualMemory": 1,
+      "NtQuerySystemInformation": 1,
+      "NtResumeThread": 1,
+      "NtOpenFile": 4,
+      "CreateThread": 2,
+      "SetFilePointer": 52,
+      "NtQueryDirectoryFile": 2,
+      "SetUnhandledExceptionFilter": 1,
+      "NtCreateFile": 10,
+      "GetSystemTimeAsFileTime": 3,
+      "GlobalMemoryStatusEx": 1,
+      "FindFirstFileExW": 14,
+      "NtCreateMutant": 2,
+      "NtProtectVirtualMemory": 3,
+      "NtOpenKey": 52,
+      "LdrGetProcedureAddress": 14,
+      "NtOpenThread": 1,
+      "GetFileType": 53,
+      "LdrLoadDll": 3,
+      "NtQueryInformationFile": 5,
+      "WriteConsoleW": 32,
+      "NtClose": 75
+    },
+    "2368": {
+      "CreateToolhelp32Snapshot": 5,
+      "LdrUnloadDll": 5,
+      "RegCloseKey": 10,
+      "WriteProcessMemory": 6,
+      "NtSetContextThread": 1,
+      "LdrGetProcedureAddress": 392,
+      "NtResumeThread": 1,
+      "GetSystemWindowsDirectoryW": 1,
+      "NtQueryValueKey": 4,
+      "NtOpenProcess": 2,
+      "GetForegroundWindow": 1,
+      "RegQueryValueExW": 8,
+      "NtFreeVirtualMemory": 2,
+      "Process32NextW": 99,
+      "GetSystemMetrics": 41,
+      "Module32FirstW": 2,
+      "NtReadVirtualMemory": 1,
+      "CreateActCtxW": 2,
+      "GetFileSize": 3,
+      "RegOpenKeyExW": 9,
+      "SetErrorMode": 2,
+      "NtAllocateVirtualMemory": 21,
+      "ReadProcessMemory": 5,
+      "GetAsyncKeyState": 16,
+      "LdrGetDllHandle": 235,
+      "Process32FirstW": 3,
+      "GetCursorPos": 1,
+      "NtReadFile": 3,
+      "NtOpenFile": 1,
+      "NtUnmapViewOfSection": 5,
+      "Module32NextW": 72,
+      "FindResourceExW": 3,
+      "NtCreateFile": 10,
+      "GetSystemDirectoryA": 2,
+      "NtGetContextThread": 1,
+      "NtOpenKey": 7,
+      "NtOpenMutant": 1,
+      "LoadResource": 2,
+      "FindResourceW": 12,
+      "SetWindowsHookExW": 2,
+      "LdrLoadDll": 130,
+      "NtTerminateProcess": 1,
+      "NtQueryInformationFile": 1,
+      "CreateProcessInternalW": 1,
+      "NtClose": 19
+    }
+  },
+  "signature_evidence": [
+    {
+      "json_pointer": "/signatures/0",
+      "name": "console_output",
+      "description": "Command line console output was observed",
+      "marks": [
+        {
+          "call": {
+            "category": "misc",
+            "status": 1,
+            "stacktrace": [],
+            "api": "WriteConsoleW",
+            "return_value": 1,
+            "arguments": {
+              "buffer": "C:\\Users\\Administrator\\AppData\\Local\\Temp>",
+              "console_handle": "0x00000007"
+            },
+            "time": 1717621325.124375,
+            "tid": 2516,
+            "flags": {}
+          },
+          "pid": 2512,
+          "type": "call",
+          "cid": 247
+        },
+        {
+          "call": {
+            "category": "misc",
+            "status": 1,
+            "stacktrace": [],
+            "api": "WriteConsoleW",
+            "return_value": 1,
+            "arguments": {
+              "buffer": "if ",
+              "console_handle": "0x00000007"
+            },
+            "time": 1717621325.140375,
+            "tid": 2516,
+            "flags": {}
+          },
+          "pid": 2512,
+          "type": "call",
+          "cid": 249
+        },
+        {
+          "call": {
+            "category": "misc",
+            "status": 1,
+            "stacktrace": [],
+            "api": "WriteConsoleW",
+            "return_value": 1,
+            "arguments": {
+              "buffer": "not ",
+              "console_handle": "0x00000007"
+            },
+            "time": 1717621325.140375,
+            "tid": 2516,
+            "flags": {}
+          },
+          "pid": 2512,
+          "type": "call",
+          "cid": 251
+        },
+        {
+          "call": {
+            "category": "misc",
+            "status": 1,
+            "stacktrace": [],
+            "api": "WriteConsoleW",
+            "return_value": 1,
+            "arguments": {
+              "buffer": "exist \"C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\RECHNU~1.EXE\" ",
+              "console_handle": "0x00000007"
+            },
+            "time": 1717621325.140375,
+            "tid": 2516,
+            "flags": {}
+          },
+          "pid": 2512,
+          "type": "call",
+          "cid": 253
+        },
+        {
+          "call": {
+            "category": "misc",
+            "status": 1,
+            "stacktrace": [],
+            "api": "WriteConsoleW",
+            "return_value": 1,
+            "arguments": {
+              "buffer": "goto",
+              "console_handle": "0x00000007"
+            },
+            "time": 1717621325.140375,
+            "tid": 2516,
+            "flags": {}
+          },
+          "pid": 2512,
+          "type": "call",
+          "cid": 255
+        },
+        {
+          "call": {
+            "category": "misc",
+            "status": 1,
+            "stacktrace": [],
+            "api": "WriteConsoleW",
+            "return_value": 1,
+            "arguments": {
+              "buffer": " z ",
+              "console_handle": "0x00000007"
+            },
+            "time": 1717621325.140375,
+            "tid": 2516,
+            "flags": {}
+          },
+          "pid": 2512,
+          "type": "call",
+          "cid": 257
+        },
+        {
+          "call": {
+            "category": "misc",
+            "status": 1,
+            "stacktrace": [],
+            "api": "WriteConsoleW",
+            "return_value": 1,
+            "arguments": {
+              "buffer": "C:\\Users\\Administrator\\AppData\\Local\\Temp>",
+              "console_handle": "0x00000007"
+            },
+            "time": 1717621325.156375,
+            "tid": 2516,
+            "flags": {}
+          },
+          "pid": 2512,
+          "type": "call",
+          "cid": 275
+        },
+        {
+          "call": {
+            "category": "misc",
+            "status": 1,
+            "stacktrace": [],
+            "api": "WriteConsoleW",
+            "return_value": 1,
+            "arguments": {
+              "buffer": "del",
+              "console_handle": "0x00000007"
+            },
+            "time": 1717621325.156375,
+            "tid": 2516,
+            "flags": {}
+          },
+          "pid": 2512,
+          "type": "call",
+          "cid": 277
+        }
+      ],
+      "marks_included": 8,
+      "total_marks": 22
+    },
+    {
+      "json_pointer": "/signatures/1",
+      "name": "antivm_memory_available",
+      "description": "Checks amount of memory in system, this can be used to detect virtual machines that have a low amount of memory available",
+      "marks": [
+        {
+          "call": {
+            "category": "system",
+            "status": 1,
+            "stacktrace": [],
+            "api": "GlobalMemoryStatusEx",
+            "return_value": 1,
+            "arguments": {},
+            "time": 1717621325.015375,
+            "tid": 2624,
+            "flags": {}
+          },
+          "pid": 2512,
+          "type": "call",
+          "cid": 73
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/2",
+      "name": "dumped_buffer",
+      "description": "One or more potentially interesting buffers were extracted, these generally contain injected code, configuration data, etc.",
+      "marks": [],
+      "marks_included": 0,
+      "total_marks": 0
+    },
+    {
+      "json_pointer": "/signatures/3",
+      "name": "allocates_rwx",
+      "description": "Allocates read-write-execute memory (usually to unpack itself)",
+      "marks": [
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtAllocateVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2368,
+              "region_size": 155648,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "protection": 64,
+              "process_handle": "0xffffffff",
+              "allocation_type": 12288,
+              "base_address": "0x01e40000"
+            },
+            "time": 1717621322.53175,
+            "tid": 2372,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE",
+              "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+            }
+          },
+          "pid": 2368,
+          "type": "call",
+          "cid": 304
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtAllocateVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2368,
+              "region_size": 16384,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "protection": 64,
+              "process_handle": "0xffffffff",
+              "allocation_type": 12288,
+              "base_address": "0x01e70000"
+            },
+            "time": 1717621322.53175,
+            "tid": 2372,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE",
+              "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+            }
+          },
+          "pid": 2368,
+          "type": "call",
+          "cid": 310
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtAllocateVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2368,
+              "region_size": 155648,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "protection": 64,
+              "process_handle": "0xffffffff",
+              "allocation_type": 12288,
+              "base_address": "0x01ec0000"
+            },
+            "time": 1717621322.54675,
+            "tid": 2372,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE",
+              "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+            }
+          },
+          "pid": 2368,
+          "type": "call",
+          "cid": 439
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtAllocateVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2368,
+              "region_size": 90112,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "protection": 64,
+              "process_handle": "0xffffffff",
+              "allocation_type": 12288,
+              "base_address": "0x02030000"
+            },
+            "time": 1717621322.54675,
+            "tid": 2372,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE",
+              "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+            }
+          },
+          "pid": 2368,
+          "type": "call",
+          "cid": 441
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtAllocateVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2512,
+              "region_size": 65536,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 1,
+              "protection": 64,
+              "process_handle": "0xffffffff",
+              "allocation_type": 12288,
+              "base_address": "0x37aa0000"
+            },
+            "time": 1717621325.046375,
+            "tid": 2624,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE",
+              "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+            }
+          },
+          "pid": 2512,
+          "type": "call",
+          "cid": 175
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtProtectVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2512,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "length": 4096,
+              "protection": 64,
+              "process_handle": "0xffffffff",
+              "base_address": "0x77ab0000"
+            },
+            "time": 1717621325.046375,
+            "tid": 2624,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE"
+            }
+          },
+          "pid": 2512,
+          "type": "call",
+          "cid": 176
+        }
+      ],
+      "marks_included": 6,
+      "total_marks": 6
+    },
+    {
+      "json_pointer": "/signatures/4",
+      "name": "creates_exe",
+      "description": "Creates executable files on the filesystem",
+      "marks": [
+        {
+          "category": "file",
+          "ioc": "C:\\Users\\Administrator\\AppData\\Roaming\\ms4245398.bat",
+          "type": "ioc",
+          "description": null
+        },
+        {
+          "category": "file",
+          "ioc": "C:\\Users\\Administrator\\AppData\\Roaming\\Identities\\htwclcvn.exe",
+          "type": "ioc",
+          "description": null
+        }
+      ],
+      "marks_included": 2,
+      "total_marks": 2
+    },
+    {
+      "json_pointer": "/signatures/5",
+      "name": "suspicious_process",
+      "description": "Creates a suspicious process",
+      "marks": [
+        {
+          "category": "cmdline",
+          "ioc": "\"C:\\Windows\\system32\\cmd.exe\" /c \"C:\\Users\\ADMINI~1\\AppData\\Roaming\\MS4245~1.BAT\"",
+          "type": "ioc",
+          "description": null
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/6",
+      "name": "exe_appdata",
+      "description": "Drops an executable to the user AppData folder",
+      "marks": [
+        {
+          "category": "file",
+          "ioc": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rechnung_11_2014_vodafone_team_00200034994_00003999300067_11_0000002738.exe",
+          "type": "ioc",
+          "description": null
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/7",
+      "name": "stealth_window",
+      "description": "A process created a hidden window",
+      "marks": [
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "CreateProcessInternalW",
+            "return_value": 1,
+            "arguments": {
+              "thread_identifier": 2516,
+              "thread_handle": "0x00000060",
+              "process_identifier": 2512,
+              "current_directory": "",
+              "filepath": "",
+              "track": 1,
+              "command_line": "\"C:\\Windows\\system32\\cmd.exe\" /c \"C:\\Users\\ADMINI~1\\AppData\\Roaming\\MS4245~1.BAT\"",
+              "filepath_r": "",
+              "stack_pivoted": 0,
+              "creation_flags": 134217728,
+              "process_handle": "0x00000064",
+              "inherit_handles": 0
+            },
+            "time": 1717621324.234125,
+            "tid": 2436,
+            "flags": {
+              "creation_flags": "CREATE_NO_WINDOW"
+            }
+          },
+          "pid": 2432,
+          "type": "call",
+          "cid": 99
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/8",
+      "name": "injection_process_search",
+      "description": "Searches running processes potentially to identify processes for sandbox evasion, code injection or memory dumping",
+      "marks": [
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "Process32NextW",
+            "return_value": 1,
+            "arguments": {
+              "process_name": "sdclt.exe",
+              "snapshot_handle": "0x00000118",
+              "process_identifier": 2156
+            },
+            "time": 1717621322.54675,
+            "tid": 2372,
+            "flags": {}
+          },
+          "pid": 2368,
+          "type": "call",
+          "cid": 599
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "Process32NextW",
+            "return_value": 1,
+            "arguments": {
+              "process_name": "taskhost.exe",
+              "snapshot_handle": "0x00000118",
+              "process_identifier": 2196
+            },
+            "time": 1717621322.54675,
+            "tid": 2372,
+            "flags": {}
+          },
+          "pid": 2368,
+          "type": "call",
+          "cid": 600
+        }
+      ],
+      "marks_included": 2,
+      "total_marks": 2
+    },
+    {
+      "json_pointer": "/signatures/9",
+      "name": "privilege_luid_check",
+      "description": "Checks for the Locally Unique Identifier on the system for a suspicious privilege",
+      "marks": [
+        {
+          "call": {
+            "category": "system",
+            "status": 1,
+            "stacktrace": [],
+            "api": "LookupPrivilegeValueW",
+            "return_value": 1,
+            "arguments": {
+              "system_name": "",
+              "privilege_name": "SeDebugPrivilege"
+            },
+            "time": 1717621324.234125,
+            "tid": 2436,
+            "flags": {}
+          },
+          "pid": 2432,
+          "type": "call",
+          "cid": 102
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/10",
+      "name": "allocates_execute_remote_process",
+      "description": "Allocates execute permission to another process indicative of possible code injection",
+      "marks": [
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtAllocateVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2432,
+              "region_size": 73728,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "protection": 64,
+              "process_handle": "0x0000011c",
+              "allocation_type": 12288,
+              "base_address": "0x00400000"
+            },
+            "time": 1717621322.59375,
+            "tid": 2372,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE",
+              "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+            }
+          },
+          "pid": 2368,
+          "type": "call",
+          "cid": 1141
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtAllocateVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 1252,
+              "region_size": 94208,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "protection": 64,
+              "process_handle": "0x00000064",
+              "allocation_type": 12288,
+              "base_address": "0x04480000"
+            },
+            "time": 1717621324.234125,
+            "tid": 2436,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE",
+              "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+            }
+          },
+          "pid": 2432,
+          "type": "call",
+          "cid": 111
+        }
+      ],
+      "marks_included": 2,
+      "total_marks": 2
+    },
+    {
+      "json_pointer": "/signatures/11",
+      "name": "injection_modifies_memory",
+      "description": "Manipulates memory of a non-child process indicative of process injection",
+      "marks": [
+        {
+          "category": "Process injection",
+          "ioc": "Process 2432 manipulating memory of non-child process 1252",
+          "type": "ioc",
+          "description": null
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtAllocateVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 1252,
+              "region_size": 94208,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "protection": 64,
+              "process_handle": "0x00000064",
+              "allocation_type": 12288,
+              "base_address": "0x04480000"
+            },
+            "time": 1717621324.234125,
+            "tid": 2436,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE",
+              "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+            }
+          },
+          "pid": 2432,
+          "type": "call",
+          "cid": 111
+        }
+      ],
+      "marks_included": 2,
+      "total_marks": 2
+    },
+    {
+      "json_pointer": "/signatures/12",
+      "name": "injection_write_memory",
+      "description": "Potential code injection by writing to the memory of another process",
+      "marks": [
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "WriteProcessMemory",
+            "return_value": 1,
+            "arguments": {
+              "process_identifier": 2432,
+              "buffer": "MZ\u0090\u0000\u0003\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u00ff\u00ff\u0000\u0000\u00b8\u0000\u0000\u0000\u0000\u0000\u0000\u0000@\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c8\u0000\u0000\u0000\u000e\u001f\u00ba\u000e\u0000\u00b4\t\u00cd!\u00b8\u0001L\u00cd!This program cannot be run in DOS mode.\r\r\n$\u0000\u0000\u0000\u0000\u0000\u0000\u0000~s\\\u00fc:\u00122\u00af:\u00122\u00af:\u00122\u00af\u001d\u00d4I\u00af9\u00122\u00af:\u00123\u00af;\u00122\u00af$@\u00b8\u00af.\u00122\u00af$@\u00a3\u00af;\u00122\u00afRich:\u00122\u00af\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000PE\u0000\u0000L\u0001\u0004\u0000{,jT\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00e0\u0000\u0002\u0001\u000b\u0001\t\u0000\u0000\u001a\u0000\u0000\u0000\u00da\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u0010\u0000\u0000\u0000\u0010\u0000\u0000\u00000\u0000\u0000\u0000\u0000@\u0000\u0000\u0010\u0000\u0000\u0000\u0002\u0000\u0000\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000 \u0001\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0002\u0000@\u0085\u0000\u0000\u0010\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0B\u0000\u0000(\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0001\u0000\u00a0\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00000\u0000\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000.text\u0000\u0000\u0000}\u0019\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u001a\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000 \u0000\u0000`.rdata\u0000\u0000\f\u0013\u0000\u0000\u00000\u0000\u0000\u0000\u0014\u0000\u0000\u0000\u001e\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@\u0000\u0000@.data\u0000\u0000\u0000,\u00bc\u0000\u0000\u0000P\u0000\u0000\u0000\u00ba\u0000\u0000\u00002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@\u0000\u0000\u00c0.reloc\u0000\u0000f\u0006\u0000\u0000\u0000\u0010\u0001\u0000\u0000\b\u0000\u0000\u0000\u00ec\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@\u0000\u0000B\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+              "process_handle": "0x0000011c",
+              "base_address": "0x00400000"
+            },
+            "time": 1717621322.59375,
+            "tid": 2372,
+            "flags": {}
+          },
+          "pid": 2368,
+          "type": "call",
+          "cid": 1142
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "WriteProcessMemory",
+            "return_value": 1,
+            "arguments": {
+              "process_identifier": 2432,
+              "buffer": "\u0000\u0010\u0000\u0000(\u0001\u0000\u0000+0\u00870\u009d0\u00a60\u00ad0\u00d00\u00d60\u00e00\u00e40\u00ea0\u00011 1'1L1Y1`1\u00851\u00bb1\u00e21\u00ec1\u00f81\u000e2;2[2\u00882\u00c02\u00cd2\u001b353Z3z3\u008e3\u009a3\u00a13\u00d83\u00104\u00194 474=4M4Z4\u00824\u00954\u00b74\u00ce4\u00d54\u00fc4\u001b525B5I5U5\\5\u00a85\u00c05\u00cb5\u00e45\u00f75\u00e26\u00e96\u00067\r7\u001a7 7+727\u00897\u008a9\u00979\u00d49\u00df9\u0014:,:6:H:O:m:y:\u0080:\u008d:\u00ae:\u00b5:\u00c6:\u00cd:\u00db:\u00f3:\u000f;\u001a;6;L;y;\u0080;\u0093;\u009b;\u00a6;\u00ad;\u00b8;\u00e1;\u00f8;\u0000<\u000b<\u0012<+<\u00cc<\u00d8<\r=-=;=X=r=\u0089=\u0090=\u0097=\u00c8=\u00e8=\u00f1=\u00fd=\r>\u0016>\u001b>!>5>C>S>Z>\u0084>\u009e>\u00b7>\u00c3>\u00da>\u00e1>\u00f3>\u00f9>\u000f?\u001b?-?_?n?y?\u0082?\u0089?\u00c5?\u0000\u0000\u0000 \u0000\u0000`\u0000\u0000\u000020;0\u00c40\u00d70\u00de0\u00eb0\u00f20\u000b1(1/1\"3(3?3G4\u00955\u00da5T6\u00e36\t7t7x7|7\u00807\u00847\u00887\u008c7\u00907\u00947\u00987\u009c7\u00a07\u00a47\u00a87\u00ac7\u00b07\u00f47:8{8\u00b48\u00d48\u0014949n9\u0000\u0000\u00000\u0000\u0000\u0080\u0003\u0000\u0000\u001c2$2,242<2D2L2T2\\2d2l2t2|2\u00842\u008c2\u00942\u009c2\u00a42\u00ac2\u00b42\u00bc2\u00c42\u00cc2\u00d42\u00dc2\u00e42\u00ec2\u00f42\u00fc2\u00043\f3\u00143\u001c3$3,343<3D3L3T3\\3d3l3t3|3\u00843\u008c3\u00943\u009c3\u00a43\u00ac3\u00b43\u00bc3\u00c43\u00cc3\u00d43\u00dc3\u00e43\u00ec3\u00f43\u00fc3\u00044\f4\u00144\u001c4$4,444<4D4L4T4\\4d4l4t4|4\u00844\u008c4\u00944\u009c4\u00a44\u00ac4\u00b44\u00bc4\u00c44\u00cc4\u00d44\u00dc4\u00e44\u00ec4\u00f44\u00fc4\u00045\f5\u00145\u001c5$5,545<5D5L5T5\\5d5l5t5|5\u00845\u008c5\u00945\u009c5\u00a45\u00ac5\u00b45\u00bc5\u00c45\u00cc5\u00d45\u00dc5\u00e45\u00ec5\u00f45\u00fc5\u00046\f6\u00146\u001c6$6,646<6D6L6T6\\6d6l6t6|6\u00846\u008c6\u00946\u009c6\u00a46\u00ac6\u00b46\u00bc6\u00c46\u00cc6\u00d46\u00dc6\u00e46\u00ec6\u00f46\u00fc6\u00047\f7\u00147\u001c7$7,747<7D7L7T7\\7d7l7t7|7\u00847\u008c7\u00947\u009c7\u00a47\u00ac7\u00b47\u00bc7\u00c47\u00cc7\u00d47\u00dc7\u00e47\u00ec7\u00f47\u00fc7\u00048\f8\u00148\u001c8$8,848<8D8L8T8\\8d8l8t8|8\u00848\u008c8\u00948\u009c8\u00a48\u00ac8\u00b48\u00bc8\u00c48\u00cc8\u00d48\u00dc8\u00e48\u00ec8\u00f48\u00fc8\u00049\f9\u00149\u001c9$9,949<9D9L9T9\\9d9l9t9|9\u00849\u008c9\u00949\u009c9\u00a49\u00ac9\u00b49\u00bc9\u00c49\u00cc9\u00d49\u00dc9\u00e49\u00ec9\u00f49\u00fc9\u0004:\f:\u0014:$:,:4:<:D:L:T:\\:d:l:t:|:\u0084:\u008c:\u0094:\u009c:\u00a4:\u00ac:\u00b4:\u00bc:\u00c4:\u00cc:\u00d4:\u00dc:\u00e4:\u00ec:\u00f4:\u00fc:\u0004;\f;\u0014;\u001c;$;,;4;<;D;L;T;\\;d;l;t;|;\u0084;\u008c;\u0094;\u009c;\u00a4;\u00ac;\u00b4;\u00bc;\u00c4;\u00cc;\u00d4;\u00dc;\u00e4;\u00ec;\u00f4;\u00fc;\u0004<\f<\u0014<\u001c<$<,<4<<<D<L<T<\\<d<l<t<|<\u0084<\u008c<\u0094<\u009c<\u00a4<\u00ac<\u00b4<\u00bc<\u00c4<\u00cc<\u00d4<\u00dc<\u00e4<\u00ec<\u00f4<\u00fc<\u0004=\f=\u0014=\u001c=$=,=4=<=D=L=T=\\=d=l=t=|=\u0084=\u008c=\u0094=\u009c=\u00a4=\u00ac=\u00b4=\u00bc=\u00c4=\u00cc=\u00d4=\u00dc=\u00e4=\u00ec=\u00f4=\u00fc=\u0004>\f>\u0014>\u001c>$>,>4><>D>L>T>\\>d>l>t>|>\u0084>\u008c>\u0094>\u009c>\u00a4>\u00ac>\u00b4>\u00bc>\u00c4>\u00cc>\u00d4>\u00dc>\u00e4>\u00ec>\u00f4>\u00fc>\u0004?\f?\u0014?\u001c?$?,?4?<?D?L?T?\\?d?l?t?|?\u0084?\u008c?\u0094?\u009c?\u00a4?\u00ac?\u00b4?\u00bc?\u00c4?\u00cc?\u00d4?\u00dc?\u00e4?\u00ec?\u00f4?\u00fc?\u0000@\u0000\u0000\u0098\u0000\u0000\u0000\u00040\f0\u00140\u001c0$0,040<0D0L0T0\\0d0l0t0|0\u00840\u008c0\u00940\u009c0\u00a40\u00ac0\u00b40\u00bc0\u00c40\u00cc0\u00d40\u00dc0\u00e40\u00ec0\u00f40\u00fc0\u00041\f1\u00141\u001c1$1,141<1D1L1T1\\1d1l1t1|1\u00841\u008c1\u00941\u009c1\u00a41\u00ac1\u00b41\u00bc1\u00c41\u00cc1\u00d41\u00dc1\u00e41\u00ec1\u00f41\u00fc1\u00042\f2\u00142\u001c2(2,202\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+              "process_handle": "0x0000011c",
+              "base_address": "0x00411000"
+            },
+            "time": 1717621322.59375,
+            "tid": 2372,
+            "flags": {}
+          },
+          "pid": 2368,
+          "type": "call",
+          "cid": 1146
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "WriteProcessMemory",
+            "return_value": 1,
+            "arguments": {
+              "process_identifier": 2432,
+              "buffer": "\u0000\u0000@\u0000",
+              "process_handle": "0x0000011c",
+              "base_address": "0x7efde008"
+            },
+            "time": 1717621322.59375,
+            "tid": 2372,
+            "flags": {}
+          },
+          "pid": 2368,
+          "type": "call",
+          "cid": 1147
+        }
+      ],
+      "marks_included": 3,
+      "total_marks": 3
+    },
+    {
+      "json_pointer": "/signatures/13",
+      "name": "injection_write_memory_exe",
+      "description": "Code injection by writing an executable or DLL to the memory of another process",
+      "marks": [
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "WriteProcessMemory",
+            "return_value": 1,
+            "arguments": {
+              "process_identifier": 2432,
+              "buffer": "MZ\u0090\u0000\u0003\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u00ff\u00ff\u0000\u0000\u00b8\u0000\u0000\u0000\u0000\u0000\u0000\u0000@\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c8\u0000\u0000\u0000\u000e\u001f\u00ba\u000e\u0000\u00b4\t\u00cd!\u00b8\u0001L\u00cd!This program cannot be run in DOS mode.\r\r\n$\u0000\u0000\u0000\u0000\u0000\u0000\u0000~s\\\u00fc:\u00122\u00af:\u00122\u00af:\u00122\u00af\u001d\u00d4I\u00af9\u00122\u00af:\u00123\u00af;\u00122\u00af$@\u00b8\u00af.\u00122\u00af$@\u00a3\u00af;\u00122\u00afRich:\u00122\u00af\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000PE\u0000\u0000L\u0001\u0004\u0000{,jT\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00e0\u0000\u0002\u0001\u000b\u0001\t\u0000\u0000\u001a\u0000\u0000\u0000\u00da\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u0010\u0000\u0000\u0000\u0010\u0000\u0000\u00000\u0000\u0000\u0000\u0000@\u0000\u0000\u0010\u0000\u0000\u0000\u0002\u0000\u0000\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000 \u0001\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0002\u0000@\u0085\u0000\u0000\u0010\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0B\u0000\u0000(\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0001\u0000\u00a0\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00000\u0000\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000.text\u0000\u0000\u0000}\u0019\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u001a\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000 \u0000\u0000`.rdata\u0000\u0000\f\u0013\u0000\u0000\u00000\u0000\u0000\u0000\u0014\u0000\u0000\u0000\u001e\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@\u0000\u0000@.data\u0000\u0000\u0000,\u00bc\u0000\u0000\u0000P\u0000\u0000\u0000\u00ba\u0000\u0000\u00002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@\u0000\u0000\u00c0.reloc\u0000\u0000f\u0006\u0000\u0000\u0000\u0010\u0001\u0000\u0000\b\u0000\u0000\u0000\u00ec\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@\u0000\u0000B\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+              "process_handle": "0x0000011c",
+              "base_address": "0x00400000"
+            },
+            "time": 1717621322.59375,
+            "tid": 2372,
+            "flags": {}
+          },
+          "pid": 2368,
+          "type": "call",
+          "cid": 1142
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/14",
+      "name": "injection_ntsetcontextthread",
+      "description": "Used NtSetContextThread to modify a thread in a remote process indicative of process injection",
+      "marks": [
+        {
+          "category": "Process injection",
+          "ioc": "Process 2368 called NtSetContextThread to modify thread in remote process 2432",
+          "type": "ioc",
+          "description": null
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtSetContextThread",
+            "return_value": 0,
+            "arguments": {
+              "thread_handle": "0x00000118",
+              "registers": {
+                "eip": 4198592,
+                "esp": 1638384,
+                "edi": 0,
+                "eax": 4198592,
+                "ebp": 0,
+                "edx": 0,
+                "ebx": 2130567168,
+                "esi": 0,
+                "ecx": 0
+              },
+              "process_identifier": 2432
+            },
+            "time": 1717621322.59375,
+            "tid": 2372,
+            "flags": {}
+          },
+          "pid": 2368,
+          "type": "call",
+          "cid": 1148
+        }
+      ],
+      "marks_included": 2,
+      "total_marks": 2
+    },
+    {
+      "json_pointer": "/signatures/15",
+      "name": "removes_zoneid_ads",
+      "description": "Attempts to remove evidence of file being downloaded from the Internet",
+      "marks": [
+        {
+          "category": "file",
+          "ioc": "C:\\Users\\Administrator\\AppData\\Roaming\\Identities\\htwclcvn.exe:Zone.Identifier",
+          "type": "ioc",
+          "description": null
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/16",
+      "name": "injection_resumethread",
+      "description": "Resumed a suspended thread in a remote process potentially indicative of process injection",
+      "marks": [
+        {
+          "category": "Process injection",
+          "ioc": "Process 2368 resumed a thread in remote process 2432",
+          "type": "ioc",
+          "description": null
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtResumeThread",
+            "return_value": 0,
+            "arguments": {
+              "thread_handle": "0x00000118",
+              "suspend_count": 1,
+              "process_identifier": 2432
+            },
+            "time": 1717621322.89075,
+            "tid": 2372,
+            "flags": {}
+          },
+          "pid": 2368,
+          "type": "call",
+          "cid": 1149
+        }
+      ],
+      "marks_included": 2,
+      "total_marks": 2
+    },
+    {
+      "json_pointer": "/signatures/17",
+      "name": "injection_runpe",
+      "description": "Executed a process and injected code into it, probably while unpacking",
+      "marks": [
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "CreateProcessInternalW",
+            "return_value": 1,
+            "arguments": {
+              "thread_identifier": 2436,
+              "thread_handle": "0x00000118",
+              "process_identifier": 2432,
+              "current_directory": "",
+              "filepath": "",
+              "track": 1,
+              "command_line": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rechnung_11_2014_vodafone_team_00200034994_00003999300067_11_0000002738.exe",
+              "filepath_r": "",
+              "stack_pivoted": 0,
+              "creation_flags": 4,
+              "process_handle": "0x0000011c",
+              "inherit_handles": 0
+            },
+            "time": 1717621322.59375,
+            "tid": 2372,
+            "flags": {
+              "creation_flags": "CREATE_SUSPENDED"
+            }
+          },
+          "pid": 2368,
+          "type": "call",
+          "cid": 1133
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtGetContextThread",
+            "return_value": 0,
+            "arguments": {
+              "thread_handle": "0x00000118"
+            },
+            "time": 1717621322.59375,
+            "tid": 2372,
+            "flags": {}
+          },
+          "pid": 2368,
+          "type": "call",
+          "cid": 1134
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 0,
+            "stacktrace": [],
+            "last_error": 1813,
+            "nt_status": -1073741686,
+            "api": "NtUnmapViewOfSection",
+            "return_value": 3221225497,
+            "arguments": {
+              "process_identifier": 2432,
+              "region_size": 211714048,
+              "process_handle": "0x0000011c",
+              "base_address": "0x6aec8b55"
+            },
+            "time": 1717621322.59375,
+            "tid": 2372,
+            "flags": {}
+          },
+          "pid": 2368,
+          "type": "call",
+          "cid": 1136
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 0,
+            "stacktrace": [],
+            "last_error": 1813,
+            "nt_status": -1073741686,
+            "api": "NtUnmapViewOfSection",
+            "return_value": 3221225497,
+            "arguments": {
+              "process_identifier": 2432,
+              "region_size": 211714048,
+              "process_handle": "0x0000011c",
+              "base_address": "0x6aec8b55"
+            },
+            "time": 1717621322.59375,
+            "tid": 2372,
+            "flags": {}
+          },
+          "pid": 2368,
+          "type": "call",
+          "cid": 1137
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 0,
+            "stacktrace": [],
+            "last_error": 1813,
+            "nt_status": -1073741686,
+            "api": "NtUnmapViewOfSection",
+            "return_value": 3221225497,
+            "arguments": {
+              "process_identifier": 2432,
+              "region_size": 211714048,
+              "process_handle": "0x0000011c",
+              "base_address": "0x6aec8b55"
+            },
+            "time": 1717621322.59375,
+            "tid": 2372,
+            "flags": {}
+          },
+          "pid": 2368,
+          "type": "call",
+          "cid": 1138
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtUnmapViewOfSection",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2432,
+              "region_size": 4096,
+              "process_handle": "0x0000011c",
+              "base_address": "0x00400000"
+            },
+            "time": 1717621322.59375,
+            "tid": 2372,
+            "flags": {}
+          },
+          "pid": 2368,
+          "type": "call",
+          "cid": 1139
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 0,
+            "stacktrace": [],
+            "last_error": 1813,
+            "nt_status": -1073741686,
+            "api": "NtUnmapViewOfSection",
+            "return_value": 3221225497,
+            "arguments": {
+              "process_identifier": 2432,
+              "region_size": 2001403904,
+              "process_handle": "0x0000011c",
+              "base_address": "0x00400000"
+            },
+            "time": 1717621322.59375,
+            "tid": 2372,
+            "flags": {}
+          },
+          "pid": 2368,
+          "type": "call",
+          "cid": 1140
+        },
+        {
+          "call": {
+            "category": "process",
+            "status": 1,
+            "stacktrace": [],
+            "api": "NtAllocateVirtualMemory",
+            "return_value": 0,
+            "arguments": {
+              "process_identifier": 2432,
+              "region_size": 73728,
+              "stack_dep_bypass": 0,
+              "stack_pivoted": 0,
+              "heap_dep_bypass": 0,
+              "protection": 64,
+              "process_handle": "0x0000011c",
+              "allocation_type": 12288,
+              "base_address": "0x00400000"
+            },
+            "time": 1717621322.59375,
+            "tid": 2372,
+            "flags": {
+              "protection": "PAGE_EXECUTE_READWRITE",
+              "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+            }
+          },
+          "pid": 2368,
+          "type": "call",
+          "cid": 1141
+        }
+      ],
+      "marks_included": 8,
+      "total_marks": 20
+    }
+  ],
+  "selected_calls": [
+    {
+      "json_pointer": "/behavior/processes/1/calls/18",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76230000",
+        "function_address": "0x76244f2b",
+        "function_name": "FlsAlloc"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/19",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76230000",
+        "function_address": "0x76241252",
+        "function_name": "FlsGetValue"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/20",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76230000",
+        "function_address": "0x76244208",
+        "function_name": "FlsSetValue"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/21",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76230000",
+        "function_address": "0x7624359f",
+        "function_name": "FlsFree"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/23",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "KERNELBASE",
+        "module_address": "0x77260000",
+        "function_address": "0x77ad0fcb",
+        "function_name": "EncodePointer"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/25",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "KERNELBASE",
+        "module_address": "0x77260000",
+        "function_address": "0x77ad0fcb",
+        "function_name": "EncodePointer"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/27",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "KERNELBASE",
+        "module_address": "0x77260000",
+        "function_address": "0x77ad0fcb",
+        "function_name": "EncodePointer"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/29",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "KERNELBASE",
+        "module_address": "0x77260000",
+        "function_address": "0x77ad0fcb",
+        "function_name": "EncodePointer"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/31",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "KERNELBASE",
+        "module_address": "0x77260000",
+        "function_address": "0x77ad0fcb",
+        "function_name": "EncodePointer"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/33",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "KERNELBASE",
+        "module_address": "0x77260000",
+        "function_address": "0x77ad0fcb",
+        "function_name": "EncodePointer"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/35",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "KERNELBASE",
+        "module_address": "0x77260000",
+        "function_address": "0x77ad0fcb",
+        "function_name": "EncodePointer"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/37",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "KERNELBASE",
+        "module_address": "0x77260000",
+        "function_address": "0x77ac9d35",
+        "function_name": "DecodePointer"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/39",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "KERNELBASE",
+        "module_address": "0x77260000",
+        "function_address": "0x7727004f",
+        "function_name": "InitializeCriticalSectionAndSpinCount"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/41",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "KERNELBASE",
+        "module_address": "0x77260000",
+        "function_address": "0x77ad0fcb",
+        "function_name": "EncodePointer"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/43",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "KERNELBASE",
+        "module_address": "0x77260000",
+        "function_address": "0x77ac9d35",
+        "function_name": "DecodePointer"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/45",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "KERNELBASE",
+        "module_address": "0x77260000",
+        "function_address": "0x77ac9d35",
+        "function_name": "DecodePointer"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/47",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "KERNELBASE",
+        "module_address": "0x77260000",
+        "function_address": "0x77ac9d35",
+        "function_name": "DecodePointer"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/49",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "KERNELBASE",
+        "module_address": "0x77260000",
+        "function_address": "0x77ac9d35",
+        "function_name": "DecodePointer"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/51",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "KERNELBASE",
+        "module_address": "0x77260000",
+        "function_address": "0x77ac9d35",
+        "function_name": "DecodePointer"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/53",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "KERNELBASE",
+        "module_address": "0x77260000",
+        "function_address": "0x77ac9d35",
+        "function_name": "DecodePointer"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/55",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "KERNELBASE",
+        "module_address": "0x77260000",
+        "function_address": "0x77ac9d35",
+        "function_name": "DecodePointer"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/57",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "KERNELBASE",
+        "module_address": "0x77260000",
+        "function_address": "0x77ac9d35",
+        "function_name": "DecodePointer"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/59",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "KERNELBASE",
+        "module_address": "0x77260000",
+        "function_address": "0x77ac9d35",
+        "function_name": "DecodePointer"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/61",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "KERNELBASE",
+        "module_address": "0x77260000",
+        "function_address": "0x77ac9d35",
+        "function_name": "DecodePointer"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/63",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "KERNELBASE",
+        "module_address": "0x77260000",
+        "function_address": "0x77ac9d35",
+        "function_name": "DecodePointer"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/65",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "KERNELBASE",
+        "module_address": "0x77260000",
+        "function_address": "0x77ac9d35",
+        "function_name": "DecodePointer"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/67",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "KERNELBASE",
+        "module_address": "0x77260000",
+        "function_address": "0x77ac9d35",
+        "function_name": "DecodePointer"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/69",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "KERNELBASE",
+        "module_address": "0x77260000",
+        "function_address": "0x77ac9d35",
+        "function_name": "DecodePointer"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/71",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "KERNELBASE",
+        "module_address": "0x77260000",
+        "function_address": "0x77ac9d35",
+        "function_name": "DecodePointer"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/73",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "KERNELBASE",
+        "module_address": "0x77260000",
+        "function_address": "0x77ad0fcb",
+        "function_name": "EncodePointer"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/74",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "KERNELBASE",
+        "module_address": "0x77260000",
+        "function_address": "0x77ac9d35",
+        "function_name": "DecodePointer"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/79",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76230000",
+        "function_address": "0x76241275",
+        "function_name": "ProcessIdToSessionId"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/105",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "IMM32",
+        "module_address": "0x75c40000",
+        "function_address": "0x75c53d4c",
+        "function_name": "ImmCreateContext"
+      },
+      "time": 1717621321.65675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/106",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "IMM32",
+        "module_address": "0x75c40000",
+        "function_address": "0x75c53cce",
+        "function_name": "ImmDestroyContext"
+      },
+      "time": 1717621321.67175,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/107",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "IMM32",
+        "module_address": "0x75c40000",
+        "function_address": "0x75c53c6c",
+        "function_name": "ImmNotifyIME"
+      },
+      "time": 1717621321.67175,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/108",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "IMM32",
+        "module_address": "0x75c40000",
+        "function_address": "0x75c53540",
+        "function_name": "ImmAssociateContext"
+      },
+      "time": 1717621321.67175,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/109",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "IMM32",
+        "module_address": "0x75c40000",
+        "function_address": "0x75c521a2",
+        "function_name": "ImmReleaseContext"
+      },
+      "time": 1717621321.67175,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/110",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "IMM32",
+        "module_address": "0x75c40000",
+        "function_address": "0x75c52084",
+        "function_name": "ImmGetContext"
+      },
+      "time": 1717621321.67175,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/111",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "IMM32",
+        "module_address": "0x75c40000",
+        "function_address": "0x75c57a37",
+        "function_name": "ImmGetCompositionStringA"
+      },
+      "time": 1717621321.67175,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/112",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "IMM32",
+        "module_address": "0x75c40000",
+        "function_address": "0x75c583c2",
+        "function_name": "ImmSetCompositionStringA"
+      },
+      "time": 1717621321.67175,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/113",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "IMM32",
+        "module_address": "0x75c40000",
+        "function_address": "0x75c5420c",
+        "function_name": "ImmGetCompositionStringW"
+      },
+      "time": 1717621321.67175,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/114",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "IMM32",
+        "module_address": "0x75c40000",
+        "function_address": "0x75c583e9",
+        "function_name": "ImmSetCompositionStringW"
+      },
+      "time": 1717621321.67175,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/115",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "IMM32",
+        "module_address": "0x75c40000",
+        "function_address": "0x75c53e02",
+        "function_name": "ImmSetCandidateWindow"
+      },
+      "time": 1717621321.67175,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/117",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "COMCTL32",
+        "module_address": "0x73b80000",
+        "function_address": "0x73b86be6",
+        "function_name": "InitCommonControlsEx"
+      },
+      "time": 1717621321.67175,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/119",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "COMCTL32",
+        "module_address": "0x73b80000",
+        "function_address": "0x73b86be6",
+        "function_name": "InitCommonControlsEx"
+      },
+      "time": 1717621321.67175,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/122",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "COMCTL32",
+        "module_address": "0x73b80000",
+        "function_address": "0x73b86be6",
+        "function_name": "InitCommonControlsEx"
+      },
+      "time": 1717621321.68775,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/125",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "COMCTL32",
+        "module_address": "0x73b80000",
+        "function_address": "0x73b86be6",
+        "function_name": "InitCommonControlsEx"
+      },
+      "time": 1717621321.68775,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/128",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "COMCTL32",
+        "module_address": "0x73b80000",
+        "function_address": "0x73b86be6",
+        "function_name": "InitCommonControlsEx"
+      },
+      "time": 1717621321.68775,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/131",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "COMCTL32",
+        "module_address": "0x73b80000",
+        "function_address": "0x73b86be6",
+        "function_name": "InitCommonControlsEx"
+      },
+      "time": 1717621321.68775,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/160",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "dwmapi",
+        "module_address": "0x73b60000",
+        "function_address": "0x73b61610",
+        "function_name": "DwmIsCompositionEnabled"
+      },
+      "time": 1717621321.73475,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/171",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "LPK",
+        "module_address": "0x764c0000",
+        "function_address": "0x764c7000",
+        "function_name": "LpkEditControl"
+      },
+      "time": 1717621322.15675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/173",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "comctl32",
+        "module_address": "0x742d0000",
+        "function_address": "0x7430099d",
+        "function_name": "HIMAGELIST_QueryInterface"
+      },
+      "time": 1717621322.15675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/174",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "comctl32",
+        "module_address": "0x742d0000",
+        "function_address": "0x742fab99",
+        "function_name": "DrawShadowText"
+      },
+      "time": 1717621322.15675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/175",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "comctl32",
+        "module_address": "0x742d0000",
+        "function_address": "0x7436578d",
+        "function_name": "DrawSizeBox"
+      },
+      "time": 1717621322.15675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/176",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "comctl32",
+        "module_address": "0x742d0000",
+        "function_address": "0x742ff954",
+        "function_name": "DrawScrollBar"
+      },
+      "time": 1717621322.15675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/177",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "comctl32",
+        "module_address": "0x742d0000",
+        "function_address": "0x7435beab",
+        "function_name": "SizeBoxHwnd"
+      },
+      "time": 1717621322.15675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/178",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "comctl32",
+        "module_address": "0x742d0000",
+        "function_address": "0x7431dba9",
+        "function_name": "ScrollBar_MouseMove"
+      },
+      "time": 1717621322.15675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/179",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "comctl32",
+        "module_address": "0x742d0000",
+        "function_address": "0x743b436e",
+        "function_name": "ScrollBar_Menu"
+      },
+      "time": 1717621322.15675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/180",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "comctl32",
+        "module_address": "0x742d0000",
+        "function_address": "0x743b433d",
+        "function_name": "HandleScrollCmd"
+      },
+      "time": 1717621322.15675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/181",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "comctl32",
+        "module_address": "0x742d0000",
+        "function_address": "0x742fbe61",
+        "function_name": "DetachScrollBars"
+      },
+      "time": 1717621322.15675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/182",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "comctl32",
+        "module_address": "0x742d0000",
+        "function_address": "0x743201ae",
+        "function_name": "AttachScrollBars"
+      },
+      "time": 1717621322.15675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/183",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "comctl32",
+        "module_address": "0x742d0000",
+        "function_address": "0x743052b9",
+        "function_name": "CCSetScrollInfo"
+      },
+      "time": 1717621322.15675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/184",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "comctl32",
+        "module_address": "0x742d0000",
+        "function_address": "0x742ffb5e",
+        "function_name": "CCGetScrollInfo"
+      },
+      "time": 1717621322.15675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/185",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "comctl32",
+        "module_address": "0x742d0000",
+        "function_address": "0x7436b157",
+        "function_name": "CCEnableScrollBar"
+      },
+      "time": 1717621322.15675,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/186",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "comctl32",
+        "module_address": "0x742d0000",
+        "function_address": "0x743b3793",
+        "function_name": "QuerySystemGestureStatus"
+      },
+      "time": 1717621322.17175,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/188",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 49,
+        "module": "uxtheme",
+        "module_address": "0x746a0000",
+        "function_address": "0x746b2052",
+        "function_name": ""
+      },
+      "time": 1717621322.18775,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/189",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "uxtheme",
+        "module_address": "0x746a0000",
+        "function_address": "0x746b1fa1",
+        "function_name": "CloseThemeData"
+      },
+      "time": 1717621322.18775,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/259",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76230000",
+        "function_address": "0x76243f5c",
+        "function_name": "CreateFileW"
+      },
+      "time": 1717621322.46875,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/274",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76230000",
+        "function_address": "0x76243ed3",
+        "function_name": "ReadFile"
+      },
+      "time": 1717621322.46875,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/280",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76230000",
+        "function_address": "0x76244950",
+        "function_name": "GetModuleFileNameW"
+      },
+      "time": 1717621322.53175,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/282",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76230000",
+        "function_address": "0x762453c6",
+        "function_name": "CreateFileA"
+      },
+      "time": 1717621322.53175,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/284",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76230000",
+        "function_address": "0x76243f5c",
+        "function_name": "CreateFileW"
+      },
+      "time": 1717621322.53175,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/286",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76230000",
+        "function_address": "0x76241856",
+        "function_name": "VirtualAlloc"
+      },
+      "time": 1717621322.53175,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/288",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76230000",
+        "function_address": "0x7624196e",
+        "function_name": "GetFileSize"
+      },
+      "time": 1717621322.53175,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/290",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76230000",
+        "function_address": "0x76243ed3",
+        "function_name": "ReadFile"
+      },
+      "time": 1717621322.53175,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/292",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76230000",
+        "function_address": "0x76241410",
+        "function_name": "CloseHandle"
+      },
+      "time": 1717621322.53175,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/294",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76230000",
+        "function_address": "0x7625b66c",
+        "function_name": "GetSystemDirectoryA"
+      },
+      "time": 1717621322.53175,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/312",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76230000",
+        "function_address": "0x76241222",
+        "function_name": "GetProcAddress"
+      },
+      "time": 1717621322.53175,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/314",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76230000",
+        "function_address": "0x76241245",
+        "function_name": "GetModuleHandleA"
+      },
+      "time": 1717621322.53175,
+      "tid": 2372,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/316",
+      "pid": 2368,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "kernel32",
+        "module_address": "0x76230000",
+        "function_address": "0x762414b1",
+        "function_name": "GetModuleFileNameA"
+      },
+      "time": 1717621322.53175,
+      "tid": 2372,
+      "flags": {}
+    }
+  ],
+  "matching_call_n": 423,
+  "scope": "Triage extract only; consult full raw report for complete context. Native sandbox descriptions may expose vendor judgments. X-ERD predictions are omitted.",
+  "verified_human_annotation": false
+}

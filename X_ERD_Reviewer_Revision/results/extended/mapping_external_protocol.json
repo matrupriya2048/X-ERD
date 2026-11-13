@@ -1,0 +1,12 @@
+{
+  "evaluation": "External machine-generated annotations and curated family-profile concordance",
+  "human_expert_review": false,
+  "assessor": "automated deterministic comparison implemented with AI assistance",
+  "schema_frozen": "reviewer-revision-2",
+  "schema_sha256": "0374e06cb1e21bc85edf63f7f3e6fe3b7347577d1ffc7c150ee69d585be06f39",
+  "reference_sha256": "539a843a7b53ed9749740b2123dddae3726b1a4831841c32aca740b011b910b5",
+  "reference_url": "https://github.com/mitre-attack/attack-stix-data",
+  "normalization": "official STIX revoked-by links only; unresolved deprecated IDs recorded and omitted; parent-level sensitivity comparison separate",
+  "reference_limitations": "Cuckoo signatures are incomplete automated silver labels, partly shared with input features; family profiles describe known capabilities, not every execution. Agreement is not gold-standard accuracy or precision/recall of malicious intent.",
+  "no_test_tuning": "mapper is not modified after inspecting concordance"
+}

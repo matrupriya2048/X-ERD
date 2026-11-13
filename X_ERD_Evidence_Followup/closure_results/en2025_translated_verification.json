@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "targets": 917,
+  "same_cohort": true,
+  "api_presence_unchanged": true,
+  "models_replayed": 3,
+  "scope": "Paired post-hoc schema repair; original high false-alarm rates retained."
+}

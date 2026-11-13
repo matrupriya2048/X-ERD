@@ -1,0 +1,106 @@
+{
+  "record": "https://zenodo.org/records/23403681",
+  "files": {
+    "mlran/mlran_dataset_metadata.csv": {
+      "sha256": "1cdb3180446d20dd0cc7fb24ae973fed281a37eb020b2191ff7566230035d3de",
+      "url": "https://zenodo.org/records/23403681/files/mlran_dataset_metadata.csv?download=1"
+    },
+    "mlran/MLRan_X_test_RFE.csv": {
+      "sha256": "b10ed700de1243702b1162f805ef452c52e8719b39f7a751bb1f24df2f9c5b11",
+      "url": "https://zenodo.org/records/23403681/files/MLRan_X_test_RFE.csv?download=1"
+    },
+    "mlran/MLRan_X_train_RFE.csv": {
+      "sha256": "8bf6eb3978272127978fcc198f75050c9d3a1adc9955c9bb0dd0f6d9928e5284",
+      "url": "https://zenodo.org/records/23403681/files/MLRan_X_train_RFE.csv?download=1"
+    },
+    "mlran/RFE_selected_feature_names_dic.json": {
+      "sha256": "83af2d591b6935254574a027d29c304cd1e18113108cfd68cc09a336e8793d10",
+      "url": "https://zenodo.org/records/23403681/files/RFE_selected_feature_names_dic.json?download=1"
+    },
+    "raw_reports/10002.json": {
+      "sha256": "c2dfe699dcf7a4d39c3fa5c525349c9b939146f70c73af0bdeae81cf9c0c4414",
+      "url": "https://raw.githubusercontent.com/faithfulco/mlran/main/4_cuckoo_parser_scripts/json_reports/10002.json"
+    },
+    "raw_reports/10003.json": {
+      "sha256": "15647d0ac04a03e661c74d09560837ad983e7bfe4b8e183a4ef6297e12be9c49",
+      "url": "https://raw.githubusercontent.com/faithfulco/mlran/main/4_cuckoo_parser_scripts/json_reports/10003.json"
+    },
+    "raw_reports/10005.json": {
+      "sha256": "78119fa0dba96ca5ac700422cbafe245fc36821ed048975a7b55a95ced5e5967",
+      "url": "https://raw.githubusercontent.com/faithfulco/mlran/main/4_cuckoo_parser_scripts/json_reports/10005.json"
+    },
+    "raw_reports/10007.json": {
+      "sha256": "6ccb15d7965b353093514bf3bd78697b4c2a44facc0aef3a9807f0fd5e5abc50",
+      "url": "https://raw.githubusercontent.com/faithfulco/mlran/main/4_cuckoo_parser_scripts/json_reports/10007.json"
+    },
+    "raw_reports/10008.json": {
+      "sha256": "ce339b01d85eae02998d6e35d070ad3b64825c5b5a44870f4c2f6fbf6dbe025d",
+      "url": "https://raw.githubusercontent.com/faithfulco/mlran/main/4_cuckoo_parser_scripts/json_reports/10008.json"
+    },
+    "raw_reports/10011.json": {
+      "sha256": "6d46c16431733848939c39463584ee2eda4e5cbb41e3bb5bfa1deb8c18a146f3",
+      "url": "https://raw.githubusercontent.com/faithfulco/mlran/main/4_cuckoo_parser_scripts/json_reports/10011.json"
+    },
+    "raw_reports/10012.json": {
+      "sha256": "e8dc23d998221f912b4271d925d28b467043195a9acdb3b62c8f19bfd60f86fd",
+      "url": "https://raw.githubusercontent.com/faithfulco/mlran/main/4_cuckoo_parser_scripts/json_reports/10012.json"
+    },
+    "raw_reports/10013.json": {
+      "sha256": "ae993016aecf62d53dbcfde1c650b4700979b31ddc4345642c54b5ea3a1d6b54",
+      "url": "https://raw.githubusercontent.com/faithfulco/mlran/main/4_cuckoo_parser_scripts/json_reports/10013.json"
+    },
+    "raw_reports/10014.json": {
+      "sha256": "274942e411b8a21d3d8dae38145c11a602f1cc776ee5edc454972ca16d44ef43",
+      "url": "https://raw.githubusercontent.com/faithfulco/mlran/main/4_cuckoo_parser_scripts/json_reports/10014.json"
+    },
+    "raw_reports/10015.json": {
+      "sha256": "265855dfe1952bc16e0205a325f6c028e8862bd552d6bfe57c47aaa4eaea1c3d",
+      "url": "https://raw.githubusercontent.com/faithfulco/mlran/main/4_cuckoo_parser_scripts/json_reports/10015.json"
+    },
+    "raw_reports/10016.json": {
+      "sha256": "71f7c8222eded885f79bf1b010eb2af227cd55217b59e661459cf26f34ab06e9",
+      "url": "https://raw.githubusercontent.com/faithfulco/mlran/main/4_cuckoo_parser_scripts/json_reports/10016.json"
+    },
+    "raw_reports/10017.json": {
+      "sha256": "c4467c0e718c07c434a007d37c64650b010ae6f19a92b5241f420f1f0ea06c40",
+      "url": "https://raw.githubusercontent.com/faithfulco/mlran/main/4_cuckoo_parser_scripts/json_reports/10017.json"
+    },
+    "raw_reports/10021.json": {
+      "sha256": "6d4e2e159a8a27e6fe3019d90e6a79a27b3eb32297db8d3acd70a123597b3d20",
+      "url": "https://raw.githubusercontent.com/faithfulco/mlran/main/4_cuckoo_parser_scripts/json_reports/10021.json"
+    },
+    "raw_reports/10022.json": {
+      "sha256": "7dcdcc9162fb5fc87bd1e97f0e3a512e81c8e231e10cec7888976886035aece8",
+      "url": "https://raw.githubusercontent.com/faithfulco/mlran/main/4_cuckoo_parser_scripts/json_reports/10022.json"
+    },
+    "raw_reports/10025.json": {
+      "sha256": "522f56ac012bbdd82be83e37516742b372a5ad7b2727ebbb078b6205fa4f4b32",
+      "url": "https://raw.githubusercontent.com/faithfulco/mlran/main/4_cuckoo_parser_scripts/json_reports/10025.json"
+    },
+    "raw_reports/10026.json": {
+      "sha256": "58028506c217349d23ab06e457d730a2fddac98311123cdc3d7e132640e70f7a",
+      "url": "https://raw.githubusercontent.com/faithfulco/mlran/main/4_cuckoo_parser_scripts/json_reports/10026.json"
+    },
+    "raw_reports/10027.json": {
+      "sha256": "0d9278c6250d909834f61a2bc888294e75067d11c0fe934e497987eefef6e97a",
+      "url": "https://raw.githubusercontent.com/faithfulco/mlran/main/4_cuckoo_parser_scripts/json_reports/10027.json"
+    },
+    "raw_reports/10028.json": {
+      "sha256": "c5653b146b16ae400c64a029297fade84be117e57d9cd88914e2d31b15c61687",
+      "url": "https://raw.githubusercontent.com/faithfulco/mlran/main/4_cuckoo_parser_scripts/json_reports/10028.json"
+    },
+    "raw_reports/10029.json": {
+      "sha256": "459aad5b505f18e93d743deb70718f14fc750fa6faf468cd4ace7db7e36fdfe0",
+      "url": "https://raw.githubusercontent.com/faithfulco/mlran/main/4_cuckoo_parser_scripts/json_reports/10029.json"
+    },
+    "raw_reports/10030.json": {
+      "sha256": "82bbea65d03eb67dd5fc6e466f853f2deb48a95ce0b4b299ef1ebb29d7d3bc0e",
+      "url": "https://raw.githubusercontent.com/faithfulco/mlran/main/4_cuckoo_parser_scripts/json_reports/10030.json"
+    }
+  },
+  "full_archive": {
+    "url": "https://zenodo.org/records/23403681/files/MLRan_full_dataset.zip?download=1",
+    "md5": "23920628219feee54ea7e95d3a3c10c6",
+    "size_bytes": 295429468
+  }
+}

@@ -1,0 +1,4133 @@
+[
+  {
+    "source_path": "data/benign_reports/CuckooClean/101/reports/report.json",
+    "report_sha256": "bf82690af60d6e795568baac75a619ea5164862c45d609f8c4fb5b4d3430ab10",
+    "api_call_event_count": 134,
+    "executable_hash": "2ed9251e2c805a2c4e8cb40a5509e67e28b0f3e2d00e8b81000c232d6d44e00d",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 36,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/104/reports/report.json",
+    "report_sha256": "56fd7236d0a413d2a3120ab3859c03e447e8e4f491c9740cb9947fe1820911b8",
+    "api_call_event_count": 96,
+    "executable_hash": "4751c133847a03ccff74a7180c9b434ccb95434d8bc948143f45add9a75dc951",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 31,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/109/reports/report.json",
+    "report_sha256": "65a2f4f502ec5c29a52d8c0af81709d3d0395a4393856971636422b270089c15",
+    "api_call_event_count": 633,
+    "executable_hash": "bf05f0571a9ffbaeb1de094f6f63e03bb47761463d1d36358c0a594248146456",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.8,
+    "status": "evaluated",
+    "active_features": 49,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/128/reports/report.json",
+    "report_sha256": "a07f150fffbbe8be510f84242bf301b666cd4aba2ab273f50a2a45428b3da50d",
+    "api_call_event_count": 702,
+    "executable_hash": "a89b4a0691662c46f5ff95d83869ff67e3a224aead700c17c708b502223cdeac",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.8,
+    "status": "evaluated",
+    "active_features": 17,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/139/reports/report.json",
+    "report_sha256": "be98c501f50498d99e9c51ab384b880a6f906d2cbce7cf4c5ff94047be280e90",
+    "api_call_event_count": 47,
+    "executable_hash": "c5a40dbfcb9ed9e10ffcf11225bfd90fb4ca7db0621ca096e2fe15955873ba7e",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.0,
+    "status": "evaluated",
+    "active_features": 27,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/140/reports/report.json",
+    "report_sha256": "354db00b37080fdfb4d0bd4f02a722d9464eb17011ddf9c8ff02c8d4df3f5012",
+    "api_call_event_count": 64,
+    "executable_hash": "c7dbb070b169e91428e0f80595f93a693684302cda2c03ac5c39332915673702",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.0,
+    "status": "evaluated",
+    "active_features": 26,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/142/reports/report.json",
+    "report_sha256": "f6d714bfe697479b53df387d7685d6906e5e812af4ebf5348a5183e31ed0ce76",
+    "api_call_event_count": 34,
+    "executable_hash": "3b167e64e88901596f8e381916c5aa24d169320840a7781bd34967abdc1dcfcb",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 18,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/145/reports/report.json",
+    "report_sha256": "1bdc328f3216486aa109ca1e168993436eedb78c5cad550fefb2c7c5f6421884",
+    "api_call_event_count": 371,
+    "executable_hash": "1f774649da229e08b15e3ca20bdd4e50cf73d25891e6ceba545369b5eb059ddb",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 61,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/148/reports/report.json",
+    "report_sha256": "16b9b50d16d3da129b26ba76cc97f1938cc57773c3d497b766357400f7aa1301",
+    "api_call_event_count": 9673,
+    "executable_hash": "499d2139902901f6d07884142b02eeadc6f3de103c0e681cfa1eb4df7e9a2cad",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 1.0,
+    "status": "evaluated",
+    "active_features": 92,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/150/reports/report.json",
+    "report_sha256": "8449dc30592096d638cfde2eda711bef23e07a04e778afa5d8105383f930861c",
+    "api_call_event_count": 34,
+    "executable_hash": "20a24c21827f3254d4d1fa75355f00269fc5a7737c04f40802c3e291ff7aaf6f",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.0,
+    "status": "evaluated",
+    "active_features": 15,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/154/reports/report.json",
+    "report_sha256": "5eb7a25581bd1fb7e200e9bc097e85fdbee723e5b32bf45516352b4c8a62499a",
+    "api_call_event_count": 0,
+    "status": "unprocessed",
+    "reason": "No captured API observations; execution cannot be assessed"
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/158/reports/report.json",
+    "report_sha256": "db00ce0a04e208b38e493645909bb90cd4a2ac58089441ddfd64d2d6d9b08fb4",
+    "api_call_event_count": 2730,
+    "executable_hash": "4c8aea513fc40e9a07906ea46c5f39bc10951462ecd7ad334a8186ffb0e376f7",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.8,
+    "status": "evaluated",
+    "active_features": 46,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/16/reports/report.json",
+    "report_sha256": "16e42f51706bd78ce8d4c47f0ed89ff5c8d029a08612c1d2e2f575d4be18af76",
+    "api_call_event_count": 5989,
+    "executable_hash": "c36c3a1d074de32d53f371c665243196a7608652a2fc6be9520312d5ce560871",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.8,
+    "status": "evaluated",
+    "active_features": 67,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/163/reports/report.json",
+    "report_sha256": "c601c62bc0329940615e0b14c6635afcd2238b0ebfb06e76e85e899f4217a61f",
+    "api_call_event_count": 122,
+    "executable_hash": "c1dd1b78d52bfdf3376a4a21740113fc6147961a928715b84cfd1610d82b461a",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 27,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/165/reports/report.json",
+    "report_sha256": "494661a1cd7863beeb60a3c3b0bc0278c2805ba0b7fac85b10a0f5d2f5a0b969",
+    "api_call_event_count": 0,
+    "status": "unprocessed",
+    "reason": "No captured API observations; execution cannot be assessed"
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/171/reports/report.json",
+    "report_sha256": "7f9652aba27fdc987645f7b04a7d9bf369d85e65f2614343a9f4c366ece46251",
+    "api_call_event_count": 468,
+    "executable_hash": "a6af1bfbed853058c9be38bc8b5ffbc36ad22a6d2e60b083515a08fd3a27e4f9",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.8,
+    "status": "evaluated",
+    "active_features": 44,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/172/reports/report.json",
+    "report_sha256": "be0d77bb6ee8c628b6911660daab8377b66986b82675e6feef17e38af3a6ecce",
+    "api_call_event_count": 93633,
+    "executable_hash": "d7fbe1a13d028ecea8f2f774ff8eb13c997b3ea8ab82f931105b328ea02e16a4",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.0,
+    "status": "evaluated",
+    "active_features": 69,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/183/reports/report.json",
+    "report_sha256": "067cd0cc3a5fca32e6989fbaa81582001e4bda952c622a08da6deddcb680bcd5",
+    "api_call_event_count": 43,
+    "executable_hash": "973dfed9c09a5917bd0e492396c1215f0df56f697f542b2c561b48b1967986fc",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 20,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/184/reports/report.json",
+    "report_sha256": "e2d64cfaacf327332b9f14d854131b048eb88c2294cdd51b66e1d8b971a9018e",
+    "api_call_event_count": 1291,
+    "executable_hash": "97535e75ca6a77e6bcb81216b0fb383024709539727fd656df6afd33a50cad04",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 56,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/189/reports/report.json",
+    "report_sha256": "68d94cd9984c4a56e979a4afdd57c00700a7e0f5237b87d152b6b799532161a9",
+    "api_call_event_count": 755,
+    "executable_hash": "a4b9ec8e80bfe755cfdaf0bced71b6a56993a6802aba061e8799de575eacecc9",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 21,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/192/reports/report.json",
+    "report_sha256": "b79277ecd0b28de36c47f9d2dbfffc4e37b6f63e747aaee391c3ce390bd67ffd",
+    "api_call_event_count": 2165,
+    "executable_hash": "21d42dadaa9c494f98682cace09b69740f7087cd3a1ec1163e9476f842b6a624",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 1.0,
+    "status": "evaluated",
+    "active_features": 35,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/193/reports/report.json",
+    "report_sha256": "afdc68eda44e8e49165496ec0dd55c8cd8611facafa5508d6efdc9287067c473",
+    "api_call_event_count": 34,
+    "executable_hash": "7f0e98405fdba5f7c13eacb15c78e2bc7fc3ef129fe23f5a1c9ca19383c131f5",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 31,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/197/reports/report.json",
+    "report_sha256": "221829cdbcb4b6b9ed27b5b782494d88a0e36e92aa7a8a72365bff7e1ad60929",
+    "api_call_event_count": 48,
+    "executable_hash": "f1f905558bd1b8fed7683b1de778e616b95c713027ad79e4921147d22ff1198a",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 19,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/20/reports/report.json",
+    "report_sha256": "2a427b3f926cb49b80532d76697a2f5b76e5e7ea2df70ee9fb63cf01b234e6c7",
+    "api_call_event_count": 406,
+    "executable_hash": "d94d0fdd696954c6286267b4593f9bd00e7337c397ba411f53b2ad8e39cf7868",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.6,
+    "status": "evaluated",
+    "active_features": 31,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/201/reports/report.json",
+    "report_sha256": "c42ae7e39eb6cd476bb17ac78982972614b40a49c093c26f138831cb6c002ffb",
+    "api_call_event_count": 24,
+    "executable_hash": "d9ade42965ec22aeb4b2ad21d429c3c8232a60aa9853defda7aed86a13fe8623",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.0,
+    "status": "evaluated",
+    "active_features": 30,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/204/reports/report.json",
+    "report_sha256": "ccfa9c660c44acfce214176110efb61d7fef3daf3e60251480623c63d9c84e0a",
+    "api_call_event_count": 40,
+    "executable_hash": "a9fd7a758d12e0818a11beef1ce772fefa8373e92ef6c0da8628cd4572cc9a43",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 32,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/213/reports/report.json",
+    "report_sha256": "1ad88107e287ec355b3ed86dbc509388ed3f00704843ea036ef146263832e24c",
+    "api_call_event_count": 35,
+    "executable_hash": "aafed271d9c57276c5c73e2c7c3f4064d0296faef91dfb57b6d69aec2d5baf97",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.0,
+    "status": "evaluated",
+    "active_features": 20,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/226/reports/report.json",
+    "report_sha256": "7415ead7421d917c2c9f0fc7ccef7ddca60a1c45dddeb820fffd212d0f41d399",
+    "api_call_event_count": 0,
+    "status": "unprocessed",
+    "reason": "No captured API observations; execution cannot be assessed"
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/227/reports/report.json",
+    "report_sha256": "c8feae4187fa6b5cb39a35c40a628b1fa0d13c03d147028accb18ce944ab55e8",
+    "api_call_event_count": 521,
+    "executable_hash": "9b84e11cd4fe9e83127d116baf8d93d7d9d2d2df8d0de742835ee2db370d44d5",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 57,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/230/reports/report.json",
+    "report_sha256": "1e01d260cbe37e83fb49c26438bab99649601dd55387127d960d41416adbd922",
+    "api_call_event_count": 367,
+    "executable_hash": "ff185827a81e68a085aa0a85fac03a4f4549c25a02c8906f31fc9c81b9ec04d5",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.0,
+    "status": "evaluated",
+    "active_features": 34,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/24/reports/report.json",
+    "report_sha256": "77c7a62f757d90b22384170b7541e7a3e2ab16ac61ad786ccd02b541785234e8",
+    "api_call_event_count": 43,
+    "executable_hash": "88d7f2ad8f7dbed8b9ee150132b9e88a7183f66236dac61343c2c05974081893",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 24,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/242/reports/report.json",
+    "report_sha256": "b97d05eea44d346983096d53f922c8ff123f52b7158be48ecc6f2ddf9ce6c3a4",
+    "api_call_event_count": 170,
+    "executable_hash": "1f7077022adc4f14d9279f37c87842fb81deb9c99294228598fe82377d05cf30",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 20,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/244/reports/report.json",
+    "report_sha256": "90a3c1420dba86fd5a6f254089fc3bb4cc64c4c882b913f85625eb9e1cb0a65e",
+    "api_call_event_count": 50121,
+    "executable_hash": "9b42c30299828de045790b0bd352da666e8b07c2117c6128ec68491c3bad7b08",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.4,
+    "status": "evaluated",
+    "active_features": 54,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/246/reports/report.json",
+    "report_sha256": "0b9ef2342e5844deea9050f87532e696da20d095459ba49735b1dad14cb25546",
+    "api_call_event_count": 36,
+    "executable_hash": "7ef2be57d30ccd1ac44f6675c94e7fafa65d1bda8779941ea0acdbc183b923bc",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 62,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/249/reports/report.json",
+    "report_sha256": "2604832937a3f2f3ea3d191d10531ebf5be7e1905161f439e1b3f7daccf3e48d",
+    "api_call_event_count": 63,
+    "executable_hash": "86ff0e4cdd9c394e8babd93a4d57e73ff9a779261717dec6e9cde99f1c6b0f4c",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.6,
+    "status": "evaluated",
+    "active_features": 40,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/25/reports/report.json",
+    "report_sha256": "2600b94d3e92b14b4570bde1d0cf0088651ff49b78b73b2341854dcaae9e08ca",
+    "api_call_event_count": 0,
+    "status": "unprocessed",
+    "reason": "No captured API observations; execution cannot be assessed"
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/257/reports/report.json",
+    "report_sha256": "ba2d9e61283e0cef2c7c49637246f609a2392da4129049f4e7c0f8a5a7865b87",
+    "api_call_event_count": 85,
+    "executable_hash": "285be97e75943e51734838211060ab1454889bbcd0199f7fd9bd42e4082d7b38",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.0,
+    "status": "evaluated",
+    "active_features": 22,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/26/reports/report.json",
+    "report_sha256": "0f6912eddd98c1c01296c435cc3ff5828a216a4c4ab72adfdb4234c0cdba37f0",
+    "api_call_event_count": 60,
+    "executable_hash": "3c5a09238c49fb9e0a402e1a611982b4825ee80bc6ebddbb8733dd4f049d6df0",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 20,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/263/reports/report.json",
+    "report_sha256": "13a0b2fe0504c47dd29e274c1ddc358d3cc3dd29d76217fb091d79c33235e483",
+    "api_call_event_count": 89,
+    "executable_hash": "88fff02513b0990fd1b56e2236263177274ac0ccffcbfb6a75f9e6fd96647650",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.0,
+    "status": "evaluated",
+    "active_features": 15,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/271/reports/report.json",
+    "report_sha256": "fc7a6c9350a070b9ed58c2b05b675b3ab51a1fcdd493041a4c4c99aee58c8733",
+    "api_call_event_count": 29504,
+    "executable_hash": "8b631c2c19ebb24f20dbf8324d2f89a90034656214a421538fac941690adefa4",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.0,
+    "status": "evaluated",
+    "active_features": 84,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/276/reports/report.json",
+    "report_sha256": "0e3bc4cbb04d0e0aed01e74498934a4a74eda7df962cee7b063f3784440dd731",
+    "api_call_event_count": 46,
+    "executable_hash": "8992bbcfdb6e0458d8da67e8cd1884f696a36c106e74b31468c3c4bbc942e574",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 28,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/288/reports/report.json",
+    "report_sha256": "4c0a2b19deceda77bca371d66241ce935d5a775c28d45024519e2dd9b2741497",
+    "api_call_event_count": 41,
+    "executable_hash": "380f81b2b7689222ed4928cc21eab2caa4b690d8eb9ee1330c8ff21bd88a3312",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.0,
+    "status": "evaluated",
+    "active_features": 22,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/292/reports/report.json",
+    "report_sha256": "3de8a0a75ec7d0d2246776e82d198c2d465c1e27fab476668a2593758d7f8f55",
+    "api_call_event_count": 48,
+    "executable_hash": "f74838e9a2740c863089b40d0c0780697145da482f8c77b7c7d0b8131a5841b2",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.0,
+    "status": "evaluated",
+    "active_features": 27,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/294/reports/report.json",
+    "report_sha256": "f840981bc63407afd3ab6a6c25a3eb795ae1087fbb56eb25b234918f7b2f144e",
+    "api_call_event_count": 0,
+    "status": "unprocessed",
+    "reason": "No captured API observations; execution cannot be assessed"
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/295/reports/report.json",
+    "report_sha256": "3e79da9927348cd89b1bd43529d42b81280556cb77d1c164c69e4969f22cca41",
+    "api_call_event_count": 160,
+    "executable_hash": "69fb80866880ab6a2ac7b1a0af8736a95a5f2db27dae14f16a496331e7375fb9",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 29,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/298/reports/report.json",
+    "report_sha256": "c6430a872c878ca70f47373f50ae5aeed83dd5a44b7bc55c3af4f1a118cb115a",
+    "api_call_event_count": 45,
+    "executable_hash": "6b6b8f7822d22da07ed288a8898b543624161a48377c025d04848bf23881de93",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 40,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/300/reports/report.json",
+    "report_sha256": "d53e32d71d02af7d238c86c4f82f5a9aff3e3c09791cfae6165b498025559ced",
+    "api_call_event_count": 59,
+    "executable_hash": "5bcc6e5537acbc3f36a00546f1300f2601e9152cee4914acba00e2a96481dcf9",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.0,
+    "status": "evaluated",
+    "active_features": 30,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/301/reports/report.json",
+    "report_sha256": "83790b7b62be37d67056e23de992ff6ab07f21ae9f54ca444d6c713510bad5d7",
+    "api_call_event_count": 78,
+    "executable_hash": "3f2d885c2be50b1a1cf4d23204fc11141c8b74c749643e8281f9e65aefbb3c94",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 52,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/304/reports/report.json",
+    "report_sha256": "ebe1425feb86386570df346032f52ccf7b2257bac025fbd16996f718bb3cedfb",
+    "api_call_event_count": 54,
+    "executable_hash": "94135acf2d9426bb78e4522429120b03d94b541422c277b9aca31410874a464c",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.4,
+    "status": "evaluated",
+    "active_features": 27,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/309/reports/report.json",
+    "report_sha256": "5db9a8ddf4a3d64fbf3b2849e8963d450027e8a11405f1bd538a03ebb4ffd85a",
+    "api_call_event_count": 14,
+    "executable_hash": "4661b818b4bae39e98f4335af5905112d7212eb93819b203323d1190cf913fa5",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.0,
+    "status": "evaluated",
+    "active_features": 16,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/31/reports/report.json",
+    "report_sha256": "df1b540c6e98943ed16fe29cdab810d81fe37e2ece6d24bef3d108ea418a138e",
+    "api_call_event_count": 36,
+    "executable_hash": "d9ea7c799aa0bd71fa99731a0ad6b0aeb1d85741285405bfff8f2c7e5935d714",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 21,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/313/reports/report.json",
+    "report_sha256": "f32a0a46afcb24530aa9eacb4816d2af867cdd6df4708a0c92fedcc2de0d5bb5",
+    "api_call_event_count": 601,
+    "executable_hash": "b515ca333776c18dc8df78df3894cc0ec2487931a2dafae202bdf2e55faa5aef",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.4,
+    "status": "evaluated",
+    "active_features": 69,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/324/reports/report.json",
+    "report_sha256": "ce391015d722d45455163919b528077e696813d9ca256bac311055ba14cbbe00",
+    "api_call_event_count": 5381,
+    "executable_hash": "814a37d89a79aa3975308e723bc1a3a67360323b7e3584de00896fe7c59bbb8e",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 1.0,
+    "status": "evaluated",
+    "active_features": 84,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/326/reports/report.json",
+    "report_sha256": "b411b2f9fc0c46ab8c36775e9953cb9726994bf9f08066ae756268f73a28e980",
+    "api_call_event_count": 6,
+    "executable_hash": "45a670a8f6ed07736f81abad188db65f7dc85d70f8399072df2391fe974be2c9",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 14,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/330/reports/report.json",
+    "report_sha256": "64a52fcdfa405e7911bef63b0f7fe0f67eab40a222da1166299392ffebb0c9ea",
+    "api_call_event_count": 69,
+    "executable_hash": "96161e5765af59002df6e6234e61138255afa547b60f4d7516a17a22c3b4831a",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.0,
+    "status": "evaluated",
+    "active_features": 20,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/341/reports/report.json",
+    "report_sha256": "bc8237a15fe65777dfbf761f4d545569edf6c75174e3efcb13e1bc9b27ddb877",
+    "api_call_event_count": 51,
+    "executable_hash": "27aa7e3d45a2f15f5e0affebb30de435a4ed11440ba1319845a9c7756b973d0f",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.0,
+    "status": "evaluated",
+    "active_features": 19,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/342/reports/report.json",
+    "report_sha256": "171209c335917ead2071b1516412df7fc005fc5ed13060acb9f71d9880978e29",
+    "api_call_event_count": 140,
+    "executable_hash": "5d1534e9a6f45d902e27ac571c6662a32dcc58f16ce4fde8a2232e84b9257d9d",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 35,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/343/reports/report.json",
+    "report_sha256": "c0109a5b97e8834227a865d1d2ab957bf6f871fe1cdc6a916340abe79e5a905f",
+    "api_call_event_count": 44,
+    "executable_hash": "2efccf7cac3e3cdeb567e07aa98aff16adbf09f2c600e507a5d1dec4cc7a11ea",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.0,
+    "status": "evaluated",
+    "active_features": 16,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/345/reports/report.json",
+    "report_sha256": "5eb788fe32b54aa9d929f9e9694fb69e5284fbdf567c29cf0cc2014babf16fb9",
+    "api_call_event_count": 0,
+    "status": "unprocessed",
+    "reason": "No captured API observations; execution cannot be assessed"
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/346/reports/report.json",
+    "report_sha256": "18516b8f78c5c9fb02a082132916f69247579b5ec72500d5a69e1915d4b676af",
+    "api_call_event_count": 45,
+    "executable_hash": "42915ef4bd4e52a7839b497281a245bc65c6f771db1785cb639e5f58eade7b94",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 23,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/348/reports/report.json",
+    "report_sha256": "eedc067e3433d83e5d14c4a3a638ba714ff3bf5e710d2029e56fa702658868cd",
+    "api_call_event_count": 755,
+    "executable_hash": "6ad620811618651a9b11f38146a5b54e5121c1d2eb95c3754849c369e897c25a",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 22,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/355/reports/report.json",
+    "report_sha256": "375744a15aef90bde0c77eeebc05ca903ef498ff62ac4f1b0a5cec00fbf8820c",
+    "api_call_event_count": 155,
+    "executable_hash": "beee9269f3c108f558ce70d70695a13de9b38a9a953b2e2cd44314e227ed08ef",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 61,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/356/reports/report.json",
+    "report_sha256": "4f86a60857db6f6e6dfbd8acc22ca3234a4b7e97195d92e98b33e03f30f868f5",
+    "api_call_event_count": 17550,
+    "executable_hash": "c4750db2e4975643b1bac716f928651e6b7b89468239d467da7528fa21626553",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.8,
+    "status": "evaluated",
+    "active_features": 105,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/366/reports/report.json",
+    "report_sha256": "1a2f84740088c9117912bebad3ec199fdd7dc0310e474213182d0a7b936c6912",
+    "api_call_event_count": 2542,
+    "executable_hash": "5a86be53432f1b169b08954f0601d46414a63e6b6c73de1f4f727e7b22d30d0e",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 1.2,
+    "status": "evaluated",
+    "active_features": 72,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/37/reports/report.json",
+    "report_sha256": "65b40f70622c2801a4e312eeac2e2ddec0d81c44373cd04237b950d393de84a6",
+    "api_call_event_count": 76,
+    "executable_hash": "9e4984e9e3b69cb5fcb727bff769ddea677bc1dc0f4173e635f2b9db3549dbeb",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.0,
+    "status": "evaluated",
+    "active_features": 17,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/39/reports/report.json",
+    "report_sha256": "76966239abe1d1f1d52aecd34a537849b1e20b725b278ff4cf96cbd14dff4132",
+    "api_call_event_count": 46,
+    "executable_hash": "936b43c5a2751e6066a55e3bbf0470190b311e3ee0dbd0f6e226a9abc3e14fe9",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.0,
+    "status": "evaluated",
+    "active_features": 16,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/390/reports/report.json",
+    "report_sha256": "11b07f56f5edfb06c34356aabb9a9763d0686441d6794da91245646b0f6f69d9",
+    "api_call_event_count": 36183,
+    "executable_hash": "2c5070677d5d60ff4d07b40a0b0f28b92758daaf8c6c43283d9405aa30e4fd18",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 3.6,
+    "status": "evaluated",
+    "active_features": 145,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/399/reports/report.json",
+    "report_sha256": "8fd0ed59c95210b0451b31bd06adf6bb53c256536e9e761b999f9b15d4d692ee",
+    "api_call_event_count": 3987,
+    "executable_hash": "20a9cff3e7f589b758ef390d6c7dcb98cfe91e7b2f6b9e3d840704d3d2314141",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 1.4,
+    "status": "evaluated",
+    "active_features": 123,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/409/reports/report.json",
+    "report_sha256": "dcc83c0a464657e3c14513a8ce09fd9b61dc9e2f4270c2617248e4fa239195c2",
+    "api_call_event_count": 20016,
+    "executable_hash": "45cda9feb7eca4c583bad71d1a078faa18ba1e838f888746226fbbea4e806659",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.0,
+    "status": "evaluated",
+    "active_features": 91,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/412/reports/report.json",
+    "report_sha256": "8f16e833a5511dd5720f7f8946a1dac36fa36baad63cd5e861955ab6fb361792",
+    "api_call_event_count": 2486,
+    "executable_hash": "a427cb7a0b453e547318f271d7517a1cb8923b631f5b489d09a538ddc002c95f",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+    "score": 1.0,
+    "status": "evaluated",
+    "active_features": 95,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/416/reports/report.json",
+    "report_sha256": "68f40c3c8c48c5fc49d5426445e48769b8de261a6d092d7dea5c04f02d2ad64b",
+    "api_call_event_count": 39314,
+    "executable_hash": "6e5bb1377e5cdc80b1480f3825cba453cc7b7aa427b2394ce6c4e1f801e43224",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows, WISE installer self-extracting archive",
+    "score": 3.2,
+    "status": "evaluated",
+    "active_features": 137,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/426/reports/report.json",
+    "report_sha256": "9cf6f5603cedb6de17abfa6641e433bf204c7dab95df00968d9207e677765e4f",
+    "api_call_event_count": 29513,
+    "executable_hash": "dd1f9234fddfa9d96873d9bf2ad9bddddd638a9a21ade855a6392b14d80ac22a",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 1.2,
+    "status": "evaluated",
+    "active_features": 108,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/43/reports/report.json",
+    "report_sha256": "663f5ea57f68083056ab9c61cff5e7acf0a160a9b274eaf91d0e444d13b855a1",
+    "api_call_event_count": 0,
+    "status": "unprocessed",
+    "reason": "No captured API observations; execution cannot be assessed"
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/432/reports/report.json",
+    "report_sha256": "48820b94ffe1d6e521ceca49e84f148d2298680e7d5a4a6161c75bed9eb8ab9d",
+    "api_call_event_count": 80,
+    "executable_hash": "359d5c0c772689ca0cba406770007f3a891390b6d9ff1edca63778e9ee4c23e8",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.6,
+    "status": "evaluated",
+    "active_features": 44,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/435/reports/report.json",
+    "report_sha256": "4e1a0d4267f5084a7cb0a4d0bf7a6d4d4a216ca8a75ed83bfe6f9a1596151ade",
+    "api_call_event_count": 4888,
+    "executable_hash": "be1a77274448853edec5b0e3c8a2334cbe2ffbedc4a01176d59ed54f99163c76",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.0,
+    "status": "evaluated",
+    "active_features": 81,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/440/reports/report.json",
+    "report_sha256": "0bf3475bf41d910de54d6b18d3fb6cc66e7f8ac6ff39446f5fa49df60e3eaf3d",
+    "api_call_event_count": 51041,
+    "executable_hash": "94d160878d20a12c895aea6a9f73e3c53c3b076c150151519a828185941d8820",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+    "score": 4.2,
+    "status": "evaluated",
+    "active_features": 146,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/448/reports/report.json",
+    "report_sha256": "7a116722cb76fa8fab3c383a4eef05ea8cd2ffe2362eb64501f5fa6e4467f2a7",
+    "api_call_event_count": 0,
+    "status": "unprocessed",
+    "reason": "No captured API observations; execution cannot be assessed"
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/449/reports/report.json",
+    "report_sha256": "e08a1ace6ee3b0f999720bcc24704c044a5db4b298d68ba2d744b35214220383",
+    "api_call_event_count": 44239,
+    "executable_hash": "cba9a52d4e3f3c54a4fea3eed90626c509c7030b042bbd4cc4a262a498b701c4",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 1.8,
+    "status": "evaluated",
+    "active_features": 84,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/45/reports/report.json",
+    "report_sha256": "3322199bbc51e57454d084f09ec66b176e285a32148b71f05aeb3ce4229c1296",
+    "api_call_event_count": 49,
+    "executable_hash": "348ef6dd4c8819f1a8872b051a1253746d5691b99fd87a8519d7d57097ef8e48",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.0,
+    "status": "evaluated",
+    "active_features": 22,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/450/reports/report.json",
+    "report_sha256": "c8c2b7f0db03762506531ae6de7fdfc4b02c72dce0cc27670d5a170160b9ea8c",
+    "api_call_event_count": 30272,
+    "executable_hash": "69d2c2c2d148a00fd40f97b44e9a11040b481e25489133cdb448627a5318a772",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 1.8,
+    "status": "evaluated",
+    "active_features": 115,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/454/reports/report.json",
+    "report_sha256": "17a5ef4591712c0714953a4adcd609710377db2f995adaf9fd5bffeb6b7918f3",
+    "api_call_event_count": 212459,
+    "executable_hash": "0b1714b3a59ced8eb68e2dd220c20349685f348b587f768436df5c239db69880",
+    "file_type": "PE32 executable (GUI) Intel 80386 (stripped to external PDB), for MS Windows",
+    "score": 6.0,
+    "status": "evaluated",
+    "active_features": 88,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/464/reports/report.json",
+    "report_sha256": "f7fa913984e9a63725a5957c68fb08c23d17b4122b17ea7f9b2c211467557451",
+    "status": "unprocessed",
+    "reason": "Missing behavior object"
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/466/reports/report.json",
+    "report_sha256": "25c421bc5011c8f360784fd41b485bb71e363ad73b52444c0fc02b8098eafb38",
+    "api_call_event_count": 250906,
+    "executable_hash": "074fcbd8bd3adb220abeaeec3b4ab1dcacb582dcb1059f5ac38ab237b0be2e16",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows, UPX compressed",
+    "score": 6.4,
+    "status": "evaluated",
+    "active_features": 108,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/467/reports/report.json",
+    "report_sha256": "3272671ab98219290905ceadda8f4f62690cd58b360a5e9e3a91e9ffa9a8cd55",
+    "api_call_event_count": 40209,
+    "executable_hash": "4035692cf65c526c77d831cf2c3f984222426a38990c2ff57be9c05dd76edc8b",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+    "score": 1.8,
+    "status": "evaluated",
+    "active_features": 118,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/469/reports/report.json",
+    "report_sha256": "a655db296ed077f0efcd39201c8a3037400bbc1b681d580dbe0fe0adfbf5a0c4",
+    "api_call_event_count": 23298,
+    "executable_hash": "f38d3459c0f8c1e32b38cc1963cc2f23b9b934c39ae12ec2fee8ccfd041dd5a1",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.6,
+    "status": "evaluated",
+    "active_features": 87,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/486/reports/report.json",
+    "report_sha256": "e27c147e9155176a9e6d1866424836c9a40873bf12fab48f22750ee7432f0436",
+    "api_call_event_count": 1584,
+    "executable_hash": "cff1cf942912ed3f0be9193216237670d83c09bc82cd4c4609536db7cd2c77a1",
+    "file_type": "PE32 executable (GUI) Intel 80386 Mono/.Net assembly, for MS Windows",
+    "score": 0.6,
+    "status": "evaluated",
+    "active_features": 47,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/489/reports/report.json",
+    "report_sha256": "bebb8ddba879ec276e4adb5f1a18dd4fca9619a3ac8f484d6700a178f652686e",
+    "api_call_event_count": 5096,
+    "executable_hash": "b457eb2f38bbd5810aaf09300705457f7137f5fd67d4110a3a4c39f8edea63df",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.0,
+    "status": "evaluated",
+    "active_features": 103,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/494/reports/report.json",
+    "report_sha256": "6095776876ea04f404a5a0649d132e8870112cadb3dbe3832f7c0f9162136f9e",
+    "api_call_event_count": 3577,
+    "executable_hash": "2a0637074df4f3a0c11ae945114a841baae63e1f899f833593dcf4a8c1396641",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 1.8,
+    "status": "evaluated",
+    "active_features": 84,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/50/reports/report.json",
+    "report_sha256": "96460bd0fa69d7441d977b3477c22dcf1917cf1a0f2ba8520977db1ba00a1889",
+    "api_call_event_count": 0,
+    "status": "unprocessed",
+    "reason": "No captured API observations; execution cannot be assessed"
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/501/reports/report.json",
+    "report_sha256": "d3311ab2d63a53fc7dbe8d428d55fbd301c1b306180145854e1992b67db39c97",
+    "api_call_event_count": 90661,
+    "executable_hash": "e4a31995f8743d36dc43f775487545168d4903fbf5436b6718c98312e100c89f",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.6,
+    "status": "evaluated",
+    "active_features": 109,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/510/reports/report.json",
+    "report_sha256": "3769c321073adf0d0587217a120c78ce9664bac1ffa264abbde379d09ea4f72f",
+    "api_call_event_count": 3945,
+    "executable_hash": "b05baccc5dd0e93cb36c1ef7eed6f60eac5a55bce246bc6eb7fa42d2b8cd6708",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 1.8,
+    "status": "evaluated",
+    "active_features": 93,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/512/reports/report.json",
+    "report_sha256": "dd75d4bed08f9b433c84917cf938f37b093d8f577eb2329c450e1828bed17b95",
+    "api_call_event_count": 4664,
+    "executable_hash": "94b68d62436d78bd4204d2af1e2d8f7bb93ce5d3e57b1e2c883b40fa9c441f02",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 1.2,
+    "status": "evaluated",
+    "active_features": 102,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/517/reports/report.json",
+    "report_sha256": "b6b2e274bd559bfd1d4cd7e759ab0cb5ea5223b2f46cd07c27cbbb16c2e55fe5",
+    "api_call_event_count": 242064,
+    "executable_hash": "fef812a0654a95cb75142fef2cfff8304924aa6f5caae06b636c7fa024cdc773",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+    "score": 4.6,
+    "status": "evaluated",
+    "active_features": 155,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/523/reports/report.json",
+    "report_sha256": "377bfcbd843ac9e5730c249f4815c9dec50b8bf23f09f8dd03fb197a0db5412a",
+    "api_call_event_count": 3215,
+    "executable_hash": "bba7c1956ea75797d6d204764713a9e696d866c13edc8fb63088959f2436db64",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 1.2,
+    "status": "evaluated",
+    "active_features": 92,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/524/reports/report.json",
+    "report_sha256": "f0e127a4fcb90f3419d4b575c465e2a4d739ff19ff85a3b381a607f02ca8fda3",
+    "api_call_event_count": 324913,
+    "executable_hash": "8d33c4b31e676d88bf833620328bfb4298c7d8f15e0a764ab56c7a30bfcb4b83",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 5.4,
+    "status": "evaluated",
+    "active_features": 134,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/527/reports/report.json",
+    "report_sha256": "edc6392a4b2008066a99067923a445ffb55da4b13205d418a88f27db68c593e1",
+    "api_call_event_count": 84002,
+    "executable_hash": "e966cd44c721b0bdde62b8c1396ef4d607e3cc87f7a1a6d2b38a1d358e06c4aa",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+    "score": 2.8,
+    "status": "evaluated",
+    "active_features": 141,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/53/reports/report.json",
+    "report_sha256": "a929e1767eacd90ddbcb2a3653aba11a11efc2fc9e03a48e8b517317277d41fb",
+    "api_call_event_count": 34,
+    "executable_hash": "ebd7f51191d4e5e325f12f31f247d54e6c642e7d5c3af8237ac688ea3a6bc483",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 29,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/532/reports/report.json",
+    "report_sha256": "d70c1e2665f6ae4181a444619d53691a9f8053719d769366c63c1c430bb041ac",
+    "api_call_event_count": 4354,
+    "executable_hash": "eed21d0b5594ccb7b1b83de66ea19265c763dd1c9343c6eabbe2d5b926af5651",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.0,
+    "status": "evaluated",
+    "active_features": 123,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/552/reports/report.json",
+    "report_sha256": "1570278b27b1be19747366a75a61cf257a70ec82d5dde7d4486e6375a197391e",
+    "api_call_event_count": 1956,
+    "executable_hash": "c61674296a1e8c36afddff017486a23877ecd96124d5d0c93384ede8d3bc0b36",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+    "score": 1.0,
+    "status": "evaluated",
+    "active_features": 98,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/556/reports/report.json",
+    "report_sha256": "4141f3761e79640f7cb4a813f093b4b9ca7aacbf72cca152d91725d225bee842",
+    "api_call_event_count": 0,
+    "status": "unprocessed",
+    "reason": "No captured API observations; execution cannot be assessed"
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/561/reports/report.json",
+    "report_sha256": "4852e43c50ca66cf83d9bae6cc368b9a9704e3cf57fdb386657882179cd2ba41",
+    "api_call_event_count": 4457,
+    "executable_hash": "5b64776abeaaddd018241f734cf456e05a30837fbcf7b15d5f4c6d5f17b6844b",
+    "file_type": "PE32 executable (GUI) Intel 80386 Mono/.Net assembly, for MS Windows",
+    "score": 2.6,
+    "status": "evaluated",
+    "active_features": 61,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/562/reports/report.json",
+    "report_sha256": "e13c1d4658c754480e31d9aa39a97e29810c1b4f0033678280e1d76f4f30932d",
+    "api_call_event_count": 141149,
+    "executable_hash": "e2db0772ae5e879e42a4fb0e40ecc77c55eb884b0b52b29d0c1e719dd3c0c004",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 3.2,
+    "status": "evaluated",
+    "active_features": 85,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/569/reports/report.json",
+    "report_sha256": "7af5ca5d9901ae6200f7a2fef5923bc6b123f3df49d71c7f54efad1f6e4733a8",
+    "api_call_event_count": 53364,
+    "executable_hash": "40b9d9772c17c5de98dc2e5b5a6ba34120b81a5fa4521368357f1a8f8e0ebfaa",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+    "score": 1.6,
+    "status": "evaluated",
+    "active_features": 127,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/570/reports/report.json",
+    "report_sha256": "0c78677ae2d4548c5922dfb75e775071c11cc0ccce7c6ee21a2a8179d1b34820",
+    "api_call_event_count": 1,
+    "executable_hash": "82f10fe1e313867c96ca126f974847d2c7ba1e5de482bfab66f94b14359510cc",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows, UPX compressed",
+    "score": 1.8,
+    "status": "evaluated",
+    "active_features": 10,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/589/reports/report.json",
+    "report_sha256": "d9a431dd1b0e4c2162f2919bd1f4bb1c61f991009864cd4792a6756632e7f2a4",
+    "api_call_event_count": 234366,
+    "executable_hash": "bb68581b96a20fd10f447cb9fc2dc448c9a0d7efeb32f50b2665acc91c0c3084",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 4.4,
+    "status": "evaluated",
+    "active_features": 134,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/593/reports/report.json",
+    "report_sha256": "7013ea7a1b7ea29a45f308956ea2cd956e616b91f42f8d5a6a7b0ab584996376",
+    "api_call_event_count": 2599,
+    "executable_hash": "46f2796ad4cb558034f32e3cdc3237b3e062a75125f57efe34b16bb89cc82c99",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+    "score": 0.6,
+    "status": "evaluated",
+    "active_features": 84,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/596/reports/report.json",
+    "report_sha256": "542d48b08d7e40e503e956bff1b502a179e417c5599f4ed8304ded9319acc2e7",
+    "api_call_event_count": 5148,
+    "executable_hash": "9e7d75ac4e83f6dcddd1e324de5038ec84114267216ef3461a244c656a982003",
+    "file_type": "PE32 executable (GUI) Intel 80386 Mono/.Net assembly, for MS Windows",
+    "score": 0.8,
+    "status": "evaluated",
+    "active_features": 77,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/598/reports/report.json",
+    "report_sha256": "50f59df5826362849529131099623148f8a18318949d4dfe1404851c9f0759c9",
+    "api_call_event_count": 33359,
+    "executable_hash": "0354ab9b626a4efc9f0f93c315bb3a642add1547c843a8445cee19cca2034e8b",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+    "score": 1.6,
+    "status": "evaluated",
+    "active_features": 121,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/603/reports/report.json",
+    "report_sha256": "819da33fbf2f8fdd269813d1f0706cb74374c256873a2187039f337a79b4cf0d",
+    "api_call_event_count": 5731,
+    "executable_hash": "5b90dd06f986f5727af51a4170ad14d5be6342c8c697aa4970264a9daf2c6a3c",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.0,
+    "status": "evaluated",
+    "active_features": 91,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/608/reports/report.json",
+    "report_sha256": "d4fbfd25e8002fa3331894b62ffca7678fe1b108a465db969f32a87e6bda1f5f",
+    "api_call_event_count": 37122,
+    "executable_hash": "569cc07b5e44eb4c2784576fca06811f9000419075638b6b4503de6de94a9255",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 1.8,
+    "status": "evaluated",
+    "active_features": 105,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/61/reports/report.json",
+    "report_sha256": "8438ba0cb8180678a1df2676a62fb9d25c3a92170c773cdaea10f0186d9c261b",
+    "api_call_event_count": 453,
+    "executable_hash": "083827b4af9a2da6ddf672265f9774fb73f9ad8455d51e8fe5cb33df2b960836",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 48,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/610/reports/report.json",
+    "report_sha256": "8eb588518df5166b462bee60921a87883dc0adeab8f8ddc0cd028d73676de467",
+    "api_call_event_count": 2571,
+    "executable_hash": "17eaf6b1bc3fb22132fdd44379b322a0a15e5df021d61be85dd43c1980298716",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.6,
+    "status": "evaluated",
+    "active_features": 87,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/614/reports/report.json",
+    "report_sha256": "6dc12e0da92e23e037c23b87c99e902da29ec51094eec02cce6c61f3575333b8",
+    "api_call_event_count": 1733,
+    "executable_hash": "7a2b045aca27616e554e5190162fa70d50e45134d8ef2c33b4c4bf231a2d4fbd",
+    "file_type": "PE32 executable (GUI) Intel 80386 Mono/.Net assembly, for MS Windows",
+    "score": 0.6,
+    "status": "evaluated",
+    "active_features": 47,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/618/reports/report.json",
+    "report_sha256": "482f70997e2fe39a12ab85817f6aa1e3034e70a60c6a244429b60fb3420c487b",
+    "api_call_event_count": 112,
+    "executable_hash": "b27f5087fd1692305c8ef37f7400d9313f5304ada78174c51a15d6e726a41ef2",
+    "file_type": "PE32 executable (GUI) Intel 80386 Mono/.Net assembly, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 13,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/623/reports/report.json",
+    "report_sha256": "1e6a54db03c0c4172afb4b6257016f8ebf79ed49048618a3dff56265638f801c",
+    "api_call_event_count": 33174,
+    "executable_hash": "f8106bc8eb6ee6893c07fe61726af9e892b3c79be426d22a1d8b2ecc7a219f16",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.4,
+    "status": "evaluated",
+    "active_features": 145,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/633/reports/report.json",
+    "report_sha256": "7f65f35964e0f2cceb7abcdba6044dca736f2f1968c8b73223455e9df3d0dd77",
+    "api_call_event_count": 42518,
+    "executable_hash": "deb6f3eb7bb0fe63f6fff6fb8550ead26260d4e6a9ab833a0bf387d3a8706bf3",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 5.6,
+    "status": "evaluated",
+    "active_features": 133,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/639/reports/report.json",
+    "report_sha256": "b56bd17e724167a00799294df539385d86af2b3ae323e9c35f31349143bbf157",
+    "api_call_event_count": 0,
+    "status": "unprocessed",
+    "reason": "No captured API observations; execution cannot be assessed"
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/64/reports/report.json",
+    "report_sha256": "d90ccb9dfc57cdda14521dee331adca006d1eafdded5b21948fb3683f81b2cf1",
+    "api_call_event_count": 46,
+    "executable_hash": "2718e8ef6ed46cd34060737ea79ab2825163fa0a64798c6da6d0cbfe8ec35709",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 47,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/644/reports/report.json",
+    "report_sha256": "bdee4098454032864dea7755d78383410b893614dd11f9c77231c7ff60acc6cf",
+    "api_call_event_count": 121563,
+    "executable_hash": "a35bec21a9f992774dd258d30ee5529f58e7254e82230101f003bdd5edacd350",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 5.2,
+    "status": "evaluated",
+    "active_features": 133,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/650/reports/report.json",
+    "report_sha256": "a796fff9845ffefdd371b8ae094f9320988feef0edad9d7f03f68029430aedde",
+    "api_call_event_count": 0,
+    "status": "unprocessed",
+    "reason": "No captured API observations; execution cannot be assessed"
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/68/reports/report.json",
+    "report_sha256": "20e358253df1fe399fb286eef21fbc84290a090619c714efb21d001811a07dfc",
+    "api_call_event_count": 0,
+    "status": "unprocessed",
+    "reason": "No captured API observations; execution cannot be assessed"
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/72/reports/report.json",
+    "report_sha256": "c85bf6b7a8c419a979c857213893f98c93ff0acbee7f7d0aa25ef60dfcb8feef",
+    "api_call_event_count": 17764,
+    "executable_hash": "874a5bbc45947cbb6b3af3f4e4f536bf925940c60015c648ba573a2692a11432",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 1.2,
+    "status": "evaluated",
+    "active_features": 65,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/81/reports/report.json",
+    "report_sha256": "c21a8c08fbdd57c5b5005baf279c7a9451e44ea57b934a8966fe6f66dea2c032",
+    "api_call_event_count": 14,
+    "executable_hash": "f6e90d0293881228129221a5f9eec1f7c5a0e473388fcc1ba3f8a4791dd7ecf6",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.0,
+    "status": "evaluated",
+    "active_features": 17,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/88/reports/report.json",
+    "report_sha256": "38b00ac0b63a656cb5feb2e6f67c9748fe94c6d9032cc8c98da3e0f50a0c0cab",
+    "api_call_event_count": 386,
+    "executable_hash": "83b8bd751cf75ceed635385683f15c0ff17e78e10e8557737f6ca0a1f0d9d781",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 56,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/9/reports/report.json",
+    "report_sha256": "5cebba74d6b778c248cce85e0d17c612933adce4b03570e99b083479ff74cb2a",
+    "api_call_event_count": 0,
+    "status": "unprocessed",
+    "reason": "No captured API observations; execution cannot be assessed"
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/90/reports/report.json",
+    "report_sha256": "35b3569e8936f71d386f046b26724f3560eb89406dc78cfb78a2daa7011e3057",
+    "api_call_event_count": 45,
+    "executable_hash": "7b1de53d637a5fc9619d5d07c48927afec89d959207f6f2e2f45dd054eea04c7",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.2,
+    "status": "evaluated",
+    "active_features": 32,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooClean/97/reports/report.json",
+    "report_sha256": "fa65e5d8f9de1c1daef31732c9483b3a7378a21bae7f98417ffcad723cc38e3a",
+    "api_call_event_count": 46,
+    "executable_hash": "d83493f0c69719cb3c50599081851185a5b4846ac7a3c7ccd4e73da2ed68bd50",
+    "file_type": "PE32 executable (console) Intel 80386, for MS Windows",
+    "score": 0.0,
+    "status": "evaluated",
+    "active_features": 16,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/100/reports/report.json",
+    "report_sha256": "3bce6d89b18849ca06ee55cc304c773907c85c95e2403a2be7f6514dcc5e7d6e",
+    "api_call_event_count": 31625,
+    "executable_hash": "ccd1b981f25be2106b272c3c942451ed9d4a5d0afb396fe49ba205ebbf569ba3",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 3.6,
+    "status": "evaluated",
+    "active_features": 104,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/101/reports/report.json",
+    "report_sha256": "253e61dbee52fa5b41cf8c79b267132699c9b0249e1b4550bfdd4dc0b76671c1",
+    "api_call_event_count": 6464,
+    "executable_hash": "b2dbd420886b8e5ffc401e2f0beda6ebeb3ab613b7d73be232085b1ee34e0f4e",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.6,
+    "status": "evaluated",
+    "active_features": 94,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/103/reports/report.json",
+    "report_sha256": "2100ea5c22f4639980d6529d091981352d0a71b2cabd7e75abb691f4ea20c483",
+    "api_call_event_count": 8446,
+    "executable_hash": "6c541d95ccfbf089ab2ef3edb9d96ae2d28a57e9ba6ebbaa9529fa6f3780a56b",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 3.4,
+    "status": "evaluated",
+    "active_features": 100,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/108/reports/report.json",
+    "report_sha256": "6f9c06db2ca078787355863779e8bf47702a7841227551ec603bdc5085663075",
+    "api_call_event_count": 3431,
+    "executable_hash": "3e364e1aef8caee5d643f3d258232b403c52a5a4945f2b000c2ab47a1a39876a",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.8,
+    "status": "evaluated",
+    "active_features": 84,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/11/reports/report.json",
+    "report_sha256": "2c2bf0f0de189dff81a27acb92407822dab8416cdb80afd068f674b391199ff0",
+    "api_call_event_count": 1586,
+    "executable_hash": "3162bae8acf60fda1db9e6fcf510dcb1743270e67479d96fcdd6fae05c51869e",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 1.0,
+    "status": "evaluated",
+    "active_features": 58,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/115/reports/report.json",
+    "report_sha256": "21eee093e0a08fd9c22a8227ae440dcae97723e48bf08e9964e44bdfbd047939",
+    "api_call_event_count": 2432,
+    "executable_hash": "c8ca8b9ee03b9da38bd05d18897786b2aafa01cd74061c207b30206080419cfa",
+    "file_type": "PE32 executable (GUI) Intel 80386 (stripped to external PDB), for MS Windows",
+    "score": 1.2,
+    "status": "evaluated",
+    "active_features": 87,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/120/reports/report.json",
+    "report_sha256": "c254ae327729c6a6d97b8eb56c99decdb29f1bceec7a858cbed52484e4d41ef6",
+    "api_call_event_count": 14987,
+    "executable_hash": "78f887a23930b0a9e0c8497e2aceb758ebade14243059eaf7bfcfc7edec56191",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.4,
+    "status": "evaluated",
+    "active_features": 97,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/129/reports/report.json",
+    "report_sha256": "79c55da60e052f1eecc4471d6aa8678db21a33c17ccf5e825ed46616045f69f3",
+    "api_call_event_count": 3612,
+    "executable_hash": "985cbdb5a7c0b2185d0908b9670a18e34cd1136b2bd88da427f7a54304cf99cf",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 1.2,
+    "status": "evaluated",
+    "active_features": 88,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/138/reports/report.json",
+    "report_sha256": "b8b9395610282b2f4e53f4e5ecd502a8b4aa562a5ab6a6afc5655519d2a46db4",
+    "api_call_event_count": 4642,
+    "executable_hash": "5dd82eca2a1011c8a4e80abd912d76d98022cdb50a028a31ea483c4390ed812f",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.0,
+    "status": "evaluated",
+    "active_features": 89,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/14/reports/report.json",
+    "report_sha256": "8c580af2c69a30e5f7589ff0ec82b11625428e5c82630b4668b8bf6b913a4f23",
+    "api_call_event_count": 2760,
+    "executable_hash": "8cf0d0f482dc3982e894d5a35a8df3834e6ec02cc62462d8b1796abf867a5ece",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 1.2,
+    "status": "evaluated",
+    "active_features": 80,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/140/reports/report.json",
+    "report_sha256": "7eb3d7038c9aa87075948abbeca43026686a4e4159ed432035720372a8210d03",
+    "api_call_event_count": 4578,
+    "executable_hash": "886241bdfd1af4566ad4d8753a16c30b157962aa9ba21d57a3a09e12fb445203",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 1.2,
+    "status": "evaluated",
+    "active_features": 80,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/142/reports/report.json",
+    "report_sha256": "649b8222b55c535541bb47b38fe948497aa9368d73247f09bc7440b1776769bb",
+    "api_call_event_count": 33604,
+    "executable_hash": "3b21eeec90f70293594cc6d25d57be940683c7a46b31727ae2832abeb21522ce",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+    "score": 0.8,
+    "status": "evaluated",
+    "active_features": 112,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/145/reports/report.json",
+    "report_sha256": "ae302688088e7ac5f149749b3277bd8616579a12f5c4bbc704565af59b7533fc",
+    "api_call_event_count": 39224,
+    "executable_hash": "a4e31101e17db3b223c43eb7045fbc0dfe12c3324839fa15a09f0bdcfc9eb4d3",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 4.4,
+    "status": "evaluated",
+    "active_features": 124,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/154/reports/report.json",
+    "report_sha256": "82e859ce2919ca9b4adc1975db4211b588539838c0751425bdcbdc14dbcb6b6d",
+    "api_call_event_count": 22862,
+    "executable_hash": "58a4497846f1154206d30607dd43d39c2b6603dc880e1b5c021d6fd163421070",
+    "file_type": "PE32 executable (GUI) Intel 80386 (stripped to external PDB), for MS Windows",
+    "score": 1.2,
+    "status": "evaluated",
+    "active_features": 112,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/158/reports/report.json",
+    "report_sha256": "e1b7b63ac05534c6f8a408a0f67fbf53e32399c5659aad4c4209c3198eca8d9f",
+    "api_call_event_count": 8826,
+    "executable_hash": "2031a2efeb9446742106aa5f91d2f14b1e7a43c0a66d6af9fcfa18b2156ca0c9",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 3.8,
+    "status": "evaluated",
+    "active_features": 126,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/160/reports/report.json",
+    "report_sha256": "66b20c90da73ae8a80fd3075f7e4941a0be1f27d65daf71353005a5656639ec0",
+    "api_call_event_count": 38265,
+    "executable_hash": "3efd6deb30c6778a15aba7409eb68dbf430a83cde21c17ff42fe9b213a937792",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.8,
+    "status": "evaluated",
+    "active_features": 120,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/171/reports/report.json",
+    "report_sha256": "f838882e1f55e47488700835632d67c30c40ca59b6d009831bcf0b3beebf91a9",
+    "api_call_event_count": 86142,
+    "executable_hash": "622b317979b8bf31ba98cce75283a935e6406364d492ed519f2a10da50d611f2",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows, UPX compressed",
+    "score": 5.2,
+    "status": "evaluated",
+    "active_features": 84,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/173/reports/report.json",
+    "report_sha256": "9425da79e1aac1aebdbd1ead690d4eb4d66e26c218eceaccfbfd6df790318c1d",
+    "api_call_event_count": 34245,
+    "executable_hash": "819616f59a46c2389521db578025bd08e1bcd373b8a037c1a9871b1e16875abb",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 5.4,
+    "status": "evaluated",
+    "active_features": 94,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/174/reports/report.json",
+    "report_sha256": "e7fd1adee7e76832c5fce38bd5664568b05143971c4596180ae640b47f7017e2",
+    "api_call_event_count": 160265,
+    "executable_hash": "e3beaa87dc6097e24169d159e403063cbdc52497f5f80c4c4d5bfb2d75a54b7c",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+    "score": 5.2,
+    "status": "evaluated",
+    "active_features": 169,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/176/reports/report.json",
+    "report_sha256": "9cb807241932475ef11d3842f0fa012263e429fd0868b64aadea9c1d3645f2ff",
+    "api_call_event_count": 282809,
+    "executable_hash": "dc33d4848abe8bc294def7a54801555a269f64046e7cc2f9375a119dde82de71",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+    "score": 6.2,
+    "status": "evaluated",
+    "active_features": 145,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/177/reports/report.json",
+    "report_sha256": "5169803ea749230983f417d3e5c2fe78cf4d2b1b2e0da6aef7ee4a6e4a14273b",
+    "api_call_event_count": 35130,
+    "executable_hash": "c306ae721c046eb3246e863b7bd4f1fdecb4dac5c1ed04c06f29c582443a389c",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+    "score": 1.4,
+    "status": "evaluated",
+    "active_features": 132,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/183/reports/report.json",
+    "report_sha256": "a213e990b4fd28bc0709925e23a859603a058b7c4ae7e3e6e5e4634b9d392844",
+    "api_call_event_count": 13196,
+    "executable_hash": "bdd19d41947495894c8c341376a2860f4d8a3542b80fe0cc235f25a5c1eb6b80",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 3.0,
+    "status": "evaluated",
+    "active_features": 94,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/184/reports/report.json",
+    "report_sha256": "6ec834e16adad3ef67c523c8d4dd6411fa90a495e6759155d8ae52aa25c83a78",
+    "api_call_event_count": 2694,
+    "executable_hash": "42565226e7ce461f6a5842446248862cf6536ffb99a8c0fa50a9a018212ab4c9",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 1.2,
+    "status": "evaluated",
+    "active_features": 90,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/198/reports/report.json",
+    "report_sha256": "c752f713063dce80f28c6ef1f77ab787e1c4a7fbf54afe971acdf81fb58df329",
+    "api_call_event_count": 2733,
+    "executable_hash": "39c87d5b63b00d602b647947dea10594fd77ab074c48a890a1b192a8d7498759",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 1.2,
+    "status": "evaluated",
+    "active_features": 77,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/2/reports/report.json",
+    "report_sha256": "c9de67c5db4ce25d5aeb84e0a586c97b10c972e8d4c23b3627e7a5b4a9a44740",
+    "api_call_event_count": 10498,
+    "executable_hash": "6d9ce925c24141b2828d9c2d5e1aab08d0fd5e55e83e23e2139c09e5dfde1b05",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 3.2,
+    "status": "evaluated",
+    "active_features": 103,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/202/reports/report.json",
+    "report_sha256": "3d3bcec7aaa6951d677acbf746c87ac1caa571c90d1915a49e2b28e175cb7e66",
+    "api_call_event_count": 30084,
+    "executable_hash": "d0e1ddf3547c040426af7866afdb8b7fd7947d9137d3ab212e78427b9e28dec7",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 1.6,
+    "status": "evaluated",
+    "active_features": 80,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/207/reports/report.json",
+    "report_sha256": "313dc104f38453acfbed0b99c1d1b81ef4908982360dce46a855eede8906fab5",
+    "api_call_event_count": 1,
+    "executable_hash": "246f26581c31114895ef2430b87b53d0c55f5c01ce9a58ce9fbad97bb5ddf6cf",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 1.6,
+    "status": "evaluated",
+    "active_features": 48,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/210/reports/report.json",
+    "report_sha256": "d7229acc6066dec12a144275577e7a6a67b4a96cc391799b986c8f72735732e4",
+    "api_call_event_count": 198443,
+    "executable_hash": "cc0cd44509e68139f06595ceb844f4609a33e32736a1ccfb16095846b1db74c8",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 5.2,
+    "status": "evaluated",
+    "active_features": 128,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/213/reports/report.json",
+    "report_sha256": "55ca2a433091310e6955531118cbfce951608b4e5c92cc85356502f2bd81e14c",
+    "api_call_event_count": 121426,
+    "executable_hash": "b94851ec6390f372f7ae958cc2c10995eaf3283f2e038223c5d8cdb432710e60",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 5.4,
+    "status": "evaluated",
+    "active_features": 155,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/214/reports/report.json",
+    "report_sha256": "ca3a977aff7dece867e533d2b0e73500791fcce5ff1f29a3ec08f5219d57dc74",
+    "api_call_event_count": 75823,
+    "executable_hash": "28a28b4d681ccc2305d60c6b661d751fd1a94f6de6c797f76571214ce78b284d",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.6,
+    "status": "evaluated",
+    "active_features": 124,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/219/reports/report.json",
+    "report_sha256": "1e55ae76ac2ff29617a8add7ff9618084b8d0b9d3b4ab8091c3b11d1c10bef44",
+    "api_call_event_count": 45072,
+    "executable_hash": "1e46c9640b864614598c2b0cf7f5dd2ad3bc1bcb79d0ad9d52e123ea6a72d4a6",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.8,
+    "status": "evaluated",
+    "active_features": 149,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/22/reports/report.json",
+    "report_sha256": "9cbdc6261ba9a7a6b311a0a55f60f92f4513ab527d23fb64273673400ea3b555",
+    "api_call_event_count": 25511,
+    "executable_hash": "8718e64deee65119d74f9ec63489adba4b6124fe64fc86e9f885f143b67c3333",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.4,
+    "status": "evaluated",
+    "active_features": 93,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/223/reports/report.json",
+    "report_sha256": "5802016b758720efeda8b6b783aee54ffc27c9b2e0a0acea58dc2286b56275dc",
+    "api_call_event_count": 32959,
+    "executable_hash": "acd212f0199d5cb2462e2e53e968170cddfe3ded3bf2ea09a83122d554320346",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.8,
+    "status": "evaluated",
+    "active_features": 92,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/226/reports/report.json",
+    "report_sha256": "d03cf16b3bcc2b440cd5ef12dbcab32669678e34a11fc71fe8a39b47d9131c47",
+    "api_call_event_count": 7313,
+    "executable_hash": "7f1002821914beca5ede37fe58bec27b3655270537c33d49266b6ca4fdef8bcc",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.6,
+    "status": "evaluated",
+    "active_features": 101,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/247/reports/report.json",
+    "report_sha256": "f2eaf63643741a33f8dc1698dba033b5a634570bcb5b7241b8ab2aacd2a6f54b",
+    "api_call_event_count": 10265,
+    "executable_hash": "8ff8b37469fdec28cca26ed924698d7d57d4d5881bc4e12f4084f0fa197267ef",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.4,
+    "status": "evaluated",
+    "active_features": 101,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/260/reports/report.json",
+    "report_sha256": "371975754031f6b740d38277931f14d7812fb2b16696ebbf44a5c3e184dee12a",
+    "api_call_event_count": 11135,
+    "executable_hash": "4f74ade058135eb3f664db1bfacca8357df74d0c07e8151fd5fe064f888ddcfb",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.4,
+    "status": "evaluated",
+    "active_features": 90,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/261/reports/report.json",
+    "report_sha256": "b961d266ab7191c1636b1026e948080463b7a911d7cd7345e3cbd893a180e1df",
+    "api_call_event_count": 34658,
+    "executable_hash": "da75ceabf3762bb5e6e991dfc1f0be9712b9611d4e9c503eb383d8dcf763415e",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 3.0,
+    "status": "evaluated",
+    "active_features": 112,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/262/reports/report.json",
+    "report_sha256": "08fc9bd5ef97934d0538ba5ea5d7b41bf85c8cab21f0974f0ccee4ffe92d5aa2",
+    "api_call_event_count": 9084,
+    "executable_hash": "47c10b20b435a9e6fd1e206b468a7aa216dfbf4edb5a64fab657dd165bf43360",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.4,
+    "status": "evaluated",
+    "active_features": 102,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/264/reports/report.json",
+    "report_sha256": "7c12d97dc0c5b23f3703f419adef2df83157c46da1a10f372847e2c7bbd7c9fe",
+    "api_call_event_count": 42314,
+    "executable_hash": "262d0c23cca3dd094721c1cc4028fc17e1b87929e741e5918a574ac85a287d3f",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 5.4,
+    "status": "evaluated",
+    "active_features": 97,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/276/reports/report.json",
+    "report_sha256": "a73839d9c1db8f2404cfa27a41dbd5ee6daf206c588b0db8a6d6e401ad61160d",
+    "api_call_event_count": 17349,
+    "executable_hash": "3e9efaaa73476bb719630664c6ab041c2624e3c11e18fb50d6a3450d774153ef",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.4,
+    "status": "evaluated",
+    "active_features": 106,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/283/reports/report.json",
+    "report_sha256": "52817e0ee023db05c9d778af568f5fc153be39142dd5b2b80fc672f8f0997582",
+    "api_call_event_count": 27560,
+    "executable_hash": "047cac3d866a3e03d4b1f9ad56c964c3ac4e145a5c972b6bf012a3a51f1efd5d",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 3.2,
+    "status": "evaluated",
+    "active_features": 98,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/288/reports/report.json",
+    "report_sha256": "f91192d148d3f2d457c7266a72e3a6b08498fb1e4da85c678f0668b6ad84de81",
+    "api_call_event_count": 6008,
+    "executable_hash": "34de1d2b6c0ae7d684a9a2dedf44de02268b71d09983bb030b372e89e4b380d2",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.2,
+    "status": "evaluated",
+    "active_features": 90,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/296/reports/report.json",
+    "report_sha256": "bc2b7b5b27ec81d83020b57e6c25fadb18ffe9a50048a1835407e38b0ac88451",
+    "api_call_event_count": 16891,
+    "executable_hash": "8be4dba9147438b23de791a2846721adbf0d78d1224a56d67a71471e5b2a5f70",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 1.0,
+    "status": "evaluated",
+    "active_features": 93,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/297/reports/report.json",
+    "report_sha256": "a36c1565804a87d25601ed0fe9fa6ec15dd66da1063203bb567395c073af30d0",
+    "api_call_event_count": 11528,
+    "executable_hash": "05475ea2d89a8952552272a3468582f3d8ac1685e7332f09335ef2395785f17b",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 3.0,
+    "status": "evaluated",
+    "active_features": 103,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/3/reports/report.json",
+    "report_sha256": "27725fb039f13c4ab6fb0d0d3fe117090f2aa1a923f3db96735026b627fa3e1a",
+    "api_call_event_count": 23639,
+    "executable_hash": "9f818a977c32b254af5d649a4cec269ed8762f8a49ae67a9f01101a7237ae61a",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.8,
+    "status": "evaluated",
+    "active_features": 104,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/304/reports/report.json",
+    "report_sha256": "d506b0c9137b0e14350913bec2ff60ff22e893e925cde83508d312707b630082",
+    "api_call_event_count": 3800,
+    "executable_hash": "a3411d421f61a2ceb425190868b1a06c6d4db7c00ecb397359ff37011a5e0c00",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.0,
+    "status": "evaluated",
+    "active_features": 91,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/306/reports/report.json",
+    "report_sha256": "6e5b865464fa5bbbb35d095138c492ae355e4b6a68c042fcd8aad858986b2161",
+    "api_call_event_count": 2767,
+    "executable_hash": "61257e296b166b5753e7c9e563b54242dff016794849004b468969be5e1c8abc",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+    "score": 0.8,
+    "status": "evaluated",
+    "active_features": 97,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/311/reports/report.json",
+    "report_sha256": "ce7c9ea013469ceed0ef7d9085a99041b0cd56e6669c19971a66d43aa1602a8d",
+    "api_call_event_count": 17697,
+    "executable_hash": "faf330725d7607c79471b297b07c3de25657426bc1e29ec6eb4c5068c07849db",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 3.0,
+    "status": "evaluated",
+    "active_features": 97,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/32/reports/report.json",
+    "report_sha256": "d60f30992c318a0e40bc21d1decf7300c7e990e2e3af470c94f62f03d7037a16",
+    "api_call_event_count": 86044,
+    "executable_hash": "cec2226c9d5e2fefa1538fa318d4c210d6c9a8b4bd25c893c085377c1e3be58b",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 3.4,
+    "status": "excluded_source_overlap"
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/37/reports/report.json",
+    "report_sha256": "0d9786563aeb279770395cedb5de954f25cd62c8df1c9d004a1e40f82b759fab",
+    "api_call_event_count": 16783,
+    "executable_hash": "9c259d603ff133571636f5709262534e28ad6a038d7a4365a2f7ab5bb87c6858",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 1.2,
+    "status": "evaluated",
+    "active_features": 77,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/4/reports/report.json",
+    "report_sha256": "e8dad94ad492f42491660b66d6175f310fb4085cc4d6255a48f8e1fe9191de7e",
+    "api_call_event_count": 15758,
+    "executable_hash": "37fe07f9d76a49231c6b2baf85bc5171a38dbd1efde3e92e7193ad2509d2c5a1",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+    "score": 2.2,
+    "status": "excluded_source_overlap"
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/44/reports/report.json",
+    "report_sha256": "7653c79f20eb4993553607d39078171fcc4a3da0e9aecfc22800c1be98f4fe9b",
+    "api_call_event_count": 75473,
+    "executable_hash": "746764aa6990e503ce91c3f18423d7292c03f154b61be3c3545587ff2fd2344e",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 4.8,
+    "status": "evaluated",
+    "active_features": 100,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/46/reports/report.json",
+    "report_sha256": "21d60c76319ff1d0cf3fa8dedce320736c7b6bcea43b070c50a45bfc97b3975e",
+    "api_call_event_count": 33169,
+    "executable_hash": "47244ee147e7a060b152ecd185ac8fff2dc58ac042ed986c9f1b747ab9f69790",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 3.0,
+    "status": "evaluated",
+    "active_features": 101,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/53/reports/report.json",
+    "report_sha256": "ba63fe6a1be563936337a5c68f97806da67a44eb0dfa28511e7b71bee1c95ee0",
+    "api_call_event_count": 99116,
+    "executable_hash": "edd39d0c7e734c47889084542bd70db5264a935bfb9cdc4012b2dd4e48222324",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.8,
+    "status": "evaluated",
+    "active_features": 117,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/54/reports/report.json",
+    "report_sha256": "372c35890101180c097be75edcaf195351d0fba48ef19c44c2521e5e5e373693",
+    "api_call_event_count": 9432,
+    "executable_hash": "f6bda62361cfa4813c87055e996b14174cf06299943368132a0d6953a73125dd",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.4,
+    "status": "evaluated",
+    "active_features": 98,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/75/reports/report.json",
+    "report_sha256": "d3f91df3703f0c2c0932350c3be289213e9c12b02586fadd51981f35db7e1e02",
+    "api_call_event_count": 17622,
+    "executable_hash": "3e3ea9ea3b044908ca5c8f4342c4ff91390c81748309a6a0e2449baa3111d29a",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 3.6,
+    "status": "evaluated",
+    "active_features": 104,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/89/reports/report.json",
+    "report_sha256": "fbf6c35d33afde91d3d39b4b767e281af8ff608bed2dae05a492c00085f99473",
+    "api_call_event_count": 98482,
+    "executable_hash": "1d438db75291efe6e647b96e683982f86271421d4b9126e0d355efaf537128c7",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 4.2,
+    "status": "evaluated",
+    "active_features": 97,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/91/reports/report.json",
+    "report_sha256": "429ec026c65db4685289f8dca76ee71b3f3fbd61ac76133a96d05fb56887a974",
+    "api_call_event_count": 253444,
+    "executable_hash": "37c7d016129ba70298b6c062148e249dbfcdd48d273c02a9b0934ae83f2ce19f",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 7.6,
+    "status": "evaluated",
+    "active_features": 139,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanHippo/99/reports/report.json",
+    "report_sha256": "e3da50590e90744ecbf9ae9e99ad8e2ac99bc1feb47c3f715bdc9939cb6d1367",
+    "api_call_event_count": 4670,
+    "executable_hash": "2b3b0f3d0909eb2b89ef5783bffdcde57fc64f98b6c8c50bbd04c62fc9a291f0",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.0,
+    "status": "evaluated",
+    "active_features": 94,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanPippo/1/reports/report.json",
+    "report_sha256": "e9427b84699b23f10927077a5932fc5624f934a0a8c265ceb6dd0f36c443c4d8",
+    "api_call_event_count": 54945,
+    "executable_hash": "ec9bdea2864147d85bd200b4367cddc0503a156a8d9a7e59739e32e310fd9612",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 3.2,
+    "status": "evaluated",
+    "active_features": 131,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanPippo/15/reports/report.json",
+    "report_sha256": "30add130208ffb8eb65288b2cca7996324f34bc7b0a3c9272c3f45aa79fa24a5",
+    "api_call_event_count": 989,
+    "executable_hash": "ad7fe336c7ea76384719bbe0813a29e99d5475cb2fa6958bedc409730b6e2773",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 1.4,
+    "status": "evaluated",
+    "active_features": 64,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanPippo/25/reports/report.json",
+    "report_sha256": "a303af602e19eb3ebb998fdc9022d44a4176ba76a39f0a9b968843c4bf0c1f1d",
+    "api_call_event_count": 44316,
+    "executable_hash": "b82faa551fd7f67bcc1847ec476b9ed7c99dc1b31df40a68b779a44957600681",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 1.8,
+    "status": "excluded_source_overlap"
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanPippo/30/reports/report.json",
+    "report_sha256": "6a16c847fe451b78fed5e58b6133d0a69d2f3e32ec3d60dba0eb34b9dc973b9e",
+    "api_call_event_count": 4865,
+    "executable_hash": "bac9d6f0f64d22450cb85239d5e7bab19700470b74f00879a3d8ba750b60e43f",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 1.4,
+    "status": "evaluated",
+    "active_features": 101,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanPippo/31/reports/report.json",
+    "report_sha256": "9ae075d7225307d393be84c925e5cd462be703d8a56d9a42f53174fad1fb89b1",
+    "api_call_event_count": 29213,
+    "executable_hash": "1659b797ac34165ba9c8ab6139df4093fb1284f6987437e008145b62d545ff09",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.6,
+    "status": "evaluated",
+    "active_features": 98,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanPippo/36/reports/report.json",
+    "report_sha256": "573d24b06190f52d9fb94c54a64df750feb433cf0ef7b56becdbd8e30be202b4",
+    "api_call_event_count": 47636,
+    "executable_hash": "b5f23300fea4a1f070c6351a32d7985b8f4acfb9c0096b32916693d067d2be02",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 4.6,
+    "status": "evaluated",
+    "active_features": 163,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanPippo/46/reports/report.json",
+    "report_sha256": "9ca3452b0ca338f1227289f3fda4ad5d968ba9a717fa5503eb0ed8f098012889",
+    "api_call_event_count": 1879,
+    "executable_hash": "7dc279dd9c824dc3b55d428715b479f87a85c7e6ddab0175cbd436a94fa40ad3",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 1.4,
+    "status": "evaluated",
+    "active_features": 70,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanPippo/53/reports/report.json",
+    "report_sha256": "f1ae6414744c8cd109368a0b529957fa2cdbfc483ffeecb417cedf8b27d850cb",
+    "api_call_event_count": 31514,
+    "executable_hash": "2ae8872760c5bc72ded0b15d9217016284f0eee3039995840f757bbc676f9240",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 3.4,
+    "status": "evaluated",
+    "active_features": 99,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanPippo/54/reports/report.json",
+    "report_sha256": "3be068122f24973439f806c09c2db1278b471cc9167171346a485d506500120a",
+    "api_call_event_count": 122095,
+    "executable_hash": "81a27d50abe66f52ec4f1a948827b0654ef86be9f5f1da1b16bbfc1454e040c9",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 6.2,
+    "status": "evaluated",
+    "active_features": 97,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanPippo/55/reports/report.json",
+    "report_sha256": "8f04e26bc7c2a2a9d7793c108d149752c9c39154d5da5a686ce2ea9a1019859e",
+    "api_call_event_count": 88,
+    "executable_hash": "c4a0614077d1beab2bd27481faf9aba0625f54a5833d6315526eb1b2575e14fa",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 0.8,
+    "status": "evaluated",
+    "active_features": 45,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": false
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanPippo/57/reports/report.json",
+    "report_sha256": "605ed25909450781621d03a9350661d1e869251d7c6373c128feec632399e8da",
+    "api_call_event_count": 31698,
+    "executable_hash": "32769f304991d8d5836d9afadf20db1fbaf6876f29e5feb0d19c5b806a67441d",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 3.2,
+    "status": "evaluated",
+    "active_features": 127,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanPippo/62/reports/report.json",
+    "report_sha256": "53fd1004b698c12f7ff70a9034afa005511107b1750da7ec46d676ae679a2048",
+    "api_call_event_count": 44468,
+    "executable_hash": "ffb5bdb17db4bfd2a32099a8f79b069b9d954ab63ea58fc956272dff823c0005",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 3.6,
+    "status": "evaluated",
+    "active_features": 88,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanPippo/68/reports/report.json",
+    "report_sha256": "b29e8d875c077429eeace4fa79129d2cd63e663d8b614513cf36bab3a2b9f2cf",
+    "api_call_event_count": 14401,
+    "executable_hash": "caf29ec536ffd3cd439414adda2a1d65313b188f59075e8ab9b575387d7f23ca",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.4,
+    "status": "evaluated",
+    "active_features": 98,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  },
+  {
+    "source_path": "data/benign_reports/CuckooCleanPippo/76/reports/report.json",
+    "report_sha256": "2321efd3e9031dbabc055441543283f1909f1da56921bf7cbbfda08c5af8b6d7",
+    "api_call_event_count": 22090,
+    "executable_hash": "c96b63cab3191f9a6b776c169684cbf951b07cd693137442d50ac99699ec6df6",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+    "score": 2.2,
+    "status": "evaluated",
+    "active_features": 110,
+    "available_fields": {
+      "strings": true,
+      "signatures": true,
+      "dropped": true
+    },
+    "behavior_fields": [
+      "apistats",
+      "generic",
+      "processes",
+      "processtree",
+      "summary"
+    ]
+  }
+]

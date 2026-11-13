@@ -1,0 +1,7 @@
+raw
+data_en2025
+tmp
+multicollection_reproduction
+*.zip
+*.joblib
+**/__pycache__

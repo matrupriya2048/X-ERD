@@ -1,0 +1,308 @@
+[
+  {
+    "execution_id": "EXEC-1a88c17d839a",
+    "sample_id": "10002",
+    "report_sha256": "c2dfe699dcf7a4d39c3fa5c525349c9b939146f70c73af0bdeae81cf9c0c4414",
+    "frozen_mapper_output": [
+      "T1012",
+      "T1106"
+    ],
+    "sandbox_reference_output": [
+      "T1027.002",
+      "T1036"
+    ],
+    "not_for_blinded_assessor": true
+  },
+  {
+    "execution_id": "EXEC-1b3cb55c9efd",
+    "sample_id": "10003",
+    "report_sha256": "15647d0ac04a03e661c74d09560837ad983e7bfe4b8e183a4ef6297e12be9c49",
+    "frozen_mapper_output": [
+      "T1012",
+      "T1106",
+      "T1497.001"
+    ],
+    "sandbox_reference_output": [
+      "T1082",
+      "T1129"
+    ],
+    "not_for_blinded_assessor": true
+  },
+  {
+    "execution_id": "EXEC-6158402b32ed",
+    "sample_id": "10005",
+    "report_sha256": "78119fa0dba96ca5ac700422cbafe245fc36821ed048975a7b55a95ced5e5967",
+    "frozen_mapper_output": [
+      "T1012",
+      "T1055",
+      "T1106"
+    ],
+    "sandbox_reference_output": [
+      "T1057",
+      "T1070",
+      "T1082",
+      "T1129",
+      "T1564.003",
+      "T1564.004"
+    ],
+    "not_for_blinded_assessor": true
+  },
+  {
+    "execution_id": "EXEC-db53445635af",
+    "sample_id": "10007",
+    "report_sha256": "6ccb15d7965b353093514bf3bd78697b4c2a44facc0aef3a9807f0fd5e5abc50",
+    "frozen_mapper_output": [
+      "T1106"
+    ],
+    "sandbox_reference_output": [
+      "T1027.002"
+    ],
+    "not_for_blinded_assessor": true
+  },
+  {
+    "execution_id": "EXEC-bd3d50274a5d",
+    "sample_id": "10008",
+    "report_sha256": "ce339b01d85eae02998d6e35d070ad3b64825c5b5a44870f4c2f6fbf6dbe025d",
+    "frozen_mapper_output": [
+      "T1012",
+      "T1106"
+    ],
+    "sandbox_reference_output": [
+      "T1027.002",
+      "T1082",
+      "T1129"
+    ],
+    "not_for_blinded_assessor": true
+  },
+  {
+    "execution_id": "EXEC-add156cbc7bf",
+    "sample_id": "10011",
+    "report_sha256": "6d46c16431733848939c39463584ee2eda4e5cbb41e3bb5bfa1deb8c18a146f3",
+    "frozen_mapper_output": [
+      "T1106"
+    ],
+    "sandbox_reference_output": [
+      "T1027.002"
+    ],
+    "not_for_blinded_assessor": true
+  },
+  {
+    "execution_id": "EXEC-63091a90131d",
+    "sample_id": "10012",
+    "report_sha256": "e8dc23d998221f912b4271d925d28b467043195a9acdb3b62c8f19bfd60f86fd",
+    "frozen_mapper_output": [
+      "T1106"
+    ],
+    "sandbox_reference_output": [
+      "T1027.002"
+    ],
+    "not_for_blinded_assessor": true
+  },
+  {
+    "execution_id": "EXEC-276a3a289a6c",
+    "sample_id": "10013",
+    "report_sha256": "ae993016aecf62d53dbcfde1c650b4700979b31ddc4345642c54b5ea3a1d6b54",
+    "frozen_mapper_output": [
+      "T1055",
+      "T1106"
+    ],
+    "sandbox_reference_output": [
+      "T1027.002",
+      "T1082"
+    ],
+    "not_for_blinded_assessor": true
+  },
+  {
+    "execution_id": "EXEC-80036f8b3c43",
+    "sample_id": "10014",
+    "report_sha256": "274942e411b8a21d3d8dae38145c11a602f1cc776ee5edc454972ca16d44ef43",
+    "frozen_mapper_output": [
+      "T1012",
+      "T1055",
+      "T1106"
+    ],
+    "sandbox_reference_output": [
+      "T1057",
+      "T1070",
+      "T1082",
+      "T1129",
+      "T1564.003",
+      "T1564.004"
+    ],
+    "not_for_blinded_assessor": true
+  },
+  {
+    "execution_id": "EXEC-7437166129f2",
+    "sample_id": "10015",
+    "report_sha256": "265855dfe1952bc16e0205a325f6c028e8862bd552d6bfe57c47aaa4eaea1c3d",
+    "frozen_mapper_output": [
+      "T1012",
+      "T1106"
+    ],
+    "sandbox_reference_output": [
+      "T1027.002"
+    ],
+    "not_for_blinded_assessor": true
+  },
+  {
+    "execution_id": "EXEC-f1796bac8b9a",
+    "sample_id": "10016",
+    "report_sha256": "71f7c8222eded885f79bf1b010eb2af227cd55217b59e661459cf26f34ab06e9",
+    "frozen_mapper_output": [
+      "T1012",
+      "T1106"
+    ],
+    "sandbox_reference_output": [
+      "T1027.002",
+      "T1082",
+      "T1129"
+    ],
+    "not_for_blinded_assessor": true
+  },
+  {
+    "execution_id": "EXEC-829bd714479e",
+    "sample_id": "10017",
+    "report_sha256": "c4467c0e718c07c434a007d37c64650b010ae6f19a92b5241f420f1f0ea06c40",
+    "frozen_mapper_output": [
+      "T1055",
+      "T1106"
+    ],
+    "sandbox_reference_output": [
+      "T1027.002",
+      "T1055"
+    ],
+    "not_for_blinded_assessor": true
+  },
+  {
+    "execution_id": "EXEC-e8c74a399f35",
+    "sample_id": "10021",
+    "report_sha256": "6d4e2e159a8a27e6fe3019d90e6a79a27b3eb32297db8d3acd70a123597b3d20",
+    "frozen_mapper_output": [
+      "T1012",
+      "T1106",
+      "T1497.001",
+      "T1547.001"
+    ],
+    "sandbox_reference_output": [
+      "T1027.002",
+      "T1053",
+      "T1129",
+      "T1204",
+      "T1547.001",
+      "T1547.009"
+    ],
+    "not_for_blinded_assessor": true
+  },
+  {
+    "execution_id": "EXEC-63e778930e6a",
+    "sample_id": "10022",
+    "report_sha256": "7dcdcc9162fb5fc87bd1e97f0e3a512e81c8e231e10cec7888976886035aece8",
+    "frozen_mapper_output": [
+      "T1055",
+      "T1106"
+    ],
+    "sandbox_reference_output": [
+      "T1027.002",
+      "T1082"
+    ],
+    "not_for_blinded_assessor": true
+  },
+  {
+    "execution_id": "EXEC-84652691a871",
+    "sample_id": "10025",
+    "report_sha256": "522f56ac012bbdd82be83e37516742b372a5ad7b2727ebbb078b6205fa4f4b32",
+    "frozen_mapper_output": [
+      "T1055",
+      "T1106"
+    ],
+    "sandbox_reference_output": [
+      "T1027.002",
+      "T1082"
+    ],
+    "not_for_blinded_assessor": true
+  },
+  {
+    "execution_id": "EXEC-9800fae78dbe",
+    "sample_id": "10026",
+    "report_sha256": "58028506c217349d23ab06e457d730a2fddac98311123cdc3d7e132640e70f7a",
+    "frozen_mapper_output": [
+      "T1106"
+    ],
+    "sandbox_reference_output": [
+      "T1027.002",
+      "T1129"
+    ],
+    "not_for_blinded_assessor": true
+  },
+  {
+    "execution_id": "EXEC-780b340161b3",
+    "sample_id": "10027",
+    "report_sha256": "0d9278c6250d909834f61a2bc888294e75067d11c0fe934e497987eefef6e97a",
+    "frozen_mapper_output": [
+      "T1012",
+      "T1055",
+      "T1106",
+      "T1497.001",
+      "T1547.001"
+    ],
+    "sandbox_reference_output": [
+      "T1003",
+      "T1005",
+      "T1027.002",
+      "T1036",
+      "T1040",
+      "T1053",
+      "T1071",
+      "T1082",
+      "T1129",
+      "T1547.001",
+      "T1552.001",
+      "T1564.003"
+    ],
+    "not_for_blinded_assessor": true
+  },
+  {
+    "execution_id": "EXEC-490b722c56a9",
+    "sample_id": "10028",
+    "report_sha256": "c5653b146b16ae400c64a029297fade84be117e57d9cd88914e2d31b15c61687",
+    "frozen_mapper_output": [
+      "T1012",
+      "T1055",
+      "T1106",
+      "T1497.001"
+    ],
+    "sandbox_reference_output": [
+      "T1027.002",
+      "T1053",
+      "T1071",
+      "T1082"
+    ],
+    "not_for_blinded_assessor": true
+  },
+  {
+    "execution_id": "EXEC-a892c51e483f",
+    "sample_id": "10029",
+    "report_sha256": "459aad5b505f18e93d743deb70718f14fc750fa6faf468cd4ace7db7e36fdfe0",
+    "frozen_mapper_output": [
+      "T1106"
+    ],
+    "sandbox_reference_output": [
+      "T1027.002"
+    ],
+    "not_for_blinded_assessor": true
+  },
+  {
+    "execution_id": "EXEC-911fd47adfbe",
+    "sample_id": "10030",
+    "report_sha256": "82bbea65d03eb67dd5fc6e466f853f2deb48a95ce0b4b299ef1ebb29d7d3bc0e",
+    "frozen_mapper_output": [
+      "T1012",
+      "T1106"
+    ],
+    "sandbox_reference_output": [
+      "T1027.002",
+      "T1082"
+    ],
+    "not_for_blinded_assessor": true
+  }
+]

@@ -1,0 +1,81 @@
+CAPE translation scored 100 / 917
+CAPE translation scored 200 / 917
+CAPE translation scored 300 / 917
+CAPE translation scored 400 / 917
+CAPE translation scored 500 / 917
+CAPE translation scored 600 / 917
+CAPE translation scored 700 / 917
+CAPE translation scored 800 / 917
+CAPE translation scored 900 / 917
+{
+  "n": 917,
+  "models": {
+    "primary_RF+LGB": {
+      "n": 917,
+      "alert_n": 917,
+      "fpr": 1.0,
+      "ci95": [
+        0.9959853111909315,
+        1.0
+      ]
+    },
+    "original_three": {
+      "n": 917,
+      "alert_n": 917,
+      "fpr": 1.0,
+      "ci95": [
+        0.9959853111909315,
+        1.0
+      ]
+    },
+    "adapted_three": {
+      "n": 917,
+      "alert_n": 500,
+      "fpr": 0.5452562704471101,
+      "ci95": [
+        0.5123802382758753,
+        0.5778407260472375
+      ]
+    }
+  },
+  "changed_vectors": 917,
+  "strings_available_n": 917,
+  "distinct_vectors": 752,
+  "categories": {
+    "API": {
+      "selected_feature_n": 63,
+      "active_values": 14879
+    },
+    "DIRECTORY": {
+      "selected_feature_n": 10,
+      "active_values": 0
+    },
+    "DROP": {
+      "selected_feature_n": 23,
+      "active_values": 101
+    },
+    "FILE": {
+      "selected_feature_n": 16,
+      "active_values": 0
+    },
+    "REG": {
+      "selected_feature_n": 90,
+      "active_values": 583
+    },
+    "SIGNATURE": {
+      "selected_feature_n": 20,
+      "active_values": 10
+    },
+    "STRING": {
+      "selected_feature_n": 223,
+      "active_values": 18569
+    },
+    "SYSTEM": {
+      "selected_feature_n": 38,
+      "active_values": 5574
+    }
+  },
+  "adapter_sha256": "c0dbe37a6dfe5628ac3e99ce6cb00d849f0041a1e4c322b48d0ecc89a767c77c",
+  "script_sha256": "5c30978eb54a5e4c5a2a5bac7b6baed9628960d082cb418cf21a64f6047d463a",
+  "scope": "Post-hoc schema translation on the same EN2025 cohort; predictions remain from frozen classifiers. Both untranslated and translated results retained. No independent gold vectors or verified onset."
+}

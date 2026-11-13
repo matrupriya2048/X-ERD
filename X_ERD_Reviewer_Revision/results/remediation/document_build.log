@@ -1,0 +1,76 @@
+{
+  "holdout": {
+    "n": 362,
+    "distinct_exact_vectors": 352,
+    "rows_identical_to_any_fit_vector": 9,
+    "novel_vector_rows": 353,
+    "novel_vector_models": {
+      "Original full stack": {
+        "fpr": 0.48725212464589235,
+        "events": 172,
+        "n": 353,
+        "ci95": [
+          0.4339911477760286,
+          0.5407286746470615
+        ]
+      },
+      "Previous passthrough": {
+        "fpr": 0.47592067988668557,
+        "events": 168,
+        "n": 353,
+        "ci95": [
+          0.4227987757067412,
+          0.5294497891846972
+        ]
+      },
+      "Development-adapted": {
+        "fpr": 0.0169971671388102,
+        "events": 6,
+        "n": 353,
+        "ci95": [
+          0.006262557896984961,
+          0.03662678396983398
+        ]
+      }
+    }
+  },
+  "ransomware": {
+    "n": 58,
+    "distinct_exact_vectors": 57,
+    "rows_identical_to_any_fit_vector": 0,
+    "novel_vector_rows": 58,
+    "novel_vector_models": {
+      "Original full stack": {
+        "recall": 0.9310344827586207,
+        "events": 54,
+        "n": 58,
+        "ci95": [
+          0.8327318671383359,
+          0.9808906881387957
+        ]
+      },
+      "Previous passthrough": {
+        "recall": 0.9655172413793104,
+        "events": 56,
+        "n": 58,
+        "ci95": [
+          0.8809226891196078,
+          0.9957963527601323
+        ]
+      },
+      "Development-adapted": {
+        "recall": 0.9482758620689655,
+        "events": 55,
+        "n": 58,
+        "ci95": [
+          0.8561953727246554,
+          0.9892035219157053
+        ]
+      }
+    }
+  }
+}
+Rendered updated architecture and external transfer intervals
+Wrote revised manuscript source from 11 verified result groups
+Wrote 36 cited bibliography entries
+Wrote actual4-reviewer response: 69 items; {'Implemented': 47, 'Draft prepared; author review remains': 1, 'Addressed: relevant suggestions incorporated': 2, 'External release action pending': 3, 'Implemented with adaptation limits': 2, 'Implemented with coverage limits': 5, 'Partial: external concordance; human adjudication absent': 4, 'Partial: no encryption-onset ground truth': 2, 'Implemented with external-data limits': 1, 'Implemented with uncalibrated specificity': 1, 'Implemented: genuine sequence comparison': 1}

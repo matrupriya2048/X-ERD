@@ -1,0 +1,7 @@
+{
+  "scope": "Same56 source APIs and898 deduplicated target executables as original transfer; no target-label tuning",
+  "parameters": "RANSEC settings identical to same-split adaptations; LR C and EldeRan lambda transferred from official483 training-only search; not reoptimized on target",
+  "LR_C": 1,
+  "EldeRan_lambda": 2e-05,
+  "identity_check": "target source IDs exactly match elderan_transfer_predictions.csv"
+}

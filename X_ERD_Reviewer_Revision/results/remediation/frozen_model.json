@@ -1,0 +1,50 @@
+{
+  "frozen_utc": "2026-11-13T05:27:49.180226+00:00",
+  "model_sha256": "5c57dddeeb026ace222b7dc2f58a98b1fd66b1c43bd65113b4aa2f8fd9859dd8",
+  "protocol_sha256": "9c8e3874d31527c0e7356333450aea8d4861d26ec3d349b3f913b9ee8926e09a",
+  "source_sha256": "fe8868862c46a19d5ded046d2753c7f275e9d4fb444ff6bcaeffea41c00d077b",
+  "development_vectors_sha256": "9291c0f2907bc4de0cd00876be1e9f8173855d0686cc269cf3cf55589413960d",
+  "selection": {
+    "index": 17,
+    "key": "w3.0_passthrough1_C10.0",
+    "development_weight": 3.0,
+    "passthrough": true,
+    "C": 10.0,
+    "source": {
+      "tn": 2027,
+      "fp": 13,
+      "fn": 14,
+      "tp": 1851,
+      "accuracy": 0.9930857874519846,
+      "precision": 0.9930257510729614,
+      "recall": 0.9924932975871313,
+      "fpr": 0.006372549019607843,
+      "f1": 0.9927594529364441,
+      "auc": 0.9995828733638227,
+      "brier": 0.005502060594885639,
+      "ece": 0.0033029865217616286,
+      "theta": 0.5,
+      "n": 3905
+    },
+    "external_development": {
+      "tn": 176,
+      "fp": 6,
+      "fn": 0,
+      "tp": 0,
+      "accuracy": 0.967032967032967,
+      "precision": 0.0,
+      "recall": null,
+      "fpr": 0.03296703296703297,
+      "f1": 0.0,
+      "auc": null,
+      "brier": 0.02992969555024017,
+      "ece": 0.037283632490803284,
+      "theta": 0.5,
+      "n": 182
+    }
+  },
+  "threshold": 0.5,
+  "fit_n": 4087,
+  "holdout_scored": false,
+  "scope": "Local pre-evaluation freeze, not independent preregistration"
+}

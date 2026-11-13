@@ -1,0 +1,16 @@
+{
+  "checked_on": "2026-11-13",
+  "sources": [
+    {
+      "url": "https://github.com/RansomRadar/RansomRadar",
+      "observations": "Raw hardware-performance-counter and IRP demos, temporal correlation code and monitoring tools.",
+      "compatibility": "Different observation space from the frozen 483 Cuckoo/CAPE indicators; no matched execution-level first destructive encrypted-write reference identified for the evaluated cohorts."
+    },
+    {
+      "url": "https://www.multi-log.com/dataset/",
+      "observations": "Linux syscall/network/block/performance traces.",
+      "compatibility": "Different platform and observation space; not matched onset annotations for evaluated Windows reports."
+    }
+  ],
+  "conclusion": "The newly completed reliance and sequence-control analyses do not create verified encryption-onset labels."
+}

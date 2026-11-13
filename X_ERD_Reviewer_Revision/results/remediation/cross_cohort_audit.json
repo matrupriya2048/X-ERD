@@ -1,0 +1,13 @@
+{
+  "scope": "Post-evaluation cross-cohort consistency check; separate endpoints retained, no exclusions or model changes.",
+  "benign_unique_md5": 362,
+  "ransomware_unique_md5": 58,
+  "cross_cohort_md5_overlap": 0,
+  "cross_cohort_exact_vector_overlap": 0,
+  "source_audit_sha256": {
+    "holdout_audit.json": "6425be468a55cd7d69d8e0edfd8a5ecc6b39809ed3a0d4a7ef2920074aab9913",
+    "ransomware_audit.json": "09573fb03818341b89cc3efa62b718df01bb7e59270a1c6fb32a095e190e59de",
+    "holdout_vectors.csv": "67509b239aaaf8e5d6030fe99b4d3c96552f784f6e83bfd83a4ae370d8763fd6",
+    "ransomware_vectors.csv": "0d08b3f421cc88ba367a49e0e813837a7406b09545fcdce62004176a3e8adf99"
+  }
+}

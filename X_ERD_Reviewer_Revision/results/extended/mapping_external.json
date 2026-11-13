@@ -1,0 +1,2105 @@
+{
+  "human_expert_review": false,
+  "cuckoo": {
+    "all_report_n": 20,
+    "summary": {
+      "reference_annotated_n": 20,
+      "intersection_total": 3,
+      "predicted_total": 45,
+      "reference_total": 61,
+      "micro_precision_like_agreement": 0.06666666666666667,
+      "micro_reference_coverage": 0.04918032786885246,
+      "mean_jaccard": 0.025347222222222222
+    },
+    "reports": [
+      {
+        "sample_id": 10002,
+        "predicted": [
+          "T1012",
+          "T1106"
+        ],
+        "external_annotations": [
+          "T1027.002",
+          "T1036"
+        ],
+        "intersection": [],
+        "prediction_only": [
+          "T1012",
+          "T1106"
+        ],
+        "reference_only": [
+          "T1027.002",
+          "T1036"
+        ],
+        "intersection_n": 0,
+        "predicted_n": 2,
+        "reference_n": 2,
+        "precision_like_agreement": 0.0,
+        "reference_coverage": 0.0,
+        "jaccard": 0.0,
+        "parent_level": {
+          "intersection": [],
+          "prediction_only": [
+            "T1012",
+            "T1106"
+          ],
+          "reference_only": [
+            "T1027",
+            "T1036"
+          ],
+          "intersection_n": 0,
+          "predicted_n": 2,
+          "reference_n": 2,
+          "precision_like_agreement": 0.0,
+          "reference_coverage": 0.0,
+          "jaccard": 0.0
+        }
+      },
+      {
+        "sample_id": 10003,
+        "predicted": [
+          "T1012",
+          "T1106",
+          "T1497.001"
+        ],
+        "external_annotations": [
+          "T1082",
+          "T1129"
+        ],
+        "intersection": [],
+        "prediction_only": [
+          "T1012",
+          "T1106",
+          "T1497.001"
+        ],
+        "reference_only": [
+          "T1082",
+          "T1129"
+        ],
+        "intersection_n": 0,
+        "predicted_n": 3,
+        "reference_n": 2,
+        "precision_like_agreement": 0.0,
+        "reference_coverage": 0.0,
+        "jaccard": 0.0,
+        "parent_level": {
+          "intersection": [],
+          "prediction_only": [
+            "T1012",
+            "T1106",
+            "T1497"
+          ],
+          "reference_only": [
+            "T1082",
+            "T1129"
+          ],
+          "intersection_n": 0,
+          "predicted_n": 3,
+          "reference_n": 2,
+          "precision_like_agreement": 0.0,
+          "reference_coverage": 0.0,
+          "jaccard": 0.0
+        }
+      },
+      {
+        "sample_id": 10005,
+        "predicted": [
+          "T1012",
+          "T1055",
+          "T1106"
+        ],
+        "external_annotations": [
+          "T1057",
+          "T1070",
+          "T1082",
+          "T1129",
+          "T1564.003",
+          "T1564.004"
+        ],
+        "intersection": [],
+        "prediction_only": [
+          "T1012",
+          "T1055",
+          "T1106"
+        ],
+        "reference_only": [
+          "T1057",
+          "T1070",
+          "T1082",
+          "T1129",
+          "T1564.003",
+          "T1564.004"
+        ],
+        "intersection_n": 0,
+        "predicted_n": 3,
+        "reference_n": 6,
+        "precision_like_agreement": 0.0,
+        "reference_coverage": 0.0,
+        "jaccard": 0.0,
+        "parent_level": {
+          "intersection": [],
+          "prediction_only": [
+            "T1012",
+            "T1055",
+            "T1106"
+          ],
+          "reference_only": [
+            "T1057",
+            "T1070",
+            "T1082",
+            "T1129",
+            "T1564"
+          ],
+          "intersection_n": 0,
+          "predicted_n": 3,
+          "reference_n": 5,
+          "precision_like_agreement": 0.0,
+          "reference_coverage": 0.0,
+          "jaccard": 0.0
+        }
+      },
+      {
+        "sample_id": 10007,
+        "predicted": [
+          "T1106"
+        ],
+        "external_annotations": [
+          "T1027.002"
+        ],
+        "intersection": [],
+        "prediction_only": [
+          "T1106"
+        ],
+        "reference_only": [
+          "T1027.002"
+        ],
+        "intersection_n": 0,
+        "predicted_n": 1,
+        "reference_n": 1,
+        "precision_like_agreement": 0.0,
+        "reference_coverage": 0.0,
+        "jaccard": 0.0,
+        "parent_level": {
+          "intersection": [],
+          "prediction_only": [
+            "T1106"
+          ],
+          "reference_only": [
+            "T1027"
+          ],
+          "intersection_n": 0,
+          "predicted_n": 1,
+          "reference_n": 1,
+          "precision_like_agreement": 0.0,
+          "reference_coverage": 0.0,
+          "jaccard": 0.0
+        }
+      },
+      {
+        "sample_id": 10008,
+        "predicted": [
+          "T1012",
+          "T1106"
+        ],
+        "external_annotations": [
+          "T1027.002",
+          "T1082",
+          "T1129"
+        ],
+        "intersection": [],
+        "prediction_only": [
+          "T1012",
+          "T1106"
+        ],
+        "reference_only": [
+          "T1027.002",
+          "T1082",
+          "T1129"
+        ],
+        "intersection_n": 0,
+        "predicted_n": 2,
+        "reference_n": 3,
+        "precision_like_agreement": 0.0,
+        "reference_coverage": 0.0,
+        "jaccard": 0.0,
+        "parent_level": {
+          "intersection": [],
+          "prediction_only": [
+            "T1012",
+            "T1106"
+          ],
+          "reference_only": [
+            "T1027",
+            "T1082",
+            "T1129"
+          ],
+          "intersection_n": 0,
+          "predicted_n": 2,
+          "reference_n": 3,
+          "precision_like_agreement": 0.0,
+          "reference_coverage": 0.0,
+          "jaccard": 0.0
+        }
+      },
+      {
+        "sample_id": 10011,
+        "predicted": [
+          "T1106"
+        ],
+        "external_annotations": [
+          "T1027.002"
+        ],
+        "intersection": [],
+        "prediction_only": [
+          "T1106"
+        ],
+        "reference_only": [
+          "T1027.002"
+        ],
+        "intersection_n": 0,
+        "predicted_n": 1,
+        "reference_n": 1,
+        "precision_like_agreement": 0.0,
+        "reference_coverage": 0.0,
+        "jaccard": 0.0,
+        "parent_level": {
+          "intersection": [],
+          "prediction_only": [
+            "T1106"
+          ],
+          "reference_only": [
+            "T1027"
+          ],
+          "intersection_n": 0,
+          "predicted_n": 1,
+          "reference_n": 1,
+          "precision_like_agreement": 0.0,
+          "reference_coverage": 0.0,
+          "jaccard": 0.0
+        }
+      },
+      {
+        "sample_id": 10012,
+        "predicted": [
+          "T1106"
+        ],
+        "external_annotations": [
+          "T1027.002"
+        ],
+        "intersection": [],
+        "prediction_only": [
+          "T1106"
+        ],
+        "reference_only": [
+          "T1027.002"
+        ],
+        "intersection_n": 0,
+        "predicted_n": 1,
+        "reference_n": 1,
+        "precision_like_agreement": 0.0,
+        "reference_coverage": 0.0,
+        "jaccard": 0.0,
+        "parent_level": {
+          "intersection": [],
+          "prediction_only": [
+            "T1106"
+          ],
+          "reference_only": [
+            "T1027"
+          ],
+          "intersection_n": 0,
+          "predicted_n": 1,
+          "reference_n": 1,
+          "precision_like_agreement": 0.0,
+          "reference_coverage": 0.0,
+          "jaccard": 0.0
+        }
+      },
+      {
+        "sample_id": 10013,
+        "predicted": [
+          "T1055",
+          "T1106"
+        ],
+        "external_annotations": [
+          "T1027.002",
+          "T1082"
+        ],
+        "intersection": [],
+        "prediction_only": [
+          "T1055",
+          "T1106"
+        ],
+        "reference_only": [
+          "T1027.002",
+          "T1082"
+        ],
+        "intersection_n": 0,
+        "predicted_n": 2,
+        "reference_n": 2,
+        "precision_like_agreement": 0.0,
+        "reference_coverage": 0.0,
+        "jaccard": 0.0,
+        "parent_level": {
+          "intersection": [],
+          "prediction_only": [
+            "T1055",
+            "T1106"
+          ],
+          "reference_only": [
+            "T1027",
+            "T1082"
+          ],
+          "intersection_n": 0,
+          "predicted_n": 2,
+          "reference_n": 2,
+          "precision_like_agreement": 0.0,
+          "reference_coverage": 0.0,
+          "jaccard": 0.0
+        }
+      },
+      {
+        "sample_id": 10014,
+        "predicted": [
+          "T1012",
+          "T1055",
+          "T1106"
+        ],
+        "external_annotations": [
+          "T1057",
+          "T1070",
+          "T1082",
+          "T1129",
+          "T1564.003",
+          "T1564.004"
+        ],
+        "intersection": [],
+        "prediction_only": [
+          "T1012",
+          "T1055",
+          "T1106"
+        ],
+        "reference_only": [
+          "T1057",
+          "T1070",
+          "T1082",
+          "T1129",
+          "T1564.003",
+          "T1564.004"
+        ],
+        "intersection_n": 0,
+        "predicted_n": 3,
+        "reference_n": 6,
+        "precision_like_agreement": 0.0,
+        "reference_coverage": 0.0,
+        "jaccard": 0.0,
+        "parent_level": {
+          "intersection": [],
+          "prediction_only": [
+            "T1012",
+            "T1055",
+            "T1106"
+          ],
+          "reference_only": [
+            "T1057",
+            "T1070",
+            "T1082",
+            "T1129",
+            "T1564"
+          ],
+          "intersection_n": 0,
+          "predicted_n": 3,
+          "reference_n": 5,
+          "precision_like_agreement": 0.0,
+          "reference_coverage": 0.0,
+          "jaccard": 0.0
+        }
+      },
+      {
+        "sample_id": 10015,
+        "predicted": [
+          "T1012",
+          "T1106"
+        ],
+        "external_annotations": [
+          "T1027.002"
+        ],
+        "intersection": [],
+        "prediction_only": [
+          "T1012",
+          "T1106"
+        ],
+        "reference_only": [
+          "T1027.002"
+        ],
+        "intersection_n": 0,
+        "predicted_n": 2,
+        "reference_n": 1,
+        "precision_like_agreement": 0.0,
+        "reference_coverage": 0.0,
+        "jaccard": 0.0,
+        "parent_level": {
+          "intersection": [],
+          "prediction_only": [
+            "T1012",
+            "T1106"
+          ],
+          "reference_only": [
+            "T1027"
+          ],
+          "intersection_n": 0,
+          "predicted_n": 2,
+          "reference_n": 1,
+          "precision_like_agreement": 0.0,
+          "reference_coverage": 0.0,
+          "jaccard": 0.0
+        }
+      },
+      {
+        "sample_id": 10016,
+        "predicted": [
+          "T1012",
+          "T1106"
+        ],
+        "external_annotations": [
+          "T1027.002",
+          "T1082",
+          "T1129"
+        ],
+        "intersection": [],
+        "prediction_only": [
+          "T1012",
+          "T1106"
+        ],
+        "reference_only": [
+          "T1027.002",
+          "T1082",
+          "T1129"
+        ],
+        "intersection_n": 0,
+        "predicted_n": 2,
+        "reference_n": 3,
+        "precision_like_agreement": 0.0,
+        "reference_coverage": 0.0,
+        "jaccard": 0.0,
+        "parent_level": {
+          "intersection": [],
+          "prediction_only": [
+            "T1012",
+            "T1106"
+          ],
+          "reference_only": [
+            "T1027",
+            "T1082",
+            "T1129"
+          ],
+          "intersection_n": 0,
+          "predicted_n": 2,
+          "reference_n": 3,
+          "precision_like_agreement": 0.0,
+          "reference_coverage": 0.0,
+          "jaccard": 0.0
+        }
+      },
+      {
+        "sample_id": 10017,
+        "predicted": [
+          "T1055",
+          "T1106"
+        ],
+        "external_annotations": [
+          "T1027.002",
+          "T1055"
+        ],
+        "intersection": [
+          "T1055"
+        ],
+        "prediction_only": [
+          "T1106"
+        ],
+        "reference_only": [
+          "T1027.002"
+        ],
+        "intersection_n": 1,
+        "predicted_n": 2,
+        "reference_n": 2,
+        "precision_like_agreement": 0.5,
+        "reference_coverage": 0.5,
+        "jaccard": 0.3333333333333333,
+        "parent_level": {
+          "intersection": [
+            "T1055"
+          ],
+          "prediction_only": [
+            "T1106"
+          ],
+          "reference_only": [
+            "T1027"
+          ],
+          "intersection_n": 1,
+          "predicted_n": 2,
+          "reference_n": 2,
+          "precision_like_agreement": 0.5,
+          "reference_coverage": 0.5,
+          "jaccard": 0.3333333333333333
+        }
+      },
+      {
+        "sample_id": 10021,
+        "predicted": [
+          "T1012",
+          "T1106",
+          "T1497.001",
+          "T1547.001"
+        ],
+        "external_annotations": [
+          "T1027.002",
+          "T1053",
+          "T1129",
+          "T1204",
+          "T1547.001",
+          "T1547.009"
+        ],
+        "intersection": [
+          "T1547.001"
+        ],
+        "prediction_only": [
+          "T1012",
+          "T1106",
+          "T1497.001"
+        ],
+        "reference_only": [
+          "T1027.002",
+          "T1053",
+          "T1129",
+          "T1204",
+          "T1547.009"
+        ],
+        "intersection_n": 1,
+        "predicted_n": 4,
+        "reference_n": 6,
+        "precision_like_agreement": 0.25,
+        "reference_coverage": 0.16666666666666666,
+        "jaccard": 0.1111111111111111,
+        "parent_level": {
+          "intersection": [
+            "T1547"
+          ],
+          "prediction_only": [
+            "T1012",
+            "T1106",
+            "T1497"
+          ],
+          "reference_only": [
+            "T1027",
+            "T1053",
+            "T1129",
+            "T1204"
+          ],
+          "intersection_n": 1,
+          "predicted_n": 4,
+          "reference_n": 5,
+          "precision_like_agreement": 0.25,
+          "reference_coverage": 0.2,
+          "jaccard": 0.125
+        }
+      },
+      {
+        "sample_id": 10022,
+        "predicted": [
+          "T1055",
+          "T1106"
+        ],
+        "external_annotations": [
+          "T1027.002",
+          "T1082"
+        ],
+        "intersection": [],
+        "prediction_only": [
+          "T1055",
+          "T1106"
+        ],
+        "reference_only": [
+          "T1027.002",
+          "T1082"
+        ],
+        "intersection_n": 0,
+        "predicted_n": 2,
+        "reference_n": 2,
+        "precision_like_agreement": 0.0,
+        "reference_coverage": 0.0,
+        "jaccard": 0.0,
+        "parent_level": {
+          "intersection": [],
+          "prediction_only": [
+            "T1055",
+            "T1106"
+          ],
+          "reference_only": [
+            "T1027",
+            "T1082"
+          ],
+          "intersection_n": 0,
+          "predicted_n": 2,
+          "reference_n": 2,
+          "precision_like_agreement": 0.0,
+          "reference_coverage": 0.0,
+          "jaccard": 0.0
+        }
+      },
+      {
+        "sample_id": 10025,
+        "predicted": [
+          "T1055",
+          "T1106"
+        ],
+        "external_annotations": [
+          "T1027.002",
+          "T1082"
+        ],
+        "intersection": [],
+        "prediction_only": [
+          "T1055",
+          "T1106"
+        ],
+        "reference_only": [
+          "T1027.002",
+          "T1082"
+        ],
+        "intersection_n": 0,
+        "predicted_n": 2,
+        "reference_n": 2,
+        "precision_like_agreement": 0.0,
+        "reference_coverage": 0.0,
+        "jaccard": 0.0,
+        "parent_level": {
+          "intersection": [],
+          "prediction_only": [
+            "T1055",
+            "T1106"
+          ],
+          "reference_only": [
+            "T1027",
+            "T1082"
+          ],
+          "intersection_n": 0,
+          "predicted_n": 2,
+          "reference_n": 2,
+          "precision_like_agreement": 0.0,
+          "reference_coverage": 0.0,
+          "jaccard": 0.0
+        }
+      },
+      {
+        "sample_id": 10026,
+        "predicted": [
+          "T1106"
+        ],
+        "external_annotations": [
+          "T1027.002",
+          "T1129"
+        ],
+        "intersection": [],
+        "prediction_only": [
+          "T1106"
+        ],
+        "reference_only": [
+          "T1027.002",
+          "T1129"
+        ],
+        "intersection_n": 0,
+        "predicted_n": 1,
+        "reference_n": 2,
+        "precision_like_agreement": 0.0,
+        "reference_coverage": 0.0,
+        "jaccard": 0.0,
+        "parent_level": {
+          "intersection": [],
+          "prediction_only": [
+            "T1106"
+          ],
+          "reference_only": [
+            "T1027",
+            "T1129"
+          ],
+          "intersection_n": 0,
+          "predicted_n": 1,
+          "reference_n": 2,
+          "precision_like_agreement": 0.0,
+          "reference_coverage": 0.0,
+          "jaccard": 0.0
+        }
+      },
+      {
+        "sample_id": 10027,
+        "predicted": [
+          "T1012",
+          "T1055",
+          "T1106",
+          "T1497.001",
+          "T1547.001"
+        ],
+        "external_annotations": [
+          "T1003",
+          "T1005",
+          "T1027.002",
+          "T1036",
+          "T1040",
+          "T1053",
+          "T1071",
+          "T1082",
+          "T1129",
+          "T1547.001",
+          "T1552.001",
+          "T1564.003"
+        ],
+        "intersection": [
+          "T1547.001"
+        ],
+        "prediction_only": [
+          "T1012",
+          "T1055",
+          "T1106",
+          "T1497.001"
+        ],
+        "reference_only": [
+          "T1003",
+          "T1005",
+          "T1027.002",
+          "T1036",
+          "T1040",
+          "T1053",
+          "T1071",
+          "T1082",
+          "T1129",
+          "T1552.001",
+          "T1564.003"
+        ],
+        "intersection_n": 1,
+        "predicted_n": 5,
+        "reference_n": 12,
+        "precision_like_agreement": 0.2,
+        "reference_coverage": 0.08333333333333333,
+        "jaccard": 0.0625,
+        "parent_level": {
+          "intersection": [
+            "T1547"
+          ],
+          "prediction_only": [
+            "T1012",
+            "T1055",
+            "T1106",
+            "T1497"
+          ],
+          "reference_only": [
+            "T1003",
+            "T1005",
+            "T1027",
+            "T1036",
+            "T1040",
+            "T1053",
+            "T1071",
+            "T1082",
+            "T1129",
+            "T1552",
+            "T1564"
+          ],
+          "intersection_n": 1,
+          "predicted_n": 5,
+          "reference_n": 12,
+          "precision_like_agreement": 0.2,
+          "reference_coverage": 0.08333333333333333,
+          "jaccard": 0.0625
+        }
+      },
+      {
+        "sample_id": 10028,
+        "predicted": [
+          "T1012",
+          "T1055",
+          "T1106",
+          "T1497.001"
+        ],
+        "external_annotations": [
+          "T1027.002",
+          "T1053",
+          "T1071",
+          "T1082"
+        ],
+        "intersection": [],
+        "prediction_only": [
+          "T1012",
+          "T1055",
+          "T1106",
+          "T1497.001"
+        ],
+        "reference_only": [
+          "T1027.002",
+          "T1053",
+          "T1071",
+          "T1082"
+        ],
+        "intersection_n": 0,
+        "predicted_n": 4,
+        "reference_n": 4,
+        "precision_like_agreement": 0.0,
+        "reference_coverage": 0.0,
+        "jaccard": 0.0,
+        "parent_level": {
+          "intersection": [],
+          "prediction_only": [
+            "T1012",
+            "T1055",
+            "T1106",
+            "T1497"
+          ],
+          "reference_only": [
+            "T1027",
+            "T1053",
+            "T1071",
+            "T1082"
+          ],
+          "intersection_n": 0,
+          "predicted_n": 4,
+          "reference_n": 4,
+          "precision_like_agreement": 0.0,
+          "reference_coverage": 0.0,
+          "jaccard": 0.0
+        }
+      },
+      {
+        "sample_id": 10029,
+        "predicted": [
+          "T1106"
+        ],
+        "external_annotations": [
+          "T1027.002"
+        ],
+        "intersection": [],
+        "prediction_only": [
+          "T1106"
+        ],
+        "reference_only": [
+          "T1027.002"
+        ],
+        "intersection_n": 0,
+        "predicted_n": 1,
+        "reference_n": 1,
+        "precision_like_agreement": 0.0,
+        "reference_coverage": 0.0,
+        "jaccard": 0.0,
+        "parent_level": {
+          "intersection": [],
+          "prediction_only": [
+            "T1106"
+          ],
+          "reference_only": [
+            "T1027"
+          ],
+          "intersection_n": 0,
+          "predicted_n": 1,
+          "reference_n": 1,
+          "precision_like_agreement": 0.0,
+          "reference_coverage": 0.0,
+          "jaccard": 0.0
+        }
+      },
+      {
+        "sample_id": 10030,
+        "predicted": [
+          "T1012",
+          "T1106"
+        ],
+        "external_annotations": [
+          "T1027.002",
+          "T1082"
+        ],
+        "intersection": [],
+        "prediction_only": [
+          "T1012",
+          "T1106"
+        ],
+        "reference_only": [
+          "T1027.002",
+          "T1082"
+        ],
+        "intersection_n": 0,
+        "predicted_n": 2,
+        "reference_n": 2,
+        "precision_like_agreement": 0.0,
+        "reference_coverage": 0.0,
+        "jaccard": 0.0,
+        "parent_level": {
+          "intersection": [],
+          "prediction_only": [
+            "T1012",
+            "T1106"
+          ],
+          "reference_only": [
+            "T1027",
+            "T1082"
+          ],
+          "intersection_n": 0,
+          "predicted_n": 2,
+          "reference_n": 2,
+          "precision_like_agreement": 0.0,
+          "reference_coverage": 0.0,
+          "jaccard": 0.0
+        }
+      }
+    ],
+    "legacy_resolution": {
+      "T1045": "T1027.002",
+      "T1036": "T1036",
+      "T1082": "T1082",
+      "T1129": "T1129",
+      "T1143": "T1564.003",
+      "T1057": "T1057",
+      "T1070": "T1070",
+      "T1096": "T1564.004",
+      "T1055": "T1055",
+      "T1023": "T1547.009",
+      "T1204": "T1204",
+      "T1060": "T1547.001",
+      "T1053": "T1053",
+      "T1071": "T1071",
+      "T1003": "T1003",
+      "T1081": "T1552.001",
+      "T1005": "T1005",
+      "T1040": "T1040"
+    },
+    "parent_summary": {
+      "reference_annotated_n": 20,
+      "intersection_total": 3,
+      "predicted_total": 45,
+      "reference_total": 58,
+      "micro_precision_like_agreement": 0.06666666666666667,
+      "micro_reference_coverage": 0.05172413793103448,
+      "mean_jaccard": 0.026041666666666664
+    }
+  },
+  "family_profiles": {
+    "summary": {
+      "reference_annotated_n": 17,
+      "intersection_total": 18,
+      "predicted_total": 62,
+      "reference_total": 285,
+      "micro_precision_like_agreement": 0.2903225806451613,
+      "micro_reference_coverage": 0.06315789473684211,
+      "mean_jaccard": 0.04801242577148605
+    },
+    "families": [
+      {
+        "family": "akira",
+        "sample_n": 14,
+        "reference_software": [
+          {
+            "name": "Akira",
+            "id": "S1129"
+          }
+        ],
+        "predicted": [
+          "T1012",
+          "T1106",
+          "T1497.001"
+        ],
+        "external_annotations": [
+          "T1047",
+          "T1057",
+          "T1059.001",
+          "T1059.003",
+          "T1082",
+          "T1083",
+          "T1106",
+          "T1135",
+          "T1486",
+          "T1490"
+        ],
+        "intersection": [
+          "T1106"
+        ],
+        "prediction_only": [
+          "T1012",
+          "T1497.001"
+        ],
+        "reference_only": [
+          "T1047",
+          "T1057",
+          "T1059.001",
+          "T1059.003",
+          "T1082",
+          "T1083",
+          "T1135",
+          "T1486",
+          "T1490"
+        ],
+        "intersection_n": 1,
+        "predicted_n": 3,
+        "reference_n": 10,
+        "precision_like_agreement": 0.3333333333333333,
+        "reference_coverage": 0.1,
+        "jaccard": 0.08333333333333333
+      },
+      {
+        "family": "avoslocker",
+        "sample_n": 13,
+        "reference_software": [
+          {
+            "name": "AvosLocker",
+            "id": "S1053"
+          }
+        ],
+        "predicted": [
+          "T1012",
+          "T1106",
+          "T1497.001"
+        ],
+        "external_annotations": [
+          "T1027",
+          "T1027.007",
+          "T1036.008",
+          "T1057",
+          "T1083",
+          "T1106",
+          "T1124",
+          "T1135",
+          "T1140",
+          "T1486",
+          "T1489",
+          "T1529",
+          "T1547.001",
+          "T1564.003",
+          "T1688"
+        ],
+        "intersection": [
+          "T1106"
+        ],
+        "prediction_only": [
+          "T1012",
+          "T1497.001"
+        ],
+        "reference_only": [
+          "T1027",
+          "T1027.007",
+          "T1036.008",
+          "T1057",
+          "T1083",
+          "T1124",
+          "T1135",
+          "T1140",
+          "T1486",
+          "T1489",
+          "T1529",
+          "T1547.001",
+          "T1564.003",
+          "T1688"
+        ],
+        "intersection_n": 1,
+        "predicted_n": 3,
+        "reference_n": 15,
+        "precision_like_agreement": 0.3333333333333333,
+        "reference_coverage": 0.06666666666666667,
+        "jaccard": 0.058823529411764705
+      },
+      {
+        "family": "blackbasta",
+        "sample_n": 18,
+        "reference_software": [
+          {
+            "name": "Black Basta",
+            "id": "S1070"
+          }
+        ],
+        "predicted": [
+          "T1012",
+          "T1055",
+          "T1106",
+          "T1497.001"
+        ],
+        "external_annotations": [
+          "T1007",
+          "T1018",
+          "T1027.001",
+          "T1036.004",
+          "T1036.005",
+          "T1047",
+          "T1059.001",
+          "T1059.003",
+          "T1082",
+          "T1083",
+          "T1106",
+          "T1112",
+          "T1204.002",
+          "T1222.002",
+          "T1480.002",
+          "T1486",
+          "T1490",
+          "T1491.001",
+          "T1497",
+          "T1497.001",
+          "T1529",
+          "T1543.003",
+          "T1553.002",
+          "T1622",
+          "T1680",
+          "T1688"
+        ],
+        "intersection": [
+          "T1106",
+          "T1497.001"
+        ],
+        "prediction_only": [
+          "T1012",
+          "T1055"
+        ],
+        "reference_only": [
+          "T1007",
+          "T1018",
+          "T1027.001",
+          "T1036.004",
+          "T1036.005",
+          "T1047",
+          "T1059.001",
+          "T1059.003",
+          "T1082",
+          "T1083",
+          "T1112",
+          "T1204.002",
+          "T1222.002",
+          "T1480.002",
+          "T1486",
+          "T1490",
+          "T1491.001",
+          "T1497",
+          "T1529",
+          "T1543.003",
+          "T1553.002",
+          "T1622",
+          "T1680",
+          "T1688"
+        ],
+        "intersection_n": 2,
+        "predicted_n": 4,
+        "reference_n": 26,
+        "precision_like_agreement": 0.5,
+        "reference_coverage": 0.07692307692307693,
+        "jaccard": 0.07142857142857142
+      },
+      {
+        "family": "blackcat",
+        "sample_n": 17,
+        "reference_software": [
+          {
+            "name": "BlackCat",
+            "id": "S1068"
+          }
+        ],
+        "predicted": [
+          "T1012",
+          "T1106"
+        ],
+        "external_annotations": [
+          "T1018",
+          "T1033",
+          "T1047",
+          "T1059.003",
+          "T1069.002",
+          "T1082",
+          "T1083",
+          "T1087.002",
+          "T1112",
+          "T1134",
+          "T1135",
+          "T1222.001",
+          "T1486",
+          "T1489",
+          "T1490",
+          "T1491.001",
+          "T1548.002",
+          "T1561.001",
+          "T1570",
+          "T1680",
+          "T1685.005"
+        ],
+        "intersection": [],
+        "prediction_only": [
+          "T1012",
+          "T1106"
+        ],
+        "reference_only": [
+          "T1018",
+          "T1033",
+          "T1047",
+          "T1059.003",
+          "T1069.002",
+          "T1082",
+          "T1083",
+          "T1087.002",
+          "T1112",
+          "T1134",
+          "T1135",
+          "T1222.001",
+          "T1486",
+          "T1489",
+          "T1490",
+          "T1491.001",
+          "T1548.002",
+          "T1561.001",
+          "T1570",
+          "T1680",
+          "T1685.005"
+        ],
+        "intersection_n": 0,
+        "predicted_n": 2,
+        "reference_n": 21,
+        "precision_like_agreement": 0.0,
+        "reference_coverage": 0.0,
+        "jaccard": 0.0
+      },
+      {
+        "family": "clop",
+        "sample_n": 29,
+        "reference_software": [
+          {
+            "name": "Clop",
+            "id": "S0611"
+          }
+        ],
+        "predicted": [
+          "T1012",
+          "T1106",
+          "T1497.001",
+          "T1547.001"
+        ],
+        "external_annotations": [
+          "T1027.002",
+          "T1057",
+          "T1059.003",
+          "T1083",
+          "T1106",
+          "T1112",
+          "T1135",
+          "T1140",
+          "T1218.007",
+          "T1486",
+          "T1489",
+          "T1490",
+          "T1497.003",
+          "T1518.001",
+          "T1553.002",
+          "T1614.001",
+          "T1685"
+        ],
+        "intersection": [
+          "T1106"
+        ],
+        "prediction_only": [
+          "T1012",
+          "T1497.001",
+          "T1547.001"
+        ],
+        "reference_only": [
+          "T1027.002",
+          "T1057",
+          "T1059.003",
+          "T1083",
+          "T1112",
+          "T1135",
+          "T1140",
+          "T1218.007",
+          "T1486",
+          "T1489",
+          "T1490",
+          "T1497.003",
+          "T1518.001",
+          "T1553.002",
+          "T1614.001",
+          "T1685"
+        ],
+        "intersection_n": 1,
+        "predicted_n": 4,
+        "reference_n": 17,
+        "precision_like_agreement": 0.25,
+        "reference_coverage": 0.058823529411764705,
+        "jaccard": 0.05
+      },
+      {
+        "family": "conti",
+        "sample_n": 46,
+        "reference_software": [
+          {
+            "name": "Conti",
+            "id": "S0575"
+          }
+        ],
+        "predicted": [
+          "T1012",
+          "T1106",
+          "T1497.001",
+          "T1547.001"
+        ],
+        "external_annotations": [
+          "T1016",
+          "T1018",
+          "T1021.002",
+          "T1027",
+          "T1049",
+          "T1055.001",
+          "T1057",
+          "T1059.003",
+          "T1080",
+          "T1083",
+          "T1106",
+          "T1135",
+          "T1140",
+          "T1486",
+          "T1489",
+          "T1490"
+        ],
+        "intersection": [
+          "T1106"
+        ],
+        "prediction_only": [
+          "T1012",
+          "T1497.001",
+          "T1547.001"
+        ],
+        "reference_only": [
+          "T1016",
+          "T1018",
+          "T1021.002",
+          "T1027",
+          "T1049",
+          "T1055.001",
+          "T1057",
+          "T1059.003",
+          "T1080",
+          "T1083",
+          "T1135",
+          "T1140",
+          "T1486",
+          "T1489",
+          "T1490"
+        ],
+        "intersection_n": 1,
+        "predicted_n": 4,
+        "reference_n": 16,
+        "precision_like_agreement": 0.25,
+        "reference_coverage": 0.0625,
+        "jaccard": 0.05263157894736842
+      },
+      {
+        "family": "deathransom",
+        "sample_n": 18,
+        "reference_software": [
+          {
+            "name": "DEATHRANSOM",
+            "id": "S0616"
+          }
+        ],
+        "predicted": [
+          "T1012",
+          "T1106",
+          "T1497.001",
+          "T1547.001"
+        ],
+        "external_annotations": [
+          "T1047",
+          "T1071.001",
+          "T1083",
+          "T1105",
+          "T1135",
+          "T1486",
+          "T1490",
+          "T1614.001",
+          "T1680"
+        ],
+        "intersection": [],
+        "prediction_only": [
+          "T1012",
+          "T1106",
+          "T1497.001",
+          "T1547.001"
+        ],
+        "reference_only": [
+          "T1047",
+          "T1071.001",
+          "T1083",
+          "T1105",
+          "T1135",
+          "T1486",
+          "T1490",
+          "T1614.001",
+          "T1680"
+        ],
+        "intersection_n": 0,
+        "predicted_n": 4,
+        "reference_n": 9,
+        "precision_like_agreement": 0.0,
+        "reference_coverage": 0.0,
+        "jaccard": 0.0
+      },
+      {
+        "family": "egregor",
+        "sample_n": 36,
+        "reference_software": [
+          {
+            "name": "Egregor",
+            "id": "S0554"
+          }
+        ],
+        "predicted": [
+          "T1012",
+          "T1106"
+        ],
+        "external_annotations": [
+          "T1027.002",
+          "T1033",
+          "T1036.004",
+          "T1039",
+          "T1049",
+          "T1055",
+          "T1059.001",
+          "T1059.003",
+          "T1069.002",
+          "T1071.001",
+          "T1082",
+          "T1105",
+          "T1106",
+          "T1124",
+          "T1140",
+          "T1197",
+          "T1218.010",
+          "T1218.011",
+          "T1219",
+          "T1484.001",
+          "T1486",
+          "T1497",
+          "T1497.003",
+          "T1574.001",
+          "T1685"
+        ],
+        "intersection": [
+          "T1106"
+        ],
+        "prediction_only": [
+          "T1012"
+        ],
+        "reference_only": [
+          "T1027.002",
+          "T1033",
+          "T1036.004",
+          "T1039",
+          "T1049",
+          "T1055",
+          "T1059.001",
+          "T1059.003",
+          "T1069.002",
+          "T1071.001",
+          "T1082",
+          "T1105",
+          "T1124",
+          "T1140",
+          "T1197",
+          "T1218.010",
+          "T1218.011",
+          "T1219",
+          "T1484.001",
+          "T1486",
+          "T1497",
+          "T1497.003",
+          "T1574.001",
+          "T1685"
+        ],
+        "intersection_n": 1,
+        "predicted_n": 2,
+        "reference_n": 25,
+        "precision_like_agreement": 0.5,
+        "reference_coverage": 0.04,
+        "jaccard": 0.038461538461538464
+      },
+      {
+        "family": "lockergoga",
+        "sample_n": 19,
+        "reference_software": [
+          {
+            "name": "LockerGoga",
+            "id": "S0372"
+          }
+        ],
+        "predicted": [
+          "T1012",
+          "T1055",
+          "T1106"
+        ],
+        "external_annotations": [
+          "T1070.004",
+          "T1486",
+          "T1529",
+          "T1531",
+          "T1553.002",
+          "T1570",
+          "T1685"
+        ],
+        "intersection": [],
+        "prediction_only": [
+          "T1012",
+          "T1055",
+          "T1106"
+        ],
+        "reference_only": [
+          "T1070.004",
+          "T1486",
+          "T1529",
+          "T1531",
+          "T1553.002",
+          "T1570",
+          "T1685"
+        ],
+        "intersection_n": 0,
+        "predicted_n": 3,
+        "reference_n": 7,
+        "precision_like_agreement": 0.0,
+        "reference_coverage": 0.0,
+        "jaccard": 0.0
+      },
+      {
+        "family": "maze",
+        "sample_n": 50,
+        "reference_software": [
+          {
+            "name": "Maze",
+            "id": "S0449"
+          }
+        ],
+        "predicted": [
+          "T1012",
+          "T1055",
+          "T1106",
+          "T1497.001",
+          "T1547.001"
+        ],
+        "external_annotations": [
+          "T1027",
+          "T1027.016",
+          "T1036.004",
+          "T1047",
+          "T1049",
+          "T1053.005",
+          "T1055.001",
+          "T1057",
+          "T1059.003",
+          "T1070",
+          "T1071.001",
+          "T1082",
+          "T1106",
+          "T1218.007",
+          "T1486",
+          "T1489",
+          "T1490",
+          "T1529",
+          "T1547.001",
+          "T1564.006",
+          "T1568",
+          "T1614.001",
+          "T1685"
+        ],
+        "intersection": [
+          "T1106",
+          "T1547.001"
+        ],
+        "prediction_only": [
+          "T1012",
+          "T1055",
+          "T1497.001"
+        ],
+        "reference_only": [
+          "T1027",
+          "T1027.016",
+          "T1036.004",
+          "T1047",
+          "T1049",
+          "T1053.005",
+          "T1055.001",
+          "T1057",
+          "T1059.003",
+          "T1070",
+          "T1071.001",
+          "T1082",
+          "T1218.007",
+          "T1486",
+          "T1489",
+          "T1490",
+          "T1529",
+          "T1564.006",
+          "T1568",
+          "T1614.001",
+          "T1685"
+        ],
+        "intersection_n": 2,
+        "predicted_n": 5,
+        "reference_n": 23,
+        "precision_like_agreement": 0.4,
+        "reference_coverage": 0.08695652173913043,
+        "jaccard": 0.07692307692307693
+      },
+      {
+        "family": "play",
+        "sample_n": 41,
+        "reference_software": [
+          {
+            "name": "Playcrypt",
+            "id": "S1162"
+          }
+        ],
+        "predicted": [
+          "T1012",
+          "T1106",
+          "T1547.001"
+        ],
+        "external_annotations": [
+          "T1083",
+          "T1486",
+          "T1490"
+        ],
+        "intersection": [],
+        "prediction_only": [
+          "T1012",
+          "T1106",
+          "T1547.001"
+        ],
+        "reference_only": [
+          "T1083",
+          "T1486",
+          "T1490"
+        ],
+        "intersection_n": 0,
+        "predicted_n": 3,
+        "reference_n": 3,
+        "precision_like_agreement": 0.0,
+        "reference_coverage": 0.0,
+        "jaccard": 0.0
+      },
+      {
+        "family": "revil",
+        "sample_n": 62,
+        "reference_software": [
+          {
+            "name": "REvil",
+            "id": "S0496"
+          }
+        ],
+        "predicted": [
+          "T1012",
+          "T1106",
+          "T1497.001",
+          "T1547.001"
+        ],
+        "external_annotations": [
+          "T1007",
+          "T1012",
+          "T1027.011",
+          "T1027.013",
+          "T1036.005",
+          "T1041",
+          "T1047",
+          "T1055",
+          "T1059.001",
+          "T1059.003",
+          "T1059.005",
+          "T1069.002",
+          "T1070.004",
+          "T1071.001",
+          "T1082",
+          "T1083",
+          "T1105",
+          "T1106",
+          "T1112",
+          "T1134.001",
+          "T1134.002",
+          "T1140",
+          "T1189",
+          "T1204.002",
+          "T1480.002",
+          "T1485",
+          "T1486",
+          "T1489",
+          "T1490",
+          "T1566.001",
+          "T1573.002",
+          "T1614.001",
+          "T1680",
+          "T1685",
+          "T1688"
+        ],
+        "intersection": [
+          "T1012",
+          "T1106"
+        ],
+        "prediction_only": [
+          "T1497.001",
+          "T1547.001"
+        ],
+        "reference_only": [
+          "T1007",
+          "T1027.011",
+          "T1027.013",
+          "T1036.005",
+          "T1041",
+          "T1047",
+          "T1055",
+          "T1059.001",
+          "T1059.003",
+          "T1059.005",
+          "T1069.002",
+          "T1070.004",
+          "T1071.001",
+          "T1082",
+          "T1083",
+          "T1105",
+          "T1112",
+          "T1134.001",
+          "T1134.002",
+          "T1140",
+          "T1189",
+          "T1204.002",
+          "T1480.002",
+          "T1485",
+          "T1486",
+          "T1489",
+          "T1490",
+          "T1566.001",
+          "T1573.002",
+          "T1614.001",
+          "T1680",
+          "T1685",
+          "T1688"
+        ],
+        "intersection_n": 2,
+        "predicted_n": 4,
+        "reference_n": 35,
+        "precision_like_agreement": 0.5,
+        "reference_coverage": 0.05714285714285714,
+        "jaccard": 0.05405405405405406
+      },
+      {
+        "family": "royal",
+        "sample_n": 14,
+        "reference_software": [
+          {
+            "name": "Royal",
+            "id": "S1073"
+          }
+        ],
+        "predicted": [
+          "T1012",
+          "T1106",
+          "T1497.001",
+          "T1547.001"
+        ],
+        "external_annotations": [
+          "T1016",
+          "T1021.002",
+          "T1046",
+          "T1057",
+          "T1059.012",
+          "T1082",
+          "T1083",
+          "T1095",
+          "T1106",
+          "T1135",
+          "T1486",
+          "T1489",
+          "T1490",
+          "T1566",
+          "T1680"
+        ],
+        "intersection": [
+          "T1106"
+        ],
+        "prediction_only": [
+          "T1012",
+          "T1497.001",
+          "T1547.001"
+        ],
+        "reference_only": [
+          "T1016",
+          "T1021.002",
+          "T1046",
+          "T1057",
+          "T1059.012",
+          "T1082",
+          "T1083",
+          "T1095",
+          "T1135",
+          "T1486",
+          "T1489",
+          "T1490",
+          "T1566",
+          "T1680"
+        ],
+        "intersection_n": 1,
+        "predicted_n": 4,
+        "reference_n": 15,
+        "precision_like_agreement": 0.25,
+        "reference_coverage": 0.06666666666666667,
+        "jaccard": 0.05555555555555555
+      },
+      {
+        "family": "ryuk",
+        "sample_n": 30,
+        "reference_software": [
+          {
+            "name": "Ryuk",
+            "id": "S0446"
+          }
+        ],
+        "predicted": [
+          "T1012",
+          "T1055",
+          "T1106",
+          "T1497.001",
+          "T1547.001"
+        ],
+        "external_annotations": [
+          "T1016",
+          "T1021.002",
+          "T1027",
+          "T1036",
+          "T1036.005",
+          "T1053.005",
+          "T1055",
+          "T1057",
+          "T1059.003",
+          "T1078.002",
+          "T1083",
+          "T1106",
+          "T1134",
+          "T1205",
+          "T1222.001",
+          "T1486",
+          "T1489",
+          "T1490",
+          "T1547.001",
+          "T1614.001",
+          "T1680",
+          "T1685"
+        ],
+        "intersection": [
+          "T1055",
+          "T1106",
+          "T1547.001"
+        ],
+        "prediction_only": [
+          "T1012",
+          "T1497.001"
+        ],
+        "reference_only": [
+          "T1016",
+          "T1021.002",
+          "T1027",
+          "T1036",
+          "T1036.005",
+          "T1053.005",
+          "T1057",
+          "T1059.003",
+          "T1078.002",
+          "T1083",
+          "T1134",
+          "T1205",
+          "T1222.001",
+          "T1486",
+          "T1489",
+          "T1490",
+          "T1614.001",
+          "T1680",
+          "T1685"
+        ],
+        "intersection_n": 3,
+        "predicted_n": 5,
+        "reference_n": 22,
+        "precision_like_agreement": 0.6,
+        "reference_coverage": 0.13636363636363635,
+        "jaccard": 0.125
+      },
+      {
+        "family": "samsam",
+        "sample_n": 22,
+        "reference_software": [
+          {
+            "name": "SamSam",
+            "id": "S0370"
+          }
+        ],
+        "predicted": [
+          "T1012",
+          "T1055",
+          "T1106",
+          "T1497.001",
+          "T1547.001"
+        ],
+        "external_annotations": [
+          "T1027.013",
+          "T1027.016",
+          "T1059.003",
+          "T1070.004",
+          "T1486"
+        ],
+        "intersection": [],
+        "prediction_only": [
+          "T1012",
+          "T1055",
+          "T1106",
+          "T1497.001",
+          "T1547.001"
+        ],
+        "reference_only": [
+          "T1027.013",
+          "T1027.016",
+          "T1059.003",
+          "T1070.004",
+          "T1486"
+        ],
+        "intersection_n": 0,
+        "predicted_n": 5,
+        "reference_n": 5,
+        "precision_like_agreement": 0.0,
+        "reference_coverage": 0.0,
+        "jaccard": 0.0
+      },
+      {
+        "family": "wannacry",
+        "sample_n": 28,
+        "reference_software": [
+          {
+            "name": "WannaCry",
+            "id": "S0366"
+          }
+        ],
+        "predicted": [
+          "T1012",
+          "T1106",
+          "T1497.001",
+          "T1547.001"
+        ],
+        "external_annotations": [
+          "T1016",
+          "T1018",
+          "T1047",
+          "T1083",
+          "T1090.003",
+          "T1120",
+          "T1210",
+          "T1222.001",
+          "T1486",
+          "T1489",
+          "T1490",
+          "T1543.003",
+          "T1563.002",
+          "T1564.001",
+          "T1570",
+          "T1573.002"
+        ],
+        "intersection": [],
+        "prediction_only": [
+          "T1012",
+          "T1106",
+          "T1497.001",
+          "T1547.001"
+        ],
+        "reference_only": [
+          "T1016",
+          "T1018",
+          "T1047",
+          "T1083",
+          "T1090.003",
+          "T1120",
+          "T1210",
+          "T1222.001",
+          "T1486",
+          "T1489",
+          "T1490",
+          "T1543.003",
+          "T1563.002",
+          "T1564.001",
+          "T1570",
+          "T1573.002"
+        ],
+        "intersection_n": 0,
+        "predicted_n": 4,
+        "reference_n": 16,
+        "precision_like_agreement": 0.0,
+        "reference_coverage": 0.0,
+        "jaccard": 0.0
+      },
+      {
+        "family": "wastedlocker",
+        "sample_n": 26,
+        "reference_software": [
+          {
+            "name": "WastedLocker",
+            "id": "S0612"
+          }
+        ],
+        "predicted": [
+          "T1012",
+          "T1106",
+          "T1497.001"
+        ],
+        "external_annotations": [
+          "T1012",
+          "T1027.013",
+          "T1027.016",
+          "T1059.003",
+          "T1083",
+          "T1106",
+          "T1112",
+          "T1120",
+          "T1135",
+          "T1140",
+          "T1222.001",
+          "T1486",
+          "T1490",
+          "T1497.001",
+          "T1543.003",
+          "T1548.002",
+          "T1564.001",
+          "T1564.004",
+          "T1569.002",
+          "T1574.001"
+        ],
+        "intersection": [
+          "T1012",
+          "T1106",
+          "T1497.001"
+        ],
+        "prediction_only": [],
+        "reference_only": [
+          "T1027.013",
+          "T1027.016",
+          "T1059.003",
+          "T1083",
+          "T1112",
+          "T1120",
+          "T1135",
+          "T1140",
+          "T1222.001",
+          "T1486",
+          "T1490",
+          "T1543.003",
+          "T1548.002",
+          "T1564.001",
+          "T1564.004",
+          "T1569.002",
+          "T1574.001"
+        ],
+        "intersection_n": 3,
+        "predicted_n": 3,
+        "reference_n": 20,
+        "precision_like_agreement": 1.0,
+        "reference_coverage": 0.15,
+        "jaccard": 0.15
+      }
+    ]
+  }
+}

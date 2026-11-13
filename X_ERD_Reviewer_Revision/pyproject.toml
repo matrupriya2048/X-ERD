@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xerd-reviewer-revision"
+version = "0.3.0"
+description = "Reproducible correction of the original X-ERD reviewer experiments"
+requires-python = ">=3.11,<3.12"
+dependencies = ["numpy==2.4.4", "pandas==3.0.3", "scipy==1.17.1", "scikit-learn==1.9.0", "xgboost==3.2.0", "lightgbm==4.6.0", "shap==0.51.0", "matplotlib==3.10.8", "joblib==1.5.3", "pyarrow==23.0.1"]
+
+[project.optional-dependencies]
+test = ["pytest==9.0.2"]
+authoring = ["pypdf==6.21.4"]
+
+[project.scripts]
+xerd = "xerd.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

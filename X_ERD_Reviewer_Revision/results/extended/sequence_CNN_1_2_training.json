@@ -1,0 +1,574 @@
+{
+  "inner_train_indices": [
+    0,
+    2,
+    3,
+    4,
+    6,
+    7,
+    12,
+    13,
+    14,
+    16,
+    17,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    27,
+    28,
+    29,
+    31,
+    33,
+    37,
+    38,
+    42,
+    44,
+    46,
+    47,
+    48,
+    50,
+    52,
+    53,
+    55,
+    59,
+    60,
+    62,
+    64,
+    65,
+    66,
+    67,
+    70,
+    72,
+    73,
+    75,
+    76,
+    77,
+    79
+  ],
+  "inner_validation_indices": [
+    1,
+    8,
+    11,
+    15,
+    34,
+    36,
+    40,
+    43,
+    49,
+    51,
+    57,
+    58,
+    63,
+    69,
+    71,
+    78
+  ],
+  "final_train_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    27,
+    28,
+    29,
+    31,
+    33,
+    34,
+    36,
+    37,
+    38,
+    40,
+    42,
+    43,
+    44,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    55,
+    57,
+    58,
+    59,
+    60,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    69,
+    70,
+    71,
+    72,
+    73,
+    75,
+    76,
+    77,
+    78,
+    79
+  ],
+  "test_indices": [
+    5,
+    9,
+    10,
+    18,
+    26,
+    30,
+    32,
+    35,
+    39,
+    41,
+    45,
+    54,
+    56,
+    61,
+    68,
+    74
+  ],
+  "vocabulary": {
+    "cocreateinstance": 2,
+    "cocreateinstanceex": 3,
+    "cogetclassobject": 4,
+    "coinitializeex": 5,
+    "coinitializesecurity": 6,
+    "copyfilea": 7,
+    "copyfilew": 8,
+    "couninitialize": 9,
+    "createactctxw": 10,
+    "createdirectoryw": 11,
+    "createprocessinternalw": 12,
+    "createthread": 13,
+    "createtoolhelp32snapshot": 14,
+    "cryptacquirecontexta": 15,
+    "cryptacquirecontextw": 16,
+    "deletefilew": 17,
+    "deviceiocontrol": 18,
+    "drawtextexw": 19,
+    "enumwindows": 20,
+    "findfirstfileexw": 21,
+    "findresourcea": 22,
+    "findresourceexa": 23,
+    "findresourceexw": 24,
+    "findresourcew": 25,
+    "getcomputernamea": 26,
+    "getcomputernamew": 27,
+    "getcursorpos": 28,
+    "getdiskfreespacew": 29,
+    "getfileattributesw": 30,
+    "getfileinformationbyhandle": 31,
+    "getfileinformationbyhandleex": 32,
+    "getfilesize": 33,
+    "getfilesizeex": 34,
+    "getfiletype": 35,
+    "getfileversioninfosizew": 36,
+    "getfileversioninfow": 37,
+    "getforegroundwindow": 38,
+    "getkeystate": 39,
+    "getnativesysteminfo": 40,
+    "getsystemdirectorya": 41,
+    "getsystemdirectoryw": 42,
+    "getsysteminfo": 43,
+    "getsystemmetrics": 44,
+    "getsystemtimeasfiletime": 45,
+    "getsystemwindowsdirectoryw": 46,
+    "gettemppathw": 47,
+    "gettimezoneinformation": 48,
+    "getusernamea": 49,
+    "getusernameexw": 50,
+    "getusernamew": 51,
+    "getvolumenameforvolumemountpointw": 52,
+    "getvolumepathnamew": 53,
+    "globalmemorystatus": 54,
+    "globalmemorystatusex": 55,
+    "internetcrackurlw": 56,
+    "isdebuggerpresent": 57,
+    "iwbemservices_execquery": 58,
+    "ldrgetdllhandle": 59,
+    "ldrgetprocedureaddress": 60,
+    "ldrloaddll": 61,
+    "ldrunloaddll": 62,
+    "loadresource": 63,
+    "loadstringa": 64,
+    "loadstringw": 65,
+    "lookupprivilegevaluew": 66,
+    "module32firstw": 67,
+    "module32nextw": 68,
+    "movefilewithprogressw": 69,
+    "netgetjoininformation": 70,
+    "ntallocatevirtualmemory": 71,
+    "ntclose": 72,
+    "ntcreatefile": 73,
+    "ntcreatekey": 74,
+    "ntcreatemutant": 75,
+    "ntcreatesection": 76,
+    "ntcreatethreadex": 77,
+    "ntdelayexecution": 78,
+    "ntdeviceiocontrolfile": 79,
+    "ntduplicateobject": 80,
+    "ntenumeratekey": 81,
+    "ntenumeratevaluekey": 82,
+    "ntfreevirtualmemory": 83,
+    "ntgetcontextthread": 84,
+    "ntmapviewofsection": 85,
+    "ntopendirectoryobject": 86,
+    "ntopenfile": 87,
+    "ntopenkey": 88,
+    "ntopenkeyex": 89,
+    "ntopenmutant": 90,
+    "ntopenprocess": 91,
+    "ntopensection": 92,
+    "ntopenthread": 93,
+    "ntprotectvirtualmemory": 94,
+    "ntqueryattributesfile": 95,
+    "ntquerydirectoryfile": 96,
+    "ntqueryinformationfile": 97,
+    "ntquerykey": 98,
+    "ntquerysysteminformation": 99,
+    "ntqueryvaluekey": 100,
+    "ntreadfile": 101,
+    "ntresumethread": 102,
+    "ntsetcontextthread": 103,
+    "ntsetinformationfile": 104,
+    "ntsetvaluekey": 105,
+    "ntterminateprocess": 106,
+    "ntunmapviewofsection": 107,
+    "ntwritefile": 108,
+    "oleinitialize": 109,
+    "openscmanagerw": 110,
+    "openservicew": 111,
+    "process32firstw": 112,
+    "process32nextw": 113,
+    "readprocessmemory": 114,
+    "regclosekey": 115,
+    "regcreatekeyexa": 116,
+    "regcreatekeyexw": 117,
+    "regenumkeyexa": 118,
+    "regenumkeyexw": 119,
+    "regenumkeyw": 120,
+    "regenumvaluew": 121,
+    "regopenkeyexa": 122,
+    "regopenkeyexw": 123,
+    "regqueryinfokeyw": 124,
+    "regqueryvalueexa": 125,
+    "regqueryvalueexw": 126,
+    "regsetvalueexa": 127,
+    "regsetvalueexw": 128,
+    "removedirectorya": 129,
+    "rtladdvectoredcontinuehandler": 130,
+    "rtladdvectoredexceptionhandler": 131,
+    "searchpathw": 132,
+    "sendnotifymessagew": 133,
+    "setendoffile": 134,
+    "seterrormode": 135,
+    "setfilepointer": 136,
+    "setfilepointerex": 137,
+    "setfiletime": 138,
+    "setunhandledexceptionfilter": 139,
+    "setwindowshookexa": 140,
+    "shgetfolderpathw": 141,
+    "sizeofresource": 142,
+    "timegettime": 143,
+    "uuidcreate": 144,
+    "writeconsolew": 145,
+    "wsastartup": 146
+  },
+  "seed": 2,
+  "kind": "CNN",
+  "best_epoch": 45,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.6706243952115377,
+      "validation_loss": 0.6195295453071594
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.6167221864064535,
+      "validation_loss": 0.5848901271820068
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.5866645574569702,
+      "validation_loss": 0.5565710067749023
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.5745837887128195,
+      "validation_loss": 0.5307830572128296
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.5518759389718374,
+      "validation_loss": 0.5029749274253845
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.5320750971635183,
+      "validation_loss": 0.4741266369819641
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.4860791762669881,
+      "validation_loss": 0.45100075006484985
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.4896989067395528,
+      "validation_loss": 0.434661328792572
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.4355020026365916,
+      "validation_loss": 0.4112406075000763
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.43397751450538635,
+      "validation_loss": 0.38475120067596436
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.40740538636843365,
+      "validation_loss": 0.36328738927841187
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.40420495470364887,
+      "validation_loss": 0.34276604652404785
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.36697592337926227,
+      "validation_loss": 0.32456934452056885
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.31248974800109863,
+      "validation_loss": 0.3032623827457428
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.28727469344933826,
+      "validation_loss": 0.2837722897529602
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.25752365092436474,
+      "validation_loss": 0.2642233073711395
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.24019692341486612,
+      "validation_loss": 0.24983735382556915
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.21678639451662698,
+      "validation_loss": 0.23649021983146667
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.17674373090267181,
+      "validation_loss": 0.2250533252954483
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.14113657673199972,
+      "validation_loss": 0.21655292809009552
+    },
+    {
+      "epoch": 21,
+      "train_loss": 0.11562274148066838,
+      "validation_loss": 0.210473895072937
+    },
+    {
+      "epoch": 22,
+      "train_loss": 0.11381090804934502,
+      "validation_loss": 0.20190823078155518
+    },
+    {
+      "epoch": 23,
+      "train_loss": 0.09677342573801677,
+      "validation_loss": 0.19619949162006378
+    },
+    {
+      "epoch": 24,
+      "train_loss": 0.07976216574509938,
+      "validation_loss": 0.1905466616153717
+    },
+    {
+      "epoch": 25,
+      "train_loss": 0.059817575539151825,
+      "validation_loss": 0.1881067156791687
+    },
+    {
+      "epoch": 26,
+      "train_loss": 0.04868837694327036,
+      "validation_loss": 0.1878732144832611
+    },
+    {
+      "epoch": 27,
+      "train_loss": 0.09088196977972984,
+      "validation_loss": 0.19154581427574158
+    },
+    {
+      "epoch": 28,
+      "train_loss": 0.04594207430879275,
+      "validation_loss": 0.19290035963058472
+    },
+    {
+      "epoch": 29,
+      "train_loss": 0.04539586355288824,
+      "validation_loss": 0.18856601417064667
+    },
+    {
+      "epoch": 30,
+      "train_loss": 0.039917772014935814,
+      "validation_loss": 0.18607383966445923
+    },
+    {
+      "epoch": 31,
+      "train_loss": 0.029834437494476635,
+      "validation_loss": 0.18776334822177887
+    },
+    {
+      "epoch": 32,
+      "train_loss": 0.01582267601042986,
+      "validation_loss": 0.19001688063144684
+    },
+    {
+      "epoch": 33,
+      "train_loss": 0.02300406340509653,
+      "validation_loss": 0.19142499566078186
+    },
+    {
+      "epoch": 34,
+      "train_loss": 0.02436716916660468,
+      "validation_loss": 0.1929989606142044
+    },
+    {
+      "epoch": 35,
+      "train_loss": 0.018140835377077263,
+      "validation_loss": 0.19267083704471588
+    },
+    {
+      "epoch": 36,
+      "train_loss": 0.020503474709888298,
+      "validation_loss": 0.1906561702489853
+    },
+    {
+      "epoch": 37,
+      "train_loss": 0.013530745171010494,
+      "validation_loss": 0.18973217904567719
+    },
+    {
+      "epoch": 38,
+      "train_loss": 0.022812102921307087,
+      "validation_loss": 0.18580634891986847
+    },
+    {
+      "epoch": 39,
+      "train_loss": 0.00757787578428785,
+      "validation_loss": 0.18009263277053833
+    },
+    {
+      "epoch": 40,
+      "train_loss": 0.010594927395383516,
+      "validation_loss": 0.17864342033863068
+    },
+    {
+      "epoch": 41,
+      "train_loss": 0.007501953126241763,
+      "validation_loss": 0.17665991187095642
+    },
+    {
+      "epoch": 42,
+      "train_loss": 0.010590857360512018,
+      "validation_loss": 0.17512595653533936
+    },
+    {
+      "epoch": 43,
+      "train_loss": 0.013656350318342447,
+      "validation_loss": 0.17399688065052032
+    },
+    {
+      "epoch": 44,
+      "train_loss": 0.005024000303819776,
+      "validation_loss": 0.1720026284456253
+    },
+    {
+      "epoch": 45,
+      "train_loss": 0.004414145058641831,
+      "validation_loss": 0.17109717428684235
+    },
+    {
+      "epoch": 46,
+      "train_loss": 0.008127106974522272,
+      "validation_loss": 0.17390578985214233
+    },
+    {
+      "epoch": 47,
+      "train_loss": 0.009818684464941422,
+      "validation_loss": 0.17962324619293213
+    },
+    {
+      "epoch": 48,
+      "train_loss": 0.00817089124272267,
+      "validation_loss": 0.18204958736896515
+    },
+    {
+      "epoch": 49,
+      "train_loss": 0.003989044344052672,
+      "validation_loss": 0.18306875228881836
+    },
+    {
+      "epoch": 50,
+      "train_loss": 0.005482766466836135,
+      "validation_loss": 0.1841471940279007
+    },
+    {
+      "epoch": 51,
+      "train_loss": 0.004657253196152548,
+      "validation_loss": 0.18567442893981934
+    },
+    {
+      "epoch": 52,
+      "train_loss": 0.0049450962493817014,
+      "validation_loss": 0.1865287870168686
+    },
+    {
+      "epoch": 53,
+      "train_loss": 0.003224642869705955,
+      "validation_loss": 0.18730075657367706
+    }
+  ],
+  "seconds": 6.26674485206604,
+  "parameter_count": 29473,
+  "torch": "2.7.1+cpu"
+}

@@ -1,0 +1,11 @@
+{
+  "source": "https://zenodo.org/records/1203289",
+  "manifest_sha256": "47158469d2e39c8d1aabe08ed6a669a606cbc29604bac83582d4ace35dc3f8cf",
+  "sample_unit": "unique executable hash from a preselected random200 publisher-clean report set; malformed, duplicate or source-overlapping records audited",
+  "model": "frozen official MLRan3905 fit, all483 features, original fixed threshold0.5; no target threshold/calibration fit",
+  "scope": "external benign false-alert assessment; separate from the20 MLRan ransomware-only conditional parser check. Do not pool these sources into a single accuracy/precision estimate.",
+  "labels": "publisher clean-app folder labels; no fresh independent malware adjudication",
+  "observability": "reports require a behavior object plus captured API calls or a nonempty API-count dictionary; otherwise counted as unprocessed,not as true negatives",
+  "fidelity": "No official483 vectors exist for this external collection; classification is evaluated, but Jaccard fidelity/official-versus-parsed agreement cannot be calculated.",
+  "ci": "two-sided Clopper-Pearson binomial95 interval over unique hashes; related applications/environments may still be dependent"
+}

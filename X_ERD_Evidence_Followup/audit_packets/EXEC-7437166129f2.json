@@ -1,0 +1,245 @@
+{
+  "execution_id": "EXEC-7437166129f2",
+  "report_sha256": "265855dfe1952bc16e0205a325f6c028e8862bd552d6bfe57c47aaa4eaea1c3d",
+  "full_report_relative_path": "../../X_ERD_Reviewer_Revision/data/raw_reports/10015.json",
+  "summary": {
+    "regkey_read": [
+      "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\Terminal Server\\TSUserEnabled",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows NT\\CurrentVersion\\Windows\\LoadAppInit_DLLs",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\GRE_Initialize\\DisableMetaFiles",
+      "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\Terminal Server\\TSAppCompat"
+    ],
+    "dll_loaded": [
+      "C:\\Windows\\system32\\IMM32.DLL",
+      "User32"
+    ]
+  },
+  "apistats": {
+    "2360": {
+      "NtQuerySystemInformation": 1,
+      "LdrGetDllHandle": 4,
+      "GetSystemTimeAsFileTime": 1,
+      "LdrUnloadDll": 1,
+      "NtOpenKey": 3,
+      "GetSystemDirectoryW": 2,
+      "LdrGetProcedureAddress": 5,
+      "NtProtectVirtualMemory": 3,
+      "__exception__": 1,
+      "NtTerminateProcess": 1,
+      "NtClose": 5,
+      "NtAllocateVirtualMemory": 15,
+      "NtOpenKeyEx": 2,
+      "LdrLoadDll": 2,
+      "NtFreeVirtualMemory": 2,
+      "NtCreateMutant": 1,
+      "NtQueryValueKey": 4
+    }
+  },
+  "signature_evidence": [
+    {
+      "json_pointer": "/signatures/0",
+      "name": "pe_features",
+      "description": "The executable contains unknown PE section names indicative of a packer (could be a false positive)",
+      "marks": [
+        {
+          "category": "section",
+          "ioc": ".code",
+          "type": "ioc",
+          "description": null
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/1",
+      "name": "peid_packer",
+      "description": "The executable uses a known packer",
+      "marks": [
+        {
+          "category": "packer",
+          "ioc": "PureBasic 4.x -> Neil Hodgson",
+          "type": "ioc",
+          "description": null
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/2",
+      "name": "raises_exception",
+      "description": "One or more processes crashed",
+      "marks": [
+        {
+          "call": {
+            "category": "__notification__",
+            "status": 1,
+            "stacktrace": [],
+            "raw": [
+              "stacktrace"
+            ],
+            "api": "__exception__",
+            "return_value": 0,
+            "arguments": {
+              "stacktrace": "RtlReleaseActivationContext+0x13b RtlGetActiveActivationContext-0x106 ntdll+0x3bc7e @ 0x77e8bc7e\nRtlReleaseActivationContext+0x1c9 RtlGetActiveActivationContext-0x78 ntdll+0x3bd0c @ 0x77e8bd0c\nLdrLoadDll+0x7b _strcmpi-0x304 ntdll+0x3c4b5 @ 0x77e8c4b5\nNew_ntdll_LdrLoadDll@16+0x7b New_ntdll_LdrUnloadDll@4-0xb7 @ 0x74a8d4cf\nLoadLibraryExW+0x178 LoadLibraryExA-0x2a kernelbase+0x11d2a @ 0x75fa1d2a\nLoadLibraryExA+0x26 FreeLibrary-0x18 kernelbase+0x11d7a @ 0x75fa1d7a\nLoadLibraryA+0x31 HeapCreate-0x25 kernel32+0x14a08 @ 0x763a4a08\n10015+0x4712 @ 0x404712",
+              "registers": {
+                "esp": 1637092,
+                "edi": 0,
+                "eax": 1,
+                "ebp": 1637104,
+                "edx": 65535,
+                "ebx": 1,
+                "esi": 0,
+                "ecx": 2992936
+              },
+              "exception": {
+                "instruction_r": "83 7f 0c 00 8b 77 08 77 15 8b 3f 3b f9 75 ed 5e",
+                "symbol": "RtlReleaseActivationContext+0xc3 RtlGetActiveActivationContext-0x17e ntdll+0x3bc06",
+                "instruction": "cmp dword ptr [edi + 0xc], 0",
+                "module": "ntdll.dll",
+                "exception_code": "0xc0000005",
+                "offset": 244742,
+                "address": "0x77e8bc06"
+              }
+            },
+            "time": 1717621447.46825,
+            "tid": 2364,
+            "flags": {}
+          },
+          "pid": 2360,
+          "type": "call",
+          "cid": 51
+        }
+      ],
+      "marks_included": 1,
+      "total_marks": 1
+    },
+    {
+      "json_pointer": "/signatures/3",
+      "name": "packer_entropy",
+      "description": "The binary likely contains encrypted or compressed data indicative of a packer",
+      "marks": [
+        {
+          "entropy": 7.716958542025268,
+          "section": {
+            "size_of_data": "0x00909000",
+            "virtual_address": "0x00006000",
+            "entropy": 7.716958542025268,
+            "name": ".rdata",
+            "virtual_size": "0x00000005"
+          },
+          "type": "generic",
+          "description": "A section with a high entropy has been found"
+        },
+        {
+          "entropy": 0.998004422630926,
+          "type": "generic",
+          "description": "Overall entropy of this PE file is high"
+        }
+      ],
+      "marks_included": 2,
+      "total_marks": 2
+    }
+  ],
+  "selected_calls": [
+    {
+      "json_pointer": "/behavior/processes/1/calls/39",
+      "pid": 2360,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "LPK",
+        "module_address": "0x75f80000",
+        "function_address": "0x75f848a0",
+        "function_name": "LpkTabbedTextOut"
+      },
+      "time": 1717621447.45325,
+      "tid": 2364,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/40",
+      "pid": 2360,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "LPK",
+        "module_address": "0x75f80000",
+        "function_address": "0x75f81430",
+        "function_name": "LpkPSMTextOut"
+      },
+      "time": 1717621447.45325,
+      "tid": 2364,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/41",
+      "pid": 2360,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "LPK",
+        "module_address": "0x75f80000",
+        "function_address": "0x75f813d0",
+        "function_name": "LpkDrawTextEx"
+      },
+      "time": 1717621447.45325,
+      "tid": 2364,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/42",
+      "pid": 2360,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "LPK",
+        "module_address": "0x75f80000",
+        "function_address": "0x75f87000",
+        "function_name": "LpkEditControl"
+      },
+      "time": 1717621447.45325,
+      "tid": 2364,
+      "flags": {}
+    },
+    {
+      "json_pointer": "/behavior/processes/1/calls/49",
+      "pid": 2360,
+      "category": "system",
+      "status": 1,
+      "stacktrace": [],
+      "api": "LdrGetProcedureAddress",
+      "return_value": 0,
+      "arguments": {
+        "ordinal": 0,
+        "module": "User32",
+        "module_address": "0x77610000",
+        "function_address": "0x7763792f",
+        "function_name": "CallWindowProcA"
+      },
+      "time": 1717621447.45325,
+      "tid": 2364,
+      "flags": {}
+    }
+  ],
+  "matching_call_n": 5,
+  "scope": "Triage extract only; consult full raw report for complete context. Native sandbox descriptions may expose vendor judgments. X-ERD predictions are omitted.",
+  "verified_human_annotation": false
+}
